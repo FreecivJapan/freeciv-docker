@@ -1,0 +1,57 @@
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; boost cheat AI
+
+[effect_ai_cheat_Tech_Parasite]
+type    = "Tech_Parasite"
+value	= 3
+reqs    =
+    { "type", "name", "range"
+      "AI", "Cheating", "Player"
+    }
+nreqs	=
+    { "type", "name", "range"
+      "Building", "Great Library", "Player"
+    }
+
+[effect_ai_cheat_Output_Add_Tile_Mathematics]
+type    = "Output_Add_Tile"
+value  = 2
+reqs =
+    { "type", "name", "range"
+      "AI", "Cheating", "Player"
+      "CityTile", "Center", "Local"
+      "Tech", "Mathematics", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+[effect_ai_cheat_Output_Add_Tile_Metallurgy]
+type    = "Output_Add_Tile"
+value  = 2
+reqs =
+    { "type", "name", "range"
+      "AI", "Cheating", "Player"
+      "CityTile", "Center", "Local"
+      "Tech", "Metallurgy", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+[effect_ai_cheat_Output_Add_Tile_Machine_Tools]
+type    = "Output_Add_Tile"
+value  = 2
+reqs =
+    { "type", "name", "range"
+      "AI", "Cheating", "Player"
+      "CityTile", "Center", "Local"
+      "Tech", "Machine Tools", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+[effect_ai_cheat_Upgrade_Unit]
+type    = "Upgrade_Unit"
+value	= 1
+reqs    =
+    { "type", "name", "range"
+      "AI", "Cheating", "Player"
+    }
+
+

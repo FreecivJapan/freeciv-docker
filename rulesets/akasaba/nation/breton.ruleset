@@ -1,0 +1,83 @@
+[nation_breton]
+
+name=_("ブルトン")
+plural=_("?plural:Bretons")
+groups="Medieval", "European"
+legend=_("Known to the Romans as Armorica, Brittany had been Celtic\
+ speaking for many centuries before Britons arrived in the peninsula as\
+ mercenaries, colonists and refugees in response to the chaos in Gaul and\
+ the invasion of Britain by Germanic tribes in the fifth century AD. Over\
+ the centuries, use of the Breton language has been pushed towards the\
+ west of the peninsula, with people speaking French instead. The Dukedom\
+ of Brittany itself was formally annexed to France in 1491.")
+
+leaders = {
+ "name",        "sex"
+"フランソワ1世",    "Male"
+"ネベノエ",      "Male"
+"アラン・イアン ",     "Male"
+"サラウン",       "Male"
+"パスクウェザン",   "Male"
+"カノン２世",     "Male"
+"ウォロッチ",       "Male"
+"アルテュール1世",       "Male"
+"ヤン2世",      "Male"
+"ハウィシュ",       "Female"
+"コンスタンツァ",    "Female"
+"アンナ",         "Female"
+"クラオダ",       "Female"
+
+}
+
+ruler_titles = {
+ "government", "male_title", "female_title"
+ "Despotism",  _("ブルターニュ公 %s"), _("ブルターニュ公 %s")
+ "Monarchy",        _("ブルターニュ公 %s"), _("ブルターニュ公 %s")
+ 
+}
+
+flag = "brittany"
+flag_alt = "-"
+city_style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_government="Despotism"
+init_units=""
+civilwar_nations="Cornish", "Welsh", "French"
+
+cities =
+"Roazhon", ; Rennes
+"Naoned", ; Nantes
+"Brest",
+"Kemper", ; Quimper
+"Gwened", ; Vannes
+"Lannuon", ; Lannion
+"Planvour", ; Ploemeur
+"Sant-Malou", ; Saint-Malo
+"Treger", ; Treguier
+"Bronn", ; Broons
+"Dinan",
+"Sant-Brieg", ; Saint-Brieuc
+"Kallag", ; Callac
+"Konk Kerne", ; Concarneau
+"Felger", ; Fougeres
+"Lanester",
+"Sant-Nazer", ; Saint-Nazaire
+"An Oriant", ; Lorient
+"Redon",
+"Pondi", ; Pontivy
+"Karnag", ; Carnac
+"Gwitreg", ; Vitre
+"Ankiniz", ; Ancenis
+"Erdeven",
+"Bangor",
+"Lambaol", ; Lampaul
+"Montroulez", ; Morlaix
+"Kermoroc'h",
+"Douar An Enez", ; Douarnenez
+"Goneg", ; Gosne
+"Klison", ; Clisson
+"Brignogan",
+"Plougastell-Daoulaz", ; Plougastel-Daoulas
+"Ruca"

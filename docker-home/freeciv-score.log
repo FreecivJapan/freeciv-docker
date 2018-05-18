@@ -1,0 +1,186 @@
+#FREECIV SCORELOG2 2.5.10
+
+# For a specification of the format of this see doc/README.scorelog or 
+# <https://raw.githubusercontent.com/freeciv/freeciv/master/doc/README.scorelog>.
+
+id H4CqpOvMkRVwxIVbnxeW9MAgL88uycqa
+tag 0 pop
+tag 1 bnp
+tag 2 mfg
+tag 3 cities
+tag 4 techs
+tag 5 munits
+tag 6 settlers
+tag 7 wonders
+tag 8 techout
+tag 9 landarea
+tag 10 settledarea
+tag 11 pollution
+tag 12 literacy
+tag 13 spaceship
+tag 14 gold
+tag 15 taxrate
+tag 16 scirate
+tag 17 luxrate
+tag 18 riots
+tag 19 happypop
+tag 20 contentpop
+tag 21 unhappypop
+tag 22 specialists
+tag 23 gov
+tag 24 corruption
+tag 25 score
+tag 26 unitsbuilt
+tag 27 unitskilled
+tag 28 unitslost
+turn 0 -4000 4000 BC
+addplayer 0 0 Kemal Atatürk
+addplayer 0 1 Khufu
+addplayer 0 2 Gregor Lusarovitch
+addplayer 0 3 Ahmad Shah Durrani
+addplayer 0 4 Hassan II
+data 0 0 0 0
+data 0 0 1 0
+data 0 0 2 0
+data 0 0 3 0
+data 0 0 4 0
+data 0 1 0 0
+data 0 1 1 0
+data 0 1 2 0
+data 0 1 3 0
+data 0 1 4 0
+data 0 2 0 0
+data 0 2 1 0
+data 0 2 2 0
+data 0 2 3 0
+data 0 2 4 0
+data 0 3 0 0
+data 0 3 1 0
+data 0 3 2 0
+data 0 3 3 0
+data 0 3 4 0
+data 0 4 0 87
+data 0 4 1 87
+data 0 4 2 119
+data 0 4 3 119
+data 0 4 4 119
+data 0 5 0 0
+data 0 5 1 0
+data 0 5 2 0
+data 0 5 3 0
+data 0 5 4 0
+data 0 6 0 2
+data 0 6 1 2
+data 0 6 2 2
+data 0 6 3 2
+data 0 6 4 2
+data 0 7 0 0
+data 0 7 1 0
+data 0 7 2 0
+data 0 7 3 0
+data 0 7 4 0
+data 0 8 0 0
+data 0 8 1 0
+data 0 8 2 0
+data 0 8 3 0
+data 0 8 4 0
+data 0 9 0 0
+data 0 9 1 0
+data 0 9 2 0
+data 0 9 3 0
+data 0 9 4 0
+data 0 10 0 0
+data 0 10 1 0
+data 0 10 2 0
+data 0 10 3 0
+data 0 10 4 0
+data 0 11 0 0
+data 0 11 1 0
+data 0 11 2 0
+data 0 11 3 0
+data 0 11 4 0
+data 0 12 0 0
+data 0 12 1 0
+data 0 12 2 0
+data 0 12 3 0
+data 0 12 4 0
+data 0 13 0 0
+data 0 13 1 0
+data 0 13 2 0
+data 0 13 3 0
+data 0 13 4 0
+data 0 14 0 50000
+data 0 14 1 50000
+data 0 14 2 50000
+data 0 14 3 50000
+data 0 14 4 50000
+data 0 15 0 40
+data 0 15 1 40
+data 0 15 2 0
+data 0 15 3 0
+data 0 15 4 0
+data 0 16 0 60
+data 0 16 1 60
+data 0 16 2 100
+data 0 16 3 100
+data 0 16 4 100
+data 0 17 0 0
+data 0 17 1 0
+data 0 17 2 0
+data 0 17 3 0
+data 0 17 4 0
+data 0 18 0 0
+data 0 18 1 0
+data 0 18 2 0
+data 0 18 3 0
+data 0 18 4 0
+data 0 19 0 0
+data 0 19 1 0
+data 0 19 2 0
+data 0 19 3 0
+data 0 19 4 0
+data 0 20 0 0
+data 0 20 1 0
+data 0 20 2 0
+data 0 20 3 0
+data 0 20 4 0
+data 0 21 0 0
+data 0 21 1 0
+data 0 21 2 0
+data 0 21 3 0
+data 0 21 4 0
+data 0 22 0 0
+data 0 22 1 0
+data 0 22 2 0
+data 0 22 3 0
+data 0 22 4 0
+data 0 23 0 1
+data 0 23 1 1
+data 0 23 2 1
+data 0 23 3 1
+data 0 23 4 1
+data 0 24 0 0
+data 0 24 1 0
+data 0 24 2 0
+data 0 24 3 0
+data 0 24 4 0
+data 0 25 0 174
+data 0 25 1 174
+data 0 25 2 238
+data 0 25 3 238
+data 0 25 4 238
+data 0 26 0 0
+data 0 26 1 0
+data 0 26 2 0
+data 0 26 3 0
+data 0 26 4 0
+data 0 27 0 0
+data 0 27 1 0
+data 0 27 2 0
+data 0 27 3 0
+data 0 27 4 0
+data 0 28 0 0
+data 0 28 1 0
+data 0 28 2 0
+data 0 28 3 0
+data 0 28 4 0

@@ -1,0 +1,93 @@
+[nation_mongol]
+
+translation_domain="freeciv"
+
+name=_("Mongol")
+plural=_("?plural:Mongols")
+groups="Medieval", "Early Modern", "Modern", "Asian", "Core"
+; /* TRANS: Legend for nation in "core" set */
+legend=_("In the centuries after their unification by Chinggis Khan, the\
+ Mongols conquered the largest empire in human history, encompassing most\
+ of the continent of Asia. They became notorious for their utter\
+ ruthlessness in warfare.
+\n\
+\n\
+National Feature: Riding\n\
+Chance of promotion will increase +50% for Horse flag units.\
+\n\
+\n\
+National Building: Stable, Yurt\
+\n\
+National Wonder: Statue of Khan\
+\n\
+National Units: Great Mongol Khan\
+\n\
+National Units: Mongol Mangudai\
+")
+
+leaders = {
+ "name",        "sex"
+ "Chinggis",	"Male" ; Genghis / Чингис
+ "Borte",       "Female" ; Bortei / Б?ртэ
+ "Ogedei",	"Male" ; ?гэдэй
+ "Bat",		"Male" ; Batu / Бат
+ "Tsagadai",	"Male" ; Chagatai / Цагадай
+ "Tolui",	"Male" ; Толуй
+ "Tokhtamysh",	"Male" ; Тохтамыш
+ "Subeedei",	"Male" ; Subutai / С?бээдэй
+ "Dorgene",	"Female" ; Toregene / Д?ргэнэ
+ "Guyuk", 	"Male" ; Г?юг
+ "Monkh", 	"Male" ; Mongke / М?нх
+ "Khubilai",	"Male" ; Kublai / Хубилай
+ "Khulegu",	"Male" ; Hulagu / Х?лэг?
+ "Mandukhai",   "Female" ; Мандухай
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("%s Khan"),      _("%s Khatan")
+ "Monarchy",        _("%s Khagan"),    _("?female:%s Khagan")
+}
+
+flag="mongolia"
+flag_alt = "-"
+city_style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Tibetan", "Tuvan", "Kalmyk", "Timurid", "Uyghur", "Tatar",
+ "Crimean Tatar", "Buryat", "Golden Horde"
+
+cities=
+ "Karakorum", ; Каракорум
+ "Ulaanbaatar", ; Улаанбаатар
+ "Sainshand", ; Сайншанд
+ "Ulaangom", ; Улаангом
+ "Khovd", ; Ховд
+ "Tsetserleg", ; Цэцэрлэг
+ "Altanbulag", ; Алтанбулаг
+ "Zuunmod", ; Зуунмод
+ "Bayankhongor", ; Баянхонгор
+ "Dalanzadgad", ; Даланзадгад
+ "Choibalsan", ; Чойбалсан
+ "Erdenet", ; Эрдэнэт
+ "Mandalgovi", ; Мандалговь
+ "Moron", ; М?р?н
+ "Sukhbaatar", ; С?хбаатар
+ "Zuunkharaa", ; З??нхараа
+ "Ondorkhaan", ; ?нд?рхаан
+ "Olgii", ; ?лгий
+ "Arvaikheer", ; Арвайхээр
+ "Bulgan", ; Булган
+ "Altai", ; Алтай
+ "Baruun-Urt", ; Баруун-Урт
+ "Choir", ; Чойр
+ "Darkhan", ; Дархан
+ "Bayan-Uul", ; Баян-Уул
+ "Nalaikh", ; Налайх
+ "Zamyn-Uud", ; Замын-??д
+ "Khatgal", ; Хатгал
+ "Uliastai", ; Улиастай
+ "Khuld" ; Хулд

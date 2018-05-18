@@ -1,0 +1,1505 @@
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Global
+
+
+
+
+[effect_tech_cost_base_global]           ; add to effects.ruleset (0+1)
+type    = "Tech_Cost_Factor"
+value   = 0
+
+[effect_upkeep_tech_free_global]         ; add to effects.ruleset (17+3)
+type    = "Tech_Upkeep_Free"
+value   = 17
+
+[effect_tech_upkeep_anarchy_global]      ; add to effects.ruleset (0+9999)
+type    = "Tech_Upkeep_Free"
+value   = 0
+reqs    =
+    { "type", "name", "range"
+      "Gov", "Anarchy", "Player"
+    }
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; American
+
+
+[effect_Academy]
+type    = "Output_Bonus"
+value   = 75
+reqs    =
+    { "type", "name", "range"
+      "Building", "Academy", "City"
+      "Building", "University", "City"
+      "OutputType", "Science", "Local"
+      "Nation", "American", "Player"
+    }
+
+
+[effect_Pentagon_move]
+type    = "Move_Bonus"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "Player"
+      "UnitClass", "Air", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Pentagon_move_Helicopter]
+type    = "Move_Bonus"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "Player"
+      "UnitClass", "Helicopter", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Pentagon_move_Missile]
+type    = "Move_Bonus"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "Player"
+      "UnitClass", "Missile", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+
+[effect_Pentagon_combat]
+type    = "Veteran_Combat"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "City"
+      "UnitClass", "Air", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Pentagon_combat_Helicopter]
+type    = "Veteran_Combat"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "City"
+      "UnitClass", "Helicopter", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Pentagon_combat_Missile]     ; missile will break
+type    = "Veteran_Combat"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "City"
+      "UnitClass", "Missile", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+
+[effect_Pentagon_Recover]
+type    = "Unit_Recover"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "Player"
+      "UnitClass", "Air", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Pentagon_Recover_Helicopter]
+type    = "Unit_Recover"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "Player"
+      "UnitClass", "Helicopter", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Pentagon_Recover_Missile]     ; missile will break
+type    = "Unit_Recover"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Pentagon", "Player"
+      "UnitClass", "Missile", "Local"
+      "Nation", "American", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Aztec
+
+
+
+[effect_Aztec_airport]
+type    = "Airlift"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Nation", "Aztec", "Player"
+    }
+
+
+[effect_Garden]
+type    = "Make_Content"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Garden", "City"
+      "Nation", "Aztec", "Player"
+    }
+
+
+[effect_Aztec_Sun_Stone]
+type    = "Unit_Recover"
+value   = 6
+reqs    =
+    { "type", "name", "range"
+      "Building", "Aztec Sun Stone", "Player"
+      "Nation", "Aztec", "Player"
+    }
+
+[effect_Aztec_Sun_Stone_1]
+type    = "HP_Regen"
+value   = 25
+reqs    =
+    { "type", "name", "range"
+      "Building", "Aztec Sun Stone", "Player"
+      "Nation", "Aztec", "Player"
+    }
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; British
+
+
+
+[effect_British]
+type    = "Output_Bonus"
+value   = 50
+reqs =
+    { "type", "name", "range"
+      "Building", "Palace", "City"
+      "OutputType", "Gold", "Local"
+      "Nation", "British", "Player"
+    }
+
+
+[effect_Guild]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Guild", "City"
+      "OutputType", "Gold", "Local"
+      "Nation", "British", "Player"
+    }
+
+
+[effect_Stonehenge]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Stonehenge", "Player"
+      "OutputType", "Gold", "Local"
+      "Nation", "British", "Player"
+    }
+
+
+[effect_East_India_Company]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "East India Company", "Player"
+      "OutputType", "Gold", "Local"
+      "Nation", "British", "Player"
+    }
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Chinese
+
+
+
+
+
+[effect_Paper_Maker]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Paper Maker", "City"
+      "OutputType", "Science", "Local"
+      "Nation", "Chinese", "Player"
+    }
+
+[effect_State_Farm_Grassland]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Grassland", "Local"
+      "Building", "State Farm", "City"
+      "OutputType", "Food", "Local"
+      "Nation", "Chinese", "Player"
+    }
+
+[effect_State_Farm_Plains]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Plains", "Local"
+      "Building", "State Farm", "City"
+      "OutputType", "Food", "Local"
+      "Nation", "Chinese", "Player"
+    }
+
+
+
+[effect_The_Forbidden_Palace_vison]
+type    = "City_Vision_Radius_Sq"
+value   = 10
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Forbidden Palace", "City"
+;      "Nation", "Chinese", "Player"
+    }
+
+[effect_The_Forbidden_Palace_squar]
+type    = "City_Radius_Sq"
+value   = 10
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Forbidden Palace", "City"
+;      "Nation", "Chinese", "Player"
+    }
+
+[effect_The_Forbidden_Palace_gov_center]
+type    = "Gov_Center"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Forbidden Palace", "City"
+;      "Nation", "Chinese", "Player"
+    }
+
+
+[effect_Great_Firewall]
+type    = "Force_Content"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Great Firewall", "Player"
+      "Nation", "Chinese", "Player"
+    }
+
+[effect_Great_Firewall_diplomacy]
+type    = "No_Diplomacy"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Great Firewall", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "Nation", "Chinese", "Player"
+    }
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Egyptian
+
+
+
+
+
+[effect_Obelisk]
+type    = "Make_Happy"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Obelisk", "City"
+      "Nation", "Egyptian", "Player"
+    }
+
+
+[effect_Trading_Post]
+type    = "Output_Add_Tile"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "Trading Post", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Gold", "Local"
+      "Nation", "Egyptian", "Player"
+    }
+
+
+[effect_Suez_Canal]
+type    = "Max_Trade_Routes"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Suez Canal", "Player"
+      "Nation", "Egyptian", "Player"
+    }
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; French
+
+
+
+
+[effect_French_no_anarcy]
+type    = "No_Anarchy"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Nation", "French", "Player"
+    }
+;nreqs    =
+;    { "type", "name", "range"
+;      "Building", "Statue of Liberty", "Player"
+;    }
+
+
+[effect_Grocery]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Grocery", "City"
+      "OutputType", "Gold", "Local"
+      "Nation", "French", "Player"
+    }
+
+
+[effect_Notre_Dame]
+type    = "Make_Happy"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Notre Dame", "Player"
+      "Nation", "French", "Player"
+    }
+
+
+[effect_The_Louvre_Museum]
+type    = "Output_Add_Tile"
+value   = 40
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Louvre Museum", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Science", "Local"
+      "Nation", "French", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "Building", "Copernicus' Observatory", "City"
+    }
+
+[effect_The_Louvre_Museum_1]
+type    = "Output_Add_Tile"
+value   = 60
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Louvre Museum", "City"
+      "Building", "Copernicus' Observatory", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Science", "Local"
+      "Nation", "French", "Player"
+    }
+
+[effect_Arc_de_Triomphe]
+type    = "Upgrade_Price_Pct"
+value   = -50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Arc de Triomphe", "Player"
+      "Nation", "French", "Player"
+    }
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; German
+
+
+
+
+[effect_German]
+type    = "Output_Bonus"
+value  = 25
+reqs =
+    { "type", "name", "range"
+      "Building", "Palace", "City"
+      "OutputType", "Shield", "Local"
+      "Nation", "German", "Player"
+    }
+
+
+[effect_Workshop]
+type    = "Output_Add_Tile"
+value  = 2
+reqs =
+    { "type", "name", "range"
+      "Building", "Workshop", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Shield", "Local"
+      "Nation", "German", "Player"
+    }
+
+
+[effect_Assembly_Plant]
+type    = "Output_Bonus"
+value  = 50
+reqs =
+    { "type", "name", "range"
+      "Building", "Assembly Plant", "City"
+      "Building", "Factory", "City"
+      "OutputType", "Shield", "Local"
+      "Nation", "German", "Player"
+    }
+
+[effect_Assembly_Plant_2]
+name	= "Pollu_Prod_Pct"
+value	= -50
+reqs =
+    { "type", "name", "range"
+      "Building", "Assembly Plant", "City"
+      "Building", "Factory", "City"
+      "Nation", "German", "Player"
+    }
+neqs=
+    { "type", "name", "range"
+      "Building", "Recycling Center", "City"
+    }
+
+
+[effect_Volklingen_Ironworks]
+type    = "Output_Bonus"
+value  = 50
+reqs =
+    { "type", "name", "range"
+      "Building", "Volklingen Ironworks", "City"
+      "OutputType", "Shield", "Local"
+      "Nation", "German", "Player"
+    }
+
+[effect_Volklingen_Ironworks_Slots]
+type    = "City_Build_Slots"
+value  = 1
+reqs =
+    { "type", "name", "range"
+      "Building", "Volklingen Ironworks", "City"
+      "Nation", "German", "Player"
+    }
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Greek
+
+
+[effect_Acropolis]
+type    = "Defend_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Acropolis", "City"
+      "CityTile", "Center", "Local"
+      "Nation", "Greek", "Player"
+    }
+
+
+[effect_Statue_of_Zeus]
+type    = "Defend_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Statue of Zeus", "Player"
+      "Nation", "Greek", "Player"
+    }
+
+[effect_Statue_of_Zeus_1]
+type    = "Upgrade_Unit"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Statue of Zeus", "Player"
+      "Nation", "Greek", "Player"
+    }
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Inca
+
+
+
+[effect_Terrace]
+type    = "Output_Add_Tile"
+value   = 4
+reqs =
+    { "type", "name", "range"
+      "Building", "Terrace", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Luxury", "Local"
+      "Nation", "Inca", "Player"
+    }
+
+[effect_Terrace_1]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Mountains", "Local"
+      "Building", "Terrace", "City"
+      "OutputType", "Food", "Local"
+      "Nation", "Inca", "Player"
+    }
+
+[effect_Terrace_2]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Hills", "Local"
+      "Building", "Terrace", "City"
+      "OutputType", "Food", "Local"
+      "Nation", "Inca", "Player"
+    }
+
+
+[effect_Machu_Picchu]
+type    = "Output_Bonus"
+value   = 100
+reqs =
+    { "type", "name", "range"
+      "Building", "Machu Picchu", "Player"
+      "OutputType", "Luxury", "Local"
+      "Nation", "Inca", "Player"
+    }
+
+[effect_Machu_Picchu_1]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Hills", "Local"
+      "Building", "Machu Picchu", "Player"
+      "OutputType", "Shield", "Local"
+      "Nation", "Inca", "Player"
+    }
+
+
+[effect_Nazca_Lines]
+type    = "Give_Imm_Tech"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Building", "Nazca Lines", "Player"
+      "Nation", "Inca", "Player"
+    }
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Indian
+
+
+[effect_Indian]
+type    = "Reveal_Map"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Nation", "Indian", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "Building", "Palace", "Player"
+    }
+
+
+[effect_Watchtower_vision]
+type    = "City_Vision_Radius_Sq"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Building", "Watchtower", "City"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Watchtower_vision_1]
+type    = "City_Vision_Radius_Sq"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Watchtower", "City"
+      "MinSize", "9", "City"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Watchtower_vision_2]
+type    = "City_Vision_Radius_Sq"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Watchtower", "City"
+      "MinSize", "13", "City"
+      "Nation", "Indian", "Player"
+    }
+
+
+; Mughal Fort effect excludes Missile class
+
+;[effect_Mughal_Fort]
+;type    = "Defend_Bonus"
+;value   = 300
+;reqs    =
+;    { "type", "name", "range"
+;      "Building", "Mughal Fort", "City"
+;      "CityTile", "Center", "Local"
+;      "Nation", "Indian", "Player"
+;    }
+;nreqs    =
+;    { "type", "name", "range"
+;      "UnitClass", "Missile", "Local"
+;    }
+
+[effect_Mughal_Fort]
+type    = "Defend_Bonus"
+value   = 300
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mughal Fort", "City"
+      "UnitClass", "Land", "Local"
+      "CityTile", "Center", "Local"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Mughal_Fort_0]
+type    = "Defend_Bonus"
+value   = 300
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mughal Fort", "City"
+      "UnitClass", "Helicopter", "Local"
+      "CityTile", "Center", "Local"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Mughal_Fort_1]
+type    = "Defend_Bonus"
+value   = 300
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mughal Fort", "City"
+      "UnitClass", "Sea", "Local"
+      "CityTile", "Center", "Local"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Mughal_Fort_2]
+type    = "Defend_Bonus"
+value   = 300
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mughal Fort", "City"
+      "UnitClass", "Trireme", "Local"
+      "CityTile", "Center", "Local"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Mughal_Fort_3]
+type    = "Defend_Bonus"
+value   = 300
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mughal Fort", "City"
+      "UnitClass", "Air", "Local"
+      "CityTile", "Center", "Local"
+      "Nation", "Indian", "Player"
+    }
+
+
+[effect_Ajanta_Caves]
+type    = "Give_Imm_Tech"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Ajanta Caves", "Player"
+      "Nation", "Indian", "Player"
+    }
+
+
+[effect_Taj_Mahal]
+type    = "Make_Happy"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Taj Mahal", "Player"
+      "Nation", "Indian", "Player"
+    }
+
+[effect_Taj_Mahal_Reveal_Cities]
+type    = "Reveal_Cities"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Taj Mahal", "Player"
+      "Nation", "Indian", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "Building", "Apollo Program", "Player"
+    }
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Japanese
+
+
+
+; Specialist output bonuses
+
+[effect_elvis_japanese]
+type    = "Specialist_Output"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Specialist", "elvis", "Local"
+      "OutputType", "luxury", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+[effect_scientist_japanese]
+type    = "Specialist_Output"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Specialist", "scientist", "Local"
+      "OutputType", "science", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+[effect_taxman_japanese]
+type    = "Specialist_Output"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Specialist", "taxman", "Local"
+      "OutputType", "gold", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+
+[effect_elvis_Ise_Grand_Shrine]
+type    = "Specialist_Output"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Building", "Ise Grand Shrine", "Player"
+      "Specialist", "elvis", "Local"
+      "OutputType", "luxury", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+[effect_scientist_Ise_Grand_Shrine]
+type    = "Specialist_Output"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Building", "Ise Grand Shrine", "Player"
+      "Specialist", "scientist", "Local"
+      "OutputType", "science", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+[effect_taxman_Ise_Grand_Shrine]
+type    = "Specialist_Output"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Building", "Ise Grand Shrine", "Player"
+      "Specialist", "taxman", "Local"
+      "OutputType", "gold", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+
+[effect_Himeji_Castle_Land]
+type    = "Veteran_Build"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Himeji Castle", "Player"
+      "UnitClass", "Land", "Local"
+      "Nation", "Japanese", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "NonMil", "Local"
+      "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_Himeji_Castle_Trireme]
+type    = "Veteran_Build"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Himeji Castle", "Player"
+      "UnitClass", "Trireme", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+[effect_Himeji_Castle_Sea]
+type    = "Veteran_Build"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Himeji Castle", "Player"
+      "UnitClass", "Sea", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+
+[effect_Kure_Naval_Arsenal]
+type    = "Move_Bonus"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Kure Naval Arsenal", "Player"
+      "UnitClass", "Sea", "Local"
+      "Nation", "Japanese", "Player"
+    }
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mayan
+
+
+
+[effect_tithes_mayan]
+type    = "Happiness_To_Gold"
+value   = 1
+reqs    = 
+    { "type", "name", "range"
+      "Nation", "Mayan", "Player"
+    }
+
+
+[effect_Ball_Court]
+type    = "Make_Content"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Building", "Ball Court", "City"
+      "Nation", "Mayan", "Player"
+    }
+
+
+[effect_Chichien_Itza]
+type    = "Make_Content"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Chichien Itza", "Player"
+      "Nation", "Mayan", "Player"
+    }
+
+[effect_Chichien_Itza_upkeep]
+type    = "Unit_Upkeep_Free_Per_City"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Chichien Itza", "Player"
+      "OutputType", "Shield", "Local"
+      "Nation", "Mayan", "Player"
+    }
+
+
+[effect_Long_Count_Calendar]
+type    = "Make_Content"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Long Count Calendar", "Player"
+      "Nation", "Mayan", "Player"
+    }
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Global
+;[effect_Enemy_Citizen_Unhappy_Pct]
+;type    = "Enemy_Citizen_Unhappy_Pct"
+;value   = 0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Global
+
+
+;[effect_Long_Count_Calendar]
+;type    = "Enemy_Citizen_Unhappy_Pct"
+;value   = 33
+;reqs    =
+;    { "type", "name", "range"
+;      "Building", "Long Count Calendar", "World"
+;    }
+;nreqs    =
+;    { "type", "name", "range"
+;      "Building", "Long Count Calendar", "Player"
+;      "Nation", "Mayan", "Player"
+;    }
+;
+;[effect_Long_Count_Calendar_Nuclear_Fission]
+;type    = "Enemy_Citizen_Unhappy_Pct"
+;value   = 33
+;reqs    =
+;    { "type", "name", "range"
+;      "Tech", "Nuclear Fission", "World"
+;      "Building", "Long Count Calendar", "World"
+;    }
+;nreqs    =
+;    { "type", "name", "range"
+;      "Building", "Long Count Calendar", "Player"
+;      "Nation", "Mayan", "Player"
+;    }
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mongol
+
+
+
+[effect_Mongol_Combat]
+type    = "Veteran_Combat"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "UnitFlag", "Horse", "Local"
+      "Nation", "Mongol", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "UnitFlag", "Diplomat", "Local"
+      "Building", "Sun Tzu's War Academy", "Player"
+    }
+
+
+[effect_Stable]
+type    = "Veteran_Build"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Stable", "City"
+      "UnitFlag", "Horse", "Local"
+      "Nation", "Mongol", "Player"
+    }
+
+
+[effect_Yurt]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Grassland", "Local"
+      "Building", "Yurt", "City"
+      "OutputType", "Trade", "Local"
+      "Nation", "Mongol", "Player"
+    }
+
+;[effect_Yurt_1]
+;type    = "Output_Add_Tile"
+;value   = 1
+;reqs    =
+;    { "type", "name", "range"
+;      "Terrain", "Plains", "Local"
+;      "Building", "Yurt", "City"
+;      "OutputType", "Trade", "Local"
+;      "Nation", "Mongol", "Player"
+;    }
+
+[effect_Yurt_2]
+type    = "Output_Add_Tile"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Grassland", "Local"
+      "Building", "Yurt", "City"
+      "OutputType", "Shield", "Local"
+      "Nation", "Mongol", "Player"
+    }
+
+;[effect_Yurt_3]
+;type    = "Output_Add_Tile"
+;value   = 1
+;reqs    =
+;    { "type", "name", "range"
+;      "Terrain", "Plains", "Local"
+;      "Building", "Yurt", "City"
+;      "OutputType", "Shield", "Local"
+;      "Nation", "Mongol", "Player"
+;    }
+
+[effect_Statue_of_Khan_1]
+type    = "Unit_Recover"
+value   = 5
+reqs    =
+    { "type", "name", "range"
+      "Building", "Statue of Khan", "Player"
+      "UnitFlag", "Horse", "Local"
+      "Nation", "Mongol", "Player"
+    }
+
+[effect_Statue_of_Khan_2]
+type    = "Veteran_Build"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Statue of Khan", "Player"
+      "UnitFlag", "Horse", "Local"
+      "Nation", "Mongol", "Player"
+    }
+nreqs   =
+    { "type", "name", "range"
+      "Building", "Sun Tzu's War Academy", "Player"
+    }
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ottoman
+
+
+
+
+[effect_Ottoman]
+type    = "Output_Bonus"
+value  = 25
+reqs =
+    { "type", "name", "range"
+      "Building", "Palace", "City"
+      "OutputType", "Trade", "Local"
+      "Nation", "Ottoman", "Player"
+    }
+
+
+[effect_Bazaar]
+type    = "Output_Bonus"
+value   = 10
+reqs =
+    { "type", "name", "range"
+      "Building", "Bazaar", "City"
+      "OutputType", "Trade", "Local"
+      "Nation", "Ottoman", "Player"
+    }
+
+
+[effect_Topkapi_Palace]
+type    = "Trade_Revenue_Bonus"
+value   = 585
+reqs =
+    { "type", "name", "range"
+      "Building", "Topkapi Palace", "Player"
+      "Nation", "Ottoman", "Player"
+    }
+
+
+[effect_Sultan_Ahmed_Mosque]
+type    = "Output_Add_Tile"
+value   = 50
+reqs =
+    { "type", "name", "range"
+      "Building", "Sultan Ahmed Mosque", "City"
+      "OutputType", "Trade", "Local"
+      "CityTile", "Center", "Local"
+      "Nation", "Ottoman", "Player"
+    }
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Persian
+
+
+
+
+[effect_Mosque]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mosque", "City"
+      "OutputType", "Science", "Local"
+      "Nation", "Persian", "Player"
+    }
+
+[effect_Mausoleum_of_Halicarnassus]
+type    = "Output_Bonus"
+value   = 100
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mausoleum of Halicarnassus", "Player"
+      "OutputType", "Science", "Local"
+      "Nation", "Persian", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "Building", "Isaac Newton's College", "Player"
+    }
+
+[effect_Mausoleum_of_Halicarnassus_Newton]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Mausoleum of Halicarnassus", "Player"
+      "Building", "Isaac Newton's College", "Player"
+      "OutputType", "Science", "Local"
+      "Nation", "Persian", "Player"
+    }
+
+
+[effect_Great_Mosque_of_Samarra]
+type    = "Unit_Upkeep_Free_Per_City"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Great Mosque of Samarra", "Player"
+      "OutputType", "Shield", "Local"
+      "Nation", "Persian", "Player"
+    }
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Roman
+
+
+
+[effect_Roman_trade_routes]
+type    = "Max_Trade_Routes"
+value   = 2
+reqs =
+    { "type", "name", "range"
+      "Nation", "Roman", "Player"
+    }
+
+[effect_Roman_trade_routes_magnetism]
+type    = "Max_Trade_Routes"
+value   = -1
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Magnetism", "Player"
+      "Nation", "Roman", "Player"
+    }
+
+[effect_Roman_trade_routes_corporation]
+type    = "Max_Trade_Routes"
+value   = -1
+reqs	=
+    { "type", "name", "range"
+      "Tech", "The Corporation", "Player"
+      "Nation", "Roman", "Player"
+    }
+
+
+[effect_Forum]
+type    = "Output_Inc_Tile"
+value   = 1
+reqs =
+    { "type", "name", "range"
+      "Building", "Forum", "City"
+      "OutputType", "Trade", "Local"
+      "Nation", "Roman", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "TerrainClass", "Oceanic", "Local"
+    }
+
+
+[effect_Rathaus]
+type    = "Output_Add_Tile"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "Rathaus", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Trade", "Local"
+      "Nation", "Roman", "Player"
+    }
+nreqs    =
+    { "type", "name", "range"
+      "Tech", "Democracy", "Player"
+    }
+
+[effect_Rathaus_Democracy]
+type    = "Output_Add_Tile"
+value   = 8
+reqs    =
+    { "type", "name", "range"
+      "Building", "Rathaus", "City"
+      "Tech", "Democracy", "Player"
+      "CityTile", "Center", "Local"
+      "OutputType", "Trade", "Local"
+      "Nation", "Roman", "Player"
+    }
+
+
+[effect_Sistine_Chapel]
+type    = "Output_Add_Tile"
+value   = 8
+reqs    =
+    { "type", "name", "range"
+      "Building", "Sistine Chapel", "Player"
+      "CityTile", "Center", "Local"
+      "OutputType", "Trade", "Local"
+      "Nation", "Roman", "Player"
+    }
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Russian
+
+
+
+[effect_Research_Institute]
+type    = "Output_Bonus"
+value   = 100
+reqs =
+    { "type", "name", "range"
+      "Building", "Research Lab", "City"
+      "Building", "Research Institute", "City"
+      "OutputType", "Science", "Local"
+      "Nation", "Russian", "Player"
+    }
+
+
+[effect_Russian_Orthodox_Church]
+type    = "Move_Bonus"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Building", "Russian Orthodox Church", "Player"
+      "UnitClass", "Land", "Local"
+      "Nation", "Russian", "Player"
+    }
+
+[effect_Russian_Orthodox_Recover]
+type    = "Unit_Recover"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "Russian Orthodox Church", "Player"
+      "UnitClass", "Land", "Local"
+      "Nation", "Russian", "Player"
+    }
+
+
+[effect_The_Kremlin]
+type    = "Defend_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "The Kremlin", "Player"
+      "UnitClass", "Land", "Local"
+      "Nation", "Russian", "Player"
+    }
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Spanish
+
+
+
+
+[effect_Dock]
+type    = "Output_Add_Tile"
+value   = 5
+reqs    =
+    { "type", "name", "range"
+      "Building", "Dock", "City"
+      "CityTile", "Center", "Local"
+      "OutputType", "Trade", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+
+[effect_Alhambra]
+type    = "Output_Add_Tile"
+value   = 5
+reqs    =
+    { "type", "name", "range"
+      "Building", "Alhambra", "Player"
+      "CityTile", "Center", "Local"
+      "OutputType", "Gold", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+
+[effect_Conquistador_move]
+type    = "Move_Bonus"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Conquistador", "Player"
+      "UnitClass", "Sea", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+[effect_Conquistador_move_trireme]
+type    = "Move_Bonus"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Building", "Conquistador", "Player"
+      "UnitClass", "Trireme", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+[effect_Conquistador_combat]
+type    = "Veteran_Combat"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Conquistador", "Player"
+      "UnitClass", "Sea", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+[effect_Conquistador_combat_trireme]
+type    = "Veteran_Combat"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Conquistador", "Player"
+      "UnitClass", "Trireme", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+[effect_Conquistador_Recover]
+type    = "Unit_Recover"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "Conquistador", "Player"
+      "UnitClass", "Sea", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+[effect_Conquistador_Recover_trireme]
+type    = "Unit_Recover"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Building", "Conquistador", "Player"
+      "UnitClass", "Trireme", "Local"
+      "Nation", "Spanish", "Player"
+    }
+
+
+[effect_Sagrada_Familia]
+type    = "Gain_AI_Love"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Sagrada Familia", "Player"
+      "Nation", "Spanish", "Player"
+    }
+
+
+
+
+
+;[effect_city_walls_1]
+;type    = "Unit_No_Lose_Pop"
+;value	= 1
+;reqs	=
+;    { "type", "name", "range"
+;      "Building", "City Walls", "City"
+;    }
+;[effect_great_wall_1]
+;type    = "Unit_No_Lose_Pop"
+;value	= 1
+;reqs	=
+;    { "type", "name", "range"
+;      "Building", "Great Wall", "Player"
+;    }
+

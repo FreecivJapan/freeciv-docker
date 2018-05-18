@@ -1,0 +1,70 @@
+[nation_comanche]
+
+name=_("Comanche")
+plural=_("?plural:Comanches")
+groups="American"
+legend=_("The Comanche or Numunu are a Native American ethnic group whose\
+ historic range (the Comancheria) consisted of present-day eastern New\
+ Mexico, southern Colorado, northeastern Arizona, southern Kansas, all of\
+ Oklahoma, and most of northwest Texas.")
+
+leaders = {
+ "name",                "sex"
+ "Tu-uh-ku-mah",        "Male" ; Black Horse
+ "Isa-tai",             "Male" ; White Eagle
+ "Po-bish-e-quasho",    "Male" ; Iron Jacket
+ "Mo'pe-choko-pa",      "Male" ; Old Owl
+ "Toshaway",            "Male" ; Silver Knife
+ "Paruasemana",         "Male" ; Ten Bears
+ "Peta Nocona",         "Male"
+ "Quanah Parker",       "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Monarchy",        _("Great Chief %s"),  _("?female:Great Chief %s")
+ "Fundamentalism",  _("Shaman %s"),       _("?female:Shaman %s")
+}
+
+flag = "comanche"
+flag_alt = "-"
+city_style = "celtic"
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "hopi", "apache"
+
+cities =
+  "H炭pen炭炭",
+"K炭hts炭t炭炭ka",
+"Kwaar炭 N炭炭",
+"M炭tsahne",
+"Nokoni N炭炭",
+"Tahnahwah",
+"Tanim炭炭",
+"Pagats炭",
+"Pekwi T炭hka",
+"Penat炭ka N炭炭",
+"Tay炭炭wit",
+"K炭vahrahtpaht",
+"Taykahpwai",
+"Pikaatam炭",
+"Saria T炭hka",
+"Yapar炭hka",
+"Ketahtoh T炭",
+"Motso T炭",
+"Pibianigwai",
+"S炭hm炭ht炭hka",
+"Titchahkaynah",
+"Wahkoh",
+"Waw'ai",
+"Hai'ne'na'炭ne",
+"It'chit'a'b炭d'ah",
+"Itehtah'o",
+"Na炭'niem",
+"Ohnon炭炭",
+"Pah炭raix",
+"Pohoi",
+"T炭tsanoo Yehk炭",
+"Wian炭炭"

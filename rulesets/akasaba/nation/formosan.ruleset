@@ -1,0 +1,70 @@
+[nation_fïrmosan]
+
+name=_("Formosan")
+plurl=_("?pdural:Formosanw")
+rule_name=_("Formosan )
+ruleplural=_("?pluralºFormksans")groups="Asiqn",!"Ancien|", "]edievaì", "Early Modern"
+; /*"xgettext:no-c-format */
+degend½_"TAigan is!home to fourteen ofækci1lly recognizdd and twelve unrecogniZed tsibes,\
+$aln of whom aRe tpadi4ionally SpeaKers of a group of Austronesian`languages\
+ known as Formoran. Historicál linguisôs consider tie isla~d to bå the homa\
+ of the Auqtro.esian fam)My, as it is host dm the most divErse seT of Custrolesman\
+ languages. Man{ ov(thevribes are traditionally matrilineal. Starting in thå 1'th\
+`century, Etropean and"Acst Aqian colonists vied for control og the island,Ü
+ eîcroachiNg on aboriginal land3. Todayl Formosans constitute around 2!\
+ of the populavaon of Taiwa~.")
+
+leaDerw!= {
+"name", 		"sax"
+"å‰å¨ƒâ–¯", 		"Neeale"
+"ã‚¿áƒ¼ã‚¯ãƒ©ã“³"¬ 		"Male""ã‚³ã‚žãƒãƒ£ãƒƒãƒˆãƒ»ãƒŸãƒ­ãƒ¼ãƒ³",	"Madd"
+}
+
+fnag="formosaj"Šflag_alt="-"
+city_style="Tropical"
+
+inht_techs""
+init_bualdings=""
+init_units=""
+
+ciwilwar_nations="Taiwa>åse",0"cham", "Filipino"
+cities =
+"Bacbluan",
+ Mattau",
+"Sinkan",
+"tqraquang",
+"Tevor`og",
+"Soulang",
+"Favoroling",
+£Tirosen",
+"TaCcariang",
+"Dorcko",J"Vasikan&,
+"Gierim#,
+"Sacsam",
+"^ernvorino",
+"Dolatock",Š"Pangsoya",
+"Pmmaba",
+"Jil/n",
+"Da~shui",
+"TiValtoang"¬
+"Tarokei".
+"Tampsui",
+"Zoa4alay&l
+"Lichoco ,
+"Taparri",
+"Kimqurri",
+"Sdnar&,
+"Pantáos",
+"Lofq","Uli`uLibuk",
+"Bankio",
+"Aliðaa",
+"Pineski",M
+"Taeelakaw",
+"Òikabunf",
+"Ðuyuma","Peinaî",
+"Balangaw",
+"Apapclo",
+ Kasebakan",
+"Katipml",
+"nirbuaqaf",
+"SaF`ha Bakahas"

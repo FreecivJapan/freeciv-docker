@@ -1,0 +1,757 @@
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; American
+
+
+
+[unit_Great_General_of_the_Air_Force]
+name          = _("Great General of the Air Force")
+class         = "Land"
+tech_req      = "Flight"
+obsolete_by   = "None"
+impr_req      = "The Pentagon"
+graphic       = "u.crusaders"
+graphic_alt   = "-"
+sound_move    = "m_paratroopers"
+sound_move_alt = "m_generic"
+sound_fight   = "f_paratroopers"
+sound_fight_alt = "f_generic"
+build_cost    = 100
+pop_cost      = 0
+attack        = 6
+defense       = 4
+hitpoints     = 50
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "Paratroopers", "IgZOC", "Unique", "NoHome", "Unbribable"
+roles         = "DefendOk"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Great General of the Air Force is a powerful Paratroopers.\
+")
+
+paratroopers_range = 10
+paratroopers_mr_req = 1
+paratroopers_mr_sub = 0
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Aztec
+
+
+[unit_Quetzalcoatl]
+name          = _("Quetzalcoatl")
+class         = "Land"
+tech_req      = "Monarchy"
+obsolete_by   = "None"
+impr_req      = "Sacrificial Altar"
+graphic       = "u.cruise_missile"
+graphic_alt   = "-"
+sound_move    = "m_cruise_missile"
+sound_move_alt = "m_generic"
+sound_fight   = "f_cruise_missile"
+sound_fight_alt = "f_generic"
+build_cost    = 50
+pop_cost      = 0
+attack        = 18
+defense       = 1
+hitpoints     = 10
+firepower     = 3
+move_rate     = 12
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 1
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "BadWallAttacker", "IgZOC", "Unique", "Unbribable"
+roles         = ""
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Quetzalcoatl is land missile units.\
+\n\
+Quetzalcoatl has special flags - OneAttack, BadWallAttacker\
+"),_("
+Quetzalcoatl is a Mesoamerican deity whose name comes from the Nahuatl\
+ language and means `feathered serpent`. The worship of a feathered serpent\
+ is first documented in Teotihuacan in the first century BCE or first century\
+ CE. That period lies within the Late Preclassic to Early Classic period\
+ (400 BCE - 600 CE) of Mesoamerican chronology, and veneration of the figure\
+ appears to have spread throughout Mesoamerica by the Late Classic\
+ (600-900 AD).\
+\n\
+Among the Aztecs, whose beliefs are the best-documented in the historical\
+ sources, Quetzalcoatl was related to gods of the wind, of the planet Venus,\
+ of the dawn, of merchants and of arts, crafts and knowledge. He was also\
+ the patron god of the Aztec priesthood, of learning and knowledge.\
+ Quetzalcoatl was one of several important gods in the Aztec pantheon,\
+ along with the gods Tlaloc, Tezcatlipoca and Huitzilopochtli.\
+\n\n\
+http://en.wikipedia.org/wiki/Quetzalcoatl\
+")
+
+
+[unit_Tezcatlipoca]
+name          = _("Tezcatlipoca")
+class         = "Land"
+tech_req      = "Monarchy"
+obsolete_by   = "None"
+impr_req      = "Sacrificial Altar"
+graphic       = "u.cruise_missile"
+graphic_alt   = "-"
+sound_move    = "m_cruise_missile"
+sound_move_alt = "m_generic"
+sound_fight   = "f_cruise_missile"
+sound_fight_alt = "f_generic"
+build_cost    = 50
+pop_cost      = 1
+attack        = 18
+defense       = 1
+hitpoints     = 10
+firepower     = 3
+move_rate     = 12
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 1
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "FieldUnit", "IgZOC", "Unique", "Unbribable"
+roles         = ""
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Tezcatlipoca is land missile units.\
+\n\
+Tezcatlipoca has special flags - OneAttack, FieldUnit\
+\n\
+Special note: pop_cost=1.\
+"),_("
+Tezcatlipoca was a central deity in Aztec religion, and his main festival\
+ was the Toxcatl ceremony celebrated in the month of May. One of\
+ the four sons of Ometeotl, he is associated with a wide range of concepts,\
+ including the night sky, the night winds, hurricanes, the north, the earth,\
+ obsidian, enmity, discord, rulership, divination, temptation, jaguars,\
+ sorcery, beauty, war and strife.\
+\n\
+Tezcatlipoca was often described as a rival of another important god of\
+ the Aztecs, the culture hero, Quetzalcoatl.\
+\n\n\
+http://en.wikipedia.org/wiki/Tezcatlipoca\
+")
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; French
+
+
+[unit_Great_General]
+name          = _("Great General")
+class         = "Land"
+tech_req      = "Railroad"
+impr_req      = "Arc de Triomphe"
+obsolete_by   = "None"
+graphic       = "u.crusaders"
+graphic_alt   = "-"
+sound_move    = "m_riflemen"
+sound_move_alt = "m_generic"
+sound_fight   = "f_riflemen"
+sound_fight_alt = "f_generic"
+build_cost    = 100
+pop_cost      = 0
+attack        = 5
+defense       = 4
+hitpoints     = 50
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 24
+transport_cap = 4
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+cargo         = "Land"
+flags         = "IgZOC", "Unique", "NoHome", "Unbribable"
+roles         = "DefendGood"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Great General is powerful Riflemen with vision_radius_sq = 24.\
+\n\
+Great General can transport 4 Land class units.\
+")
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Egyptian
+
+[unit_Merchant_ship]
+name          = _("Merchant Ship")
+class         = "Sea"
+tech_req      = "Navigation"
+impr_req      = "Trading Post"
+obsolete_by   = "None"
+graphic       = "u.caravel"
+graphic_alt   = "-"
+sound_move    = "m.caravel"
+sound_move_alt = "m_generic"
+sound_fight   = "f.caravel"
+sound_fight_alt = "f_generic"
+build_cost    = 40
+pop_cost      = 0
+attack        = 1
+defense       = 2
+hitpoints     = 10
+firepower     = 1
+move_rate     = 3
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "TradeRoute", "HelpWonder", "IgZOC", "NonMil",
+                "BadCityDefender"
+roles         = ""
+helptext      = _("\
+This is a Unique Units for Egyptian.\
+\n\
+Merchant Ship is one of Caravan, that can sail the ocean. (Req. Tech: Trade)\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; German
+
+
+[unit_LZ_127_Graf_Zeppelin]
+name          = _("LZ 127 Graf Zeppelin")
+class         = "Air"
+tech_req      = "Flight"
+impr_req      = "Volklingen Ironworks"
+obsolete_by   = "None"
+graphic       = "u.awacs"
+graphic_alt   = "u.bomber"  ; backwards compatibility
+sound_move    = "m_awacs"
+sound_move_alt = "m_generic"
+sound_fight   = "f_awacs"
+sound_fight_alt = "f_generic"
+build_cost    = 150
+pop_cost      = 0
+attack        = 0
+defense       = 4
+hitpoints     = 50
+firepower     = 2
+move_rate     = 16
+vision_radius_sq = 13
+transport_cap = 12
+fuel          = 2
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+cargo         = "Land"
+flags         = "NonMil", "IgZOC", "Unique", "NoHome", "Unbribable"
+roles         = "Ferryboat"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+LZ 127 Graf Zeppelin is a pure transport airship and cannot \
+attack other units.\
+\n\
+This units may load or unload below units from while not in native base
+ or city:\
+ Musketeers, Partisan, Alpine Troops, Riflemen, Marines, Paratroopers\
+"),_("
+LZ 127 Graf Zeppelin was a German-built and -operated, passenger-carrying,\
+ hydrogen-filled, rigid airship which operated commercially from 1928 to 1937.\
+ It was named after the German pioneer of airships, Ferdinand von Zeppelin,\
+ who was a count (Graf) in the German nobility. During its operating life,\
+ the airship made 590 flights covering more than a million miles\
+ (1.6 million km). It was designed to be operated by a crew of 36 officers\
+ and men.\
+\n\
+At the behest of American newspaper publisher William Randolph Hearst,\
+ whose media empire was the major commercial backer of the project with\
+ four staffers among the flight's nine passengers, the Graf's Round-the-World\
+ (Weltrundfahrt 1929) flight in August 1929 officially began and ended at\
+ Lakehurst Naval Air Station in New Jersey.\
+\n\n\
+http://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Inca
+
+
+[unit_Heavens_Blessing]
+name          = _("Heaven's Blessing")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.caravan"
+graphic_alt   = "-"
+sound_move    = "m_caravan"
+sound_move_alt = "m_generic"
+sound_fight   = "f_caravan"
+sound_fight_alt = "f_generic"
+build_cost    = 200
+pop_cost      = 0
+attack        = 0
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "HelpWonder", "IgZOC", "NonMil", "NoBuild",
+                "Unique", "NoHome", "Unbribable", "Undisbandable"
+roles         = ""
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+It is used to build your wonder will add 200 shields.\
+")
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Indian
+
+
+[unit_Great_Workers]
+name          = _("Great Workers")
+class         = "Land"
+tech_req      = "Pottery"
+impr_req      = "Ajanta Caves"
+obsolete_by   = "None"
+graphic       = "u.engineers"
+graphic_alt   = "-"
+sound_move    = "m_engineers"
+sound_move_alt = "m_generic"
+sound_fight   = "f_engineers"
+sound_fight_alt = "f_generic"
+build_cost    = 50
+pop_cost      = 0
+attack        = 0
+defense       = 2
+hitpoints     = 40
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "Settlers", "NonMil", "Transform", "Airbase", "IgZOC",
+                "Unique", "NoHome", "Unbribable"
+veteran_names = _("Rank C (+100%)"), 
+_("Rank B (+150%)"), _("Rank B+ (+175%)"), _("Rank B++ (+200%)"), 
+_("Rank A (+225%)"), _("Rank A+ (+250%)"), _("Rank A++ (+275%)"), 
+_("Rank S (+300%)"), _("Rank SS (+325%)"), _("Rank SSS (+350%)")
+veteran_raise_chance = 50, 45, 40, 40, 40, 40, 40, 40, 40, 0
+veteran_work_raise_chance = 10, 9, 8, 7, 6, 5, 4, 3, 2, 0
+veteran_power_fact = 100, 150, 175, 200, 225, 250, 275, 300, 325, 350
+veteran_move_bonus = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+roles         = "Settlers"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+The Great Workers is Enginners, who can become veteran.\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Japanese
+
+
+[unit_Master_of_Ninja]
+name          = _("Master of Ninja")
+class         = "Land"
+tech_req      = "Philosophy"
+impr_req      = "Himeji Castle"
+obsolete_by   = "None"
+graphic       = "u.diplomat"
+graphic_alt   = "-"
+sound_move    = "m_diplomat"
+sound_move_alt = "m_generic"
+sound_fight   = "f_diplomat"
+sound_fight_alt = "f_generic"
+build_cost    = 60
+pop_cost      = 0
+attack        = 0
+defense       = 1
+hitpoints     = 30
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "Diplomat", "IgZOC", "NonMil", "IgTer",
+                "Unique", "NoHome", "SuperSpy", "Partial_Invis", "Unbribable"
+veteran_names =
+; /* TRANS: diplomatic rank. */
+; /* TRANS: Unless translated, the last character in "attache" should be */
+; /* TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in your */
+; /* TRANS: charset. In ISO-8859-1 (ISO Latin 1) this is 233. */
+  _("?diplomatic_rank:attache"),
+; /* TRANS: diplomatic rank */
+  _("?diplomatic_rank:secretary"),
+; /* TRANS: diplomatic rank */
+  _("?diplomatic_rank:envoy"),
+; /* TRANS: diplomatic rank */
+  _("?diplomatic_rank:ambassador")
+veteran_raise_chance = 50, 33, 20, 0
+veteran_work_raise_chance = 0, 0, 0, 0
+veteran_power_fact = 100, 105, 110, 115
+veteran_move_bonus = 0, 0, 0, 0
+roles         = "Diplomat"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Master of Ninja is Diplomat with SuperSpy and IgTer and stelth flag.\
+\n\
+In future version, Master of Ninja and KGB Agent will perform diplomat action\
+ from Ocean. (See Gna bug #22279)\
+"),_("
+A ninja was a covert agent or mercenary in feudal Japan. The functions\
+ of the ninja included espionage, sabotage, infiltration, and assassination,\
+ and open combat in certain situations. Their covert methods of\
+ waging war contrasted the ninja with the samurai, who observed strict rules\
+ about honor and combat.\
+\n\n\
+http://en.wikipedia.org/wiki/Ninja\
+")
+
+
+
+[unit_Battleship_Yamato]
+name          = _("Battleship Yamato")
+class         = "Sea"
+tech_req      = "Automobile"
+impr_req      = "Kure Naval Arsenal"
+obsolete_by   = "None"
+graphic       = "u.battleship"
+graphic_alt   = "-"
+sound_move    = "m_battleship"
+sound_move_alt = "m_generic"
+sound_fight   = "f_battleship"
+sound_fight_alt = "f_generic"
+build_cost    = 200
+pop_cost      = 0
+attack        = 36
+defense       = 12
+hitpoints     = 80
+firepower     = 2
+move_rate     = 4
+vision_radius_sq = 13
+transport_cap = 16
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+cargo         = "Land", "Air", "Missile", "Helicopter"
+embarks       = "Land"
+disembarks    = "Land"
+flags         = "BadCityDefender", "Unique", "NoHome", "Unbribable"
+roles         = ""
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Battleship Yamato has double hitpoint, and triple attack power,\
+ and can transport 16 Land/Air/Misslie/Helicopter class units.\
+"),_("
+Yamato named after the ancient Japanese Yamato Province, was\
+ the lead ship of the Yamato class of battleships that served with\
+ the Imperial Japanese Navy during World War II. She and her sister ship,\
+ Musashi, were the heaviest and most powerfully armed battleships\
+ ever constructed, displacing 72,800 tonnes at full load and armed\
+ with nine 46 cm (18.1 inch) main guns. Neither ship survived the war.\
+\n\n\
+http://en.wikipedia.org/wiki/Japanese_battleship_Yamato\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mongol
+
+
+[unit_Mongol_Mangudai]
+name          = _("Mongol Mangudai")
+class         = "Land"
+tech_req      = "Leadership"
+obsolete_by   = "None"
+impr_req      = "Stable"
+graphic       = "u.knights"
+graphic_alt   = "-"
+sound_move    = "m_knights"
+sound_move_alt = "m_generic"
+sound_fight   = "f_knights"
+sound_fight_alt = "f_generic"
+build_cost    = 50
+pop_cost      = 0
+attack        = 5
+defense       = 2
+hitpoints     = 30
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 1
+uk_shield     = 1
+uk_food       = 0
+uk_gold       = 0
+flags         = "Horse"
+veteran_names = _("Rank C (+100%)"),
+_("Rank B (+120%)"), _("Rank B+ (+140%)"), _("Rank B++ (+160%)"),
+_("Rank A (+180%)"), _("Rank A+ (+200%)"), _("Rank A++ (+220%)"),
+_("Rank S (+240%)"), _("Rank SS (+260%)"), _("Rank SSS (+300%)")
+veteran_raise_chance = 70, 70, 70, 70, 70, 70, 70, 70, 70, 0
+veteran_work_raise_chance = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+veteran_power_fact = 100, 120, 140, 160, 180, 200, 220, 240, 260, 300
+veteran_move_bonus = 0, 0, 0, 0, 0, 1, 1, 1, 1, 1
+roles         = "AttackFast", "HutTech", "Hunter"
+helptext      = _("\
+This is a national unit.\
+"),_("\
+Mongol Mangudai is powerful Dragoons, and has own veteran levels.\
+ You need Stable to build it.\
+\n\
+You'll get 25 Mangudai units when you finish building the Statue of Khan.\
+"),_("\
+The mangudai or mungadai were military units of the Mongol Empire,\
+ but sources differ wildly in their descriptions. One source states\
+ that references to Mongol light cavalry `suicide troops` date\
+ back to the 13th century. However, a United States Army author\
+ believes that Mangudai was the name of a 13th-century Mongol warlord\
+ who created an arduous selection process to test potential leaders.\
+\n\
+The Travels of Marco Polo uses the word Meng-Gu-Dai as the name of a person:\
+ `The (Mongol) Emperor ordered Meng-Gu-Dai to invade Si-Fan with 6000 men.`\
+\n\n\
+https://en.wikipedia.org/wiki/Manghud\
+")
+
+
+[unit_Great_Mongol_Khan]
+name          = _("Great Mongol Khan")
+class         = "Land"
+tech_req      = "Chivalry"
+obsolete_by   = "None"
+impr_req      = "Statue of Khan"
+graphic       = "u.crusaders"
+graphic_alt   = "-"
+sound_move    = "m_cavalry"
+sound_move_alt = "m_generic"
+sound_fight   = "f_cavalry"
+sound_fight_alt = "f_generic"
+build_cost    = 100
+pop_cost      = 0
+attack        = 5
+defense       = 2
+hitpoints     = 50
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "IgZOC", "Unique", "NoHome", "Unbribable", "CityBuster"
+veteran_names = _("Rank C (+100%)"), 
+_("Rank B (+150%)"), _("Rank B+ (+175%)"), _("Rank B++ (+200%)"), 
+_("Rank A (+225%)"), _("Rank A+ (+250%)"), _("Rank A++ (+275%)"), 
+_("Rank S (+300%)"), _("Rank SS (+325%)"), _("Rank SSS (+350%)")
+veteran_raise_chance = 50, 45, 40, 40, 40, 40, 40, 40, 40, 0
+veteran_work_raise_chance = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+veteran_power_fact = 100, 150, 175, 200, 225, 250, 275, 300, 325, 350
+veteran_move_bonus = 0, 0, 0, 0, 0, 1, 1, 1, 1, 1
+roles         = "AttackFast", "Hunter"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Great Khan is powerful Dragoons with CityBuster, and has own veteran levels.\
+")
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Russian
+
+
+[unit_Great_General_of_the_Army]
+name          = _("Great General of the Army")
+class         = "Land"
+tech_req      = "University"
+obsolete_by   = "None"
+impr_req      = "Russian Orthodox Church"
+graphic       = "u.crusaders"
+graphic_alt   = "-"
+sound_move    = "m_cavalry"
+sound_move_alt = "m_generic"
+sound_fight   = "f_cavalry"
+sound_fight_alt = "f_generic"
+build_cost    = 100
+pop_cost      = 0
+attack        = 8
+defense       = 3
+hitpoints     = 50
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 8
+transport_cap = 6
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+cargo         = "Land"
+flags         = "IgTer", "IgZOC", "Unique", "NoHome", "Unbribable"
+roles         = "AttackFast", "Hunter"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Great General of the Army is powerful Cavalry with IgTer.\
+\n\
+Great General of the Army can transport 6 Land class units.\
+")
+
+
+[unit_KGB_Agent]
+name          = _("KGB Agent")
+class         = "Land"
+tech_req      = "Espionage"
+obsolete_by   = "None"
+impr_req      = "The Kremlin"
+graphic       = "u.spy"
+graphic_alt   = "-"
+sound_move    = "m_spy"
+sound_move_alt = "m_generic"
+sound_fight   = "f_spy"
+sound_fight_alt = "f_generic"
+build_cost    = 60
+pop_cost      = 0
+attack        = 0
+defense       = 1
+hitpoints     = 30
+firepower     = 1
+move_rate     = 3
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "Diplomat", "IgZOC", "NonMil", "Spy", "IgTer",
+	        "Unique", "NoHome", "SuperSpy", "Partial_Invis", "Unbribable"
+veteran_names =
+; /* TRANS: Spy veteran level */
+  _("?spy_level:informant"),
+; /* TRANS: Spy veteran level */
+  _("?spy_level:handler"),
+; /* TRANS: Spy veteran level */
+  _("?spy_level:agent"),
+; /* TRANS: Spy veteran level */
+  _("?spy_level:spymaster")
+veteran_raise_chance = 50, 33, 20, 0
+veteran_work_raise_chance = 0, 0, 0, 0
+veteran_power_fact = 100, 105, 110, 115
+veteran_move_bonus = 0, 0, 0, 0
+roles         = "Diplomat"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+KGB Agent is Spy with SuperSpy and IgTer and stelth flag.\
+\n\
+In future version, Master of Ninja and KGB Agent will perform diplomat action\
+ from Ocean. (See Gna bug #22279)\
+")
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Spanish
+
+
+[unit_Great_General_of_the_Navy]
+name          = _("Great General of the Navy")
+class         = "Land"
+tech_req      = "Magnetism"
+obsolete_by   = "None"
+impr_req      = "Conquistador"
+graphic       = "u.crusaders"
+graphic_alt   = "-"
+sound_move    = "m_marines"
+sound_move_alt = "m_generic"
+sound_fight   = "f_marines"
+sound_fight_alt = "f_generic"
+build_cost    = 100
+pop_cost      = 0
+attack        = 8
+defense       = 5
+hitpoints     = 50
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 8
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "Marines", "IgZOC", "Unique", "NoHome", "Unbribable"
+roles         = "DefendOk"
+helptext      = _("\
+This is a national unique unit.\
+"),_("\
+Great General of the Navy is powerful Marines.\
+")
+
+
+
+
+

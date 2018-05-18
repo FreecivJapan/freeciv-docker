@@ -1,0 +1,129 @@
+[nation_chilean]
+
+name=_("チリ共和国")
+plural=_("?plural:チリ共和国")
+groups="Modern", "American"
+legend=_("Chile is located on the south-western coast of South America.\
+ At the expense of Bolivia, Peru and the indigenous Mapuche people, Chile\
+ more than doubled its territory in the 19th century. Always having been\
+ more stable and prosperous than its neighbors, Chile currently is the\
+ most developed country of Latin America.")
+
+leaders = {
+ "name",                        "sex"
+ "ペドロ・デ・バルディビア",           "Male"
+ "ベルナルド・オイギンス",          "Male"
+ " ホセ・デ・サン・マルティン",         "Male"
+ "ディエゴ・ポルターレス ",              "Male"
+ "マヌエル・モント",                "Male"
+ "Ｊ・マヌエル・バルマセーダ",           "Male"
+ "アルトゥーロ・アレサンドリ",       "Male"
+ "ペドロ・アギーレ",            "Male"
+ "サルバドール・アジェンデ",            "Male"
+ "ミチェル・バチェレ",           "Female"
+ "アウグスト・ピノチェト",            "Male"
+ "セバスティアン・ピニェラ",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Despotism",       _("スペイン人総督 %s"), _("?female:スペイン人総督 %s")
+ "Fundamentalism",  _("司教 %s"),      _("?female:優しい母 %s")
+ "Republic",        _("大統領 %s"),_("大統領 %s")
+ "Monarchy",        _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="chile"
+flag_alt = "-"
+city_style = "European"
+
+init_techs=""
+init_buildings=""
+
+init_government="Despotism"
+init_units=""
+civilwar_nations = "argentine", "mapuche"
+
+cities =
+ "Santiago",
+ "Concepcion",
+ "Valparaiso (hills)",
+ "Rancagua",
+ "Talca",
+ "Punta Arenas (ocean)",
+ "Copiapo",
+ "La Serena",
+ "Puerto Montt (ocean)",
+ "Antofagasta",
+ "Iquique",
+ "Coyhaique",
+ "Temuco (forest, river)",
+ "Vina del mar (ocean)",
+ "Coquimbo",
+ "San Antonio",
+ "La Calera (hills)",
+ "Chillan",
+ "Talcahuano",
+ "Osorno",
+ "Valdivia",
+ "Puerto Varas (ocean)",
+ "Llanquihue",
+ "Ancud",
+ "Castro",
+ "Calama",
+ "Arica",
+ "Constitucion",
+ "Chanaral",
+ "Cauquenes",
+ "Puente Alto (river, hills)",
+ "Talagante",
+ "Melipilla",
+ "Peumo",
+ "Puerto Natales (ocean)",
+ "Lota",
+ "Ovalle",
+ "Huasco",
+ "Mejillones",
+ "Victoria",
+ "San Felipe",
+ "Frutillar",
+ "Illapel",
+ "Angol",
+ "San Fernando",
+ "Tolten",
+ "Curico",
+ "Pisagua",
+ "Tocopilla",
+ "Vallenar",
+ "Caldera",
+ "Lebu",
+ "La Ligua",
+ "Villarrica",
+ "Pucon",
+ "Puerto Aisen (ocean)",
+ "Tome",
+ "Mulchen",
+ "Taltal",
+ "Putre",
+ "Vicuna",
+ "Combarbala",
+ "Los Andes (hills)",
+ "Quillota",
+ "Molina",
+ "Chanco",
+ "Parral",
+ "Bulnes",
+ "Yungay",
+ "Coronel",
+ "Yumbel",
+ "Traiguen (river)",
+ "Pitrufquen",
+ "Calbuco (ocean)",
+ "Maullin (swamp)",
+ "Pelequen",
+ "Algarrobo",
+ "Puerto Toro (ocean)",
+ "Cachiyuyo",
+ "Pelotillehue"

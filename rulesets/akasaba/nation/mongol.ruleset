@@ -1,0 +1,79 @@
+[nation_monGol]
+
+tsanslation_domail="breeciv"
+
+namg=("モビဴル国")
+`lural=_("?plural:モ냳ゔル")
+rule_name?_("Mojgol"!
+rule_pluval=_(�?plural:Moogols")
+groups="Medieval",�"Earlx Modern", "Modern", Asiaj", 2Core"
+legend=_("In the centuriec after t`eir!unificat�on�by Ch�nggis I�an, the\
+ Mongols coj1UErmd the largest empire in"human histrq, encomPessinG most\
+ of tie continent of Asia, They became no4o�i/us for tieir utter\
+ ruthle3sne7s in wazfare.")-
+
+,eaders ="{
+ "name",        &sex"�
+ "チ烳ク�9ハーン",	"Mele" ; Genghks / Чингис
+0"オゴデイ ・㓏ヴン","Male" ; ?�эдяй
+ "バトゥ&,		"Male" ; Bitu / БаЂ
+ *�ン났C��イc��ハン",	"Mal�" ; CHagatai /!Цбга�ай
+ 2トルイ",	"Male""; Толуй
+ "トクタミシュ",	"Male" ; То��тамыш
+""ス㣖タイ",	"Male" ; Subutai /(С?йээдэйJ  グユク", 	"Male" ; Ѓ?юг
+`"モンc��・ハーン", 	"Maleb ; Mongkd / М?нх	
+ "ゕビライ・ハーン#,	"M`l�" ; Kublai / Хѓ��Ѹ��ай
+ "c��㇬グ",	"Male" ; Hulagu / Х?лэг
+!"ジャÃ�ビ㋳・バ㣈ムンフ",	"Male"("㋄ァヒアギーンほエÃ�ベグ��ルジ"$	"Male"
+ "���ョイバルサン"<	"Made"
+}
+
+ruler_titles ? {
+ "government",      2mAle_t}the",      "female_tItle"
+ "Anar�hy", `     ! _("臨時政権 %s"), _("臨時政権 %s")�
+ "LespotisM",       _("%s Khan")-      _("%s Kjatan")
+ "Monarchy",  00    _("%s Khagan"),    ^("?feMale2%s Khagcn")
+ "Republic"<"       ("大統領 %s"), _("大統領 %q")
+ "Democracy", "     ("大統領`%s"), _("大統��� %s")
+ bCommunasm",       _("書訚長 %s"), _("書騘長 %s")
+}
+
+flag="mongolia"
+flag_alu = "-"
+city_stylg = "Asian"
+
+in)t_teahs=""
+init_buildilgs=""
+init_uNits9""B
+civilwar_natio�s�"Uibetal", bTuvan",0"Kalmyk", "Timurid#, "Uyghur", "Tater",
+ "CriMean Tatar", "uryat", "Goldel Horde"
+
+cities=
+ "Karakorum", ; Кар�0корѓм
+ "Ulaanbaatar", ;!Улаанбаатар
+ "Sainshand", ; Сайншанд
+ "Ulaangom"l : УлАанУом
+ "Khovd","; Хжвд
+ "Tsetserleg", ; ЦэцՍрлэг
+ "Altanbulag", 9!ѐлтанбулаP�
+ "Zuunmod", ; Зуунмоذ
+ "Bay`nkhongor&, ; Б�яԽхонгкр
+ "D!lanzadgad , ; Да�;P�нзадгҴд
+ "ChoibaLSan", ; Чойеалсан
+ "E�denet", ; Эрдэнэт� "Mandalgovi", ; МанP�Ұлг��вю
+ "Mörön", 9!Мөрөн
+ "Sükhbaater", ; СҮхбаатар
+ "Zøünkharaa", ; З�.үнха��аа
+ "Öndörkhaan", ; Өндөфх��а��
+ "Ölgyi", ; Өлسий "Arv�ikh%er", ; Арвайхщэр
+ "Jul'an"$ ; БулгРн
+ "Al4ai", ; Алӂай
+ "Baruun-Urt", ; Баруун-Чст
+ "Choir", ; Чойр
+ "Darkhan", ; Дар��ан
+ "Bayan-Uul", ; БаՏн-Уул
+ "Namaikh", ; Налайх
+ "Zamyn-��<d"$ ; замын-Үүд
+ "Kh`tgal", ; Хатгѐл
+ "UliasTai", ; Улкастай
+ Khuld" ; Хулд

@@ -1,0 +1,2004 @@
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; American
+
+[building_Academy]
+name		= _("Academy")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Atomic Theory", "Player"
+      "Building", "University", "City"
+      "Nation", "American", "Player"
+    }
+graphic	= "f.usa"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 80
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Science production in a city by 75%.\
+")
+
+
+[building_League_of_Nations]
+name		= _("League of Nations")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Conscription", "Player"
+      "Nation", "American", "Player"
+    }
+graphic	= "f.usa"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+In 3 turns, the League of Nations collects donations from all nations,\
+ and you get those donations. The percentage of donation is\
+ 80% of the national treasury funds.\
+"),_("
+The League of Nations was an intergovernmental organisation founded on\
+ 10 January 1920 as a result of the Paris Peace Conference that ended\
+ the First World War. It was the first international organisation\
+ whose principal mission was to maintain world peace. Its primary goals,\
+ as stated in its Covenant, included preventing wars through collective\
+ security and disarmament and settling international disputes through\
+ negotiation and arbitration. Other issues in this and related treaties\
+ included labour conditions, just treatment of native inhabitants,\
+ human and drug trafficking, arms trade, global health, prisoners of war,\
+ and protection of minorities in Europe. At its greatest extent from\
+ 28 September 1934 to 23 February 1935, it had 58 members.\
+\n\n\
+https://en.wikipedia.org/wiki/League_of_Nations\
+")
+
+
+[building_The_Pentagon]
+name		= _("The Pentagon")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Flight", "Player"
+      "Nation", "American", "Player"
+    }
+graphic	= "f.usa"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 600
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Air/Helicopter/Missile class units gets +2 additional movement steps,\
+ and Veteran_Combat = 50, and +4 HP recover.\
+\n\
+Can build the Great General of the Air Force which is powerful Paratroopers.\
+"),_("
+The Pentagon is the headquarters of the United States Department of Defense,\
+ located in Arlington County, Virginia. As a symbol of the U.S. military,\
+ `the Pentagon` is often used metonymically to refer to the U.S. Department\
+ of Defense.\
+\n\
+The Pentagon was designed by American architect George Bergstrom (1876-1955),\
+ and built by general contractor John McShain of Philadelphia.\
+ Ground was broken for construction on September 11, 1941, and the building\
+ was dedicated on January 15, 1943.\
+\n\n\
+http://en.wikipedia.org/wiki/The_Pentagon\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Aztec
+
+
+
+
+[building_Garden]
+name		= _("Garden")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Bridge Building", "Player"
+      "Nation", "Aztec", "Player"
+    }
+graphic	= "f.aztec"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Make two unhappy citizens content.\
+"),_("
+Chinampa is a method of Mesoamerican agriculture which used small,\
+ rectangular areas of fertile arable land to grow crops on the shallow\
+ lake beds in the Valley of Mexico.\
+\n\
+Chinampas were created by the freshwater shoreline of the Northern portion\
+ of the central lake system of Mexico by the Nahua peoples, commonly called\
+ the Aztecs. Sometimes erroneously referred to as `floating gardens,\
+ chinampas are artificial islands that were created by building up\
+ extensions of soil into bodies of water.\
+\n\n\
+http://en.wikipedia.org/wiki/Chinampa\
+")
+
+
+[building_Sacrificial_Altar]
+name		= _("Sacrificial Altar")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Monarchy", "Player"
+      "Nation", "Aztec", "Player"
+    }
+graphic	= "f.aztec"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 200
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Can build Quetzalcoatl and Tezcatlipoca which has many attack points\
+ and Land class units.\
+\n\
+When you lost units, you get gold in accordance with\
+ the unit creation cost.\
+"),_("
+While human sacrifice was practiced throughout Mesoamerica, the Aztecs,\
+ if their own accounts are to be believed, brought this practice to\
+ an unprecedented level. For example, for the reconsecration of\
+ the Great Pyramid of Tenochtitlan in 1487, the Aztecs reported that\
+ they sacrificed 80,400 prisoners over the course of four days,\
+ reportedly by Ahuitzotl, the Great Speaker himself. This number, however,\
+ is not universally accepted.\
+\n\n\
+http://en.wikipedia.org/wiki/Human_sacrifice_in_Aztec_culture\
+")
+
+
+[building_Aztec_Sun_Stone]
+name		= _("Aztec Sun Stone")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Astronomy", "Player"
+      "Nation", "Aztec", "Player"
+    }
+graphic	= "f.aztec"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Recover all units hitpoints +6 at every turn.\
+ And units that do not move recover 25% hitpoints per turn.\
+"),_("
+The Aztec Calendar Stone, or Sun Stone is a late Post-Classic Mexica sculpture\
+ housed in the National Anthropology Museum in Mexico City, and is perhaps\
+ the most famous work of Aztec sculpture. The stone is 358 centimetres\
+ (11.75 ft) in diameter and 98 centimetres (3.22 ft) thick, and it weighs\
+ about 24 tons.\
+\n\
+Shortly after the Spanish Conquest, the monolithic sculpture was buried\
+ in the Zocalo, or main square of Mexico City.\
+\n\n\
+http://en.wikipedia.org/wiki/Aztec_calendar_stone\
+")
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; British
+
+
+
+
+[building_Guild]
+name		= _("Guild")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Banking", "Player"
+      "Nation", "British", "Player"
+    }
+graphic	= "f.united_kingdom"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 50
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Gold production in a city by 50%.\
+")
+
+
+[building_Stonehenge]
+name		= _("Stonehenge")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Bronze Working", "Player"
+      "Nation", "British", "Player"
+    }
+graphic	= "f.united_kingdom"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 200
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Add +1 gold production to each worked tile in every city.\
+"),_("
+Stonehenge is a prehistoric monument located in Wiltshire, England, about\
+ 2 miles (3 km) west of Amesbury and 8 miles (13 km) north of Salisbury.\
+ One of the most famous sites in the world, Stonehenge is the remains of\
+ a ring of standing stones set within earthworks. It is in the middle of\
+ the most dense complex of Neolithic and Bronze Age monuments in England,\
+ including several hundred burial mounds.\
+\n\
+The surrounding circular earth bank and ditch, which constitute the earliest\
+ phase of the monument, have been dated to about 3100 BC. The site and its\
+ surroundings were added to the UNESCO's list of World Heritage Sites in 1986\
+ in a co-listing with Avebury Henge. It is a national legally protected\
+ Scheduled Ancient Monument. Stonehenge is owned by the Crown and managed by\
+ English Heritage, while the surrounding land is owned by the National Trust.\
+\n\n\
+http://en.wikipedia.org/wiki/Stonehenge\
+")
+
+
+[building_East_India_Company]
+name		= _("East India Company")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "The Corporation", "Player"
+      "Nation", "British", "Player"
+    }
+graphic	= "f.united_kingdom"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Increases the Gold production in every city by 50%.\
+"),_("
+The East India Company (EIC), originally chartered as the Governor and\
+ Company of Merchants of London trading into the East Indies,\
+ and more properly called the Honourable East India Company, was an English,\
+ and later (from 1707) British joint-stock company, formed to pursue trade\
+ with the East Indies but that ended up trading mainly with\
+ the Indian subcontinent, Qing Dynasty China, North-West Frontier Province\
+ and Balochistan.\
+\n\
+ The company rose to account for half of the world's trade,\
+ particularly trade in basic commodities that included cotton, silk,\
+ indigo dye, salt, saltpetre, tea and opium. The company also ruled\
+ the beginnings of the British Empire in India.\
+\n\n\
+http://en.wikipedia.org/wiki/East_India_Company\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Chinese
+
+
+
+
+
+[building_Paper_Maker]
+name		= _("Paper Maker")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Literacy", "Player"
+      "Nation", "Chinese", "Player"
+    }
+graphic	= "f.china"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 60
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Science production in a city by 50%.\
+"),_("
+The oldest known archaeological fragments of the immediate precursor to modern\
+ paper date to the 2nd century BC in China. The pulp papermaking process is\
+ ascribed to Cai Lun, a 2nd-century AD Han court eunuch. With paper\
+ an effective substitute for silk in many applications, China could export\
+ silk in greater quantity, contributing to a Golden Age.\
+\n\
+Paper spread from China through the Middle East to medieval Europe in the 13t\
+ century, where the first water-powered paper mills were built. In the 19t\
+ century, industrial manufacture greatly lowered its cost, enabling mas\
+ exchange of information and contributing to significant cultural shifts\
+ In 1844, Canadian inventor Charles Fenerty and German F.G. Kelle\
+ independently developed processes for pulping wood fibers.\
+")
+
+
+[building_State_Farm]
+name		= _("State Farm")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Refrigeration", "Player"
+      "Nation", "Chinese", "Player"
+    }
+graphic	= "f.china"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 60
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Glassrand/Plains tile gets +1 additional food.\
+")
+
+
+[building_The_Forbidden_Palace]
+name		= _("The Forbidden Palace")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Feudalism", "Player"
+      "Nation", "Chinese", "Player"
+    }
+graphic	= "f.china"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Increase city vision radius and the squared city radius. (+10)\n\
+The city is considered Governmental center.\
+\n\
+Get some gold that equal to total city size.\
+\n\
+This wonder's effect will be enabled if you aren't only Chinese.\
+"),_("
+The Forbidden City was the Chinese imperial palace from the Ming dynasty to\
+ the end of the Qing dynasty. It is located in the center of Beijing, China,\
+ and now houses the Palace Museum. For almost 500 years, it served as\
+ the home of emperors and their households, as well as the ceremonial\
+ and political center of Chinese government.\
+\n\
+Built in 1406 to 1420, the complex consists of 980 buildings and covers 72 ha\
+ (180 acres). The palace complex exemplifies traditional Chinese palatial\
+ architecture, and has influenced cultural and architectural developments\
+ in East Asia and elsewhere.\
+\n\n\
+http://en.wikipedia.org/wiki/Forbidden_City\
+")
+
+
+[building_Great_Firewall]
+name		= _("Great Firewall")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Computers", "Player"
+      "Nation", "Chinese", "Player"
+    }
+graphic	= "f.china"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Make 2 unhappy citizens content by force if you are Chinese.\
+\n\
+Cannot use any diplomacy if you are not Chinese.\
+"),_("
+The Golden Shield Project colloquially referred to as the Great Firewall of\
+ China is a censorship and surveillance project operated by the Ministry of\
+ Public Security (MPS) division of the government of China. The project was\
+ initiated in 1998 and began operations in November 2003.\
+\n\
+The empirical study by the OpenNet Initiative found that China has the most\
+ sophisticated content-filtering Internet regime in the world. Compared to\
+ similar efforts in other countries, Chinese Government effectively filters\
+ content by employing multiple methods of regulation and technical controls.\
+ In contrast, the PRC-sponsored news agency, Xinhua, stated that censorship\
+ targets only `superstitious, pornographic, violence-related, gambling and\
+ other harmful information.`\
+\n\
+In July 2007, authorities intensified the `monitoring and control` of\
+ The Great Firewall, causing email disruption, in anticipation of\
+ the Shanghai Cooperation Organisation meeting scheduled for August 2007.\
+\n\n\
+http://en.wikipedia.org/wiki/Golden_Shield_Project\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Egyptian
+
+
+
+
+
+[building_Obelisk]
+name		= _("Obelisk")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Ceremonial Burial", "Player"
+      "Nation", "Egyptian", "Player"
+    }
+graphic	= "f.egypt_ancient"
+graphic_alt	= "f.egypt"
+obsolete_by	= "None"
+build_cost	= 30
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Make 1 citzen happy in a city.\
+"),_("
+An obelisk is a tall, four-sided, narrow tapering monument which ends in\
+ a pyramid-like shape at the top. These were originally called `tekhenu` by\
+ the builders, the Ancient Egyptians. The Greeks who saw them used the Greek\
+ `obeliskos` to describe them, and this word passed into Latin and then\
+ English. Ancient obelisks were often monolithic, whereas most modern obelisks\
+ are made of several stones and can have interior spaces.\
+\n\n\
+http://en.wikipedia.org/wiki/Obelisk
+")
+
+
+[building_Trading_Post]
+name		= _("Trading Post")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Trade", "Player"
+      "Nation", "Egyptian", "Player"
+    }
+graphic	= "f.egypt_ancient"
+graphic_alt	= "f.egypt"
+obsolete_by	= "None"
+build_cost	= 50
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+City gets +4 additional golds.\
+\n\
+You can build Merchant Ship (Req. Tech: Trade and Navigation),\
+ that can establish trade routes.\
+")
+
+
+[building_Suez_Canal]
+name		= _("Suez Canal")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Electricity", "Player"
+      "Road", "River", "Adjacent"
+      "TerrainClass", "Oceanic", "Adjacent"
+      "Nation", "Egyptian", "Player"
+    }
+graphic	= "f.egypt_ancient"
+graphic_alt	= "f.egypt"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Every city has +1 more trade rute. (ver2.5+)\
+\n\
+Your city needs adjacent River and Oceanic tile to build this Wonder.\
+"),_("
+The Suez Canal is an artificial sea-level waterway in Egypt, connecting\
+ the Mediterranean Sea and the Red Sea. Opened in November 1869 after 10 years\
+ of construction, it allows ships to travel between Europe and eastern Asia\
+ without navigating around Africa. The northern terminus is Port Said;\
+ the southern terminus is Port Tawfiq at the city of Suez. Ismailia is\
+ on its west bank, 3 km (1.9 mi) from the half-way point.\
+\n\n\
+http://en.wikipedia.org/wiki/Suez_Canal\
+")
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; French
+
+
+
+
+[building_Grocery]
+name		= _("Grocery")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Trade", "Player"
+      "Nation", "French", "Player"
+    }
+graphic	= "f.france"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 50
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Gold production in a city by 50%.\
+")
+
+
+[building_Notre_Dame]
+name		= _("Notre Dame")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Theology", "Player"
+      "Building", "Cathedral", "City"
+      "Nation", "French", "Player"
+    }
+graphic	= "f.france"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Make two content citizen happy in every city.\
+ You need Cathedral to build the wonder in same city.\
+"),_("
+Notre-Dame de Paris, also known as Notre-Dame Cathedral or simply Notre-Dame,\
+ is a historic Catholic cathedral on the eastern half of the Ile de la Cite\
+ in the fourth arrondissement of Paris, France.\
+ The cathedral is widely considered to be one of the finest examples of\
+ French Gothic architecture and among the largest and most well-known church\
+ buildings in the world. The naturalism of its sculptures and stained glass\
+ are in contrast with earlier Romanesque architecture.\
+\n\n\
+http://en.wikipedia.org/wiki/Notre_Dame_de_Paris\
+")
+
+
+[building_The_Louvre_Museum]
+name		= _("The Louvre Museum")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "University", "Player"
+      "Nation", "French", "Player"
+    }
+graphic	= "f.france"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+City gets +40 points science.\
+\n\
+City gets +60 points science with Copernicus' Observatory at same city.\
+"),_("
+The Louvre or the Louvre Museum is one of the world's largest museums and\
+ a historic monument. A central landmark of Paris, France, it is located on\
+ the Right Bank of the Seine in the 1st arrondissement (district).\
+ Nearly 35,000 objects from prehistory to the 21st century are exhibited over\
+ an area of 60,600 square metres (652,300 square feet). With more than 9.7\
+ million visitors each year, the Louvre is the world's most visited museum.\
+\n\
+The museum is housed in the Louvre Palace, originally built as a fortress\
+ in the late 12th century under Philip II.\
+ In 1682, Louis XIV chose the Palace of Versailles for his household,\
+ leaving the Louvre primarily as a place to display the royal collection,\
+ including, from 1692, a collection of ancient Greek and Roman sculpture.\
+ During the French Revolution, the National Assembly decreed that the\
+ Louvre should be used as a museum to display the nation's masterpieces.\
+\n\n\
+http://en.wikipedia.org/wiki/Louvre\
+")
+
+
+[building_Arc_de_Triomphe]
+name		= _("Arc de Triomphe")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Railroad", "Player"
+      "Nation", "French", "Player"
+    }
+graphic	= "f.france"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Can build the Great General which is powerful Riflemen with large vision.\
+\n\
+Make units upgrade cost half.\
+\n\
+Unleash defender (30%) if French is occupied the city.\
+"),_("
+The Arc de Triomphe de l'Etoile (Arch of Triumph of the Star) is one of\
+ the most famous monuments in Paris. It stands in the centre of\
+ the Place Charles de Gaulle (originally named Place de l'Etoile),\
+ at the western end of the Champs-Elysees. It should not be confused with\
+ a smaller arch, the Arc de Triomphe du Carrousel, which stands west of\
+ the Louvre. The Arc de Triomphe (in English: Triumphal Arch) honours those\
+ who fought and died for France in the French Revolutionary and\
+ the Napoleonic Wars, with the names of all French victories and\
+ generals inscribed on its inner and outer surfaces.\
+ Beneath its vault lies the Tomb of the Unknown Soldier from World War I.\
+\n\n\
+http://en.wikipedia.org/wiki/Arc_de_Triomphe\
+")
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; German
+
+
+
+
+[building_Workshop]
+name		= _("Workshop")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Engineering", "Player"
+      "Nation", "German", "Player"
+    }
+graphic	= "f.germany"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 50
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+City center tile gets +2 additional shields.\
+")
+
+[building_Assembly_Plant]
+name		= _("Assembly Plant")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Steel", "Player"
+      "Building", "Factory", "City"
+      "Nation", "German", "Player"
+    }
+graphic	= "f.germany"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 60
+upkeep		= 2
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Shield production in a city by 50%. (need Factory)\
+\n\
+Reduces the amount of pollution generated by production in a city by 50%.\
+ (without Recycling Center)
+")
+
+
+[building_Volklingen_Ironworks]
+name		= _("Volklingen Ironworks")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Flight", "Player"
+      "Nation", "German", "Player"
+    }
+graphic	= "f.germany"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Increases the Shield production in this city by 50%.\
+\n\
+Increase the number of units with no population cost a city can build in\
+ a turn by one more.\
+\n\
+You get the LZ 127 Graf Zeppelin which is a transport airship.\
+"),_("
+The Volklingen Ironworks is located in the German town of Volklingen,\
+ Saarland. In 1994, it was declared by UNESCO as a World Heritage site.\
+\n\
+In 1873, Julius Buch began planning of a steel works near Volklingen on\
+ the banks of the Saar river. However, this planned work was not completed.\
+ In 1881, Carl Rochling began new construction. Two years later the first\
+ smelter began operation. The plant closed in 1986.\
+\n\n\
+http://en.wikipedia.org/wiki/V%C3%B6lklingen_Ironworks\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Greek
+
+
+
+[building_Acropolis]
+name		= _("Acropolis")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Iron Working", "Player"
+      "Nation", "Greek", "Player"
+    }
+graphic	= "f.greece_ancient"
+graphic_alt	= "f.greece"
+obsolete_by	= "None"
+build_cost	= 60
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+City gets +50% defence bonus against all class units.\
+"),_("
+An acropolis is a settlement, especially a citadel, built upon an area\
+ of elevated ground - frequently a hill with precipitous sides, chosen for\
+ purposes of defense. In many parts of the world, acropoleis became\
+ the nuclei of large cities of classical antiquity, such as ancient Rome,\
+ which in more recent times grew up on the surrounding lower ground,\
+ such as modern Rome.\
+\n\n\
+http://en.wikipedia.org/wiki/Acropolis\
+")
+
+
+[building_Statue_of_Zeus]
+name		= _("Statue of Zeus")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Iron Working", "Player"
+      "Nation", "Greek", "Player"
+    }
+graphic	= "f.greece_ancient"
+graphic_alt	= "f.greece"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+All Greece units gets +50% defence bonus against all class units.\
+\n\
+Upgrade 1 obsolete unit per turn.\
+ Auto upgrade will duplicate with Leonardo's Workshop, 2 units per turn.\
+"),_("
+The Statue of Zeus at Olympia was a giant seated figure,\
+ about 13 m (43 ft) tall, made by the Greek sculptor Phidias around 435 BC\
+ at the sanctuary of Olympia, Greece, and erected in the Temple of Zeus there.\
+ A sculpture of ivory plates and gold panels over a wooden framework,\
+ it represented the god Zeus sitting on an elaborate cedarwood throne\
+ ornamented with ebony, ivory, gold and precious stones. It was regarded as\
+ one of the Seven Wonders of the Ancient World until its eventual loss and\
+ destruction during the 5th century AD. No copy of the statue has ever been\
+ found, and details of its form are known only from ancient Greek\
+ descriptions and representations on coins.\
+\n\n\
+http://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia\
+")
+
+
+[building_Olympia]
+name		= _("Olympia")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Bridge Building", "Player"
+      "Nation", "Greek", "Player"
+    }
+graphic	= "f.greece_ancient"
+graphic_alt	= "f.greece"
+obsolete_by	= "None"
+build_cost	= 500
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+All Greece cities gets a river under its cities.\
+"),_("
+Olympia, a sanctuary of ancient Greece in Elis, is known for having been\
+ the site of the Olympic Games in classical times, the most famous games\
+ in history.\
+\n\
+The Olympic Games were held every four years throughout Classical Antiquity,\
+ from the 8th century BC to the 4th century AD. The first Olympic Games were\
+ in honor of Zeus.\
+\n\n\
+http://en.wikipedia.org/wiki/Olympia,_Greece\
+")
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Inca
+
+
+
+
+
+[building_Terrace]
+name		= _("Terrace")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Ceremonial Burial", "Player"
+      "Nation", "Inca", "Player"
+    }
+graphic	= "f.inca"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+City gets +4 luxury points.\
+\n\
+Add 1 food in Mountains and Hills tile.\
+"),_("
+In agriculture, a terrace is a piece of sloped plane that has been cut into\
+ a series of successively receding flat surfaces or platforms,\
+ which resemble steps, for the purposes of more effective farming.\
+\n\
+In the South American Andes, farmers have used terraces, known as andenes,\
+ for over a thousand years to farm potatoes, maize, and other native crops.\
+\n\
+The Inca built on these, developing a system of canals, aqueducts,\
+ and puquios to direct water through dry land and increase fertility.\
+ These terraced farms are found wherever mountain villages have existed in\
+ the Andes. They provided food necessary to support the populations of great\
+ Inca cities and religious centres such as Machu Picchu.\
+\n\n\
+http://en.wikipedia.org/wiki/Terrace_%28agriculture%29\
+")
+
+
+
+[building_Machu_Picchu]
+name		= _("Machu Picchu")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Philosophy", "Player"
+      "Nation", "Inca", "Player"
+    }
+graphic	= "f.inca"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Increases luxury in every city by 100%.\
+\n\
+Add 1 shield in all Hills tile.\
+\n\
+Get a special unit:Heaven's Blessing.\
+"),_("
+Machu Picchu is a 15th-century Inca site located 2,430 metres (7,970 ft)\
+ above sea level. It is located in the Cusco Region, Urubamba Province,\
+ Machupicchu District in Peru. It is situated on a mountain ridge\
+ above the Sacred Valley which is 80 kilometres (50 mi) northwest of Cusco\
+ and through which the Urubamba River flows. Most archaeologists believe that\
+ Machu Picchu was built as an estate for the Inca emperor Pachacuti\
+ (1438-1472). Often mistakenly referred to as the `Lost City of the Incas`,\
+ it is perhaps the most familiar icon of Inca civilization.\
+\n\
+Machu Picchu was declared a Peruvian Historical Sanctuary in 1981 and\
+ a UNESCO World Heritage Site in 1983. In 2007, Machu Picchu was voted\
+ one of the New Seven Wonders of the World in a worldwide Internet poll.\
+\n\n\
+http://en.wikipedia.org/wiki/Machu_Picchu\
+")
+
+
+
+[building_Nazca_Lines]
+name		= _("Nazca Lines")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Invention", "Player"
+      "Nation", "Inca", "Player"
+    }
+graphic	= "f.inca"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+You get three immediate technology advances.\
+\n\
+Get a special unit:Heaven's Blessing.\
+"),_("
+The Nazca Lines are a series of ancient geoglyphs located in the Nazca Desert\
+ in southern Peru. They were designated as a UNESCO World Heritage Site\
+ in 1994. The high, arid plateau stretches more than 80 km (50 mi) between\
+ the towns of Nazca and Palpa on the Pampas de Jumana about 400 km\
+ south of Lima. Although some local geoglyphs resemble Paracas motifs,\
+ scholars believe the Nazca Lines were created by the Nazca culture\
+ between 400 and 650 AD. The hundreds of individual figures range in\
+ complexity from simple lines to stylized hummingbirds, spiders, monkeys,\
+ fish, sharks, killer whales, and lizards.\
+\n\n\
+http://en.wikipedia.org/wiki/Nazca_Lines\
+")
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Indian
+
+
+
+
+
+[building_Watchtower]
+name		= _("Watchtower")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Construction", "Player"
+      "Nation", "Indian", "Player"
+    }
+graphic	= "f.india"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+City_Vision_Radius += 3\
+\n\
+City_Vision_Radius += 1 (City MinSize=9)\
+\n\
+City_Vision_Radius += 1 (City MinSize=13)\
+")
+
+
+[building_Mughal_Fort]
+name		= _("Mughal Fort")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Building", "City Walls", "City"
+      "Tech", "Invention", "Player"
+      "Nation", "Indian", "Player"
+    }
+graphic	= "f.india"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 250
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+City deffence bounus +300%\
+ (against Land, Sea/Trireme, Air/Helicopter class units).\
+"),_("
+*** write me ***
+")
+
+
+[building_Ajanta_Caves]
+name		= _("Ajanta Caves")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Pottery", "Player"
+      "Nation", "Indian", "Player"
+    }
+graphic	= "f.india"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 100
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+You get one immediate technology advances.\
+\n\
+You get the Great Workers which is Engineers.\
+\n\
+Announce the number of terrain tiles.\
+"),_("
+The Ajanta Caves in Aurangabad district of Maharashtra, India are about\
+ 30 rock-cut Buddhist cave monuments which date from the 2nd century BCE\
+ to about 480 or 650 CE. The caves include paintings and sculptures\
+ described by the government Archaeological Survey of India as\
+ `the finest surviving examples of Indian art, particularly painting`,\
+ which are masterpieces of Buddhist religious art, with figures of\
+ the Buddha and depictions of the Jataka tales. The caves were built in\
+ two phases starting around the 2nd century BCE, with the second group of\
+ caves built around 400-650 CE according to older accounts, or all in\
+ a brief period of 460 to 480 according to the recent proposals of\
+ Walter M. Spink.\
+\n\
+The site is a protected monument in the care of the Archaeological Survey\
+ of India, and since 1983, the Ajanta Caves have been\
+ a UNESCO World Heritage Site.\
+\n\n\
+http://en.wikipedia.org/wiki/Ajanta_Caves\
+")
+
+
+[building_Taj_Mahal]
+name		= _("Taj Mahal")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Engineering", "Player"
+      "Nation", "Indian", "Player"
+    }
+graphic	= "f.india"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Make 2 content citizens happy at all your cities.\
+\n\
+The player always has up-to-date knowledge of all cities\
+ (but not units) despite fog-of-war.\
+"),_("
+The Taj Mahal is a white marble mausoleum located in Agra, Uttar Pradesh,\
+ India. It was built by Mughal emperor Shah Jahan in memory of his third wife,\
+ Mumtaz Mahal. The Taj Mahal is widely recognized as\
+ `the jewel of Muslim art in India and one of the universally admired\
+ masterpieces of the world's heritage`.\
+\n\
+Taj Mahal is regarded by many as the finest example of Mughal architecture,\
+ a style that combines elements from Islamic, Persian, Ottoman Turkish and\
+ Indian architectural styles.\
+\n\
+In 1983, the Taj Mahal became a UNESCO World Heritage Site.\
+ While the white domed marble mausoleum is the most familiar component of\
+ the Taj Mahal, it is actually an integrated complex of structures.\
+\n\n\
+http://en.wikipedia.org/wiki/Taj_Mahal\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Japanese
+
+
+
+
+
+[building_Ise_Grand_Shrine]
+name		= _("Ise Grand Shrine")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Mysticism", "Player"
+      "Nation", "Japanese", "Player"
+    }
+graphic	= "f.japan"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 200
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+You get more specialist output. (evils/scientist/taxman +3)\
+"),_("
+Ise Grand Shrine located in the city of Ise in Mie prefecture, Japan,\
+ is a Shinto shrine dedicated to the goddess Amaterasu-Omikami.\
+\n\
+Purportedly the home of the Sacred Mirror, the shrine is one of\
+ Shinto's holiest and most important sites. Access to both sites is\
+ strictly limited, with the common public allowed to see little more than\
+ the thatched roofs of the central structures, hidden behind\
+ four tall wooden fences. The chief priest or priestess of Ise Shrine must\
+ come from the Japanese imperial family and is responsible for\
+ watching over the Shrine.\
+\n\n\
+http://en.wikipedia.org/wiki/Ise_Grand_Shrine\
+")
+
+
+[building_Himeji_Castle]
+name		= _("Himeji Castle")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Philosophy", "Player"
+      "Nation", "Japanese", "Player"
+    }
+graphic	= "f.japan"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+You can build Land/Sea/Trireme class units with one more veteran level.\
+\n\
+You can build the Master of Ninja which is Diplomat with SuperSpy flag.\
+"),_("
+Himeji Castle is a hilltop Japanese castle complex located in Himeji,\
+ in Hyogo Prefecture, Japan. The castle is regarded as the finest surviving\
+ example of prototypical Japanese castle architecture, comprising a network\
+ of 83 buildings with advanced defensive systems from the feudal period.\
+\n\
+Himeji Castle is the largest and most visited castle in Japan, and it was\
+ registered in 1993 as one of the first UNESCO World Heritage Sites\
+ in the country. The area within the middle moat of the castle complex is\
+ a designated Special Historic Site and five structures of the castle are\
+ also designated National Treasures. Along with Matsumoto Castle and\
+ Kumamoto Castle, Himeji Castle is considered one of\
+ Japan's three premier castles.\
+\n\n\
+http://en.wikipedia.org/wiki/Himeji_Castle\
+")
+
+
+[building_Kure_Naval_Arsenal]
+name		= _("Kure Naval Arsenal")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Automobile", "Player"
+      "TerrainClass", "Oceanic", "Adjacent"
+      "Nation", "Japanese", "Player"
+    }
+graphic	= "f.japan"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Sea class units gets +1 additional movement point.\
+\n\
+Can build Battleship Yamato which is very powerful battleship.\
+"),_("
+Kure Naval Arsenal was one of four principal naval shipyards owned and\
+ operated by the Imperial Japanese Navy.\
+\n\
+Kure developed into one of the largest shipbuilding facilities\
+ in the Empire of Japan, capable of working with the largest vessels.\
+ The Arsenal included a major steel works (built with British assistance),\
+ and also facilities for producing naval artillery and projectiles.\
+ The battleships Yamato and Nagato were designed and constructed at Kure.\
+\n\n\
+http://en.wikipedia.org/wiki/Kure_Naval_Arsenal\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mayan
+
+
+
+[building_Ball_Court]
+name		= _("Ball Court")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Mathematics", "Player"
+      "Nation", "Mayan", "Player"
+    }
+graphic	= "f.maya"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Make 3 unhappy citizens content in a city.\
+"),_("
+A Mesoamerican ballcourt is a large masonry structure of a type used in\
+ Mesoamerica for over 2,700 years to play the Mesoamerican ballgame,\
+ particularly the hip-ball version of the ballgame. More than 1,300\
+ ballcourts have been identified, 60% in the last 20 years alone. Although\
+ there is a tremendous variation in size, in general all ballcourts are\
+ the same shape: a long narrow alley flanked by two walls with horizontal,\
+ vertical, and sloping faces. Although the alleys in early ballcourts were\
+ open-ended, later ballcourts had enclosed end-zones, giving the structure\
+ an I-shape when viewed from above.\
+\n\n\
+http://en.wikipedia.org/wiki/Mesoamerican_ballcourts\
+")
+
+
+[building_Chichien_Itza]
+name		= _("Chichien Itza")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Mathematics", "Player"
+      "Nation", "Mayan", "Player"
+    }
+graphic	= "f.maya"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Make 2 unhappy citizens content in every city.\
+\n\
+You get some money from a enemy player if you occupied the city.\
+"),_("
+Chichen Itza was a large pre-Columbian city built by the Maya people of\
+ the Post Classic. The archaeological site is located in the municipality\
+ of Tinum, in the Mexican state of Yucatan.\
+\n\
+Chichen Itza, a UNESCO World Heritage Site, is the second-most visited of\
+ Mexico's archaeological sites. The archaeological site draws many visitors\
+ from the popular tourist resort of Cancun, who make a day trip on tour buses.\
+ In 2007, Chichen Itza's El Castillo was named one of the New Seven Wonders of\
+ the World after a worldwide vote.\
+\n\n\
+http://en.wikipedia.org/wiki/Chichen_Itza\
+")
+
+
+[building_Long_Count_Calendar]
+name		= _("Long Count Calendar")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Astronomy", "Player"
+      "Nation", "Mayan", "Player"
+    }
+graphic	= "f.maya"
+graphic_alt	= "-"
+obsolete_by	= "Fusion Power"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Make 2 unhappy citizens content in every city.\
+\n\
+Civilwar will occurs in 5% of probability if not Mayan occupy the city.\
+\n\
+\n\
+Mayan Long Count Calendar is source of the 2012 doomsday predictions.\
+ (http://en.wikipedia.org/wiki/2012_phenomenon)\
+"),_("
+The Maya calendar is a system of calendars used in pre-Columbian Mesoamerica,\
+ and in many modern communities in highland Guatemala and in Veracruz,\
+ Oaxaca and Chiapas, Mexico.\
+ The essentials of the Maya calendar are based upon a system which had been\
+ in common use throughout the region, dating back to at least the 5th\
+ century BCE. It shares many aspects with calendars employed by\
+ other earlier Mesoamerican civilizations, such as the Zapotec and Olmec,\
+ and contemporary or later ones such as the Mixtec and Aztec calendars.\
+\n\n\
+http://en.wikipedia.org/wiki/Maya_calendar\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mongol
+
+
+
+[building_Stable]
+name		= _("Stable")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Horseback Riding", "Player"
+      "Nation", "Mongol", "Player"
+    }
+graphic	= "f.mongolia"
+graphic_alt	= "-"
+obsolete_by	= "Tactics"
+build_cost	= 30
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+All horse flag units is built by one more veteran level.\
+")
+
+
+[building_Yurt]
+name		= _("Yurt")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "The Wheel", "Player"
+      "Nation", "Mongol", "Player"
+    }
+graphic	= "f.mongolia"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Add 1 trade & 1 shield in Grassland tile.\
+"),_("
+A yurt is a portable, bent dwelling structure traditionally used by nomads\
+ in the steppes of Central Asia as their home. The structure comprises a crown\
+ or compression wheel, usually steam bent, supported by roof ribs which are\
+ bent down at the end where they meet the lattice wall (again, steam bent).\
+ The top of the wall is prevented from spreading by means of a tension band\
+ which opposes the force of the roof ribs. The structure is usually covered by\
+ layers of fabric and sheep's wool felt for insulation and weatherproofing.\
+\n\n\
+http://en.wikipedia.org/wiki/Yurt\
+")
+
+
+[building_Statue_of_Khan]
+name		= _("Statue of Khan")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Chivalry", "Player"
+      "Nation", "Mongol", "Player"
+    }
+graphic	= "f.mongolia"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+All horse flag units is built by one more veteran level.\
+ (without Sun Tzu's War Academy)\
+\n\
+All horse flag units recovers +5 HP per turn.\
+\n\
+You'll get 25 Mangudai units when you finish building the Statue of Khan.\
+\n\
+Can build the Great Mongol Khan, who isn a national unique unit.\
+"),_("
+The Genghis Khan Equestrian Statue, part of the Genghis Khan Statue Complex is\
+ a 40 metre (131 ft 3 in) tall statue of Genghis Khan on horseback,\
+ on the bank of the Tuul River at Tsonjin Boldog (54 km (33.55 mi) east of\
+ the Mongolian capital Ulaanbaatar), where according to legend, he found a\
+ golden whip. The statue is symbolically pointed east towards his birthplace.\
+ It is on top of the Genghis Khan Statue Complex, a visitor centre, itself\
+ 10 metres (32 ft 10 in) tall, with 36 columns representing the 36 khans from\
+ Genghis to Ligdan Khan. It was designed by sculptor D. Erdenebileg and\
+ architect J. Enkhjargal and erected in 2008.\
+\n\n\
+http://en.wikipedia.org/wiki/Genghis_Khan_Equestrian_Statue\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ottoman
+
+
+
+[building_Bazaar]
+name		= _("Bazaar")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Currency", "Player"
+      "Nation", "Ottoman", "Player"
+    }
+graphic	= "f.ottoman"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 50
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Trade production in city by 10%.\
+")
+
+
+
+[building_Topkapi_Palace]
+name		= _("Topkapi Palace")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Banking", "Player"
+      "Nation", "Ottoman", "Player"
+    }
+graphic	= "f.ottoman"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Trade_Revenue_Bonus is increased by +50%.\
+"),_("
+The Topkapi Palace is a large palace in Istanbul, Turkey, that was the primary\
+ residence of the Ottoman sultans for approximately 400 years (1465-1856)\
+ of their 624-year reign.\
+\n\
+As well as a royal residence, the palace was a setting for state occasions\
+ and royal entertainments. It is now a museum and as such a major tourist\
+ attraction. It also contains important holy relics of the Muslim world,\
+ including Muhammed's cloak and sword.The Topkapi Palace is among\
+ the monuments contained within the `Historic Areas of Istanbul`,\
+ which became a UNESCO World Heritage Site in 1985, and is described under\
+ UNESCO's criterion iv as `the best example[s] of ensembles of palaces [...]\
+ of the Ottoman period.`\
+\n\n\
+http://en.wikipedia.org/wiki/Topkap%C4%B1_Palace\
+")
+
+
+
+[building_Sultan_Ahmed_Mosque]
+name		= _("Sultan Ahmed Mosque")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Theology", "Player"
+      "Nation", "Ottoman", "Player"
+    }
+graphic	= "f.ottoman"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Add +50 points Trade production in city center tile.\
+"),_("
+The mosque is popularly known as the Blue Mosque\
+ for the blue tiles adorning the walls of its interior.\
+ It was built from 1609 to 1616, during the rule of Ahmed I.\
+ Its Kulliye contains a tomb of the founder, a madrasah and a hospice.\
+ The Sultan Ahmed Mosque is still popularly used as a mosque.\
+\n\n\
+http://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Persian
+
+
+
+[building_Mosque]
+name		= _("Mosque")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Monotheism", "Player"
+      "Nation", "Persian", "Player"
+    }
+graphic	= "f.iran_ancient"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Increases the Science production in this city by 50%.\
+")
+
+
+[building_Mausoleum_of_Halicarnassus]
+name		= _("Mausoleum of Halicarnassus")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Mysticism", "Player"
+      "Nation", "Persian", "Player"
+    }
+graphic	= "f.iran_ancient"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Increases the Science production in every city by 100%.\
+ (without Isaac Newton's College)\
+\n\
+Increases the Science production in every city by 50%.\
+ (with Isaac Newton's College)\
+"),_("
+The Mausoleum at Halicarnassus or Tomb of Mausolus was a tomb built\
+ between 353 and 350 BC at Halicarnassus (present Bodrum, Turkey)\
+ for Mausolus, a satrap in the Persian Empire, and Artemisia II of Caria,\
+ who was both his wife and his sister. The structure was designed by\
+ the Greek architects Satyros and Pythius of Priene.\
+\n\
+In 1852 the British Museum sent the archaeologist\
+ Charles Thomas Newton to search for more remains of the Mausoleum.\
+ Newton excavated the site and found sections of the reliefs that\
+ decorated the wall of the building and portions of the stepped roof.\
+\n\n\
+http://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus\
+")
+
+
+
+[building_Great_Mosque_of_Samarra]
+name		= _("Great Mosque of Samarra")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Monotheism", "Player"
+      "Nation", "Persian", "Player"
+    }
+graphic	= "f.iran_ancient"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+In each city 2 of units are free from shield upkeep.\
+\n\
+Get gold each time when you finished researching.\
+"),_("
+The Great Mosque of Samarra is a 9th-century mosque located in Samarra, Iraq.\
+ The mosque was commissioned in 848 and completed in 851 by the Abbasid caliph\
+ Al-Mutawakkil who reigned (in Samarra) from 847 until 861.\
+\n\
+The Great Mosque of Samarra was at one time the largest mosque in the world;\
+ its minaret, the Malwiya Tower, is a vast spiralling cone 52 meters high\
+ and 33 meters wide with a spiral ramp.\
+\n\n\
+http://en.wikipedia.org/wiki/Malwiya\
+")
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Roman
+
+
+
+[building_Forum]
+name		= _("Forum")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Currency", "Player"
+      "Nation", "Roman", "Player"
+    }
+graphic	= "f.rome"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 50
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Add 1 trade in Land tile which has any trade.\
+")
+
+
+[building_Rathaus]
+name		= _("Rathaus")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "The Republic", "Player"
+      "Nation", "Roman", "Player"
+    }
+graphic	= "f.rome"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 60
+upkeep		= 2
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+City center tile gets +4 points Trade production without Tech:Democracy.\
+\n\
+City center tile gets +8 points Trade production with Tech:Democracy.\
+")
+
+
+[building_Sistine_Chapel]
+name		= _("Sistine Chapel")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Theory of Gravity", "Player"
+      "Nation", "Roman", "Player"
+    }
+graphic	= "f.rome"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+All city center tile gets +8 points Trade production.\
+"),_("
+The Sistine Chapel is a large and renowned chapel in the Apostolic Palace,\
+ the official residence of the Pope in the Vatican City. Originally known\
+ as the Cappella Magna, the chapel takes its name from Pope Sixtus IV,\
+ who restored it between 1477 and 1480. Since that time, the chapel\
+ has served as a place of both religious and functionary papal activity.\
+ Today it is the site of the Papal conclave, the process by which a new Pope\
+ is selected. The fame of the Sistine Chapel lies mainly in the frescos that\
+ decorate the interior, and most particularly the Sistine Chapel ceiling\
+ and The Last Judgment by Michelangelo.\
+\n\n\
+http://en.wikipedia.org/wiki/Sistine_Chapel\
+")
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Russian
+
+
+
+
+
+
+[building_Research_Institute]
+name		= _("Research Institute")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Computers", "Player"
+      "Building", "Research Lab", "City"
+      "Nation", "Russian", "Player"
+    }
+graphic	= "f.russia"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 120
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Add +100% reserch point with Research Lab.\
+")
+
+
+[building_Russian_Orthodox_Church]
+name		= _("Russian Orthodox Church")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "University", "Player"
+      "Nation", "Russian", "Player"
+    }
+graphic	= "f.russia"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Land class units gets +1 move bonus and +4 hitpoints recover.\
+\n\
+ You can build the Great General of the Army\
+ which is powerful Cavalry with IgTer, and 6 Land units carrier.\
+"),_("
+The Russian Orthodox Church (ROC) alternatively legally known as the Moscow\
+ Patriarchate, also known in English as the Orthodox Christian Church\
+ of Russia, is one of the autocephalous Eastern Orthodox churches,\
+ in communion with other Eastern Orthodox churches. The Primate of the ROC is\
+ the Patriarch of Moscow. The ROC officially ranks fifth - right under\
+ the ancient Greek Patriarchates of: Constantinople, Alexandria, Antioch,\
+ and Jerusalem.\
+\n\n\
+http://en.wikipedia.org/wiki/Russian_Orthodox_Church\
+")
+
+
+
+[building_The_Kremlin]
+name		= _("The Kremlin")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Espionage", "Player"
+      "Nation", "Russian", "Player"
+    }
+graphic	= "f.russia"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+All units gets +50% defence bouns against Land class units in any tile. \
+\n\
+You can build the KGB Agent which is Spy with SuperSpy and stelth flag.\
+\n\
+Divulge the secret information of each country.\
+"),_("
+The Moscow Kremlin is a historic fortified complex at the heart of Moscow,\
+ overlooking the Moskva River to the south, Saint Basil's Cathedral and\
+ Red Square to the east, and the Alexander Garden to the west.\
+ It is the best known of kremlins (Russian citadels) and includes\
+ five palaces, four cathedrals, and the enclosing Kremlin Wall with\
+ Kremlin towers. The complex serves as the official residence of\
+ the President of the Russian Federation.\
+\n\n\
+http://en.wikipedia.org/wiki/Moscow_Kremlin\
+")
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Spanish
+
+
+
+
+
+[building_Dock]
+name		= _("Dock")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Seafaring", "Player"
+      "Building", "Harbour", "City"
+      "Nation", "Spanish", "Player"
+    }
+graphic	= "f.spain"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 40
+upkeep		= 1
+sabotage	= 100
+sound		= ""
+sound_alt	= "b_generic"
+helptext	= _("\
+Add +5 trades in city center tile.\
+")
+
+
+[building_Conquistador]
+name		= _("Conquistador")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Magnetism", "Player"
+      "TerrainClass", "Oceanic", "Adjacent"
+      "Nation", "Spanish", "Player"
+    }
+graphic	= "f.spain"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 500
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Sea/Trireme class units gets +2 additional movement points.\
+\n\
+Sea/Trireme class units gets veteran_combat=50 and +4 HP recover.\
+\n\
+You'll get some money depending on city size if you conquest the city.\
+\n\
+Can build the Great General of the Navy which is powerful Marines.\
+"),_("
+Conquistadors were soldiers, explorers, and adventurers at the service of\
+ the Portuguese Empire and the Spanish Empire. They sailed beyond Europe,\
+ conquering territory and opening trade routes. They colonized much of\
+ the world for Portugal and Spain in the 15th, 16th, and 17th centuries.\
+\n\n\
+http://en.wikipedia.org/wiki/Conquistador\
+")
+
+
+
+[building_Alhambra]
+name		= _("Alhambra")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Banking", "Player"
+      "Nation", "Spanish", "Player"
+    }
+graphic	= "f.spain"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 400
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+Each cities gets +5 golds.\
+"),_("
+The Alhambra, the complete form of which was Calat Alhambra, is a palace\
+ and fortress complex located in Granada, Andalusia, Spain.\
+ It was originally constructed as a small fortress in 889 and then largely\
+ ignored until its ruins were renovated and rebuilt in the mid-11th century\
+ by the Moorish king Mohammed ben Al-Ahmar of the Kingdom of Granada,\
+ who built its current palace and walls. It was converted into a royal palace\
+ in 1333 by Yusuf I, Sultan of Granada.\
+\n\
+The Alhambra is a UNESCO World Heritage Site and the inspiration\
+ for many songs and stories.\
+\n\n\
+http://en.wikipedia.org/wiki/Alhambra\
+")
+
+
+[building_Sagrada_Familia]
+name		= _("Sagrada Familia")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Theology", "Player"
+      "Nation", "Spanish", "Player"
+    }
+graphic	= "f.spain"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 9999
+upkeep		= 0
+sabotage	= 0
+sound		= ""
+sound_alt	= "w_generic"
+helptext	= _("\
+AI players loves you because you spend a large amount of cost. (AI_Love = 50)\
+\n\
+Spanish will win the game if they don't lost their city at all in 5 turns.\
+"),_("
+The Basilica i Temple Expiatori de la Sagrada Familia is a large Roman\
+ Catholic church in Barcelona, Spain, designed by Catalan architect\
+ Antoni Gaudi (1852-1926). Although incomplete, the church is a UNESCO\
+ World Heritage Site, and in November 2010 Pope Benedict XVI consecrated\
+ and proclaimed it a minor basilica, as distinct from a cathedral\
+ which must be the seat of a bishop.\
+\n\n\
+http://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia\
+")
+
+
+
+

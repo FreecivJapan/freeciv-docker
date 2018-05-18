@@ -1,0 +1,580 @@
+
+; 交易の汚職
+
+[effect_corruption_Feudalism0]
+type    = "Output_Waste"
+value   = 15
+reqs    =
+    { "type", "name", "range"
+      "Gov", "Feudalism", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+[effect_corruption_Feudalism1]
+type    = "Output_Waste_By_Distance"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Gov", "Feudalism", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+[effect_corruption_National_Mobilization_Law0]
+type    = "Output_Waste"
+value   = 20
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+
+; 距離による交易の汚職
+
+[effect_corruption_City-state]
+type    = "Output_Waste_By_Distance"
+value   = 20
+reqs    =
+    { "type", "name", "range"
+      "Gov", "City-state", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+
+; ユニット維持コスト
+
+[effect_High-Technology_State_unit_upkeep]
+type    = "Upkeep_Factor"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Gov", "High-Technology State", "Player"
+      "OutputType", "Food", "Local"
+    }
+
+[effect_National_Mobilization_Law_unit_upkeep]
+type    = "Upkeep_Factor"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+      "OutputType", "Food", "Local"
+    }
+
+
+; ユニット維持の無料
+
+[effect_upkeep_free_units_Feudalism]
+type    = "Unit_Upkeep_Free_Per_City"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Gov", "Feudalism", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+[effect_upkeep_free_units_National_Mobilization_Law]
+type    = "Unit_Upkeep_Free_Per_City"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+[effect_upkeep_free_units_City-state]
+type    = "Unit_Upkeep_Free_Per_City"
+value   = 3
+reqs    =
+    { "type", "name", "range"
+      "Gov", "City-state", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+
+; 国外の軍ユニットによる不幸
+
+[effect_High-Technology_State_unit_unhappiness]
+type    = "Unhappy_Factor"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Gov", "High-Technology State", "Player"
+    }
+
+[effect_National_Mobilization_Law_unit_unhappiness]
+type    = "Unhappy_Factor"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+    }
+
+
+; 都市ごとに軍ユニット不幸を無料で中和
+
+[effect_National_Mobilization_Law_Make_Content_Mil]
+type    = "Make_Content_Mil"
+value   = 2
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+    }
+
+
+; 内戦確率
+
+[effect_civil_war_Feudalism]
+type    = "Civil_War_Chance"
+value   = 70
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism",  "Player"
+    }
+
+[effect_civil_war_High-Technology_State]
+type    = "Civil_War_Chance"
+value   = 80
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State",  "Player"
+    }
+
+[effect_civil_war_National_Mobilization_Law]
+type    = "Civil_War_Chance"
+value   = 80
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law",  "Player"
+    }
+
+[effect_civil_war_City-state]
+type    = "Civil_War_Chance"
+value   = 70
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "City-state",  "Player"
+    }
+
+
+; 最初の不幸な市民が出現する大きさ
+
+[effect_empire_size_base_Feudalism]
+type    = "Empire_Size_Base"
+value   = 11
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism",  "Player"
+    }
+
+[effect_empire_size_base_High-Technology_State]
+type    = "Empire_Size_Base"
+value   = 14
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State",  "Player"
+    }
+
+[effect_empire_size_base_National_Mobilization_Law]
+type    = "Empire_Size_Base"
+value   = 14
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law",  "Player"
+    }
+
+[effect_empire_size_base_City-state]
+type    = "Empire_Size_Base"
+value   = 3
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "City-state",  "Player"
+    }
+
+
+
+; 次の不幸な市民が出現する大きさ
+
+[effect_empire_size_step_Feudalism]
+type    = "Empire_Size_Step"
+value   = 12
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism", "Player"
+    }
+
+[effect_empire_size_step_High-Technology_State]
+type    = "Empire_Size_Step"
+value   = 8
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+    }
+
+[effect_empire_size_step_National_Mobilization_Law]
+type    = "Empire_Size_Step"
+value   = 8
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law", "Player"
+    }
+
+[effect_empire_size_step_City-state]
+type    = "Empire_Size_Step"
+value   = 2
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "City-state", "Player"
+    }
+
+
+; 税率の最大値
+
+[effect_max_rates_Feudalism]
+type    = "Max_Rates"
+value   = 70
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism",  "Player"
+    }
+
+[effect_max_rates_High-Technology_State]
+type    = "Max_Rates"
+value   = 100
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+    }
+
+[effect_max_rates_National_Mobilization_Law]
+type    = "Max_Rates"
+value   = 100
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law", "Player"
+    }
+
+[effect_max_rates_City-state]
+type    = "Max_Rates"
+value   = 70
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "City-state",  "Player"
+    }
+
+
+
+; 厳戒令の効果
+
+[effect_martial_law_each_Feudalism]
+type    = "Martial_Law_Each"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism",  "Player"
+    }
+
+[effect_martial_law_each_National_Mobilization_Law]
+type    = "Martial_Law_Each"
+value   = 2
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law",  "Player"
+    }
+
+[effect_martial_law_each_City-state]
+type    = "Martial_Law_Each"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "City-state",  "Player"
+    }
+
+
+; 厳戒令の最大値
+
+[effect_martial_law_max_Feudalism]
+type    = "Martial_Law_Max"
+value   = 3
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism",  "Player"
+    }
+
+[effect_martial_law_max_National_Mobilization_Law]
+type    = "Martial_Law_Max"
+value   = 3
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law",  "Player"
+    }
+
+[effect_martial_law_max_City-state]
+type    = "Martial_Law_Max"
+value   = 3
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "City-state",  "Player"
+    }
+
+
+; 祝典成長が可能
+
+
+
+; 買収不可能
+
+[effect_democracy_High-Technology_State_0]
+type    = "Unbribable_Units"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+    }
+
+[effect_democracy_High-Technology_State_1]
+type    = "No_Incite"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+    }
+
+
+; 祝典によるタイルの増加効果
+
+[effect_gov_tile_bonus_celebrate_High-Technology_State]
+type    = "Output_Inc_Tile_Celebrate"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "OutputType", "Trade", "Local"
+      "Gov", "High-Technology State", "Player"
+    }
+
+[effect_gov_tile_bonus_celebrate_National_Mobilization_Law]
+type    = "Output_Inc_Tile_Celebrate"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "OutputType", "Trade", "Local"
+      "Gov", "National Mobilization Law", "Player"
+    }
+
+[effect_gov_tile_bonus_celebrate_City-state]
+type    = "Output_Inc_Tile_Celebrate"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "OutputType", "Trade", "Local"
+      "Gov", "City-state", "Player"
+    }
+
+
+; 通常時タイルの交易+1ポイント付与
+
+[effect_gov_tile_bonus_Feudalism]
+type    = "Output_Inc_Tile"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "Feudalism", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+[effect_gov_tile_bonus_High-Technology_State]
+type    = "Output_Inc_Tile"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+[effect_gov_tile_bonus_National_Mobilization_Law]
+type    = "Output_Inc_Tile"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law", "Player"
+      "OutputType", "Trade", "Local"
+    }
+
+
+
+; 混乱が続くと無政府へ
+
+[effect_revolution_High-Technology_State]
+type    = "Revolution_When_Unhappy"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+    }
+
+[effect_revolution_National_Mobilization_Law_State]
+type    = "Revolution_When_Unhappy"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law", "Player"
+    }
+
+
+; 上院の存在
+
+[effect_senate_High-Technology_State]
+type    = "Has_Senate"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State",  "Player"
+    }
+
+
+; パルチザンの蜂起
+
+[effect_partisan_High-Technology_State]
+type    = "Inspire_Partisans"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "High-Technology State", "Player"
+      "Tech", "Communism", "Player"
+      "Tech", "Gunpowder", "Player"
+      "Tech", "Guerilla Warfare", "World"
+    }
+
+[effect_partisan_National_Mobilization_Law]
+type    = "Inspire_Partisans"
+value   = 1
+reqs    =
+    { "type",       "name",      "range"
+      "Gov", "National Mobilization Law", "Player"
+      "Tech", "Communism", "Player"
+      "Tech", "Gunpowder", "Player"
+      "Tech", "Guerilla Warfare", "World"
+    }
+
+
+; 研究速度の修正
+
+[effect_science_High-Technology_State]
+type    = "Output_Bonus_2"
+value   = 20
+reqs    =
+    { "type", "name", "range"
+      "Gov", "High-Technology State", "Player"
+      "OutputType", "science", "local"
+    }
+
+[effect_science_National_Mobilization_Law]
+type    = "Output_Bonus_2"
+value   = -50
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+      "OutputType", "science", "local"
+    }
+
+
+; 金収入の修正
+
+[effect_gold_High-Technology_State]
+type    = "Output_Bonus_2"
+value   = -50
+reqs    =
+    { "type", "name", "range"
+      "Gov", "High-Technology State", "Player"
+      "OutputType", "gold", "local"
+    }
+
+[effect_gold_National_Mobilization_Law]
+type    = "Output_Bonus_2"
+value   = 20
+reqs    =
+    { "type", "name", "range"
+      "Gov", "National Mobilization Law", "Player"
+      "OutputType", "gold", "local"
+    }
+
+
+; 国家交易の修正 (都市国家)
+
+[effect_trade_Output_Bonus_City-state]
+type    = "Output_Bonus"
+value   = 100
+reqs    =
+    { "type", "name", "range"
+      "Gov", "City-state", "Player"
+      "OutputType", "trade", "local"
+    }
+
+; 首都出力の修正 (都市国家)
+
+[effect_shield_City-state]
+type    = "Output_Bonus"
+value   = 50
+reqs    =
+    { "type", "name", "range"
+      "Building", "Palace", "City"
+      "Gov", "City-state", "Player"
+      "OutputType", "shield", "local"
+    }
+
+[effect_trade_City-state]
+type    = "Output_Bonus"
+value   = 100
+reqs    =
+    { "type", "name", "range"
+      "Building", "Palace", "City"
+      "Gov", "City-state", "Player"
+      "OutputType", "trade", "local"
+    }
+
+[effect_gold_City-state]
+type    = "Output_Bonus"
+value   = 100
+reqs    =
+    { "type", "name", "range"
+      "Building", "Palace", "City"
+      "Gov", "City-state", "Player"
+      "OutputType", "gold", "local"
+    }
+
+
+; 科学の維持コスト免除
+
+[effect_tech_upkeep_free_City-state]
+type    = "Tech_Upkeep_Free"
+value   = 100
+reqs    =
+    { "type", "name", "range"
+      "Gov", "City-state", "Player"
+    }
+
+
+; ベテラン作成
+
+[effect_veteran_build_City-state]
+type    = "Veteran_Build"
+value   = 1
+reqs    =
+    { "type", "name", "range"
+      "Gov", "City-state", "Player"
+    }
+
+
+; 都市内防衛ボーナス
+
+[effect_Defend_Bonus_City-state]
+type    = "Defend_Bonus"
+value   = 100
+reqs    =
+    { "type", "name", "range"
+      "Gov", "City-state", "Player"
+      "CityTile", "Center", "Local"
+    }
+
+
+

@@ -1,0 +1,23 @@
+# Server commands to use classic Freeciv rules
+#
+
+rulesetdir teiki
+set mapsize PLAYER
+set tilesperplayer 34
+set topology WRAPX|ISO
+set generator ISLAND
+set startpos VARIABLE
+set tinyisles disabled
+set separatepoles enabled
+set alltemperate disabled
+set temperature 50
+set landmass 30
+set steepness 0
+set wetness 50
+set globalwarming disabled
+set nuclearwinter disabled
+set specials 370
+set huts 0
+set sciencebox 210
+
+# changed game settings are defined in game.ruleset

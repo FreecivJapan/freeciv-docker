@@ -1,0 +1,31 @@
+# Server commands to make default Freeciv rules
+#
+# You don't need this when starting the server but it can be used to restore
+# rules after they've been changed.
+#
+
+rulesetdir empires
+
+# changed game settings are defined in game.ruleset
+
+set aifill "6"
+set alltemperate "DISABLED"
+set generator "ISLAND"
+set globalwarming "DISABLED"
+set huts "0"
+set landmass "30"
+set mapsize "XYSIZE"
+set nuclearwinter "ENABLED"
+set sciencebox "200"
+set scorefile "freeciv-score.log"
+set scorelog "ENABLED"
+set specials "290"
+set startpos "VARIABLE"
+set startunits "ccwwx"
+set steepness 2
+set topology "WRAPX|ISO"
+set trademindist "5"
+set xsize "30"
+set ysize "30"
+set revolen 5
+Cheating
