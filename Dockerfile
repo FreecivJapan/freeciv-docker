@@ -27,5 +27,6 @@ USER freeciv
 
 # execute
 EXPOSE 5556
+WORKDIR /home/freeciv/
 ENTRYPOINT ["/usr/local/bin/freeciv-server"]
 CMD ["-m", "-i", "fomalhaut-freeciv.jp", "-q", "1000", "-r", "/home/freeciv/start-command.serv", "-k"] 
