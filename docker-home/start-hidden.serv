@@ -1,0 +1,6 @@
+/set scorelog enabled
+/set autosaves "INTERRUPT"
+/metamessage これは日本語サーバです。
+
+/cmdlevel admin
+/cmdlevel admin new 
