@@ -7,6 +7,9 @@ mapview_unknown = {"r", "g", "b"
 mapview_citytext = {"r", "g", "b"
     255, 255, 255
 }
+mapview_citytext_dark = {"r", "g", "b"
+    0,     0,   0
+}
 mapview_cityblocked = {"r", "g", "b"
     255,   0,   0
 }
@@ -72,6 +75,10 @@ overview_ocean = {"r", "g", "b"
 overview_ground = {"r", "g", "b"
     0,   200,   0
 }
+overview_frozen = {"r", "g", "b"
+; Generic frozen/polar terrain, not specifically Glacier/Arctic
+  192,   192, 192
+}
 overview_viewrect = {"r", "g", "b"
     255, 255, 255
 }
@@ -96,7 +103,7 @@ reqtree_goal_unknown = {"r", "g", "b"
     85,  120, 180
 }
 reqtree_unreachable = {"r", "g", "b"
-    220, 175, 135
+    220, 145, 105
 }
 reqtree_not_gettable = {"r", "g", "b"
     245, 175, 135

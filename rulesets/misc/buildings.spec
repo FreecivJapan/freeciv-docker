@@ -1,7 +1,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -10,6 +10,9 @@ artists = "
     Frederic Rodrigo <f.rodrigo@tuxfamily.org>
     Dusan Hukuv <dusan@mirc.cz>
     Eleazar / J. W. Bjerk <www.jwbjerk.com>
+    (WT-en) SONORAMA at English Wikivoyage (Own work) [Public domain],
+      via Wikimedia Commons:
+      https://commons.wikimedia.org/wiki/File:Tibet_Potala_Palace.JPG
 "
 
 [file]
@@ -109,4 +112,5 @@ tiles = { "row", "column", "tag"
   9,  1, "b.temple_of_artemis"
   9,  2, "b.mausoleum"
   9,  3, "b.internet"
+  9,  4, "b.ecclesiastical_palace"
 }

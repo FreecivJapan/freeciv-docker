@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -10,6 +10,7 @@ artists = "
     Tatu Rissanen <tatu.rissanen@hut.fi>
     Jerzy Klek <jekl@altavista.net>
     Marco Saupe <msaupe@saale-net.de> (reworked classic, industrial and modern)
+    Jacob Nevins (outpost)
 ; converted to hex:
     Tommy <yobbo3@hotmail.com>
     Eleazar (buoy)
@@ -36,10 +37,13 @@ tiles = { "row", "column", "tag"
  1,  0, "city.disorder"
  1,  1, "base.airbase_mg"
  1,  2, "tx.airbase_full"
- 1,  3, "base.fortress_fg"
- 1,  4, "base.fortress_bg"
+ 1,  3, "base.airstrip_mg"
  1,  5, "base.buoy_mg"
  1,  6, "base.ruins_mg"
+ 3,  8, "base.outpost_fg"
+ 3,  9, "base.outpost_bg"
+ 4,  8, "base.fortress_fg"
+ 4,  9, "base.fortress_bg"
 
 ; default city tiles
  2,  2, "cd.city"
@@ -219,13 +223,15 @@ tiles = { "row", "column", "tag"
   1, 8, "unit.transform"
   1, 9, "unit.sentry"
   1, 10, "unit.goto"
-  1, 11, "unit.mine"
+  1, 11, "unit.plant"
   1, 12, "unit.pollution"
   1, 13, "unit.road"
   1, 14, "unit.irrigate"
   1, 15, "unit.fortifying",
-         "unit.fortress"
-  1, 16, "unit.airbase"
+         "unit.fortress",
+         "unit.outpost"
+  1, 16, "unit.airbase",
+         "unit.airstrip"
   1, 17, "unit.pillage"
   1, 18, "unit.fortified"
   1, 19, "unit.fallout"

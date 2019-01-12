@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -493,6 +493,7 @@ tiles = { "row", "column", "tag"
  16,  3, "tx.oil_mine"
  16,  4, "tx.pollution"
  16,  5, "tx.fallout"
+ 16, 13, "tx.oil_rig"
 
 ; Bases
  16,  6, "base.buoy_mg"
@@ -578,6 +579,13 @@ tiles = { "row", "column", "tag"
   5, 18, "user.attention"	; Variously crosshair/red-square/arrows
   5, 19, "unit.stack"
 
+; Goto path:
+
+  1, 16, "path.step"            ; turn boundary within path
+  2, 16, "path.exhausted_mp"    ; tip of path, no MP left
+  3, 16, "path.normal"          ; tip of path with MP remaining
+  4, 16, "path.waypoint"
+
 ; Unit activity letters:  (note unit icons have just "u.")
 
   6, 17, "unit.auto_attack",
@@ -590,7 +598,7 @@ tiles = { "row", "column", "tag"
   7, 18, "unit.sentry"
   7, 19, "unit.patrol"
 
-  8, 16, "unit.mine"
+  8, 16, "unit.plant"
   8, 17, "unit.irrigate"
   8, 18, "unit.transform"
   8, 19, "unit.pillage"

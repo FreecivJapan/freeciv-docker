@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -32,6 +32,7 @@ artists = "
    Amazon		Ann Barcomb
    Andorra		Patricia Fidi
    Angola		SKopp (Wikimedia Commons)
+   Animals              Jacob Nevins
    Anhalt		J.M. Maalderink
    Anishinaabe		Shandris (Wikimedia Commons)
    Antarctica		Zachary Harden
@@ -602,6 +603,7 @@ sprites =
 		"f.amazon", "flags/amazon"
 		"f.andorra", "flags/andorra"
 		"f.angola", "flags/angola"
+                "f.animals", "flags/animals"
 		"f.anhalt", "flags/anhalt"
 		"f.anishinaabe", "flags/anishinaabe"
 		"f.antarctica", "flags/antarctica"
@@ -1149,3 +1151,5 @@ sprites =
 		"f.zimbabwe", "flags/zimbabwe"
 		"f.zulu", "flags/zulu"
 	}
+
+*include "override/flags.spec"

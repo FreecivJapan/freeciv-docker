@@ -1,6 +1,6 @@
 [spec]
 
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 ; TODO: FIX ARTISTS

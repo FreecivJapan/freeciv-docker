@@ -12,7 +12,19 @@
 
 [datafile]
 description="Civ1-equivalent nations data for Freeciv"
-options="+Freeciv-2.5-ruleset"
+options="+Freeciv-2.6-ruleset"
+
+; This section contains meta information for freeciv-ruledit to recreate the ruleset
+; file in a form wanted. These have no in-game effect whatsoever
+[ruledit]
+
+; Nationlist to add include statement for. If this entry is omitted, all the nations
+; will be saved to nations.ruleset itself.
+;nationlist = ""
+
+; List of nations to embed to main nations.ruleset despite separate nationlist
+; being used for other nations.
+;embedded_nations = ""
 
 [compatibility]
 ; Initial government for all the nations that do not
@@ -23,16 +35,27 @@ default_government = "Despotism"
 ; Default values for the AI traits. These are used if nation specific
 ; value for some trait has not been used. If these default too are
 ; not defined, the ultimate default is 50.
+; <trait>_min and <trait>_max give the range from which the trait value
+; is randomly chosen for a given AI player unless 'traitdistribution'
+; server setting is 'FIXED'
+; <trait>_default is the exaxt trait value used when 'traitdistribution'
+; is 'FIXED'. If <trait>_default has not been given, it`s set to the
+; midpoint between <trait>_min and <trait>_max.
 
 ; Value of trait "expansionist" defines how much AI wants to settle new territory.
-;expansionist = 50
+;expansionist_min = 50
+;expansionist_max = 50
+;expansionist_default = 50
 
 ; Value of trait "trader" defines how much AI wants to establish trade routes.
-;trader = 50
+;trader_min = 50
+;trader_max = 50
+;trader_default = 50
 
 ; Value of trait "aggressive" defines how easily AI declares war.
-;aggressive = 50
-
+;aggressive_min = 50
+;aggressive_max = 50
+;aggressive_default = 50
 
 ; Descriptions of nation sets
 ; These are self-contained subsets of the available nations; one of these
@@ -60,9 +83,12 @@ rule_name="all"
 
 ; Descriptions of nation groups
 ; These are more cosmetic than sets; they affect the "pick nation" dialog,
-; and also affect random nation selection.
+; random nation selection, and possibly ruleset behaviour.
 ; It`s OK to not define any nation groups at all.
-; name 		= name of the group
+; name 		= name of the group (used adjectivally)
+; hidden        = TRUE to not include this group in the "pick nation" dialog
+;                 (for instance if it`s for use in a NationGroup requirement).
+;                 Default FALSE.
 ; match		= How much the AI will try to select a nation in the same
 ;                 group
 
@@ -72,6 +98,10 @@ match=0
 [ngroup_modern]
 name=_("?nationgroup:Modern")
 match=0
+[ngroup_barbarian]
+name=_("?nationgroup:Barbarian")
+match=0
+hidden=true
 
 [nation_american]
 
@@ -95,7 +125,11 @@ ruler_titles = {
 
 flag="usa"
 flag_alt="-"
-city_style="Celtic"
+style = "Celtic"
+
+color.r = 115
+color.g = 255
+color.b = 255
 
 init_techs=""
 init_buildings=""
@@ -188,13 +222,10 @@ translation_domain="freeciv"
 name=_("Aztec")
 plural=_("?plural:Aztecs")
 groups="Ancient"
-; /* TRANS: The fifth letter in "Cortes" should be */
-; /* TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in */
-; /* TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 233. */
 legend=_("The Azteca, a Nahuatl speaking people from the Sonoran desert,\
  seized control of the Toltec-derived civilizations of Central Mexico\
  during the 15th century, reviving the practice of human sacrifice.\
- They were conquered by the Spanish under Cortes in 1521.")
+ They were conquered by the Spanish under Cortés in 1521.")
 
 leaders = {
  "name",                        "sex"
@@ -208,7 +239,11 @@ ruler_titles = {
 
 flag="aztec"
 flag_alt="-"
-city_style="Tropical"
+style = "Tropical"
+
+color.r = 230
+color.g = 230
+color.b = 74
 
 init_techs=""
 init_buildings=""
@@ -305,7 +340,11 @@ ruler_titles =
 
 flag="babylon"
 flag_alt="-"
-city_style="Babylonian"
+style = "Babylonian"
+
+color.r = 115
+color.g = 255
+color.b = 67
 
 init_techs=""
 init_buildings=""
@@ -372,7 +411,11 @@ ruler_titles = {
 
 flag="han"
 flag_alt="-"
-city_style="Asian"
+style = "Asian"
+
+color.r = 90
+color.g = 230
+color.b = 230
 
 init_techs=""
 init_buildings=""
@@ -512,7 +555,11 @@ ruler_titles = {
 
 flag="egypt_ancient"
 flag_alt="-"
-city_style="Babylonian"
+style = "Babylonian"
+
+color.r = 255
+color.g = 255
+color.b = 99
 
 init_techs=""
 init_buildings=""
@@ -589,7 +636,11 @@ ruler_titles = {
 
 flag="england"
 flag_alt="-"
-city_style="European"
+style = "European"
+
+color.r = 230
+color.g = 138
+color.b = 10
 
 init_techs=""
 init_buildings=""
@@ -699,7 +750,11 @@ ruler_titles = {
 
 flag="france_old"
 flag_alt="-"
-city_style="Celtic"
+style = "Celtic"
+
+color.r = 90
+color.g = 42
+color.b = 230
 
 init_techs=""
 init_buildings=""
@@ -822,7 +877,11 @@ ruler_titles = {
 
 flag         = "hre"
 flag_alt     = "-"
-city_style   = "European"
+style        = "European"
+
+color.r = 115
+color.g = 67
+color.b = 255
 
 init_techs = ""
 init_buildings=""
@@ -970,7 +1029,11 @@ ruler_titles = {
 
 flag="greece_ancient"
 flag_alt="-"
-city_style="Classical"
+style = "Classical"
+
+color.r = 255
+color.g = 163
+color.b = 35
 
 init_techs=""
 init_buildings=""
@@ -1120,7 +1183,11 @@ ruler_titles = {
 
 flag="india"
 flag_alt="-"
-city_style="Asian"
+style = "Asian"
+
+color.r = 255
+color.g = 51
+color.b = 255
 
 init_techs=""
 init_buildings=""
@@ -1214,7 +1281,11 @@ ruler_titles = {
 
 flag="mongolia"
 flag_alt="-"
-city_style="Asian"
+style = "Asian"
+
+color.r = 230
+color.g = 26
+color.b = 230
 
 init_techs=""
 init_buildings=""
@@ -1278,7 +1349,11 @@ ruler_titles = {
 
 flag="rome"
 flag_alt="-"
-city_style = "Classical"
+style = "Classical"
+
+color.r = 255
+color.g = 255
+color.b = 255
 
 init_techs=""
 init_buildings=""
@@ -1334,7 +1409,11 @@ ruler_titles = {
 
 flag="kiev"
 flag_alt = "-"
-city_style = "European"
+style = "European"
+
+color.r = 230
+color.g = 230
+color.b = 230
 
 init_techs=""
 init_buildings=""
@@ -1421,7 +1500,11 @@ ruler_titles = {
 
 flag="zulu"
 flag_alt="-"
-city_style="Tropical"
+style = "Tropical"
+
+color.r = 90
+color.g = 230
+color.b = 42
 
 init_techs=""
 init_buildings=""
@@ -1470,6 +1553,7 @@ translation_domain="freeciv"
 
 name=_("Barbarian")
 plural=_("?plural:Barbarians")
+groups="Barbarian"
 legend=_("Since the dawn of civilization, barbarians have been a threat to\
  cultured peoples everywhere.")
 
@@ -1485,7 +1569,11 @@ leaders = {
 
 flag="barbarian"
 flag_alt = "-"
-city_style = "European"
+style = "European"
+
+color.r = 255
+color.g = 67
+color.b = 67
 
 init_techs=""
 init_buildings=""
@@ -1504,6 +1592,7 @@ translation_domain="freeciv"
 
 name=_("Pirate")
 plural=_("?plural:Pirates")
+groups="Barbarian"
 legend=_("As long as honest men have sailed the seas, pirates have been a\
  scourge of them and of all coastal dwelling peoples.")
 
@@ -1520,7 +1609,11 @@ leaders = {
 
 flag="pirate"
 flag_alt = "-"
-city_style = "European"
+style = "European"
+
+color.r = 255
+color.g = 67
+color.b = 67
 
 init_techs=""
 init_buildings=""

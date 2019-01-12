@@ -16,10 +16,10 @@
 
 [datafile]
 description="Unit definitions for the multiplayer ruleset."
-options="+Freeciv-2.5-ruleset"
+options="+Freeciv-2.6-ruleset"
 
 [control]
-; Names for custom unit type flags. There can be up to 16 of these.
+; Names for custom unit type flags. There can be up to 32 of these.
 ; name          = rule name; In some circumstances user may see this
 ;                 as part of some sentences, so try to make it descriptive
 ;                 and sensible.
@@ -31,6 +31,8 @@ flags =
     _("AirAttacker"), _("Very bad at attacking AEGIS.")
     _("Horse"), _("Attack value halved when attacking Pikemen.")
     _("Helicopter"), _("Defends very badly against Fighters.")
+    _("Unbribable")
+    _("HelpWonder")
   }
 
 [veteran_system]
@@ -68,25 +70,23 @@ veteran_move_bonus = 0, 0, 0, 0
 ;
 ; ** Fields **
 ;
-; name          = translatable name as seen by user
-; rule_name     = (optional) name for savegames, rulesets etc; if not
-;                 present, 'name' is used. Since the name used in savegames
-;                 must not change, use this when renaming a unit class after a
-;                 ruleset has been released.
-; move_type     = Where unit moves; "Land", "Sea", or "Both".
-;                 This is optional field. If it's not
-;                 given, move type is automatically determined from native
-;                 terrains. You need to set it only if you want to set move
-;                 type "Both" for unit that has no native Land terrains or
-;                 for unit that has no native Oceanic terrains.
-; min_speed     = Minimum speed after damage and effects (whole movement points)
-; hp_loss_pct   = Hitpoints lost each turn if unit not in city or native base
-; non_native_def_pct = Defense power percentage applying when defending on
-;                      non-native terrain (such as ship in harbour)
-; hut_behavior  = What happens to huts when unit enters tile:
-;                 "Normal", "Nothing" or "Frighten"
-; flags         = List of unit class flags (from the following list; you
-;                 cannot add custom unit class flags)
+; name                = translatable name as seen by user
+; rule_name           = (optional) internal name for savegames, rulesets etc;
+;                       if not present, "name" is used for this purpose too.
+;                       Since the name used in savegames must not change, if
+;                       you want to rename an item after a ruleset has been
+;                       released, you should set "rule_name" to the original
+;                       value of "name".
+; min_speed           = Minimum speed after damage and effects (whole movement points)
+; hp_loss_pct         = Hitpoints lost each turn if unit not in city or native base
+; non_native_def_pct  = Defense power percentage applying when defending on
+;                       non-native terrain (such as ship in harbour)
+; hut_behavior        = What happens to huts when unit enters tile:
+;                       "Normal", "Nothing", or "Frighten"
+; flags               = List of unit class flags (from the following list; you
+;                       cannot add custom unit class flags)
+; helptext            = optional help text string; should escape all raw newlines
+;                       so that xgettext parsing works
 ;
 ; ** Unit class Flags **
 ;
@@ -104,7 +104,8 @@ veteran_move_bonus = 0, 0, 0, 0
 ; "CollectRansom" = Unit can collect ransom when killing lone barbarian leader
 ; "ZOC"           = Unit is subject to ZOC rules. Unit type flag "IgZOC" can
 ;                   override this
-; "CanFortify"    = Unit can fortify at land tiles
+; "CanFortify"    = Unit can fortify at land tiles. Unit type flag
+;                   "Cant_Fortify" can override this
 ; "CanPillage"    = Unit can pillage tile infrastructure
 ; "DoesntOccupyTile"  = Even if this kind of enemy unit is on tile, cities can
 ;                       still work that tile
@@ -118,6 +119,7 @@ veteran_move_bonus = 0, 0, 0, 0
 ; "KillCitizen"       = Upon successful attack against a city, unit kills one
 ;                       citizen. The effect "Unit_No_Lose_Pop" and the server
 ;                       setting 'killcitizen' can disable this.
+; "Airliftable"       = Unit may be airlifted
 ;
 ; */ <-- avoid gettext warnings
 
@@ -136,7 +138,7 @@ min_speed     = 1
 hp_loss_pct   = 0
 flags         = "TerrainSpeed", "DamageSlows", "CanOccupyCity", "BuildAnywhere",
                 "CollectRansom", "ZOC", "CanFortify", "CanPillage",
-                "TerrainDefense", "KillCitizen"
+                "TerrainDefense", "KillCitizen", "Airliftable"
 
 [unitclass_sea]
 ; /* TRANS: Unit class: used adjectivally */
@@ -185,15 +187,16 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ; ** Fields **
 ;
 ; name          = translatable name as seen by user
-; rule_name     = (optional) name for savegames, rulesets etc; if not
-;                 present, 'name' is used. Since the name used in savegames
-;                 must not change, use this when renaming a unit after a
-;                 ruleset has been released.
+; rule_name     = (optional) internal name for savegames, rulesets etc; if
+;                 not present, "name" is used for this purpose too. Since
+;                 the name used in savegames must not change, if you want
+;                 to rename an item after a ruleset has been released, you
+;                 should set "rule_name" to the original value of "name".
 ; graphic       = tag specifying preferred graphic
-; graphic_alt	= tag for alternate graphic if preferred graphic is not
-;		  present; especially if preferred graphic is non-standard,
-;		  this should be a standard tag.  Otherwise can use eg "-"
-;		  for no alternate graphic.
+; graphic_alt   = tag for alternate graphic if preferred graphic is not
+;                 present; especially if preferred graphic is non-standard,
+;                 this should be a standard tag.  Otherwise can use eg "-"
+;                 for no alternate graphic.
 ; tech_req      = required advance, names from techs.ruleset, or special:
 ;                 "None" => available from start
 ; impr_req	= required city improvement, names from buildings.ruleset
@@ -232,6 +235,11 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ; bonuses.flag  = flag of the unit that bonus applies against
 ; bonuses.type  = type of the bonus. See below
 ; bonuses.value = value of the bonus. Sum of these is used if multiple apply.
+; bonuses.quiet = don't auto generate help text for this bonus. Use this if
+;                 the bonus is documented in the unit type's help text.
+;                 This is useful when the combination of a unit's bonuses
+;                 becomes complex enough to make the auto generated help
+;                 ugly or inaccurate.
 ; flags         = special flag strings; list of built-in flags described below
 ;                 and/or user flags defined above
 ;
@@ -268,30 +276,31 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ;
 ; ** Flags **
 ;
-; "HelpWonder"	= can help build wonders
-; "TradeRoute"	= can establish trade routes
 ; "IgZOC"       = ignore Zones of Control (ZOC) even if unit class has
 ;                 "ZOC" flag
+; "HasNoZOC"	= unit has no Zone of Control (ZOC), thus any unit can move
+;		  around it freely
 ; "NonMil"	= a non-military unit: no attacks; no martial law; can enter
 ;                 peaceful borders; DoesntOccupyTile
 ; "IgTer"       = use constant move cost defined in igter_cost (terrain.ruleset)
 ;                 rather than terrain/road etc cost, unless terrain cost is
 ;                 less
 ; "OneAttack"	= can only make a single attack, regardless of movement points
-; "IgWall"	= ignore effect of city walls
 ; "FieldUnit"	= cause unhappiness even when not being aggressive
 ; "Marines"	= can attack from non-native tile (from transport or city)
 ; "Partial_Invis" = visible only to adjancent units; does not hide transported
 ;		  units other than missiles
 ; "Settlers"	= can irrigate and build roads
-; "Diplomat"	= can do diplomat actions (see diplchance server option)
-; "Spy"		= can do poison and sabotage, _must_ be "Diplomat" also
+; "Diplomat"	= can defend against diplomat actions (see diplchance
+;                 server option)
+; "Spy"		= enhanced diplomat actions. _Must_ be "Diplomat" also
 ; "Trireme"	= (sea only) cannot leave shoreline
 ; "Nuclear"	= nuke!
 ; "Paratroopers"= can paradrop
 ; "Cities"      = can disband to produce a city (initial population city_size)
 ; "Only_Native_Attack" = cannot attack targets on non-native tiles even if
 ;                 unit class can
+; "Cant_Fortify" =  cannot fortify even if unit class has "CanFortify" flag
 ; "AddToCity"   = can disband to add pop_cost population to a city
 ;                 (see cities.ruleset for limitation of this ability)
 ; "Fanatic"	= can only be built by governments that allow them
@@ -300,7 +309,6 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ;		  the same time; barbarians cannot use this at present
 ; "GameLoss"	= losing one of these units means you lose the game, but it
 ;		  is produced without homecity and upkeep
-; "Unbribable"	= this unit cannot be bribed
 ; "Undisbandable" = this unit cannot be disbanded, will not drown, and will not
 ;		  disband due to lack of shields to upkeep it in homecity;
 ;		  if not given enough food to upkeep it, homecity will shrink 
@@ -331,11 +339,14 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ; "Capturable"  = can be captured by units with "Capturer" flag
 ; "Capturer"    = can capture units with flag "Capturable" instead of
 ;                 fighting them
+; "NewCityGamesOnly" = unit can't be built on scenarios where founding new cities
+;                 is not allowed. Give this flag to units that would make no sense
+;                 to have in a game with such a scenario
 ;
 ; Following flag strings require extra fields:
 ;  "Paratroopers"
 ;   paratroopers_range  = the maximal range the unit can be paradropped to.
-;                         Max range is 255.
+;                         Max range is 65534.
 ;   paratroopers_mr_req = the move rate which is required at least for
 ;                         paradropping (whole movement points)
 ;   paratroopers_mr_sub = the move rate which is subtracted after paradropping
@@ -346,15 +357,13 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ; ** Roles **
 ;
 ; "FirstBuild"	= first to be built when city founded
-; "Explorer"	= initial explorer unit (only one unit can have this flag)
+; "Explorer"	= unit to use for exploring
 ; "Hut"		= can be found in a hut
 ; "HutTech"	= can be found in a hut, but its techs required
 ; "Partisan"	= can be created as a partisan (only one unit can have this 
 ;                 flag), see end of this file for its tech requirements option
 ; "DefendOk"	= AI hint: ok for defending with
 ; "DefendGood"	= AI hint: good for defending with
-; "AttackFast"	= AI hint: quick attacking unit (unused)
-; "AttackStrong"= AI hint: strong attacker (unused)
 ; "Ferryboat"	= AI hint: useful for ferrying
 ; "Barbarian"	       = can be created as land barbarian
 ; "BarbarianTech"      = can be created as land barbarian, if someone has
@@ -367,12 +376,18 @@ flags         = "Unreachable", "DoesntOccupyTile"
 ; "BarbarianSea"       = can be created as a barbarian that disembarks from a barbarian boat
 ; "BarbarianSeaTech"   = can be created as a barbarian that disembarks from a barbarian boat
 ;                        if someone has researched its tech requirements
-; "Cities"	= can disband to produce a city
 ; "Settlers"	= can irrigate and build roads
-; "GameLoss"	= losing one of these units means you lose the game, but it
-;		  is produced without homecity and upkeep
-; "Diplomat"	= can do diplomat actions (see diplchance server option)
 ; "Hunter"      = AI hint: good for hunting other units
+; "CitiesStartUnit"       = Gets granted as 'c' startunit
+; "WorkerStartUnit"       = Gets granted as 'w' startunit
+; "ExplorerStartUnit"     = Gets granted as 'x' startunit
+; "KingStartUnit"         = Gets granted as 'k' startunit
+; "DiplomatStartUnit"     = Gets granted as 's' startunit
+; "FerryStartUnit"        = Gets granted as 'f' startunit
+; "DefendOkStartUnit"     = Gets granted as 'd' startunit
+; "DefendGoodStartUnit"   = Gets granted as 'D' startunit
+; "AttackFastStartUnit"   = Gets granted as 'a' startunit
+; "AttackStrongStartUnit" = Gets granted as 'A' startunit
 ;
 ; */ <-- avoid gettext warnings
 
@@ -401,20 +416,20 @@ uk_happy      = 0
 uk_shield     = 1
 uk_food       = 1
 uk_gold       = 0
-flags         = "Settlers", "NonMil", "AddToCity", "Cities"
+flags         = "Settlers", "NonMil", "HasNoZOC", "AddToCity", "Cities", "Cant_Fortify"
 ; No veteran levels (level name is never displayed)
 veteran_names = _("green")
 veteran_raise_chance = 0
 veteran_work_raise_chance = 0
 veteran_power_fact = 100
 veteran_move_bonus = 0
-roles         = "Cities"
+roles         = "CitiesStartUnit"
 helptext      = _("\
 Settlers are one of the key units in the game, as they are your main\
  means of founding new cities.\
 "), _("\
-Settlers can also perform some of the same terrain alterations as\
- Workers.\
+Settlers can also perform most of the same terrain alterations as\
+ Workers (but cannot build Airbases or Buoys).\
 "), _("\
 Upkeep for Settlers is in food as well as production, and a Settler\
  can die if its supporting city runs out of food. Settlers in a\
@@ -447,40 +462,20 @@ uk_happy      = 0
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "Settlers", "NonMil", "Airbase"
+flags         = "Settlers", "NonMil", "HasNoZOC", "Airbase", "Cant_Fortify"
 ; No veteran levels (level name is never displayed)
 veteran_names = _("green")
 veteran_raise_chance = 0
 veteran_work_raise_chance = 0
 veteran_power_fact = 100
 veteran_move_bonus = 0
-roles         = "Settlers"
+roles         = "Settlers", "WorkerStartUnit"
 helptext      = _("\
-Workers have the ability to improve terrain tiles.\
+Workers have the ability to improve terrain tiles. See the help on \
+Terrain and Terrain Alterations for the effects of their actions.\
 "), _("\
-Building an irrigation system on a suitable tile causes it to \
-produce some extra food each turn. This requires a nearby source of \
-water: an ocean, lake, or river tile, or another tile with an \
-irrigation system, must share an edge (not just a corner) with the \
-target tile. Once irrigated, land remains so even if the water source \
-is removed. When Refrigeration is known, irrigation systems can be \
-upgraded to Farmland by irrigating them a second time; this provides \
-more food to a city if it has a Supermarket.\
-"), _("\
-Building a mine on suitable terrain increases the \
-number of production points produced by that tile. However, it is not \
-possible to have an irrigation system and a mine on the same tile.\
-"), _("\
-On terrain unsuitable for irrigation systems or mines, issuing the \
-\"irrigate\" or \"mine\" order may permanently convert the terrain \
-to another type; this is usually more expensive. For instance, Swamp \
-may be \"irrigated\" to yield Grassland. (Terrain conversion with \
-the \"irrigate\" order does not require a water source.)\
-"), _("\
-Workers can build airbases, which Settlers cannot.\
-"), _("\
-See the help on Terrain and Terrain Alterations for the effects of \
-these actions.\
+Workers can build airbases and buoys, which Settlers cannot. \
+Workers must be on board a ship to build buoys.\
 ")
 
 [unit_engineers]
@@ -508,14 +503,14 @@ uk_happy      = 0
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "Settlers", "NonMil", "Transform", "Airbase"
+flags         = "Settlers", "NonMil", "HasNoZOC", "Transform", "Airbase", "Cant_Fortify"
 ; No veteran levels (level name is never displayed)
 veteran_names = _("green")
 veteran_raise_chance = 0
 veteran_work_raise_chance = 0
 veteran_power_fact = 100
 veteran_move_bonus = 0
-roles         = "Settlers"
+roles         = "Settlers", "WorkerStartUnit"
 helptext      = _("\
 Engineers are similar to Workers, but they work twice as fast and\
  move twice as fast. Engineers may also perform major terrain\
@@ -559,7 +554,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendOk", "FirstBuild"
+roles         = "DefendOk", "DefendOkStartUnit", "FirstBuild"
 helptext      = _("\
 This unit may be built from the start of the game.  It is the\
  weakest offensive unit.\
@@ -591,7 +586,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendGood", "FirstBuild"
+roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild"
 helptext      = _("\
 The Phalanx is armored infantry, suitable for defending your cities.\
 ")
@@ -622,7 +617,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendOk"
+roles         = "DefendOk", "DefendOkStartUnit"
 helptext      = _("\
 Archers fight with bows and arrows and have a good offensive\
  value as well as decent defense.\
@@ -654,7 +649,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendOk", "Hut", "BarbarianBuild", "BarbarianSea"
+roles         = "DefendOk", "DefendOkStartUnit", "Hut", "BarbarianBuild", "BarbarianSea"
 helptext      = _("\
 Legions are heavily armed and well disciplined infantry\
  units with an excellent offensive value.\
@@ -690,11 +685,10 @@ bonuses       =
      "Horse", "DefenseMultiplier", 1
    }
 flags         = ""
-roles         = "DefendGood", "FirstBuild"
+roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild"
 helptext      = _("\
 Equipped with long pikes, Pikemen replaces Phalanx\
- as the preferred city defender. Pikemen get double defense when\
- attacked by mounted units (except Cavalry).\
+ as the preferred city defender.\
 ")
 
 [unit_musketeers]
@@ -723,7 +717,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendGood", "FirstBuild", "HutTech",
+roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild", "HutTech",
                 "BarbarianTech", "BarbarianBuildTech", "BarbarianSeaTech"
 helptext      = _("\
 Musketeers are infantry equipped with early\
@@ -758,7 +752,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Fanatic"
-roles         = "DefendGood"
+roles         = "DefendGood", "DefendGoodStartUnit"
 helptext      = _("\
 Fanatics are warriors extremely devoted to a higher cause.\
 "), _("\
@@ -792,7 +786,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "IgTer", "IgZOC"
-roles         = "DefendGood", "Partisan", "BarbarianTech"
+roles         = "DefendGood", "DefendGoodStartUnit", "Partisan", "BarbarianTech"
 helptext      = _("\
 Partisans are guerilla fighters who are experts\
  at using the terrain to their advantage.\
@@ -832,7 +826,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "IgTer"
-roles         = "DefendGood"
+roles         = "DefendGood", "DefendGoodStartUnit"
 helptext      = _("\
 Alpine Troops are highly mobile units as well as\
  excellent defenders.\
@@ -864,7 +858,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendGood", "FirstBuild"
+roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild"
 helptext      = _("\
 Riflemen are World War-era infantry, very good\
  at defending your cities.\
@@ -896,7 +890,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Marines"
-roles         = "DefendOk", "BarbarianSeaTech"
+roles         = "DefendOk", "DefendOkStartUnit", "BarbarianSeaTech"
 helptext      = _("\
 Marines are infantry who are experts at marine warfare.\
 ")
@@ -927,7 +921,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Paratroopers"
-roles         = "DefendOk"
+roles         = "DefendOk", "DefendOkStartUnit"
 helptext      = _("\
 Paratroopers are experts at airborne attacks. \
 From a friendly city or airbase, Paratroopers who have not expended any \
@@ -966,7 +960,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "DefendGood"
+roles         = "DefendGood", "DefendGoodStartUnit"
 helptext      = _("\
 The Mechanized Infantry has the strongest defensive strength\
  of any land unit, but is only available near the end of the\
@@ -999,7 +993,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Horse"
-roles         = "AttackFast", "Hut", "Barbarian", "Hunter"
+roles         = "AttackFastStartUnit", "Hut", "Barbarian", "Hunter"
 helptext      = _("\
 Horsemen are mounted warriors and an early\
  shock-troop that can penetrate deep into\
@@ -1032,7 +1026,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Horse"
-roles         = "AttackFast", "Hut", "Hunter"
+roles         = "AttackFastStartUnit", "Hut", "Hunter"
 helptext      = _("\
 Chariots are horse-pulled war wagons, stronger\
  but more expensive than horsemen.\
@@ -1064,7 +1058,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Horse"
-roles         = "AttackFast"
+roles         = "AttackFastStartUnit"
 helptext      = _("\
 Elephants are towering animals trained for war that are often used as\
  powerful shock troops, but defend poorly against most other units.\
@@ -1096,7 +1090,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Horse"
-roles         = "AttackFast"
+roles         = "AttackFastStartUnit"
 helptext      = _("\
 Crusaders are highly disciplined mounted\
  warriors driven by a higher cause.\
@@ -1128,7 +1122,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Horse"
-roles         = "AttackFast", "HutTech", "BarbarianTech",
+roles         = "AttackFastStartUnit", "HutTech", "BarbarianTech",
                 "BarbarianBuildTech", "BarbarianSeaTech", "Hunter"
 helptext      = _("\
 Knights are mounted and heavily armored warriors.\
@@ -1160,7 +1154,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "Horse"
-roles         = "AttackFast", "BarbarianBuildTech", "BarbarianSeaTech",
+roles         = "AttackFastStartUnit", "BarbarianBuildTech", "BarbarianSeaTech",
                 "Hunter"
 helptext      = _("\
 Dragoons are mounted warriors carrying early firearms.\
@@ -1192,7 +1186,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "AttackFast", "Hunter"
+roles         = "AttackFastStartUnit", "Hunter"
 helptext      = _("\
 Cavalry are mounted and highly trained soldiers.\
 ")
@@ -1223,7 +1217,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "AttackFast", "Hunter"
+roles         = "AttackFastStartUnit", "Hunter"
 helptext      = _("\
 Armors are motorized war wagons that are faster,\
  stronger, and can take more damage than any\
@@ -1256,7 +1250,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "AttackStrong"
+roles         = "AttackStrongStartUnit"
 helptext      = _("\
 Catapults are large rock-throwing machines of war.\
  They are very strong attackers but equally weak\
@@ -1289,7 +1283,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "AttackStrong", "BarbarianTech", "BarbarianBuildTech"
+roles         = "AttackStrongStartUnit", "BarbarianTech", "BarbarianBuildTech"
 helptext      = _("\
 Cannons are large firearms that can fire heavy\
  projectiles over long distances. They are very\
@@ -1323,7 +1317,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = ""
-roles         = "AttackStrong"
+roles         = "AttackStrongStartUnit"
 helptext      = _("\
 The artillery is an upgraded cannon. It is a very\
  strong attacker but equally weak defender and\
@@ -1355,11 +1349,12 @@ uk_happy      = 1
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "IgWall"
-roles         = "AttackStrong"
+flags         = ""
+roles         = "AttackStrongStartUnit"
 helptext      = _("\
 Howitzers are upgraded artillery with improved\
  defensive as well as offensive capabilities.\
+ They can shoot over city walls, ignoring their effect.\
 ")
 
 [unit_fighter]
@@ -1398,9 +1393,6 @@ roles         = ""
 helptext      = _("\
 Fighters are your first airborne units. They can\
  move anywhere and attack any unit.\
-"), _("\
-Fighters are particularly effective when attacking Helicopters; the\
- Helicopter's defense and firepower are both halved.\
 ")
 
 [unit_bomber]
@@ -1428,7 +1420,7 @@ uk_happy      = 1
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "FieldUnit", "OneAttack", "AirAttacker"
+flags         = "FieldUnit", "OneAttack", "AirAttacker", "HasNoZOC"
 roles         = ""
 helptext      = _("\
 Bombers are specialized airborne units that may\
@@ -1534,7 +1526,8 @@ uk_happy      = 1
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "Partial_Invis", "FieldUnit", "OneAttack", "AirAttacker"
+flags         = "Partial_Invis", "FieldUnit", "OneAttack", "AirAttacker",
+                "HasNoZOC"
 roles         = ""
 helptext      = _("\
 An improved Bomber, with improved attack and a higher movement\
@@ -1569,7 +1562,7 @@ uk_food       = 0
 uk_gold       = 0
 cargo         = "Land"
 flags         = "BadCityDefender"
-roles         = "Ferryboat"
+roles         = "Ferryboat", "FerryStartUnit"
 helptext      = _("\
 The Trireme is your first boat unit. It can act\
  as a transport ship and has rudimentary offensive\
@@ -1603,7 +1596,7 @@ uk_food       = 0
 uk_gold       = 0
 cargo         = "Land"
 flags         = "BadCityDefender"
-roles         = "Ferryboat", "BarbarianBoat"
+roles         = "Ferryboat", "FerryStartUnit", "BarbarianBoat"
 helptext      = _("\
 The Caravel replaces the Trireme and can enter\
  any ocean tile.\
@@ -1636,7 +1629,7 @@ uk_food       = 0
 uk_gold       = 0
 cargo         = "Land"
 flags         = "BadCityDefender"
-roles         = "Ferryboat", "BarbarianBoat"
+roles         = "Ferryboat", "FerryStartUnit", "BarbarianBoat"
 helptext      = _("\
 The Galleon is a pure transport ship and cannot\
  attack other ships, though it may still defend\
@@ -1770,7 +1763,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
 flags         = "BadCityDefender"
-roles         = "DefendGood"
+roles         = "DefendGood", "DefendGoodStartUnit"
 helptext      = _("\
 The Cruiser is a strong offensive boat unit.\
 ")
@@ -1805,11 +1798,10 @@ bonuses       =
      "AirAttacker", "DefenseMultiplier", 4
    }
 flags         = "BadCityDefender"
-roles         = "DefendGood"
+roles         = "DefendGood", "DefendGoodStartUnit"
 helptext      = _("\
 The AEGIS Cruiser is equipped with an advanced\
- defensive missile system, giving it quintuple defense against\
- all (non-nuclear) air attacks.\
+ defensive missile system.\
 ")
 
 [unit_battleship]
@@ -1942,7 +1934,7 @@ uk_food       = 0
 uk_gold       = 0
 cargo         = "Land"
 flags         = "BadCityDefender"
-roles         = "Ferryboat"
+roles         = "Ferryboat", "FerryStartUnit"
 helptext      = _("\
 The Transport cannot attack on its own but\
  may defend itself when under attack.\
@@ -1973,7 +1965,7 @@ uk_happy      = 1
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "FieldUnit", "OneAttack", "AirAttacker"
+flags         = "FieldUnit", "OneAttack", "AirAttacker", "HasNoZOC"
 roles         = ""
 helptext      = _("\
 The Cruise Missile is a long-distance missile\
@@ -2008,7 +2000,7 @@ uk_happy      = 1
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = "FieldUnit", "OneAttack", "Nuclear"
+flags         = "FieldUnit", "OneAttack", "Nuclear", "HasNoZOC"
 ; No veteran levels (level name is never displayed)
 veteran_names = _("green")
 veteran_raise_chance = 0
@@ -2025,10 +2017,8 @@ On impact, the blast will destroy any unit in an area 3 tiles wide\
  Any city within the blast area loses half its population, and\
  land tiles within the blast area are subject to nuclear fallout.\
 "), _("\
-Similar to pollution and global warming, the risk of global nuclear\
- winter increases with fallout. If nuclear winter occurs, terrain\
- across the globe changes into desert, tundra, and ice. Settlers,\
- Workers, and Engineers can clean up nuclear fallout.\
+Nuclear fallout reduces tile output and increases the risk of global\
+ nuclear winter; see the help on Fallout.\
 "), _("\
 TIP 1:  Nuking the ocean will not generate fallout, and is a most\
  effective (but expensive!!) way of getting rid of enemy\
@@ -2067,13 +2057,10 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "Diplomat", "IgZOC", "NonMil"
+flags         = "Diplomat", "IgZOC", "NonMil", "HasNoZOC"
 veteran_names =
 ; /* TRANS: diplomatic rank. */
-; /* TRANS: Unless translated, the last character in "attache" should be */
-; /* TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in your */
-; /* TRANS: charset. In ISO-8859-1 (ISO Latin 1) this is 233. */
-  _("?diplomatic_rank:attache"),
+  _("?diplomatic_rank:attaché"),
 ; /* TRANS: diplomatic rank */
   _("?diplomatic_rank:secretary"),
 ; /* TRANS: diplomatic rank */
@@ -2084,7 +2071,7 @@ veteran_raise_chance = 50, 33, 20, 0
 veteran_work_raise_chance = 0, 0, 0, 0
 veteran_power_fact = 100, 105, 110, 115
 veteran_move_bonus = 0, 0, 0, 0
-roles         = "Diplomat"
+roles         = "DiplomatStartUnit"
 helptext      = _("\
 A Diplomat is an official that carries your dispatches and\
  is authorized to deal with foreign dignitaries. He may\
@@ -2177,7 +2164,7 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "Diplomat", "IgZOC", "NonMil", "Spy"
+flags         = "Diplomat", "IgZOC", "NonMil", "HasNoZOC", "Spy"
 veteran_names =
 ; /* TRANS: Spy veteran level */
   _("?spy_level:informant"),
@@ -2191,7 +2178,7 @@ veteran_raise_chance = 50, 33, 20, 0
 veteran_work_raise_chance = 0, 0, 0, 0
 veteran_power_fact = 100, 105, 110, 115
 veteran_move_bonus = 0, 0, 0, 0
-roles         = "Diplomat"
+roles         = "DiplomatStartUnit"
 helptext      = _("\
 A Spy is more skilled in the arts of espionage than her Diplomat predecessor.\
 "), _("\
@@ -2246,7 +2233,7 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "HelpWonder", "IgZOC", "NonMil"
+flags         = "HelpWonder", "IgZOC", "NonMil", "HasNoZOC"
 roles         = ""
 helptext      = _("\
 A Caravan carries goods or material to help build wonders in your\
@@ -2285,7 +2272,7 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "HelpWonder", "IgZOC", "NonMil"
+flags         = "HelpWonder", "IgZOC", "NonMil", "HasNoZOC"
 roles         = ""
 helptext      = _("\
 The Freight unit replaces the Caravan, and moves at twice the speed.\
@@ -2317,8 +2304,8 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "IgTer", "IgZOC", "NonMil"
-roles         = "Explorer"
+flags         = "IgTer", "IgZOC", "NonMil", "HasNoZOC"
+roles         = "Explorer", "ExplorerStartUnit"
 helptext      = _("\
 Explorers are brave individuals that are very useful for\
  mapping unknown territory.\
@@ -2349,7 +2336,7 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "IgZOC", "NonMil", "NoBuild", "NoHome", "SuperSpy", 
+flags         = "IgZOC", "NonMil", "HasNoZOC", "NoBuild", "NoHome", "SuperSpy", 
                 "Undisbandable", "Unbribable", "GameLoss", "Unique"
 ; No veteran levels (level name is never displayed)
 veteran_names = _("green")
@@ -2357,7 +2344,7 @@ veteran_raise_chance = 0
 veteran_work_raise_chance = 0
 veteran_power_fact = 100
 veteran_move_bonus = 0
-roles         = "GameLoss"
+roles         = "KingStartUnit"
 helptext      = _("\
 This is you. If you lose this unit, you lose the game. So don't.\
 "), _("\
@@ -2389,7 +2376,7 @@ uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-flags         = "IgZOC", "NonMil", "Unbribable",
+flags         = "IgZOC", "NonMil", "HasNoZOC", "Unbribable",
                 "Undisbandable", "SuperSpy", "NoHome", "NoBuild"
 ; No veteran levels (level name is never displayed)
 veteran_names = _("green")
@@ -2431,7 +2418,7 @@ uk_happy      = 1
 uk_shield     = 1
 uk_food       = 0
 uk_gold       = 0
-flags         = ""
+flags         = "HasNoZOC"
 roles         = ""
 helptext      = _("\
 The AWACS (Airborne Warning and Control System) is an airplane with an \

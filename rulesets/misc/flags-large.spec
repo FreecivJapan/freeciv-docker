@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -33,6 +33,7 @@ sprites =
 		"f.amazon", "flags/amazon-large"
 		"f.andorra", "flags/andorra-large"
 		"f.angola", "flags/angola-large"
+                "f.animals", "flags/animals-large"
 		"f.anhalt", "flags/anhalt-large"
 		"f.anishinaabe", "flags/anishinaabe-large"
 		"f.antarctica", "flags/antarctica-large"
@@ -580,3 +581,5 @@ sprites =
 		"f.zimbabwe", "flags/zimbabwe-large"
 		"f.zulu", "flags/zulu-large"
 	}
+
+*include "override/flags-large.spec"

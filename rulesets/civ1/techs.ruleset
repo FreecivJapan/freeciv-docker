@@ -9,7 +9,7 @@
 
 [datafile]
 description="Civ1-style technology data for Freeciv"
-options="+Freeciv-2.5-ruleset"
+options="+Freeciv-2.6-ruleset"
 
 [control]
 ; Names for custom tech flags. There can be up to 8 of these.
@@ -33,22 +33,32 @@ options="+Freeciv-2.5-ruleset"
 ; Notes:
 ;
 ; name          = translatable name as seen by user
-; rule_name     = (optional) name for savegames, rulesets etc; if not
-;                 present, 'name' is used. Since the name used in savegames
-;                 must not change, use this when renaming a tech after a
-;                 ruleset has been released.
-; req1, req2	= advances required before researching this one
-; root_req      = advance required before acquiring this one, inherited
-;                 by all techs that require this tech in turn unless
-;                 "None" is given explicitly
+; rule_name     = (optional) internal name for savegames, rulesets etc; if
+;                 not present, "name" is used for this purpose too. Since
+;                 the name used in savegames must not change, if you want
+;                 to rename an item after a ruleset has been released, you
+;                 should set "rule_name" to the original value of "name".
+; req1, req2    = advances required before researching this one
+; root_req      = tech required before acquiring this tech, by any means.
+;                 All techs with any direct or indirect dependency on this
+;                 one will *also* have this root_req, as well as their own
+;                 and any others they inherit.
+;                 Giving "None" explicitly here prevents a tech from
+;                 inheriting root_reqs in this way, and stops root_req
+;                 inheritance through that tech.
+;                 Specifying a tech's root_req as itself means that the tech
+;                 can only be acquired by special means (nation's init_techs,
+;                 scripting, etc).
 ; flags         = special flag strings (see classic/techs.ruleset)
 ; graphic       = icon for technology
 ; graphic_alt   = alternate icon
-; helptext	= optional help text string (set units ruleset for examples)
-; bonus_message = text seen when a player is the first to 
-;                 discover an bonus tech.
-; cost          = if tech_cost_style is set to 2, this field is read for
-;                 information on how much a tech costs
+; helptext      = optional help text string (set units ruleset for examples)
+; bonus_message = text seen when a player is the first to discover
+;                 an bonus tech. Must contain '%s' to mark place of the tech
+;                 gained.
+; cost          = if tech_cost_style is set to "Classic+" or "Experimental+",
+;                 this field is read for information on how much a tech
+;                 costs.
 ;
 ; Special values for req1 and req2 are "None" (first section below) 
 ; and "Never" (never available).  If only one tech is required, 
@@ -92,9 +102,9 @@ graphic_alt = "-"
 name     = _("Automobile")
 req1     = "Combustion"
 req2     = "Steel"
-flags    = "Population_Pollution_Inc"
 graphic     = "a.automobile"
 graphic_alt = "-"
+helptext = _("Increases the population's contribution to pollution.")
 
 [advance_banking]
 name     = _("Banking")
@@ -295,9 +305,9 @@ graphic_alt = "-"
 name     = _("Industrialization")
 req1     = "Railroad"
 req2     = "Banking"
-flags    = "Population_Pollution_Inc"
 graphic     = "a.industrialization"
 graphic_alt = "-"
+helptext = _("Population will start contributing to pollution.")
 
 [advance_invention]
 name     = _("Invention")
@@ -359,9 +369,9 @@ graphic_alt = "-"
 name     = _("Mass Production")
 req1     = "Automobile"
 req2     = "The Corporation"
-flags    = "Population_Pollution_Inc"
 graphic     = "a.mass_production"
 graphic_alt = "-"
+helptext = _("Increases the population's contribution to pollution.")
 
 [advance_mathematics]
 name     = _("Mathematics")
@@ -450,9 +460,9 @@ graphic_alt = "-"
 name     = _("Plastics")
 req1     = "Refining"
 req2     = "Space Flight"
-flags    = "Population_Pollution_Inc"
 graphic     = "a.plastics"
 graphic_alt = "-"
+helptext = _("Increases the population's contribution to pollution.")
 
 [advance_pottery]
 name     = _("Pottery")

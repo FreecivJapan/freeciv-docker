@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -11,6 +11,7 @@ artists = "
     Jeff Mallatt <jjm@codewell.com> (miscellaneous)
     Tommy <yobbo3@hotmail.com> (hex mode)
     Daniel Markstedt <himasaram@spray.se> (added dithering)
+    GriffonSpade (oil_rig)
 "
 
 [file]
@@ -127,7 +128,8 @@ tiles = { "row", "column","tag"
 
 ; extras
 
-  6, 0, "tx.oil_mine" 
+  6, 0, "tx.oil_mine"
+  6, 10, "tx.oil_rig"
   6, 1, "tx.mine"
   6, 2, "tx.irrigation"
   6, 3, "tx.farmland"
@@ -154,6 +156,12 @@ tiles = { "row", "column","tag"
   8, 4, "tx.darkness_sw"
   8, 5, "tx.darkness_w"
 
+; goto path
+
+  8, 6, "path.step"            ; turn boundary within path
+  8, 7, "path.exhausted_mp"    ; tip of path, no MP left
+  8, 8, "path.normal"          ; tip of path with MP remaining
+  8, 9, "path.waypoint"
 }
 
 [grid_upkeep]

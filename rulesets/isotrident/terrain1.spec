@@ -2,12 +2,13 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
 artists = "
     Tim F. Smith <yoohootim@hotmail.com>
+    GriffonSpade (oil_rig)
 "
 
 [file]
@@ -121,9 +122,10 @@ tiles = { "row", "column","tag"
  12, 8, "road.rail_nw"
 
 ;add-ons
- 2, 7, "tx.oil_mine" 
- 4, 7, "tx.farmland"
+ 2, 7, "tx.oil_mine"
+ 2, 8, "tx.oil_rig"
  3, 7, "tx.irrigation"
+ 4, 7, "tx.farmland"
  5, 7, "tx.mine"
  6, 7, "tx.pollution"
  8, 7, "tx.village"
@@ -148,6 +150,11 @@ tiles = { "row", "column","tag"
   0, 3, "t.blend.coast"
   0, 4, "user.attention"
   0, 5, "tx.fog"
+
+  1, 0, "path.step"            ; turn boundary within path
+  1, 1, "path.exhausted_mp"    ; tip of path, no MP left
+  1, 2, "path.normal"          ; tip of path with MP remaining
+  1, 3, "path.waypoint"
 }
 
 

@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file:
-options = "+Freeciv-2.5-spec"
+options = "+Freeciv-2.6-spec"
 
 [info]
 
@@ -137,5 +137,12 @@ tiles = { "row", "column","tag"
   5,    3, "user.attention"
   5,    4, "tx.fog"
   5,    5, "mask.tile"
+
+; goto-path
+
+  5,    7, "path.step"            ; turn boundary within path
+  5,    8, "path.exhausted_mp"    ; tip of path, no MP left
+  5,    9, "path.normal"          ; tip of path with MP remaining
+  5,   10, "path.waypoint"
 
 }

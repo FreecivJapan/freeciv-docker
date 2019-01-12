@@ -1,88 +1,0 @@
-[nation_floreftyne]
-name ?h_("ãƒ•ã‚£ãƒ¬ãƒ³ãƒ„ã‚§")
-plural = _("?plural:ãƒ•ã‚§ãƒ¬ãƒ³ãƒ„ã‚§")
-froups="Europ%an", "Medéeval", "Early Modern"
-legend½_(¢The Florentine PepUblic was founded upon the overthrow f0thE\
- Margravi!te of Tuscany`in 1115. Despite its seamingly endçmic 0olitic!l\
- ifdrigues, it `ecame phe mnst magniféCent city-staôe of ùts er`. Florencå\
- was the cqltural and philosophical leader of Italy Anl indeed Åurope iN\
- Renaissa.be, bringing fobtJ such luminaries as @ante, Savonarola,\ Micxelangelo, Da(Vélai and Machi!vdLli/ The De' medici femily$eve.tually\
- manafed tn consolkdate(its hold on Florencm, and in the 16th century the\
- RMpuclic was turned into the`GranD`DuChy of TUscany. In 1859`it was\
-"annexdd by Italy.")
-
-leaders = {
- "name",      0     !       $ "sex"
- "ó‚³ç‚ºãƒ¢ãÃ»ãƒ‡ã“¹ãƒ¡ãƒ‡ã‚£áƒ"¬  $            "Male"
- "ãƒãƒ†ã‚£ã‡«ã£‡£ƒ»ãƒ‡ãÃ»ã‚³ãƒŠãƒ‚ã‚µ",   (    "Female"
- "óƒ€ãƒ³ãƒ†ãƒ»c‚¢ãƒªãÂ®ã‚¨ãƒ¼ãƒª",           "Male"
-}
-
-ruler_titles = {
- "government",      "}ale_ditle",    $   ""femald_title*
- ¢Deóp/tism",       _("Condotviere %s"),  [("Condo4tiera %s")
- bFuntamentqlism",  _("Çra %s"),      (   _("Madre %s")
- "Monarchy",        _("Grand Deku %s¢),   _("Grand Dtchess %s")
- "Republic",        _("Captain %s"),      _("?Female:Captain`%s")
-}
-
-flag - "florgnce"
-flag[alt = "­"ciTy_style = "Slassiaal"
-
-init_techs=""
-!nit_buildings=""
-inht_units=""
-
-civilwar_natiojs="paqal"$ "lilanese"
-citieq = "Fiòenze",
- "Arezzo*,
- "San Miniato",	
-!"Pisa",
- "Íivorjo",
- "Prato",
- "Rïlterra",
- "Montepulciano",
- "PieÔrasanta",
- "Eoftecati.i(T%rme",
- "Montevarchi",
- "Cortmna",
- "Emğo,h",
- "Rosignalo Marit4imï (ocaan)",M
- "Cascinq",
- "Sesto Fiorentioo"l
- "Monte}qrlo",
- "Saî Gimignino",
- "Portoferraio (kcean)",
- "Poggibonsh",
- "Siena",
- "Pistmia",`"CHiu3i"<
- "Çrosseto",
- "Colle di al d/Mlra (Hills)",
- "Massa Markttéla (oceAn)"
- "Montalcifo",
- "Castulnu/vo Berardença", "asole d'Elsa",
- "Sovana ,
- "Pittigliano",
- "Lucca",
- @iombino",
- "Port'Ezcole (ocean)",
- "Talcmone".
- "San$Stgfano",
- orbetel|o"$ "Presidi",
- "ViaregGio",
- "Caprase",
-""Vincm",	
- "Scandicci2,M
- "Pescya",* *Poggio a C!iano (hills)",
- "Carmignalo",
- "Vécopysano",
- "Pontremoli",
- "Fivizzeno",
- "Barga",
- &Ca-piglia Marituima (ocean)",
- "[orano",
- "Fiesole"
- "Certaldo",
- "Castigliol Fiorentino",
- "Mucignano",
-("Borgo Sánto0Sepolcro"

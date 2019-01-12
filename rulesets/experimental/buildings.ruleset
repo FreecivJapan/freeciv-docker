@@ -1,4 +1,4 @@
-; This is the experimental ruleset. See doc/README.ruleset_experimental
+; This is the experimental ruleset. See README.experimental
 ; for a detailed description.
 
 ; Modifying this file:
@@ -14,7 +14,7 @@
 
 [datafile]
 description="Experimental buildings data for Freeciv"
-options="+Freeciv-2.5-ruleset"
+options="+Freeciv-2.6-ruleset"
 
 ; /* <-- avoid gettext warnings
 ;
@@ -28,18 +28,18 @@ options="+Freeciv-2.5-ruleset"
 ; Notes:
 ;
 ; name          = translatable name as seen by user
-; rule_name     = (optional) name for savegames, rulesets etc; if not
-;                 present, 'name' is used. Since the name used in savegames
-;                 must not change, use this when renaming a building after a
-;                 ruleset has been released.
+; rule_name     = (optional) internal name for savegames, rulesets etc; if
+;                 not present, "name" is used for this purpose too. Since
+;                 the name used in savegames must not change, if you want
+;                 to rename an item after a ruleset has been released, you
+;                 should set "rule_name" to the original value of "name".
 ; genus	        = genus; one of:
 ;                 "GreatWonder", "SmallWonder", "Improvement", "Special".
 ; reqs		= requirements to build the building (see effects.ruleset
 ;		  and README.effects for help on requirements)
 ; graphic	= icon of improvement (used in city dialog)
 ; graphic_alt	= alternate icon of improvement
-; obsolete_by	= advance which makes building obsolete; special
-;		  value "None" means does not become obsolete
+; obsolete_by	= requirements for the building to become obsolete
 ; build_cost	= production shields required to build
 ; upkeep	= monetary upkeep value
 ; sabotage	= percent chance of diplomat sabotage being successful
@@ -68,14 +68,17 @@ reqs	=
     }
 graphic	= "b.airport"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 3
 sabotage	= 100
 sound		= "b_airport"
 sound_alt	= "b_generic"
 helptext	= _("\
-Allows a city to produce veteran air units (including helicopters). \
+Allows a city to produce veteran air units (including helicopters and\
+ missiles).\
  Also, damaged air units (again, including helicopters) which stay in\
  town for one full turn without moving are completely restored.\
 "), _("\
@@ -94,7 +97,9 @@ reqs	=
     }
 graphic	= "b.aqueduct"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 2
 sabotage	= 100
@@ -120,7 +125,9 @@ reqs	=
     }
 graphic	= "b.bank"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 2
 sabotage	= 100
@@ -141,8 +148,12 @@ reqs	=
     }
 graphic	= "b.barracks_i"
 graphic_alt	= "-"
-obsolete_by	= "Gunpowder"
-replaced_by	= "Barracks II"
+obsolete_by	=
+    { "type", "name", "range"
+      "Tech", "Gunpowder", "Player"
+      "Building", "Barracks II", "City"
+      "Building", "Barracks III", "City"
+    }
 build_cost	= 30
 upkeep		= 1
 sabotage	= 100
@@ -166,8 +177,11 @@ reqs	=
     }
 graphic	= "b.barracks_ii"
 graphic_alt	= "b.barracks_i"
-obsolete_by	= "Mobile Warfare"
-replaced_by	= "Barracks III"
+obsolete_by	=
+    { "type", "name", "range"
+      "Tech", "Mobile Warfare", "Player"
+      "Building", "Barracks III", "City"
+    }
 build_cost	= 30
 upkeep		= 1
 sabotage	= 100
@@ -191,7 +205,9 @@ reqs	=
     }
 graphic	= "b.barracks_iii"
 graphic_alt	= "b.barracks_i"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 30
 upkeep		= 1
 sabotage	= 100
@@ -216,7 +232,9 @@ reqs	=
     }
 graphic	= "b.cathedral"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 3
 sabotage	= 100
@@ -242,7 +260,9 @@ reqs	=
     }
 graphic	= "b.city_walls"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 0
 sabotage	= 50
@@ -266,7 +286,9 @@ reqs	=
     }
 graphic	= "b.coastal_defense"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 1
 sabotage	= 100
@@ -286,7 +308,9 @@ reqs	=
     }
 graphic	= "b.colosseum"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 70
 upkeep		= 4
 sabotage	= 100
@@ -296,7 +320,8 @@ helptext	= _("\
 Entertains the citizens of a city, making 3 unhappy citizens content. \
  (Four after the discovery of Electricity.)  However, it does not\
  affect citizens made unhappy by military activity.\
-")
+"),
+_("Adds 2 points of culture each turn.")
 ; NOTE:
 ; For Civ2 the "Electricity" condition should be "Electronics"
 
@@ -309,7 +334,9 @@ reqs	=
     }
 graphic	= "b.courthouse"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 1
 sabotage	= 100
@@ -334,7 +361,9 @@ reqs	=
     }
 graphic	= "b.factory"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 140
 upkeep		= 4
 sabotage	= 100
@@ -355,7 +384,9 @@ reqs	=
     }
 graphic	= "b.granary"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 40
 upkeep		= 1
 sabotage	= 100
@@ -381,7 +412,9 @@ reqs	=
     }
 graphic	= "b.harbour"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 40
 upkeep		= 1
 sabotage	= 100
@@ -401,7 +434,9 @@ reqs	=
     }
 graphic	= "-"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 3
 sabotage	= 100
@@ -419,11 +454,13 @@ reqs	=
     { "type", "name", "range"
       "Tech", "Electronics", "Player"
       "Building", "Factory", "City"
-      "Road", "River", "Adjacent"
+      "Extra", "River", "Adjacent"
     }
 graphic	= "b.hydro_plant"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 180
 upkeep		= 4
 sabotage	= 100
@@ -457,7 +494,9 @@ reqs	=
     }
 graphic	= "-"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 3
 sabotage	= 100
@@ -481,7 +520,9 @@ reqs	=
     }
 graphic	= "b.library"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 1
 sabotage	= 100
@@ -490,7 +531,8 @@ sound_alt	= "b_generic"
 ; /* xgettext:no-c-format */
 helptext	= _("\
 Increases the science output in a city by 100%.\
-")
+"),
+_("Adds 2 points of culture each turn.")
 
 [building_marketplace]
 name		= _("Marketplace")
@@ -501,7 +543,9 @@ reqs	=
     }
 graphic	= "b.marketplace"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 0
 sabotage	= 100
@@ -521,7 +565,9 @@ reqs	=
     }
 graphic	= "b.mass_transit"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 4
 sabotage	= 100
@@ -546,7 +592,9 @@ reqs	=
     }
 graphic	= "b.mfg_plant"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 220
 upkeep		= 6
 sabotage	= 100
@@ -557,6 +605,9 @@ helptext	= _("\
 Together with a Factory, a Manufacturing Plant increases the shield\
  production in a city by 100%. A Manufacturing Plant on its own\
  increases shield production by 50%.\
+"), _("\
+A Manufacturing Plant also has a small risk of suffering an industrial\
+ accident, which can lead to pollution and reduce the city's population.\
 ")
 
 [building_nuclear_plant]
@@ -569,7 +620,9 @@ reqs	=
     }
 graphic	= "b.nuclear_plant"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 2
 sabotage	= 100
@@ -606,7 +659,9 @@ reqs	=
     }
 graphic	= "b.offshore_platform"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 3
 sabotage	= 100
@@ -627,7 +682,9 @@ reqs	=
     }
 graphic	= "b.palace"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 70
 upkeep		= 0
 sabotage	= 0
@@ -659,7 +716,8 @@ If the capital is in a dangerous location, or a more central capital\
 _("\
 Under Despotism the city containing the palace gains a +75%\
  production bonus, and under Monarchy a +50% production bonus.\
-")
+"),
+_("Adds 2 points of culture each turn.")
 
 [building_police_station]
 name		= _("Police Station")
@@ -670,7 +728,9 @@ reqs	=
     }
 graphic	= "b.police_station"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 50
 upkeep		= 2
 sabotage	= 100
@@ -696,7 +756,9 @@ reqs	=
     }
 graphic	= "b.port_facility"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 60
 upkeep		= 3
 sabotage	= 100
@@ -718,7 +780,9 @@ reqs	=
     }
 graphic	= "b.power_plant"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 130
 upkeep		= 4
 sabotage	= 100
@@ -750,7 +814,9 @@ reqs	=
     }
 graphic	= "b.recycling_center"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 140
 upkeep		= 2
 sabotage	= 100
@@ -772,7 +838,9 @@ reqs	=
     }
 graphic	= "b.research_lab"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 3
 sabotage	= 100
@@ -795,7 +863,9 @@ reqs	=
     }
 graphic	= "b.sam_battery"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 70
 upkeep		= 2
 sabotage	= 100
@@ -815,7 +885,9 @@ reqs	=
     }
 graphic	= "b.sdi_defense"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 140
 upkeep		= 4
 sabotage	= 100
@@ -823,8 +895,8 @@ sound		= "b_sdi_defense"
 sound_alt	= "b_generic"
 helptext	= _("\
 Protects a city and its environs (up to 2 tiles away) from attacks\
- by enemy Nuclear units. A Nuclear unit not owned by you or an ally\
- which attacks a city with SDI Defense, or attacks a unit (or is\
+ by other nations' Nuclear units. A Nuclear unit not owned by you or a\
+ teammate which attacks a city with SDI Defense, or attacks a unit (or is\
  deliberately exploded) within range, is shot down and simply has no effect.\
  Also, doubles defense for units in the city against non-nuclear missiles.\
 ")
@@ -841,7 +913,9 @@ reqs	=
     }
 graphic	= "b.sewer_system"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 2
 sabotage	= 100
@@ -864,7 +938,9 @@ reqs	=
     }
 graphic	= "b.solar_plant"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 320
 upkeep		= 4
 sabotage	= 100
@@ -874,7 +950,8 @@ sound_alt	= "b_generic"
 helptext	= _("\
 Increases the effect of Factory and Mfg. Plant on the shield\
  production of a city, and also greatly reduces the amount of pollution\
- generated by that production.  A Solar Plant in combination with\
+ generated by that production; a Solar Plant leads to less overall\
+ pollution than no plant at all. A Solar Plant in combination with\
  either a Factory or Mfg. Plant gives a 75% production bonus over\
  the level without any of these improvements, while giving pollution\
  only 50% of the equivalent combination with a Power Plant; a\
@@ -896,7 +973,9 @@ reqs	=
     }
 graphic	= "b.space_component"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 160
 upkeep		= 0
 sabotage	= 100
@@ -921,7 +1000,9 @@ reqs	=
     }
 graphic	= "b.space_modules"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 320
 upkeep		= 0
 sabotage	= 100
@@ -955,7 +1036,9 @@ reqs	=
     }
 graphic	= "b.space_structural"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 0
 sabotage	= 100
@@ -980,7 +1063,9 @@ reqs	=
     }
 graphic	= "b.stock_exchange"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 3
 sabotage	= 100
@@ -1003,7 +1088,9 @@ reqs	=
     }
 graphic	= "b.super_highways"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 3
 sabotage	= 100
@@ -1029,7 +1116,9 @@ reqs	=
     }
 graphic	= "b.supermarket"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 80
 upkeep		= 3
 sabotage	= 100
@@ -1051,7 +1140,9 @@ reqs	=
     }
 graphic	= "b.temple"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 30
 upkeep		= 1
 sabotage	= 100
@@ -1076,7 +1167,9 @@ reqs	=
     }
 graphic	= "b.university"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 120
 upkeep		= 3
 sabotage	= 100
@@ -1086,7 +1179,8 @@ sound_alt	= "b_generic"
 helptext	= _("\
 Together with a Library, a University increases the science\
  production of a city by 250%.\
-")
+"),
+_("Adds 1 point of culture each turn.")
 
 [building_apollo_program]
 name		= _("Apollo Program")
@@ -1097,7 +1191,9 @@ reqs	=
     }
 graphic	= "b.apollo_program"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1120,7 +1216,9 @@ reqs	=
     }
 graphic	= "b.asmiths_trading_co"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 400
 upkeep		= 0
 sabotage	= 0
@@ -1140,7 +1238,10 @@ reqs	=
     }
 graphic	= "b.colossus"
 graphic_alt	= "-"
-obsolete_by	= "Flight"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Flight", "World", TRUE
+    }
 build_cost	= 100
 upkeep		= 0
 sabotage	= 0
@@ -1160,7 +1261,9 @@ reqs	=
     }
 graphic	= "b.copernicus_observatory"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 200
 upkeep		= 0
 sabotage	= 0
@@ -1180,7 +1283,9 @@ reqs	=
     }
 graphic	= "b.cure_for_cancer"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1204,7 +1309,9 @@ reqs	=
     }
 graphic	= "b.darwins_voyage"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 300
 upkeep		= 0
 sabotage	= 0
@@ -1225,7 +1332,9 @@ reqs	=
     }
 graphic	= "b.eiffel_tower"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 100
 upkeep		= 0
 sabotage	= 0
@@ -1246,7 +1355,10 @@ reqs	=
     }
 graphic	= "b.great_library"
 graphic_alt	= "-"
-obsolete_by	= "Electricity"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Electricity", "World", TRUE
+    }
 build_cost	= 300
 upkeep		= 0
 sabotage	= 0
@@ -1266,7 +1378,10 @@ reqs	=
     }
 graphic	= "b.great_wall"
 graphic_alt	= "-"
-obsolete_by	= "Metallurgy"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Metallurgy", "World", TRUE
+    }
 build_cost	= 300
 upkeep		= 0
 sabotage	= 0
@@ -1288,7 +1403,10 @@ reqs	=
     }
 graphic	= "b.hanging_gardens"
 graphic_alt	= "-"
-obsolete_by	= "Railroad"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Railroad", "World", TRUE
+    }
 build_cost	= 200
 upkeep		= 0
 sabotage	= 0
@@ -1309,11 +1427,13 @@ genus		= "GreatWonder"
 reqs	=
     { "type", "name", "range"
       "Tech", "Electronics", "Player"
-      "Road", "River", "Adjacent"
+      "Extra", "River", "Adjacent"
     }
 graphic	= "b.hoover_dam"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1333,7 +1453,9 @@ reqs	=
     }
 graphic	= "b.isaac_newtons_college"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 300
 upkeep		= 0
 sabotage	= 0
@@ -1354,7 +1476,9 @@ reqs	=
     }
 graphic	= "b.js_bachs_cathedral"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 400
 upkeep		= 0
 sabotage	= 0
@@ -1374,7 +1498,10 @@ reqs	=
     }
 graphic	= "b.king_richards_crusade"
 graphic_alt	= "-"
-obsolete_by	= "Robotics"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Robotics", "World", TRUE
+    }
 build_cost	= 150
 upkeep		= 0
 sabotage	= 0
@@ -1394,7 +1521,10 @@ reqs	=
     }
 graphic	= "b.leonardos_workshop"
 graphic_alt	= "-"
-obsolete_by	= "Automobile"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Automobile", "World", TRUE
+    }
 build_cost	= 400
 upkeep		= 0
 sabotage	= 0
@@ -1414,7 +1544,10 @@ reqs	=
     }
 graphic	= "b.lighthouse"
 graphic_alt	= "-"
-obsolete_by	= "Magnetism"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Magnetism", "World", TRUE
+    }
 build_cost	= 200
 upkeep		= 0
 sabotage	= 0
@@ -1435,7 +1568,9 @@ reqs	=
     }
 graphic	= "b.magellans_expedition"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 400
 upkeep		= 0
 sabotage	= 0
@@ -1454,7 +1589,9 @@ reqs	=
     }
 graphic	= "b.manhattan_project"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1472,7 +1609,10 @@ reqs	=
     }
 graphic	= "b.marco_polos_embassy"
 graphic_alt	= "-"
-obsolete_by	= "Communism"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Communism", "World", TRUE
+    }
 build_cost	= 200
 upkeep		= 0
 sabotage	= 0
@@ -1491,7 +1631,9 @@ reqs	=
     }
 graphic	= "b.michelangelos_chapel"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 400
 upkeep		= 0
 sabotage	= 0
@@ -1516,7 +1658,10 @@ reqs	=
     }
 graphic	= "b.oracle"
 graphic_alt	= "-"
-obsolete_by	= "Theology"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Theology", "World", TRUE
+    }
 build_cost	= 100
 upkeep		= 0
 sabotage	= 0
@@ -1537,7 +1682,9 @@ reqs	=
     }
 graphic	= "b.pyramids"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 200
 upkeep		= 0
 sabotage	= 0
@@ -1559,7 +1706,9 @@ reqs	=
     }
 graphic	= "b.seti_program"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1580,7 +1729,9 @@ reqs	=
     }
 graphic	= "b.shakespeares_theatre"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 200
 upkeep		= 0
 sabotage	= 0
@@ -1600,7 +1751,9 @@ reqs	=
     }
 graphic	= "b.statue_of_liberty"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 400
 upkeep		= 0
 sabotage	= 0
@@ -1621,7 +1774,10 @@ reqs	=
     }
 graphic	= "b.sun_tzus_war_academy"
 graphic_alt	= "-"
-obsolete_by	= "Mobile Warfare"
+obsolete_by	=
+    { "type", "name", "range", "survives"
+      "Tech", "Mobile Warfare", "World", TRUE
+    }
 build_cost	= 300
 upkeep		= 0
 sabotage	= 0
@@ -1643,7 +1799,9 @@ reqs	=
     }
 graphic	= "b.united_nations"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1670,7 +1828,9 @@ reqs	=
     }
 graphic	= "b.womens_suffrage"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 600
 upkeep		= 0
 sabotage	= 0
@@ -1698,7 +1858,9 @@ reqs	=
     }
 graphic	= "b.capitalization"
 graphic_alt	= "-"
-obsolete_by	= "None"
+obsolete_by	=
+    { "type", "name", "range"
+    }
 build_cost	= 999
 upkeep		= 0
 sabotage	= 0
