@@ -14,11 +14,11 @@ RUN ln -fs /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 RUN yum update -y
 RUN yum install -y wget bzip2 gcc llibcurl libcurl-devel libtool \
 	git gettext autoconf make automake atk pango zlib-devel gtk2-devel
-RUN wget http://files.freeciv.org/stable/freeciv-2.5.11.tar.bz2 && \
-	tar xf freeciv-2.5.11.tar.bz2 && \
-	cd freeciv-2.5.11 && \
+RUN wget http://files.freeciv.org/stable/freeciv-2.6.0.tar.bz2 && \
+	tar xf freeciv-2.6.0.tar.bz2 && \
+	cd freeciv-2.6.0 && \
 	./autogen.sh && make && make install && make clean && \
-	cd ../ && rm -rf freeciv-2.5.11/ freeciv-2.5.11.tar.bz2
+	cd ../ && rm -rf freeciv-2.6.0/ freeciv-2.6.0.tar.bz2
 RUN yum clean all
 
 # add execute user
