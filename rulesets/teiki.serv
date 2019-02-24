@@ -1,0 +1,12 @@
+# Server commands to use classic Freeciv rules
+#
+
+rulesetdir teiki
+
+# changed game settings are defined in game.ruleset
+set mapsize "tilesperplayer"
+set tilesperplayer "42"
+set generator "ISLAND"
+set startpos "VARIABLE"
+set landmass "35"
+set steepness "0"
