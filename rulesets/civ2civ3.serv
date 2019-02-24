@@ -2,3 +2,7 @@
 #
 
 rulesetdir civ2civ3
+
+set scorefile "freeciv-score.log"
+set scorelog "ENABLED"
+set scoreloglevel "ALL"

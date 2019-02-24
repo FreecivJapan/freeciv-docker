@@ -4,3 +4,6 @@
 rulesetdir classic
 
 # changed game settings are defined in game.ruleset
+set scorefile "freeciv-score.log"
+set scorelog "ENABLED"
+set scoreloglevel "ALL"
