@@ -2,8 +2,6 @@
 # 2019/01/09
 
 rulesetdir akasaba
-cmdlevel basic new
-cmdlevel basic first
 Cheating
 metapatches 
 set aifill "8"
@@ -56,9 +54,9 @@ set kicktime "180"
 set killcitizen "ENABLED"
 set killstack "ENABLED"
 set killunhomed "0"
-set landmass "30"
+set landmass "35"
 set mapseed "0"
-set mapsize "XYSIZE"
+set mapsize "tilesperplayer"
 set maxconnectionsperhost "4"
 set maxplayers "150"
 set mgr_distance "0"
@@ -113,7 +111,7 @@ set techlost_donor "0"
 set techlost_recv "0"
 set techpenalty "50"
 set temperature "50"
-set tilesperplayer "100"
+set tilesperplayer "42"
 set timeaddenemymove "0"
 set timeout "45"
 set tinyisles "DISABLED"
