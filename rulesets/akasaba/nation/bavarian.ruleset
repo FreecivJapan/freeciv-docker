@@ -1,0 +1,88 @@
+[nation_bavarian]
+
+name=_("バイエルン")
+plural=_("?plural:バイエルン")
+rule_name=_("Bavarian")
+rule_plural=_("?plural:Bavarians")
+groups="Medieval", "Early Modern", "European"
+legend=_("Bavaria, before national unification in 1870 AD, was one of the\
+ largest of the German kingdoms.") 
+
+leaders = {
+ "name",                "sex"
+ "悪公アルヌルフ",         "Male"
+ "マインハルト",              "Male"
+ "マクシミリアン2世（",          "Male"
+ "アーデルハイド",            "Female"
+ "オットー1世l",      "Male"
+ "ルートヴィヒ3世", "Male"
+ "ホルスト・ゼーホーファー",           "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Fundamentalism",  _("Bishop %s"),       _("Mother Superior %s")
+ "Republic",  _("州首相 %s"), _("?female:州首相 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Despotism",       _("バイエルン大公 %s"), _("バイエルン女公 %s")
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+ "Communism",       _("州首相 %s"), _("州首相 %s")
+}
+
+flag="bavarian"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "franconian", "austrian", "tyrolian", "palatinate"
+
+cities =
+ "München",
+ "Regensburg",
+ "Ingolstadt",
+ "Landshut",
+ "Rosenheim",
+ "Eichstätt",
+ "Passau",
+ "Straubing",
+ "Mühldorf",
+ "Freising",
+ "Deggendorf",
+ "Erding",
+ "Freilassing",
+ "Altötting",
+ "Pfaffenhofen",
+ "Vilshofen",
+ "Plattling",
+ "Traunstein",
+ "Burghausen",
+ "Dingolfing",
+ "Nürnberg",
+ "Augsburg",
+ "Würzburg",
+ "Fürth",
+ "Erlangen",
+ "Bayreuth",
+ "Bamberg",
+ "Aschaffenburg",
+ "Kempten",
+ "Neu-Ulm",
+ "Schweinfurt",
+ "Hof",
+ "Amberg",
+ "Dachau",
+ "Ansbach",
+ "Neumarkt",
+ "Garmisch-Partenkirchen",
+ "Bad Kissingen",
+ "Rothenburg ob der Tauber",
+ "Donauwörth",
+ "Bad Reichenhall",
+ "Marktredwitz",
+ "Füssen",
+ "Berchtesgaden",
+ "Landau an der Isar",
+ "Neustadt an der Aisch"
+

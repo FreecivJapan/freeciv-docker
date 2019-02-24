@@ -1,0 +1,74 @@
+[nation_papuanewguinean]
+
+name=_("パプアニューギニア独立国")
+plural=_("?plural:パプアニューギニア独立国")
+groups="Modern", "Oceanian"
+legend=_("The Papuans are a Melanesian people on the island of New Guinea.")
+
+leaders = {
+ "name",                "sex"
+ "マイケル・ソマレ",      "Male"
+ "ビル・スケート",          "Male"
+}
+
+ruler_titles = {
+ "government",   "male_title",             "female_title"
+ "Republic",     _("首相 %s"), _("?female:首相 %s")
+ "Monarchy",        _("自治政府 %s"), _("自治政府 %s")
+ "Despotism",       _("自治政府 %s"), _("自治政府 %s")
+ "Democracy",       _("首相 %s"), _("首相 %s")
+ "Communism",       _("首相 %s"), _("首相 %s")
+}
+
+flag = "papua_newguinea"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "maori", "indonesian", "micronesian"
+
+cities =
+ "Port Moresby",
+; Provincial capitals.
+ "Lae",
+ "Arawa",
+ "Popondetta",
+ "Madang",
+ "Mendi",
+ "Kimbe",
+ "Goroka",
+ "Wewak",
+ "Daru",
+ "Kavieng",
+ "Alotau",
+ "Vanimo",
+ "Kundiawa",
+ "Lorengau",
+ "Kerema",
+ "Wabag",
+ "Rabaul",
+; More cities in population order
+ "Mount Hagen",
+ "Kokopo",
+ "Bulolo",
+ "Wau",
+ "Kiunga",
+ "Tari",
+ "Kainantu",
+ "Buka",
+ "Ialibu",
+ "Kokoda",
+ "Aitape",
+ "Kieta",
+ "Balimo",
+ "Panguna",
+ "Morehead",
+ "Ambunti",
+ "Samarai",
+ "Angoram",
+ "Porgera",
+ "Namatanai",
+ "Finschhafen",
+ "Kandrian"

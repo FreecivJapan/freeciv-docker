@@ -1,0 +1,68 @@
+[nation_northirish]
+
+name=_("北アイルランド")
+plural=_("?plural:北アイルランド")
+rule_name= _("Northern Ireland")
+rule_plural=_("?plural:Northern Ireland")
+groups="Modern", "European"
+legend=_("Northern Ireland(Irish: Tuaisceart Éireann; Ulster-Scots: Norlin Airlann)。グレートブリテンおよび北アイルランド連合王国のアイルランド島北東部に位置する構成要素の一つである")
+
+leaders = {
+ "name",                "sex"
+ "エリザベス2世",   "Female"
+ "ピーター・ロビンソン",   "Male"
+ "デヴィッド・トリンブル",   "Male"
+ "ジョン・ヒューム",           "Male"
+ "ロバート・エメット",            "Male"
+ "フィアナ・フォイル",   "Male"
+ "ジェリー・アダムス",   "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Democracy",  _("連合王国国王・首相 %s"), _("?female:連合王国女王・首相 %s")
+ "Despotism",       _("アイルランド卿 %s"),            _("?female:アイルランド卿 %s")
+ "Monarchy",        _("アイルランド王 %s"), _("アイルランド女王 %s")
+ "Republic",        _("アイルランド議会 %s"),        _("?female:アイルランド議会 %s")
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Communism",       _("首相 %s"), _("?female:首相 %s")
+}
+
+flag="northirish"
+flag_alt = "united_kingdom"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 10
+trait_expansionist_max = 150
+trait_expansionist_default = 70
+trait_trader_min       = 10
+trait_trader_max       = 200
+trait_trader_default = 100
+trait_aggressive_min   = 10
+trait_aggressive_max   = 150
+trait_aggressive_default = 70
+
+civilwar_nations= "irish","gaelic","english"
+
+cities =
+ "Belfast",
+ "Londonderry",
+ "Armagh",
+ "Lisburn",
+ "Rahn",
+ "Antrim",
+ "Coleraine",
+ "Omagh",
+ "Strabane",
+ "Enniskillen",
+ "Dundonald",
+ "Downpatrick",
+ "Comber",
+ "Band bridge",
+ "Castle Burgh",
+ "Cookstown"
+

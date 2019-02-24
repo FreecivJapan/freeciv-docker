@@ -1,0 +1,77 @@
+[nation_ethiopian]
+
+translation_domain="freeciv"
+
+name=_("エチオピア連邦民主共和国")
+plural=_("?plural:エチオピア連邦民主共和国")
+rule_name=_("Ethiopian")
+rule_plural=_("?plural:Ethiopians")
+groups="African", "Modern", "Core"
+legend=_("Ethiopia is the oldest nation in Africa and the only one to\
+ remain independent during European colonialism.")
+
+leaders = {
+ "name",                "sex"
+ "ソロモン2世",          "Male"
+ "タタディム",          "Male"
+ "ハイレ・セラシエ1世",     "Male"
+ "イヨアス1世",            "Male"
+ "ギルマ・ウォルドギオルギス",              "Male"
+ "ネガソ・ギダダ ",            "Male"
+ "タスファレ・ゲブレ・キダン",        "Male"
+ "イクノ・アムラク",         "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",       "female_title"
+  "Despotism",       _("皇帝 %s"), _("皇帝 %s")
+ "Monarchy",        _("Emperor %s"),    _("Empress %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+  "Communism",       _("軍事評議会議長  %s"), _("軍事評議会議長  %s")
+ "Fundamentalism",  _("Patriarch %s"),  _("Matriarch %s")
+}
+
+flag="ethiopia"
+flag_alt = "italy"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Sudanese", "Somali", "Eritrean"
+
+cities =
+ "Addis Abeba",
+ "Dire Dawa",
+ "Gonder",
+ "Nazret",
+ "Harer",
+ "Mek'ele",
+ "Jima",
+ "Dese",
+ "Bahir Dar (river)",
+ "Jijiga",
+ "Gambela",
+ "Werder",
+ "Moyale",
+ "Dolo Odo",
+ "Weldiya",
+ "Kelem",
+ "Awasa",
+ "Debre Mark'os",
+ "Nek'ernte",
+ "Asosa",
+ "Gore",
+ "Goba",
+ "Asela",
+ "Arba Minch'",
+ "Debre Zevit",
+ "Geladi",
+ "Imi",
+ "Degeh Bur",
+ "Irgalem",
+ "Metu",
+ "Chencha",
+ "Arba Minch"

@@ -1,0 +1,78 @@
+[nation_liechtensteiner]
+
+name=_("リヒテンシュタイン公国")
+plural=_("?plural:Liechtensteiners")
+groups="Early Modern", "Modern", "European"
+legend=_("The Principality of Liechtenstein is a tiny, doubly landlocked\
+ alpine country in Western Europe, bordered by Switzerland to its west\
+ and by Austria to its east. The Principality was formed by the merger\
+ of Vaduz and Schellenberg in 1719.")
+
+leaders = {
+ "name",                "sex"
+ "カール１世",              "Male"
+ "カール・ユーセビアス",       "Male"
+ "ハンス・アダム１世",         "Male"
+ "ヨーゼフ・ヴェンツェル",        "Male"
+ "アントン・フロリアン",       "Male"
+ "ヨーゼフ・ヨハン・アダム",   "Male"
+ "ヨハン・ネポムク・カール", "Male"
+ "フランツ・ヨーゼフ1世",       "Male"
+ "アロイス１世",             "Male"
+ "ヨハン１世",            "Male"
+ "アロイス２世",            "Male"
+ "ヨハン２世",           "Male"
+ "フランツ・ヨーゼフ２世",      "Male"
+ "ハンス・アダム2世",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Monarchy",        _("大公 %s"),          _("大公 %s")
+ "Democracy",       _("首相・大公 %s"),  _("?female:首相・大公 %s")
+ "Fundamentalism",  _("司教 %s"),          _("?female:司教 %s")
+ "Despotism",       _("大公 %s"), _("大公 %s")
+ "Communism",       _("戦時政府・大公 %s"), _("戦時政府・大公 %s")
+ "Republic",        _("議会・大公 %s"), _("議会・大公 %s")
+}
+
+flag="liechtenstein"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with = "haitian" ;similar flag
+civilwar_nations = "austrian", "swiss"
+
+cities =
+ "Vaduz (plains)",
+ "Schellenberg (hills)",
+ "Schaan (plains)",
+ "Triesenberg (mountains)",
+ "Triesen (plains)",
+ "Ruggell (hills)",
+ "Planken",
+ "Balzers (plains)",
+ "Mauren (plains)",
+ "Eschen (plains)",
+ "Gamprin (hills)",
+ "Bendern",
+ "Nendeln",
+ "Schaanwald",
+ "Masescha",
+ "Silum",
+ "Mals",
+ "Gaflei",
+ "Steg",
+ "Malbun",
+ "Ebenholz",
+ "Hinterschellenberg",
+ "Muhleholz",
+ "Rotenboden",
+ "Samina",
+ "Sucka",
+ "Wangerberg",
+ "Sankt Luzisteig",
+ "Gutenberg"

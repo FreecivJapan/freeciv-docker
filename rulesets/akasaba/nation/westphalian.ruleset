@@ -1,0 +1,88 @@
+[nation_westphalian]
+
+name=_("ヴェストファーレン")
+plural=_("?plural:ヴェストファーレン")
+groups="Medieval", "European"
+legend=_("Westphalia, before becoming a Prussian province, was the western\
+ region of the Duchy of Saxony. Today it makes up the northern part of\
+ the largest German federal state, North Rhine-Westphalia.")
+
+leaders = {
+ "name",                        "sex"
+ "ウィドキンド",                    "Male"
+ "リートギャ",                     "Male"
+ "ヘルマン・フォン・ウェルル",            "Male"
+ "G・Ｖ・アルンスベルク",      "Male"
+ "アドルフ・フリードリヒ3世",      "Male"
+ "H・アルデグレーファー",         "Male"
+ "ヤン・ファン・ライデン",              "Male"
+ "F・Ｖ・ヴァルデック",           "Male"
+ "B・Ｖ・ガレン",		"Male"
+ "P・ゾル・リップ",		"Female"
+ "ジェローム・ナポレオン",		"Male"
+ "アネット", "Female"
+ "ハンネローレ・クラフト",		"Male"
+}
+
+flag="westphalia"
+flag_alt = "germany"
+style = "European"
+
+ruler_titles = {
+ "government",     "male_title",            "female_title"
+ "Despotism",      _("伯 %s"),           _("伯 %s")
+ "Fundamentalism", _("司教 %s"),   _("司教 %s")
+ "Monarchy",       _("公 %s"),            _("公 %s")
+ "Republic",       _("市長 %s"),     _("?female:市長 %s") 
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+}
+
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Hanoverian", "Hessian", "Saxon"
+
+cities =
+ "Munster",
+ "Dortmund",
+ "Bochum",
+ "Bielefeld",
+ "Gelsenkirchen",
+ "Hagen", 
+ "Hamm",
+ "Herne",
+ "Paderborn",
+ "Recklinghausen",
+ "Bottrop",
+ "Siegen",
+ "Arnsberg",
+ "Bocholt",
+ "Gutersloh",
+ "Herford",
+ "Iserlohn",
+ "Lippstadt",
+ "Ludenscheid",
+ "Lunen",
+ "Menden",
+ "Minden",
+ "Rheine",
+ "Soest",
+ "Warendorf",
+ "Werl",
+ "Ahaus",
+ "Borken",
+ "Coesfeld",
+ "Steinfurt",
+ "Schwelm",
+ "Meschede",
+ "Olpe",
+ "Unna",
+ "Hoxter",
+ "Lubbecke",
+ "Gronau",
+ "Bad Laasphe",
+ "Tecklenburg",
+ "Castrop-Rauxel",
+ "Gladbeck"

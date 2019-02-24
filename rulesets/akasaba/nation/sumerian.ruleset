@@ -1,0 +1,72 @@
+[nation_sumerian]
+
+translation_domain="freeciv"
+
+name=_("シュメール文明")
+plural=_("?plural:シュメール文明")
+rule_name=_("Sumerian")
+rule_plural=_("?plural:Sumerians")
+groups="Ancient", "Asian", "Core"
+legend=_("Sumer controlled southern Mesopotamia until the rise of\
+ Babylonia. Tablets of Sumerian writing some 5500 years old have been\
+ found, pre-dating every other writing in history.")
+
+leaders = {
+ "name",                "sex"
+ "ジュシュル",              "Male"
+ "ギルガメシュ",           "Male"
+ "ウンダルル",           "Male" ; a.k.a. Ur-Nina
+ "イシュ・イル",       "Male"
+ "シュ・イリシュ",          "Male"
+ "シュルギ",           "Male"
+ "ウトゥ・ヘガル",               "Male"
+ "ウル・ナンム",            "Male"
+}
+
+ruler_titles = {
+ "government", "male_title",    "female_title"
+ "Anarchy",    _("Usurper %s"), _("?female:Usurper %s")
+ "Monarchy",   _("%s Lugal"),   _("?female:%s Lugal")
+ "Communism",  _("%s エンシ"),    _("?female:%s エンシ")
+}
+
+flag = "sumeria"
+flag_alt = "-"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="assyrian", "egyptian", "babylonian"
+
+cities =
+ "Unug", ; Uruk
+ "Eridug", ; Eridu
+ "Urim", ; Ur
+ "Sirpurla", ; Lagash
+ "Nibru", ; Nippur
+ "Umma",
+ "Larsa",
+ "Kish",
+ "Adab",
+ "Hit",
+ "Agade", ; Akkad
+ "Borsippa",
+ "Isin",
+ "Shuruppak",
+ "Ngirsu", ; Girsu
+ "Bad-tibira",
+ "Zimbir", ; Sippar
+ "Gudua", ; Kutha
+ "Dilbat",
+ "Marda", ; Marad
+ "Der",
+ "Kisurra",
+ "Zabala",
+ "Kisiga", ; Kuara
+ "Kes",
+ "Hamazi",
+ "Eshnunna",
+ "Akshak",
+ "Mari",
+ "Kesh"

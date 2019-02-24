@@ -1,0 +1,71 @@
+[nation_saxon]
+
+name=_("ザクセン")
+plural=_("?plural:ザクセン")
+groups="Medieval", "Early Modern", "European"
+legend=_("The Electorate of Saxony was an independent hereditary electorate\
+ of the Holy Roman Empire from 1356-1806.")
+
+leaders = {
+ "name",                        "sex"
+ "ルドルフ1世",                    "Male"
+ "フリードリヒ・アウグスト2世",		"Male"
+ "フリードリヒ・アウグスト1世",          "Male"
+ "スタニスラフ・ティリッヒ",         "Male"
+ "ライナー・ハーゼロフ",        "Male"
+}
+
+ruler_titles = {
+ "government",       "male_title",       "female_title"
+ "Despotism",        _("公 %s"),       _("女公 %s")
+ "Fundamentalism",   _("司教 %s"),     _("?female:司教 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Republic",        _("州首相 %s"), _("州首相 %s")
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+}
+
+flag="saxony"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "sorbian", "hanoverian"
+
+cities =
+  "Wittenberg",
+  "Dresden",
+  "Leipzig",
+  "Chemnitz",
+  "Bautzen",
+  "Gorlitz",
+  "Lobau",
+  "Zittau",
+  "Merseburg",
+  "Konigstein",
+  "Pirna",
+  "Johanngeorgenstadt",
+  "Zwickau",
+  "Freiberg",
+  "Grimma",
+  "Oschatz",
+  "Meisen",
+  "Naumburg",
+  "Torgau",
+  "Lubben",
+  "Guben",
+  "Eilenburg",
+  "Duben",
+  "Schwarzenberg",
+  "Marienberg",
+  "Kamenz",
+  "Annaberg",
+  "Floha",
+  "Dippoldiswalde",
+  "Grosenhain",
+  "Borna",
+  "Dobeln",
+  "Rochlitz",
+  "Auerbach",
+  "Oelsnitz"

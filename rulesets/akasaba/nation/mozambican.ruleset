@@ -1,0 +1,78 @@
+[nation_mozambican]
+
+name = _("モザンビーク共和国")
+plural = _("?plural:モザンビーク")
+groups="African", "Modern"
+legend=_("Mozambique is a country in Southeast Africa. It gained\
+ independence from Portugal in 1975.")
+
+leaders = {
+ "name",                "sex"
+ "ロウレンソ・マルケス",    "Male"
+ "ジョシナ",     "Female"
+ "エドゥアルド・モンドラーネ",    "Male"
+ "サモラ・マシェル",       "Male"
+ "ジョアキン・シサノ",   "Male"
+ "ルイサ・ディオゴ",         "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("ポルトガル人総督 %s"), _("ポルトガル人総督 %s")
+ "Monarchy",        _("ポルトガル人総督 %s"), _("ポルトガル人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Fundamentalism",  _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag = "mozambique"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Swazi", "Tanzanian", "Zulu", "Malawian", "Zimbabwean"
+
+cities =
+ "Maputo",
+ "Matola",
+ "Nampula",
+ "Beira",
+ "Quelimane",
+ "Tete",
+ "Pemba",
+ "Chioio",
+ "Lichinga",
+ "Inhambane",
+ "Xai-Xai",
+ "Ilha de Mocambique (ocean)",
+ "Nacala",
+ "Gurue",
+ "Maxixe",
+ "Cuamba",
+ "Angoche",
+ "Dondo",
+ "Motepuez",
+ "Mocuba",
+ "Chokwe",
+ "Chibuto",
+ "Moatize",
+ "Namialo",
+ "Mutuali",
+ "Mainca",
+ "Gondola",
+ "Mocimboa da Praia",
+ "Catandica",
+ "Manjacaze",
+ "Ulongue",
+ "Monapo",
+ "Macia",
+ "Vilanculos",
+ "Ponta d'Ouro",
+ "Palma"
+

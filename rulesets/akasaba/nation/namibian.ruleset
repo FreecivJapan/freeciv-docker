@@ -1,0 +1,84 @@
+[nation_namibian]
+
+name=_("ナミビア共和国")
+plural=_("?plural:ナミビア")
+groups="African", "Modern"
+
+legend=_("Although European Powers long neglected the desertic\
+ African Southwest, the German Empire established a colony\
+ there in the late nineteenth century. After losing World War I,\
+ the territory became a mandate under the responsibility of the\
+ Union of South Africa. It finally became independent in 1990,\
+ under the name of Namibia.")
+
+leaders = {
+ "name",                "sex"
+ "サム・ヌジョマ",          "Male"
+ "サミュエル・マハレロ",     "Male"
+ "J・モーリンガ",     "Male"
+ "ヒフィケプニェ・ポハンバ",     "Male"
+}
+
+ruler_titles = {
+ "government",  "male_title",         "female_title"
+ "Republic",    _("報道官 %s"),    _("報道官 %s")
+ "Despotism",       _("ドイツ人総督 %s"), _("ドイツ人総督 %s")
+ "Monarchy",        _("ドイツ人総督 %s"), _("ドイツ人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag = "namibia"
+flag_alt = "rwanda"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="south african", "botswanan", "boer"
+
+; Based on http://de.wikipedia.org/wiki/Liste_der_Stadte_in_Namibia
+
+cities =
+
+"Windhoek",
+"Rundu",
+"Walvis Bay (ocean)",
+"Oshakati",
+"Swakopmund",
+"Katima Mulilo",
+"Grootfontein",
+"Okahandja",
+"Otjiwarongo",
+"Rehoboth",
+"Gobabis",
+"Luderitz",
+"Keetmanshoop",
+"Mariental",
+"Khorixas",
+"Omaruru",
+"Tsumeb",
+"Bethanien",
+"Usakos",
+"Ongwediva",
+"Ondangwa",
+"Oranjemund",
+"Otjimbingwe",
+"Karibib",
+"Warmbad",
+"Outjo",
+"Karasburg",
+"Okakarara",
+"Opuwo",
+"Otavi",
+"Arandis",
+"Hentiesbaai (ocean)",
+"Aranos",
+"Eenhana",
+"Outapi",
+"Ongandjera",
+"Okombahe",
+"Oshikango",
+"Maltahohe"
+ 

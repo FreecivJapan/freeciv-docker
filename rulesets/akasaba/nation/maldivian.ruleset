@@ -1,0 +1,80 @@
+[nation_maldivian]
+
+name=_("モルディブ共和国")
+plural=_("?plural:モルディブ共和国")
+groups="Medieval", "Early Modern", "Modern", "Asian"
+legend=_("The Maldives are an archipelago in the Indian Ocean and the\
+ smallest country of Asia. According to tradition, the Maldives became\
+ a united sultanate when the Cholas were expelled in the 12th century.\
+ The islands were a British protectorate from 1887 to 1965. The monarchy\
+ was abolished three years after independence. Today, the Maldives are\
+ above all known as a tourist destination.")
+
+leaders = {
+ "name",                           "sex"
+ "モハメド・ワヒード・ハサン",                       "Female"
+ "ナシル",                        "Male"
+ "ガユーム",                        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",  "female_title"
+ "Fundamentalism", _("Caliph %s"), _("Calipha %s")
+ "Monarchy",       _("Sultan %s"), _("Sultana %s")
+}
+
+flag="maldives"
+flag_alt = "-"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "lankese" ;suvadive
+
+cities =
+ "Male",
+ "Hithadhoo",
+ "Naifaru",
+ "Kulhudhuffushi",
+ "Maafushi",
+ "Gamu",
+ "Thinadhoo",
+ "Kudahuvadhoo",
+ "Fuvahmulah",
+ "Villigili",
+ "Eydhafushi",
+ "Dhiddhoo",
+ "Milandhoo",
+ "Mahibadhoo",
+ "Fonadhoo",
+ "Nilandhoo",
+ "Manadhoo",
+ "Ugoofaaru",
+ "Veymandoo",
+ "Rasdhoo",
+ "Muli",
+ "Felidhoo",
+ "Hinnavaru",
+ "Ihavandhoo",
+ "Feydhoo",
+ "Hoarafushi",
+ "Alifushi",
+ "Maradhoo",
+ "Hulhudhuffaaru",
+ "Meedhoo",
+ "Kaashidhoo",
+ "Maamigili",
+ "Buruni",
+ "Thulhaadhoo",
+ "Velidhoo",
+ "Isdhoo",
+ "Maduvvari",
+ "Nolhivaramu",
+ "Holhudhoo",
+ "Maavah",
+ "Thulusdhoo",
+ "Meedhoo",
+ "Hanimaadhoo",
+ "Fares",
+ "Gadhdhoo"

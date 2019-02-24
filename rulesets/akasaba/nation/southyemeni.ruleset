@@ -1,0 +1,79 @@
+[nation_southyemeni]
+
+name=_("イエメン人民民主共和国")
+plural=_("?plural:イエメン人民民主共和国")
+groups="Asian"
+legend=_("The area around Aden was colonized by the British in 1839.\
+ South Yemen declared independence in 1967 and joined the communist bloc.\
+ It was united with North Yemen in 1990.")
+
+leaders = {
+ "name",                        "sex"
+ "Q・M・アル・シャアビー",   "Male"
+ "M・アリー・ハイサム",        "Male"
+ "サリム・ムバイ・アリ",             "Male"
+ "A・ファタ・イスマイル",         "Male"
+ "アリー・ナシル・ムハンマド",          "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",           "female_title"
+ "Communism",   _("書記長 %s"), _("?female:書記長 %s")
+ "Democracy",      _("首相 %s"), _("?female:首相 %s")
+ "Fundamentalism", _("イマーム %s"),           _("イマーム %s")
+ "Monarchy",       _("イギリス人総督 %s"),         _("イギリス人総督 %s")
+ "Republic",       _("主席 %s"),       _("主席 %s")
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+}
+
+flag="south_yemen"
+flag_alt = "-"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with = "himyarite"
+civilwar_nations = "yemeni"
+
+cities =
+ "'Adan",
+ "Hawatah",
+ "al-Mukalla",
+ "'Ataq",
+ "Zinjibar",
+ "al-Ghaydah",
+ "Ja'ar",
+ "Shibam",
+ "al-Habilayn",
+ "Zarah",
+ "Bayhan al-Qisab",
+ "ash-Shir",
+ "al-Quzah",
+ "Sena",
+ "Bani Bakr",
+ "al-Kawd",
+ "Nisab",
+ "Gayl Bawazir",
+ "Qishn",
+ "Say'un",
+ "al-Waht",
+ "Mudiyah",
+ "al-Hawtah",
+ "ad-Dis as-Sharqiyah",
+ "Sayhut",
+ "Tarim",
+ "Muhim Hurz al-Ujain",
+ "al-Hisn",
+ "Mayfa'ah",
+ "al-Qatn",
+ "al-'Ays",
+ "al-Mahzan",
+ "Azzan",
+ "al-Hami",
+ "Ahwar",
+ "ar-Rawdah",
+ "Hadibu (ocean)",
+ "Batis",
+ "Shuhayr",
+ "Qusay'ir"

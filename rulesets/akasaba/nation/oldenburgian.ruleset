@@ -1,0 +1,85 @@
+[nation_oldenburgian]
+
+name=_("オルデンブルク")
+plural=_("?plural:オルデンブルク")
+groups="Medieval", "Early Modern", "European"
+legend=_("Initially a vassal of the dukes of Saxony, Oldenburg became\
+ a county directly suzerain to the Holy Roman Emperor in the 12th\
+ century. In 1450, when count Christian VI became king Christian I of\
+ Denmark, the country entered into a personal union with Denmark. A second\
+ union with Denmark existed from 1667 to 1773. Oldenburg's dynasty also\
+ ruled Schleswig-Holstein, Russia and Sweden at some point in time.\
+ Oldenburg became a grand duchy in 1815 and a republic in 1918. In 1931\
+ it was the first German state to vote the Nazi Party into power. After\
+ World War II, Oldenburg was merged with Hanover to form the state of\
+ Lower Saxony.")
+leaders = {
+ "name",			"sex"
+ "エジューマー",			"male"
+ "ディートリッヒ",			"male"
+ "クリスチャン6世",		"male"
+ "アントン１世",			"male"
+ "フリードリヒ・アウグスト",		"male"
+ "ペーター1世",	"male"
+ "アウグスト１世",			"male"
+ "キャシリー",			"female"
+ "ペーター2世",			"male"
+}
+
+ruler_titles = {
+ "government",     "male_title",          "female_title"
+ "Despotism",      _("オルデンブルク伯 %s"),         _("オルデンブルク伯 %s")
+ "Fundamentalism", _("司教 %s"),        _("?female:司教 %s")
+ "Monarchy",       _("大公 %s"),    _("大公 %s")
+ "Republic",  _("オルデンブルク公 %s"), _("?female:オルデンブルク公 %s")
+ "Democracy",       _("上級市長 %s"), _("上級市長 %s")
+}
+
+flag="oldenburg"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "schleswig-holsteinian", "hanoverian", "frisian", "palatinate" ;latter because of Birkenfeld
+
+cities =
+ "Oldenburg",
+ "Delmenhorst",
+ "Jever",
+ "Varel",
+ "Eutin",
+ "Birkenfeld",
+ "Rustringen",
+ "Westerstede",
+ "Cloppenburg",
+ "Wildeshausen",
+ "Vechta",
+ "Brake",
+ "Idar-Oberstein",
+ "Schwartau",
+ "Butjadingen",
+ "Elsfleth",
+ "Friesoythe",
+ "Nohfelden",
+ "Kniphausen",
+ "Nordenham",
+ "Apen",
+ "Loningen",
+ "Damme",
+ "Jade",
+ "Scharbeutz",
+ "Herrstein",
+ "Wangerooge (ocean)",
+ "Ahrensbol",
+ "Selbach",
+ "Malente",
+ "Dedesdorf",
+ "Schortens",
+ "Zwischenahn",
+ "Hude",
+ "Berne",
+ "Hooksiel",
+ "Wilhelmshaven"
+

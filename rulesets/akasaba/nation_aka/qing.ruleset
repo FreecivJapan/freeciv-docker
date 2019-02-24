@@ -1,0 +1,167 @@
+[nation_qing]
+
+name=_("大清帝国")
+plural=_("?plural:大清帝国")
+rule_name		= _("Qing")
+rule_plural=_("?plural:Qing")
+groups="Modern", "Asian", "Core"
+legend=_(".")
+
+leaders = {
+ "name",                "sex"
+ "semi",       "Male"
+ "アイシンギョロ・ヌルハチ",       "Male"
+ "アイシンギョロ・ホンタイジ",         "Male"
+ "西大后",       "Female"
+ "順治帝",          "Male"
+ "康熙帝",          "Male"
+ "雍正帝",          "Male"
+ "乾隆帝",          "Male"
+ "嘉慶帝",          "Male"
+ "道光帝",          "Male"
+ "同治帝",          "Male"
+ "光緒帝",          "Male"
+ "宣統帝",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",        _("皇帝 %s"),   _("皇后 %s")
+ "Monarchy",        _("皇帝 %s"),   _("皇后 %s")
+ "Republic",        _("皇帝・首相 %s"),         _("皇后・首相 %s")
+ "Democracy",        _("皇帝・首相 %s"),   _("皇后・首相 %s")
+ "Communism",       _("皇帝・戦時政権 %s"),  _("皇后・戦時政権 %s")
+}
+
+flag="qing"
+flag_alt = "han"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 10
+trait_expansionist_max = 200
+trait_expansionist_default = 100
+trait_trader_min       = 10
+trait_trader_max       = 200
+trait_trader_default = 100
+trait_aggressive_min   = 10
+trait_aggressive_max   = 200
+trait_aggressive_default = 100
+
+civilwar_nations= "taiwanese", "chinese", "manchu", "han"
+
+cities =
+ "北京",
+ "盛京",
+ "上海",
+ "広州",
+ "天津",
+ "南京", 
+ "西安",
+ "トルファン",
+ "カシュガル",
+ "重慶",
+ "海南",
+ "成都",
+ "石家庄", 
+ "共産党領",
+ "鄭州",
+ "武漢",
+ "長沙",
+ "南昌", 
+ "杭州",
+ "福州",
+ "合肥",
+ "貴陽",
+ "蘭州", 
+ "昆明",
+ "西寧",
+ "南寧",
+ "銀川",
+ "瀋陽", 
+ "長春",
+ "哈爾浜",
+ "洛陽",
+ "開封",
+ "青島", 
+ "蘇州",
+ "無錫",
+ "廈門",
+ "海口",
+ "香港", 
+ "大同",
+ "安陽",
+ "商丘",
+ "南洋",
+ "登封", 
+ "邯単",
+ "保定",
+ "承德",
+ "唐山",
+ "張家口", 
+ "養泰",
+ "畄博",
+ "濟寧",
+ "德州",
+ "秦皇島", 
+ "常熟",
+ "高郵",
+ "南通",
+ "鎮江",
+ "連雲港", 
+ "揚州",
+ "徐州",
+ "常州",
+ "温州",
+ "湖州", 
+ "紹興",
+ "嘉興",
+ "寧波",
+ "章州",
+ "泉州", 
+ "汕頭",
+ "佛山",
+ "深川",
+ "珠海",
+ "中山", 
+ "恵州",
+ "潮州",
+ "ガン州",
+ "九江",
+ "景德鎮", 
+ "湛江",
+ "柳州",
+ "北海",
+ "桂林",
+ "宜昌", 
+ "湘潭",
+ "株洲",
+ "邵陽",
+ "株洲",
+ "岳陽", 
+ "綿陽",
+ "自貢",
+ "咸陽",
+ "宝ジ",
+ "个旧", 
+ "天水",
+ "酒泉",
+ "白銀",
+ "敦煌",
+ "嘉峪咲", 
+ "大連",
+ "鞍山",
+ "撫順",
+ "吉林",
+ "牡丹江", 
+ "遼陽",
+ "丹東",
+ "包頭",
+ "黒河", 
+ "蚌埠",
+ "蕪湖",
+ "安慶",
+ "馬鞍山"

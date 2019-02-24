@@ -1,0 +1,147 @@
+[nation_fratei]
+
+name=_("フランス帝国")
+plural=_("?plural:フランス帝国")
+rule_name=_("Empire France")
+rule_plural=_("?plural:Empire France")
+groups="Modern", "Early Modern", "Medieval", "European"
+legend=_("フランス帝国（フランスていこく, Empire francais）と呼ばれたものとしては、フランス史上、フランス第一帝政、フランス第二帝政、フランス植民地帝国の3つが存在した。前2者はフランスにおける政体の1つを指す。後者はフランスの植民地の集合体を指し、本国の政体・王朝に関わりなくこのように呼ばれる。
+.
+")
+
+leaders = {
+ "name",                "sex"
+ "ナポレオン・ボナパルト",  "Male"
+ "ナポレオン2世",         "Male"
+ "ナポレオン3世",            "Male"
+ "ナポレオン4世",           "Male"
+ "ナポレオン5世ヴィクトル",   "Male"
+ "ナポレオン6世ルイ",       "Male"
+ "ナポレオン7世シャルル",              "Male"
+ "ナポレオン8世ジャン・クリストフ",      "Male"
+ "ジェローム・ナポレオン",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("第一統領 %s"),    _("第一統領 %s")
+ "Democracy",       _("フランス国民皇帝 %s"),      _("フランス国民皇帝 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Monarchy",        _("フランス皇帝 %s"), _("フランス皇帝 %s")
+ "Communism",       _("フランス国民皇帝 %s"), _("フランス国民皇帝 %s")
+ "Fundamentalism",  _("Cardinal %s"),     _("Mother Superior %s")
+}
+
+flag="france"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 100
+trait_expansionist_max = 200
+trait_expansionist_default = 150
+trait_trader_min       = 100
+trait_trader_max       = 200
+trait_trader_default = 150
+trait_aggressive_min   = 100
+trait_aggressive_max   = 200
+trait_aggressive_default = 150
+
+
+civilwar_nations = "Kingdom of France", "French"
+
+cities =
+  "Paris",
+  "Lyon",
+  "Marseille (ocean)",
+  "Lille",
+  "Toulouse",
+  "Nice (ocean)",
+  "Bordeaux",
+  "Nantes (ocean)",
+  "Strasbourg",
+  "Toulon (ocean)",
+  "Rennes",
+  "Rouen",
+  "Grenoble (mountains)",
+  "Montpellier",
+  "Metz",
+  "Nancy",
+  "Clermont-Ferrand (!ocean)",
+  "Valenciennes",
+  "Tours",
+  "Caen",
+  "Orleans (!ocean)",
+  "Angers",
+  "Dijon (!ocean)",
+  "Saint-Etienne",
+  "Brest (ocean)",
+  "Le Havre (ocean)",
+  "Le Mans",
+  "Reims (!ocean)",
+  "Avignon",
+  "Mulhouse (!ocean)",
+  "Amiens",
+  "Bethune",
+  "Dunkerque (ocean)",
+  "Perpignan (ocean)",
+  "Limoges (mountains)",
+  "Besancon",
+  "Nimes",
+  "Pau",
+  "Bayonne (ocean)",
+  "Annemasse",
+  "Poitiers",
+  "Annecy",
+  "Lorient (ocean)",
+  "Montbeliard",
+  "Saint-Denis",
+  "Troyes",
+  "Saint-Nazaire (ocean)",
+  "La Rochelle (ocean)",
+  "Valence",
+  "Thionville (ocean)",
+  "Angouleme",
+  "Boulogne-sur-Mer (ocean)",
+  "Chambery",
+  "Chalon-sur-Saone (river)",
+  "Chartres",
+  "Saint-Pierre",
+  "Niort",
+  "Calais (ocean)",
+  "Beziers",
+  "Arras",
+  "Bourges",
+  "Lens",
+  "Saint-Brieuc (ocean)",
+  "Quimper",
+  "Vannes",
+  "Cherbourg (ocean)",
+  "Maubeuge",
+  "Aix-en-Provence (ocean, mountains)",
+  "Blois",
+  "Colmar",
+  "Tarbes",
+  "Compiegne",
+  "Charleville-Mezieres",
+  "Belfort (mountains)",
+  "Roanne",
+  "Forbach",
+  "Saint-Quentin",
+  "Laval",
+  "Bourg-en-Bresse (!ocean)",
+  "Beauvais",
+  "Nevers",
+  "Villeurbanne",
+  "Boulogne",
+; Not in most inhabited cities
+  "Ajaccio (ocean, mountains)",
+  "Pointe-a-Pitre (ocean)",
+  "Cayenne (ocean)",
+  "Fort-de-France (ocean)",
+  "Saint-Denis (ocean)"
+

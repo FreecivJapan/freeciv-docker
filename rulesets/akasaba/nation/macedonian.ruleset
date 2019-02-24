@@ -1,0 +1,93 @@
+[nation_macedonian]
+
+name=_("マケドニア共和国")
+plural=_("?plural:マケドニアン")
+rule_name=_("Macedonian")
+rule_plural=_("?plural:Macedonians")
+groups="Modern", "European"
+legend=_("The Republic of Macedonia is located in the south-central part\
+ of the Balkan peninsula. It declared independence from Yugoslavia in\
+ 1991.")
+
+leaders = {
+ "name",                        "sex"
+ "マルコ・マギャヴイエン",           "Male"
+ "クリスト・マトフ",               "Male"
+ "ダメン・グルエフ",                  "Male"
+ "ニコラ・カレフ",                "Male"
+ "ゴートゼ・チェフ",               "Male"
+ "チェント",      "Male"
+ "ラザー・コリシェフスキ",            "Male"
+ "キロ・ギログラフ",               "Male"
+ "ジョルゲ・イヴァノフ",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Despotism",       _("Voivode %s"),     _("?female:Voivode %s")
+ "Monarchy",        _("評議会議長 %s"), _("評議会議長 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Fundamentalism",  _("Patriarch %s"),   _("Matriarch %s")
+}
+
+flag="macedonia"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="bulgarian", "albanian", "serbian"
+
+; http://de.wikipedia.org/wiki/Liste_der_Städte_in_Mazedonien
+cities =
+ "Skopje", 
+ "Kumanovo",
+ "Bitola",
+ "Prilep",
+ "Tetovo",
+ "Veles",
+ "Ohrid",
+ "Gostivar",
+ "Štip",
+ "Strumica",
+ "Kavadarci",
+ "Struga",
+ "Kočani",
+ "Kičevo",
+ "Lipkovo",
+ "Želino",
+ "Saraj",
+ "Radoviš",
+ "Tearce",
+ "Kriva Palanka",
+ "Gevgelija",
+ "Negotino",
+ "Sveti Nikole",
+ "Studeničani",
+ "Vinica",
+ "Debar",
+ "Negotino-Pološko",
+ "Delčevo",
+ "Resen",
+ "Ilinden",
+ "Brvenica",
+ "Kamenjane",
+ "Bogovinje",
+ "Berovo",
+ "Aračinovo",
+ "Probištip",
+ "Čegrane",
+ "Bosilovo",
+ "Vasilevo",
+ "Zajas",
+ "Valandovo",
+ "Novo Selo",
+ "Kondovo",
+ "Dolneni",
+ "Oslomej",
+ "Kratovo",
+ "Dolna Banjica"

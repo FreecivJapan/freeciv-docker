@@ -1,0 +1,73 @@
+[nation_tibetan]
+
+name=_("チベット")
+plural=_("?plural:チベット")
+rule_name=_("Tibetan")
+rule_plural=_("?plural:Tibetans")
+groups="Medieval", "Early Modern", "Asian"
+legend=_("The Tibetan homeland is sometimes called the \"Roof of the\
+ World\", the highest elevated region in the world. In the 7th century,\
+ Tibet emerged as a formidable empire under the leadership of king Songtsen\
+ Gampo, being recognized by both China and India. This dynasty lasted until\
+ the 11th century, when Tibet was overrun by the Mongols. Centuries later\
+ when Mongol rule had weakened, Lozang Gyatso - born 1617 and the 5th Dalai\
+ Lama - established a buddhist religious state under the control of the\
+ Gelugpa school of Tibetan Buddhism.")
+
+leaders = {
+ "name",                "sex"
+ "ソンツェン・ガンポ",      "Male" ; 7th century king
+ "ティソン・デツェン",     "Male" ; 8th century king
+ "ティツク・デツェン",       "Male" ; 9th century king
+ "ダライ・ラマ5世",       "Male" ; 5th Dalai Lama (1617-1682)
+ "ダライ・ラマ13世",      "Male" ; 13th Dalai Lama (1876-1933)
+ "ダライ・ラマ14世",      "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",           "female_title"
+ "Fundamentalism", _("ダライラマ %s"),     _("?female:ダライラマ %s")
+ "Democracy",      _("指導者 %s"), _("?female:指導者 %s")
+ "Communism",       _("指導者 %s"), _("指導者 %s")
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Republic",        _("指導者 %s"), _("指導者 %s")
+}
+
+flag="tibet"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "mongol", "nepali", "bhutanese"
+
+cities =
+ "Lhasa",
+ "Shigatse",
+ "Gyantse",
+ "Chamdo",
+ "Nagchu",
+ "Nyingchi",
+ "Nedong",
+ "Dartsendo",
+ "Jyekundo",
+ "Golmud",
+ "Barkam",
+ "Gartse",
+ "Lhatse",
+ "Machen",
+ "Pelbar",
+ "Sakya",
+ "Tingri",
+ "Shekar",
+ "Dingri",
+ "Kyirong",
+ "Gartok",
+ "Ruthok",
+ "Tsetang",
+ "Pome",
+ "Derge",
+ "Kandze",
+ "Mili"

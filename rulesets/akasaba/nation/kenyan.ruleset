@@ -1,0 +1,45 @@
+[nation_kenyan]
+
+name = _("ケニア共和国")
+plural = _("?plural:ケニア共和国")
+rule_name = _("Kenyan")
+rule_plural = _("?plural:Kenyans")
+groups="Modern", "African"
+legend=_("Kenya gained independence from Britain in December 1963.")
+
+leaders = {
+ "name",                "sex"
+ "シウンブ",             "Male"
+ "ムミア",               "Male"
+ "マウマウ団",      "Male"
+ "ジョモ・ケニヤッタ",       "Male"
+ "ダニエル・アラップ・モイ",       "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+flag = "kenya"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="ethiopian", "sudanese", "maasai"
+
+cities =
+  "Nairobi", "Mombasa", "Malindi", "Kisumu", "Labu", "Kitale", "Nakuru",
+  "Nyeri", "Lokichoki", "Lodwar", "Moyale", "Ramu", "Marsabi", "Wajir",
+  "Eldoret", "Mado Gashi", "Butere", "Kakamega", "Nanyuki", "Isiolo",
+  "Kericho", "Embu", "Garissa", "Narok", "Thika", "Garsen", "Voi",
+  "Konza", "Machakos", "Magadi", "Kilgoris", "Tsavo", "Maungu",
+  "Mwaga", "Kilifi", "Kwale", "Gazi", "Witu", "Lamu", "Wangi", "Hadera",
+  "Liboi", "Maralal", "Kisii", "Busonga", "Nginyang", "Dukana",
+  "Kakuma", "Lokitaung"

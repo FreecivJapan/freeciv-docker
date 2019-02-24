@@ -1,0 +1,89 @@
+[nation_cypriot]
+
+name=_("キプロス共和国")
+plural=_("?plural:キプロス共和国")
+groups="Modern", "European"
+legend=_("Cyprus became an independent republic on 16th August 1960.\
+ It is a Eurasian island country located in the eastern Mediterranean,\
+ south of Turkey and west of Syria and Lebanon.")
+
+leaders = {
+ "name",                        "sex"
+ "アイカタリーニ",                  "Female"
+ "ディミトリス・フリストフィアス",        "Male"
+ "マカリオス３世",                "Male"
+ "スピロス・キプリアヌ",            "Male"
+ "ジョルジュ・バシリアヌ",             "Male"
+ "クリリデス",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Communism",   _("大統領 %s"), _("?female:大統領 %s")
+ "Fundamentalism",  _("大司教 %s"),    _("?female:大司教 %s")
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Republic",        _("イギリス人領事 %s"), _("イギリス人領事 %s")
+ "Monarchy",        _("イギリス人領事 %s"), _("イギリス人領事 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="cyprus"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "Turkish", "Greek", "Hellenic"
+
+cities =
+ "Levkosia",
+ "Lemesos",
+ "Keryneia",
+ "Strovolos",
+ "Larnaka",
+ "Pafos",
+ "Aradippou",
+ "Ayios Dhometios",
+ "Engomi",
+ "Eylenja",
+ "Kato Polemidhia",
+ "Lakatamia",
+ "Laxia",
+ "Mesayitonia",
+ "Paralimni",
+ "Morfou",
+ "Geri",
+ "Ypsonas",
+ "Lefke",
+ "Kythrea",
+ "Dali",
+ "Tseri",
+ "Lapithos",
+ "Livada",
+ "Xylofagou",
+ "Empa",
+ "Deryneia",
+ "Dromolaxia",
+ "Athienou",
+ "Sotira",
+ "Palaiometocho",
+ "Avgourou",
+ "Ormideia",
+ "Liopetri",
+ "Kolossi",
+ "Chlorakas",
+ "Xylotymvou",
+ "Frenaros",
+ "Voroklini",
+ "Tachoni",
+ "Pano Polemidia",
+ "Kiti",
+ "Episkopi",
+ "Kokkinotrimithia",
+ "Mouttagiaka",
+ "Agia Napa", 
+ "Akaki",
+ "Lythorodontas"

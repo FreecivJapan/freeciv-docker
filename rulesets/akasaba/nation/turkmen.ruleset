@@ -1,0 +1,68 @@
+[nation_turkmen]
+
+name=_("トルクメニスタン共和国")
+plural=_("?plural:トルクメニスタン共和国")
+groups="Modern", "Asian"
+legend=_("Turkmen tribes were first united in the 11th century AD under\
+ Togrul Beg, second ruler of the Seljuk Empire. As the Seljuk state broke\
+ down under the pressure from encroaching Mongols, the Turkmens started\
+ a westward migration. They eventually settled in the lands between\
+ the Amu Darya river and the Caspian Sea, approximately the location of\
+ today's Turkmenistan.")
+
+leaders = {
+ "name",                  "sex"
+ "カイギシズ・アタバエフ",     "Male"
+ "サパルムラト・ニヤゾフ", "Male"
+ "トゥグリル・ベグ",            "Male" ; Seljuk ruler
+ "アフマド・サンジャル",                "Male" ; Seljuk ruler
+ "セルジューク",                "Male" ; Founder of Seljuk dynasty and the state.
+ "Ｇ・ベルディムハメドフ",                "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Despotism",       _("%s 国王"),            _("%s 女王")
+ "Monarchy",        _("%s 第一書記"),             _("?female:%s 第一書記")
+ "Republic",        _("第一書記 %s"),          _("第一書記 %s")
+ "Communism",       _("第一書記 %s"), _("?female:第一書記 %s")
+ "Fundamentalism",  _("トルクメンバシ %s"),    _("?female:トルクメンバシ %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="turkmenistan"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Uzbek", "Kazakh", "Turkish", "Azeri", "Kyrgyz"
+
+cities =
+ "A?gabat",
+ "Turkmenabat",
+ "Da?oguz",
+ "Mary",
+ "Balkanabat",
+ "Bayramaly",
+ "Turkmenba?y",
+ "Magdanly",
+ "Tejen",
+ "Serdar",
+ "Abadan",
+ "Yoloten",
+ "Kerki",
+ "Gumdag",
+ "Baherden",
+ "Akdepe",
+ "Garabogaz",
+ "Esenguly",
+ "Serhetabat",
+ "Yerbent",
+ "Gyzylgaya",
+ "Saragt",
+ "Darganata",
+ "Gyzyletrek",
+ "Tagtabazar"

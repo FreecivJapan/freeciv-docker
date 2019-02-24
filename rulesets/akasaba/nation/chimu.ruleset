@@ -1,0 +1,65 @@
+[nation_chimu] 
+
+name=_("チムー") 
+plural=_("?plural:チムー") 
+groups="Medieval", "American" 
+legend=_("Inheritors of the Moche cultural tradition, Chimor began\
+ its expansion in the 12th century from the Moche river valley in\
+ what is now northern Peru. Their expansion continued until they\
+ were halted and conquered by the rising Inka Empire in 1470. Their\
+ last king, Minchancaman, was captured and led to the Inka capital\
+ Qosqo. Chimu artisans contributed greatly to the manufacture of Inka\
+ artistic wares. Until its fall, Chimor controlled perhaps 2/3 of\
+ the population of the northern Andes.") 
+
+leaders = {
+ "name",                "sex"
+ "タカイナモ",           "Male"
+ "グアクリカウル",          "Male"
+ "ナンネンピンコ",          "Male"
+ "ミンチャンカマン",        "Male"
+ "フェムペリック",           "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+
+
+}
+
+flag= "chimu" 
+flag_alt = "-" 
+style = "Babylonian" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+civilwar_nations="inca", "aymara", "mwiska"
+
+cities = 
+"Chan Chan", 
+"Farfan", 
+"Pacatnamu", 
+"Sican", 
+"Manchan", 
+"Cinto", 
+"Tucume", 
+"Juayanca", 
+"Chotuna", 
+"Batan", 
+"Mocollope", 
+"Galindo", 
+"Huancaco", 
+"Panamarca", 
+"Cao", 
+"Piura", 
+"Chiclayo", 
+"Huamachuco", 
+"Apurle", 
+"Piura", 
+"Payta", 
+"Pacasmayo", 
+"Viru"

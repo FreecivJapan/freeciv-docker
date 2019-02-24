@@ -1,0 +1,89 @@
+[nation_senegalese]
+
+name=_("セネガル共和国")
+plural=_("?plural:セネガル")
+groups="Modern", "African"
+legend=_("Senegal is the westernmost country of mainland Africa. It has\
+ been independent from France since 1960. Senegal is relatively stable\
+ and democratic compared to its neighbors.")
+
+leaders = {
+ "name",                        "sex"
+ "L・セダール・サンゴール",       "Male"
+ "アブドゥ・ディウフ",                 "Male"
+ "マーム・マジョル・ボイ",            "Female"
+ "マッキー・サル",                 "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Monarchy",        _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag= "senegal"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="jolof"
+civilwar_nations="malian", "jolof"
+
+cities =
+ "Dakar (ocean)",
+ "Saint-Louis",
+ "Touba",
+ "Thies",
+ "Pikine",
+ "Kaolack",
+ "Guediawaye",
+ "Mbour",
+ "Rufisque",
+ "Ziguinchor",
+ "Diourbel",
+ "Louga",
+ "Tambacounda",
+ "Mbacke",
+ "Kolda",
+ "Richard Troll",
+ "Bargny",
+ "Tivaouane",
+ "Joal-Fadiouth",
+ "Dahra",
+ "Kaffrine",
+ "Bignona",
+ "Fatick",
+ "Velingara",
+ "Bambey",
+ "Sebikhotane",
+ "Dagana",
+ "Sedhiou",
+ "Nguekhokh",
+ "Kedougou",
+ "Pout",
+ "Kayar",
+ "Matam",
+ "Mekhe",
+ "Nioro du Rip",
+ "Ouro Sogui",
+ "Kebemer",
+ "Ndioum",
+ "Koungheul",
+ "Guinguineo",
+ "Linguere",
+ "Khombole",
+ "Bakel",
+ "Sokone",
+ "Diamniadio",
+ "Mboro",
+ "Thiadiaye",
+ "Goudomp",
+ "Podor",
+ "Gossas"

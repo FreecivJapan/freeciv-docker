@@ -1,0 +1,77 @@
+[nation_malian]
+
+name=_("マリ共和国")
+plural=_("?plural:マリ共和国")
+groups="Modern", "African"
+legend=_("Mali is a large country in Western Africa. Once part of French\
+ Sudan, it gained independence together with Senegal in 1959.")
+
+leaders = {
+ "name",                "sex"
+ "アミナタ・トラオレ",      "Female"
+ "ムーサ・トラオレ",       "Male"
+ "ディオンクンダ・トラオレ",        "Male"
+ "アハメド・ババ",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Monarchy",        _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="mali"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="Mali"
+civilwar_nations="Burkinabe", "Senegalese", "Ivoirian"
+
+; City list based on http://de.wikipedia.org/wiki/Liste_der_Stadte_in_Mali
+cities =
+ "Bamako",
+ "Sikasso",
+ "Mopti",
+ "Koutiala",
+ "Kayes",
+ "Segou",
+ "Nioro du Sahel",
+ "Niono",
+ "Markala",
+ "Kolondieba",
+ "Kati",
+ "Gao",
+ "Kolokani",
+ "Menaka",
+ "Bougouni",
+ "Niafunke",
+ "Tombouctou",
+ "Banamba",
+ "Macina",
+ "Nara",
+ "Bafoulabe",
+ "San",
+ "Koulikoro",
+ "Djenne",
+ "Sokolo",
+ "Yorosso",
+ "Kangaba",
+ "Kidal",
+ "Dire",
+ "Goundam",
+ "Douentza",
+ "Tenenkou",
+ "Bandiagara",
+ "Kimparana",
+ "Kita",
+ "Araouane",
+ "Taoudenni",
+ "Tessalit"

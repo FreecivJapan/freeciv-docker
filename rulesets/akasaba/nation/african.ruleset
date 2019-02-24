@@ -1,0 +1,66 @@
+[nation_african]
+
+name=_("アフリカ連合")
+plural=_("?plural:アフリカ連合")
+rule_name=_("African")
+rule_plural=_("?plural:African")
+groups="Imaginary"
+legend=_("Africa: the cradle of humanity. It is the world's second largest\
+ continent and also its second most populous.")
+
+leaders = {
+ "name",                 "sex"
+ "ハイレ・セラシエ1世", "Male"
+ "ハサン2世",     "Male"
+ "ヤクブ・ゴウォン",       "Male"
+ "レヴィー・ムワナワサ",      "Male"
+ "タボ・ムベキ",        "Male"
+ "デサレン",        "Male"
+ }
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Republic",        _("総会議長 %s"), _("総会議長 %s")
+ "Democracy",       _("総会議長 %s"), _("総会議長 %s")
+ 
+}
+
+flag="africa"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="algerian", "angolan", "beninese", "bissau-guinean",
+ "botswanan", "brazzaville-congolese", "burkinabe", "burundian",
+ "cameroonian", "cape verdean", "central african", "comorian", "congolese",
+ "djiboutian", "egyptian arab", "equatoguinean", "eritrean", "ethiopian",
+ "gabonese", "gambian", "ghanaian", "guinean", "ivoirian", "kenyan",
+ "lesothoan", "liberian", "libyan", "malagasy", "malawian", "malian",
+ "mauritanian", "mauritian", "mozambican", "namibian", "nigerian",
+ "nigerien", "rwandan", "senegalese", "santomean", "seychellois",
+ "sierra leonean", "somali", "south african", "sudanese", "swazi",
+ "tanzanian", "togolese", "tunisian", "ugandan", "sahrawi", "zambian",
+ "zimbabwean"
+civilwar_nations="algerian", "angolan", "beninese", "bissau-guinean",
+ "botswanan", "brazzaville-congolese", "burkinabe", "burundian",
+ "cameroonian", "cape verdean", "central african", "comorian", "congolese",
+ "djiboutian", "egyptian arab", "equatoguinean", "eritrean", "ethiopian",
+ "gabonese", "gambian", "ghanaian", "guinean", "ivoirian", "kenyan",
+ "lesothoan", "liberian", "libyan", "malagasy", "malawian", "malian",
+ "mauritanian", "mauritian", "mozambican", "namibian", "nigerian",
+ "nigerien", "rwandan", "senegalese", "santomean", "seychellois",
+ "sierra leonean", "somali", "south african", "sudanese", "swazi",
+ "tanzanian", "togolese", "tunisian", "ugandan", "sahrawi", "zambian",
+ "zimbabwean"
+cities=
+; Sites of AU institutions
+ "Addis Abeba",
+ "Mitrand",
+ "Banjul",
+ "Abuja",
+ "Tarabulus",
+ "Yaounde"
+; Subsequent cities fetched from city lists of member nations

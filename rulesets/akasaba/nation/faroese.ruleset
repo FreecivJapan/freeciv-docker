@@ -1,0 +1,93 @@
+[nation_faroese]
+
+name=_("フェロー諸島")
+plural=_("?plural:フェロー諸島")
+groups="European"
+legend=_("The Faroe Islands are an archipelago in the Northern Atlantic\
+ ocean. According to the sagas, they were first settled by Norsemen who\
+ fled the tyranny of Norway's king Harald Fairhair. The islands became\
+ a Norwegian possession in 1035 and passed to Denmark in 1814. The Faroes\
+ have home rule since 1948.")
+
+leaders = {
+ "name",                        "sex"
+ "カイ・レオ・ヨハンセン",               "Male"
+ "リベル・アセウセン",            "Male"
+ "T・トーキルスドティアー",         "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Democracy",       _("国王・自治政府首相 %s"),   _("?female:女王・自治政府首相 %s")
+ "Despotism",       _("国王・自治政府首相 %s"),      _("?female:女王・自治政府首相 %s")
+ "Fundamentalism",  _("Vicar %s"),     _("?female:Vicar %s")
+ "Republic",        _("国王・自治政府首相 %s"),       _("国王・自治政府首相 %s")
+}
+
+flag="faroes"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "icelandic"
+
+cities =
+ "Torshavn",
+ "Kirkjubour",
+ "Klaksvik",
+ "Fuglafjordur",
+ "Vagur",
+ "Midvagur",
+ "Sandur",
+ "Runavik",
+ "Leirvik",	;Eystur
+ "Tvoroyri",
+ "Sunda",
+ "Nes",
+ "Vestmanna",
+ "Nordskali",	;Sunda
+ "Sorvagur",
+ "Strendur",	;Sjovar
+ "Hvalba",
+ "Eidi",
+ "Kvivik",
+ "Sandur",
+ "Skopun",
+ "Hvannasund",
+ "Sumba",
+ "Vidareidi",
+ "Porkeri",
+ "Skalavik",
+ "Kunoy",
+ "Husavik",
+ "Hov",
+ "Famjin",
+ "Husar",
+ "Skuvoy",
+ "Kirkja",	;Fugloy
+ "Hoyvik",
+ "Argir",
+ "Funningur",
+ "Gotu",
+ "Midvagur",
+ "Sandavagur",
+ "Svinoy",
+ "Elduvik",
+ "Oyndarfjord",
+ "Skala",
+ "Gjaar",
+ "Haldarsvik",
+ "Hosvik",
+ "Hvalvik",
+ "Saksun",
+ "Hestur",
+ "Nolsov",
+ "Mikladalur",
+ "Mykines",
+ "Argja",
+ "Kaldbaks",
+ "Midvagur",
+ "Toftir"

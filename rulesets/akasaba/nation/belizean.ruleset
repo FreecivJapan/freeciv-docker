@@ -1,0 +1,101 @@
+[nation_belizean]
+
+name=_("ベリーズ")
+plural=_("?plural:ベリーズ")
+rule_name=_("Belizean")
+rule_plural=_("?plural:Belizeans")
+groups="American", "Modern"
+legend=_("Belize is the smallest country of Central America. Once part\
+ of the Maya region, it was settled by British pirates and loggers in the\
+ 17th century. Belize, then known as British Honduras, became a crown\
+ colony in 1862. It has been an independent country since 1981. Belize\
+ is ethnically extremely diverse, its population consisting of Creoles,\
+ Mayans, Spanish-speaking mestizos, Garifunas, Chinese, Mennonites, and\
+ Indians.")
+
+leaders = {
+ "name",                    "sex"
+ "ジョン・モス",               "Male"
+ "ディーン・バロウ",         "Male"
+ "コルヴィル・ヤング",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Despotism",       _("%s 総督"),         _("%s 総督")
+ "Monarchy",        _("総督 %s"),         _("首長 %s")
+ "Republic",        _("首相・総督 %s"),       _("首相・総督 %s")
+ "Communism",  _("総書記 %s"), _("?female:総書記 %s")
+ "Fundamentalism",  _("イマーム %s"),         _("イマーム %s")
+ "Democracy",       _("総督・首相 %s"), _("総督・首相 %s")
+}
+
+flag="belize"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "mayan", "jamaican", "miskito"
+
+cities =
+ "Belize City (ocean)",
+ "Belmopan",
+ "San Ignacio",
+ "Orange Walk Town",
+ "Dangriga (ocean)",
+ "Corozal Town (ocean)",
+ "Punta Gorda (ocean)",
+ "San Pedro (ocean)",
+ "Benque Viejo",
+ "Ladyville",
+ "Big Creek (ocean, river)",
+ "Spanish Lookout",
+ "Independence and Mango Creek",
+ "Caye Caulker (ocean)",
+ "San Joaquin",
+ "Trial Farm",
+ "Hattieville",
+ "Guinea Grass",
+ "Placencia (ocean)",
+ "Shipyard",
+ "San Jose",
+ "San Antonio Cayo",
+ "Valley of Peace",
+ "Little Belize",
+ "Roaring Creek (river)",
+ "San Estevan",
+ "Silver Creek (river)",
+ "Carmelita",
+ "Xaibe",
+ "Progresso",
+ "Chunox",
+ "Patchacan",
+ "Armenia",
+ "Hopkins (ocean)",
+ "San Pablo",
+ "San Pedro Columbia",
+ "Louisville",
+ "Gales Point (ocean)",
+ "Gardenia",
+ "Indian Church",
+ "San Jose Palmar",
+ "San Carlos",
+ "Monkey River Town (ocean, river)",
+ "St. George's Caye (ocean)",
+ "Mullins River (ocean, river)",
+ "St. Margaret's",
+ "Consejo",
+ "Copper Bank (ocean)",
+ "Sarteneja",
+ "Toledo Settlement",
+ "Blue Creek (river)",
+ "Indian Creek (river)",
+ "San Felipe",
+ "Albaina",
+ "Calcutta",
+ "Elridgeville",
+ "Las Cuevas",
+ "Orchid Bay (ocean)"

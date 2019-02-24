@@ -1,0 +1,91 @@
+[nation_palestinian]
+
+name=_("パレスチナ")
+plural=_("?plural:パレスチナ")
+rule_name=_("Palestinian")
+rule_plural=_("?plural:Palestinian")
+groups= "Asian", "Modern"
+legend=_("Palestinians are the Arab inhabitants of the former British\
+ mandate of Palestine.")
+
+leaders = {
+ "name",                        "sex"
+ "サカキュニ",          "Male"
+ "ハサニ",    "Male"
+ "ナシャシビ",        "Male"
+ "アブド・ハサニ",     "Male"
+ "ヤセル・アラファト",               "Male"
+ "アッバス",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Fundamentalism",  _("大マフティ %s"),  _("?female:大マフティ %s")
+ "Monarchy",        _("統治者 %s"),       _("?female:統治者 %s")
+ "Democracy",       _("議長 %s"), _("議長 %s")
+ "Communism",       _("議長 %s"), _("議長 %s")
+ 
+}
+
+flag="palestine"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "israeli", "egyptian"
+
+cities =
+;claimed Palestinian capital
+ "al-Quds", ;Jerusalem
+
+;de facto captials
+ "Ghazza", ;Gaza
+ "Ram Allah", ;Ramallah
+
+;other cities in Palestinian territories
+ "Ariha", ;Jericho
+ "al-Halil", ;Hebron
+ "Bayt Lahm", ;Betlehem
+ "Nablus",
+ "Khan Yunis",
+ "Jenin",
+ "Jabalya",
+ "Rafah",
+ "Dayr al-Balah",
+ "Beit Lahia",
+ "Tulkarem",
+ "Yattah",
+ "al-Bireh",
+ "Bani Suheila",
+ "Beit Hanoun",
+ "ad-Dhahiriya",
+ "al-Ramm",
+ "Qabatiya",
+ "Qalqilyah",
+ "Halhul",
+ "Dura",
+ "al-Eizariya",
+ "Beit Jala",
+ "Tubas",
+ "Beit Sahour",
+ "Abu Dis",
+
+;Israeli cities with large Arab populations
+ "an-Nasira", ;Nazareth
+ "Umm al-Fahm",
+ "Rahat",
+ "Tayyibah", ;Tayibe
+ "Shafa Amr",
+ "Baqa-Jat",
+ "ash-Shaghur",
+ "Tamra",
+ "Sakhnin",
+ "Madinat al-Karmel", ;Carmel City
+ "al-Tira",
+ "Arraba",
+ "Maghar",
+ "Kafr Kana",
+ "Kafr Qasim"

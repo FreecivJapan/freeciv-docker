@@ -1,0 +1,84 @@
+[nation_tuvan] 
+
+name=_("トゥヴァ") 
+plural=_("?plural:トゥヴァ") 
+groups= "Asian" 
+legend=_("Tuvans are a Turkic people living in the Autonomous Republic\
+ of Tuva in the south of Siberia. Tuva split off from China in 1921 and\
+ then formed the independent republic of Tannu Tuva allied with the\
+ Soviet Union. In 1940 Tannu Tuva had the distinction of seeing the\
+ first non-monarchic female head of state of Modern History when Khertek\
+ Anchimaa-Toka became chairperson of the republic. In 1944 it was\
+ incorporated in the Soviet Union as a part of the Russian Soviet\
+ Federative Socialist Republic.")
+
+leaders = {
+ "name",                        "sex"
+ "ドンドゥク・クーラル",               "Male"
+ "サルチャク・トカ",                "Male"
+}
+
+flag= "tannu_tuva" 
+flag_alt = "-" 
+style = "Celtic" 
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Communism",       _("人民革命党書記長 %s"),     _("人民革命党書記長 %s")
+ "Despotism",       _("%s カーン"),         _("%s カーン")
+ "Monarchy",        _("%s カーン"),       _("?female:%s カーン")
+ "Fundamentalism",  _("偉大なシャーマン %s"), _("偉大なシャーマン %s")
+ "Democracy",       _("首相 %s"), _("首相 %s")
+} 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+civilwar_nations="mongol", "russian", "gokturk", "yakut"
+
+cities=
+  "Khem-Beldir",   ;Kyzyl
+"Kara-Tal",
+"Ak-Dovurak",
+"Arshan",
+"Okchary",
+"Kagshirba",
+"Eshim",
+"Shagonar",
+"Aryg-Usyu",
+"Kheder",
+"Kak",
+"Ak-Tal",
+"Torgalyg",
+"Khadan",
+"Ishklo",
+"Khondelen",
+"Zelinnoye",
+"Turan",
+"Sevi",
+"Kundustug",
+"Aldyn-Bulak",
+"Kara-Chol",
+"Ij",
+"Ojna",
+"Adyr-Keshig",
+"Ershey",
+"Belbey",
+"Ushep-Aksy",
+"Vladimirovka",
+"Bert-Dag",
+"Samagaltay",
+"Bay-Tal",
+"Ergi-Barlyk",
+"Mugur-Aksy",
+"Sagly",
+"Kyzyl Chaya",
+"Shara-Sur",
+"Ak-Erik",
+"Baydag",
+"Chagay",
+"Khirgalandy",
+"Kungur-tuk",
+"Ush-Bel'dyr",
+"Khazylar"

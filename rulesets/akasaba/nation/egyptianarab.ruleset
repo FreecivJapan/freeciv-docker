@@ -1,0 +1,90 @@
+[nation_modernegyptian]
+
+name=_("エジプト・アラブ共和国")
+plural=_("?plural:エジプト・アラブ")
+rule_name=_("Egyptian Arab")
+rule_plural=_("?plural:Egyptian Arabs")
+groups="Modern", "African", "Asian"
+legend=_("Modern Egypt is the most populous Middle Eastern country as well\
+ as one of the most populous in Africa. It is located on the site of one\
+ of the world's most ancient civilizations.")
+
+leaders = {
+ "name",                "sex"
+ "アルデュール",      "Female"
+ "アル・ムハンマド",   "Male"
+ "バルクック",              "Male"
+ "パシャ",   "Male"
+ "フアード1世",              "Male"
+ "ファールーク1世",              "Male"
+ "アブドゥル・ナーセル",  "Male"
+ "アンワル・アッ・サダト",      "Male"
+ "ホスニー・ムバラク",       "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Communism",       _("大統領 %s"),       _("大統領 %s")
+ "Despotism",       _("国王 %s"),         _("国王 %s")
+ "Fundamentalism",  _("カリフ %s"),         _("カリフ %s")
+ "Republic",        _("大統領 %s"), _("?female:大統領 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ 
+}
+
+flag="egypt"
+flag_alt = "egypt_ancient"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="palestinian", "sudanese", "libyan", "arab"
+
+cities =
+ "al-Qahira",			;Cairo
+ "Eskendereyya",		;Alexandria
+ "as-Suways",			;Suez
+ "al-Mansura",
+ "el-Giza",			;Gizeh
+ "Shubra el-Kheima",
+ "Bur Sa'id",			;Port Said
+ "al-Uqsur",			;Luxor
+ "el-Mahalla el-Kubra",
+ "Tanta",
+ "Asyut",
+ "al-Ismayliya",
+ "al-Fayyum",
+ "az-Zaqaziq",
+ "Dumyat",
+ "Aswan",
+ "al-Minya",
+ "Damanhur",
+ "Bani Suwayf",
+ "Qina",
+ "al-Gardaqa",
+ "Madinat Sitta Uktubar",
+ "Sawhaj",
+ "Shibin-al-Kawm",
+ "Banha",
+ "al-Asir mir-Ramadan",
+ "Kafr-as-Shayh",
+ "al-Arish",
+ "Matra",
+ "Mallawi",
+ "Bilbays",
+ "Idfu",
+ "Mit Gamr",
+ "al-Hawamidiya",
+ "Disuq",
+ "Qalyub",
+ "Abu Kabir",
+ "Ahmim",
+ "Jirja",
+ "al-Matariya",
+ "Rashid",
+ "Naj Hammadi",
+ "Sharm al-Shaykh"

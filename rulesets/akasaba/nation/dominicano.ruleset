@@ -1,0 +1,99 @@
+[nation_dominicano]
+
+name=_("ドミニカ共和国")
+plural=_("?plural:ドミニカン")
+rule_name=_("Dominicano")
+rule_plural=_("?plural:Dominicanos")
+groups="Modern", "American"
+legend=_("The Dominican Republic is located on the eastern two thirds of\
+ the Caribbean island of Hispaniola. Its capital - Santo Domingo - became\
+ the first permanent European settlement in the Americas when it was\
+ founded by Bartholomew Columbus in 1498.")
+
+leaders = {
+ "name",                        "sex"
+ "クリストバル・コロン",             "Male"
+ "ファン・パブロ・ドゥアルテ",           "Male"
+ "ペドロ・サンタナ",               "Male"
+ "ブエナ・バエズ",           "Male"
+ "ウリセス・ウロー",             "Male"
+ "オラシオ・バスケス",             "Male"
+ "R・レオニダス・トルヒーヨ",    "Male"
+ "フアン・ボッシュ",                  "Male"
+ "ホアキン・バラゲル",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Despotism",       _("スペイン人総督 %s"),      _("?female:スペイン人総督l %s")
+ "Fundamentalism",  _("大司教 %s"),   _("大司教 %s")
+ "Monarchy",        _("スペイン人総督 %s"),      _("スペイン人総督 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="dominican_republic"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Haitian", "Puerto Rican"
+
+cities =
+ "Santo Domingo",
+ "Santiago de los Caballeros",
+ "Puerto Plata",
+ "San Pedro de Macoris",
+ "La Romana",
+ "Los Alcarrizos",
+ "San Francisco de Macoris",
+ "San Cristobal",
+ "Higuey",
+ "La Vega",
+ "Barahona",
+ "Bonao",
+ "San Juan de la Maguana",
+ "Bani",
+ "Haina",
+ "Moca",
+ "Azua",
+ "Mao",
+ "Boca Chica",
+ "Cotui",
+ "Esperanza",
+ "Villa Altagracia",
+ "Hato Mayor del Rey",
+ "Nagua",
+ "Bajos de Haina",
+ "Villa Bisono",
+ "Jarabacoa",
+ "Constanza",
+ "Consuelo",
+ "Pedro Brand",
+ "El Seibo",
+ "Tamboril",
+ "Bayaguana",
+ "San Matas de Farfan",
+ "San Jose de Ocoa",
+ "Quisqueya",
+ "Monte Cristi",
+ "Neyba",
+ "Sabana Grande de Boya",
+ "La Victoria",
+ "Dajabon",
+ "Sabaneta",
+ "Monte Plata",
+ "Maimon",
+ "Duverge",
+ "Cambita Garabitos",
+ "Sabana de la Mar (ocean)",
+ "Guerra",
+ "Comendador",
+ "San Gregorio de Nigua",
+ "Samana",
+ "Cabral"

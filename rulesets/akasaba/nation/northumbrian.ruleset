@@ -1,0 +1,214 @@
+[nation_northumbrian]
+
+name=_("ノーサンブリア")
+plural=_("?plural:ノーサンブリア")
+rule_name=_("Northumbrian")
+rule_plural=_("?plural:Northumbrians")
+groups="European", "Medieval"
+legend=_("The Northumbria was a Medieval kingdom of the Angles, in what\
+ is now northern England and southern Scotland. It was created after\
+ the unification of Bernicia and Deira by king Aethelfrith. One of the\
+ main states of the Anglo-Saxon heptarchy, in the 10th century it was\
+ incorporated into England.")
+
+leaders = {
+ "name",        "sex"
+
+; Kings of Bernicia:
+ "エサ",         "Male"
+ "イオパ",       "Male"
+ "グラパ",      "Male"
+ "アドルレック",     "Male"
+ "ティオドリック",     "Male"
+ "フリドワード",   "Male"
+ "アドルフレッド",    "Male"
+ "インフレッド",     "Male"
+
+; Kings of Deira:
+ "エドウィン",       "Male"
+ "オスリック",       "Male"
+ "オズワルド",      "Male"
+ "アデルワード",    "Male"
+ "アルチフレット",    "Male"
+ "アーフィン",     "Male"
+ "ユッフレット",    "Male"
+ "エクグフレット",     "Male"
+ "オスルット",       "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Fundamentalism",  _("大司教 %s"),      _("?female:優しい母 %s")
+}
+
+flag = "northumbria"
+flag_alt = "england"
+style = "European"
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+conflicts_with = "british", "english", 
+"aragonese" ;similar flag
+civilwar_nations="english", "scottish", "briton"
+
+;Cities names comes from http://www.futers.unisonplus.net/places.htm
+
+cities =
+ "Eoforwic",          ;York
+"Bebbanburg",         ;Bamburgh 
+"Lindisfarne",
+"Ansgartun",          ;Angerton Hall
+"Allerwasc",          ;Allerwash
+"Dunstanburg",        ;Dunstan Castle
+"Akelda",             ;Akeld
+"Accelingatun",       ;Acklington
+"Beolanford",         ;Belford
+"Ceorlatun",          ;Charlton
+"Bereleah",           ;Barlow
+"Alra Burna",         ;Allery Burn
+"Alne Muda",          ;Alnmouth
+"Ceastreweort",       ;Chesterwood
+"Eardanleah",         ;Ardley Dean
+"Cairwic",            ;Carrick Heights
+"Einwic",             ;Anick
+"Beagheranmor",       ;Byermoor
+"Grenandun",          ;Grindon
+"Lillanburna",        ;Lilburn Tower
+"Sudwic",             ;Southwick
+"Daltun",             ;Dalton
+"Halhtun",            ;Halton
+"Alfheringestun",     ;Elrington
+"Gragmere",           ;Greymare Hill
+"Beornestun",         ;Barmston
+"Tinamuda",           ;Tynemouth
+"Seolcanword",        ;silksworth
+"Raudesbyrig",        ;Rothbury
+"Cattanraw",          ;Catraw
+"Herigespad",         ;Harpath Sike
+"Glenidal",           ;Glendale
+"Stanigford",         ;Stamford
+"Mortpad",            ;Morpeth
+"Cynemarestun",       ;Kimmerston
+"Acantun",            ;Archy`s Sike
+"Hattun",             ;Hatton Hall
+"Alfsigeswic",        ;Elfswick
+"Hamburna",           ;Ham Burn
+"Ageles",             ;Elwick
+"Bolham",             ;Bolam
+"Sceardabeorgtun",    ;Sharperton
+"Caerwic",            ;High Carrick
+"Egdenu",             ;Aydon
+"Wassantun",          ;Washington Village
+"Lagham",             ;Lyham Hill
+"Fagerehalh",         ;Fairhaugh
+"Heltoringham",       ;Eltringham
+"Denuwic",            ;Denwick
+"Filetetun",          ;Felton Hill
+"Bartun",             ;Barton
+"Troptun",            ;Thropton
+"Heopedun",           ;Hetton le Hill
+"Gosaford",           ;Gosforth
+"Feolecingtun",       ;Felkington
+"Eofelingham",        ;Ealingham Rigg
+"Hyrneharn",          ;Harnham
+"Allerhop",           ;Back Dike
+"Totanburna",         ;Todburn Wood
+"Fahdun",             ;Fawdon
+"Elmleah",            ;Embley
+"Hyrst",              ;Hirst
+"Bryncanburna",       ;Brinkburn Mill
+"Dubnoglastun",       ;Dilston
+"Allanford",          ;Elford
+"Feterstanhalh",      ;Featherstone Castle
+"Baccanweort",        ;Backworth
+"Ciesewic",           ;Cheswick
+"Hwitleage",          ;Whitley Bay
+"Dunleah",            ;Dinley Hill
+"Faringatun",         ;Ferrington
+"Beohyll",            ;Beal
+"Eatanhalh",          ;Etal
+"Preostwic",          ;Prestwick
+"Beantun",            ;Benton
+"Tillmuda",           ;Tillmouth
+"Middanford",         ;Mitford
+"Herela",             ;Kirkharle
+"Dunham",             ;Downham
+"Caldesaete",         ;Causey Hall Farm
+"Malmin",             ;Millfield
+"Biwella",            ;Bywell
+"Kerstyrne",          ;Caistron
+"Horsaleah",          ;Horsley
+"Bekkjartun",         ;Bickerton
+"Fealostan",          ;Falstone
+"Ecewic",             ;Eachwick
+"Botanlande",         ;Buteland
+"Tyrneham",           ;Farnham Dene
+"Hylltun",            ;Hylton Castle 
+"Fenntun",            ;Fenton
+"Camus",              ;Cambois
+"Spinelstan",         ;Spindlestone
+"Maldun",             ;Meldon
+"Osanleah",           ;Ewesley
+"Bygging",            ;Bigin Farm
+"Ecgwulfingham",      ;Eglingham
+"Holtheale",          ;Howtel
+"Cillanburna",        ;Chibburn
+"Ofingtun",           ;Ovington
+"Billingafeld",       ;Bingfield
+"Angarham",           ;Ingram
+"Fleotham",           ;Fleetham
+"Hodespad",           ;Hudspeth
+"Torngraftun",        ;Thorngrafton
+"Berelingas",         ;Birling
+"Niweburh",           ;Newbrough
+"Kirkheahtun",        ;Kirkheaton
+"Cealfradun",         ;Black Callerton
+"Butelanfeld",        ;Butsfield Abbey
+"Blacdenu",           ;Blagdon Hall
+"Oterburna",          ;Otter Burn
+"Aspeleah",           ;Espley Hall
+"Beowic",             ;Old Bewick
+"Earnespad",          ;Yarnspath Law
+"Magna Heatun",       ;Capheaton
+"Bollesdun",          ;Bowsden
+"Morwic",             ;Morwick
+"Strettun",           ;Sturton Grange
+"Prendeswic",         ;Prendwick
+"Hleomoctun",         ;Lemmington Hall 
+"Cestra",             ;Chester-le-Street
+"Blanclande",         ;Blanchland
+"Bremeldun",          ;Brandon
+"Finrode",            ;Fenrother
+"Claubache",          ;Cawledge Middle Park
+"Boldun",             ;Boldon
+"Langtun",            ;Lanton
+"Hohtun",             ;Longhoughton
+"Bladun",             ;Blaydon
+"Nordanham",          ;Norham
+"Acwudu",             ;Oakwood
+"Broccleah",          ;Brockley Hall
+"Cawandenu",          ;Caw Burn
+"Mortun",             ;Murton
+"Blimuta",            ;Blyth
+"Bolbec",             ;Bulbeck Common
+"Ceorrantun",         ;Chirton
+"Burhdun",            ;Burradon
+"Ceolferdesford",     ;Chollerford
+"Ceappanwella",       ;Chopwell
+"Eardesdun",          ;Earsdon
+"Stigford",           ;Styford Hall
+"Kepeswic",           ;Keepwick Farm
+"Coccanleah",         ;Coastley
+"Hryding",            ;Riding Lea
+"Yesemuda",           ;Jesmond
+"Wulfesdun",          ;Wooden Farm
+"Cydanland",          ;Kidlandie
+"Mylentun",           ;Milbourne
+"Caldmertun",         ;Coldmartin
+"Cealdwella",         ;Coldwell
+"Neodortun",          ;Netherton
+"Fullidaby",          ;Follingsby
+"Readpad",            ;Redpeth Farm
+"Nealestun",          ;Nelson Village
+"Emelesdun"           ;Embleton

@@ -1,0 +1,101 @@
+[nation_ossetian]
+
+name=_("オセチア共和国")
+plural=_("?plural:オセチア")
+groups="Asian", "Medieval", "Modern", "European"
+legend=_("Modern Ossetians are the successors of the Alans of Ancient\
+ history, who fled into the mountains during the Hunnic invasions. Around\
+ 800 AD an Alanic kingdom emerged in the Northern Caucasus, which\
+ continued to exist until the Mongol invasions. Nowadays Ossetians live\
+ in the Republic of North Ossetia (part of Russian Federation) and in the\
+ partially recognized Republic of South Ossetia.")
+
+leaders = {
+ "name",                "sex"
+ "カダン",             "Male" ; Tsar of Alania
+ "ダイト・サスラン",        "Male"
+ "マリア・シュハナフナ",    "Female"
+ "バガタル",             "Male" ; Last tsar of Alania
+ "トレーズ・カランベガフ",    "Male" ; Leader of Southern Ossetia
+ "E・カコウリ",      "Male" ; Current president of Southern Ossetia
+ "タイムラズ・マムスロフ",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("県高官 %s"), _("県高官 %s")
+ "Monarchy",        _("県高官 %s"), _("県高官 %s")
+ "Communism",       _("書記長 %s"), _("書記長 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="ossetia"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "georgian", "abkhaz", "russian"
+
+cities =
+"Tskhinval",	;Tskhinvali
+"Dzaudjyqau",	;Vladikavkaz
+"Maas",		;Capital of Medieval Alania
+"Mazdag",	;Mozdok
+"Kuaysa",	;Kvaysa
+"Beslan",	;Beslan
+"Alagir",	;Alagir
+"Arydon",	;Ardon
+"Digora",	;Digora
+"Brytat",	;Britata
+"Dywwadonastau", ;Duadonastau
+"Znawyr",	;Znaur
+"Chekh",	;Kekhvi
+"Edys",		;Edisa
+"Kurta",	;Kurta
+"Leningor",	;Akhalgori
+"Tbet",		;Tbeti
+"Kostayyqau",	;Khetagurovo
+"Chikola",	;Chikola
+"Dzaw",		;Java
+"Oktyabryqau",	;Oktyabrskoye
+"Tamares",	;Tamarsheni
+"Myzur",	;Mizur
+"Wallag Fiyyagdon", ;Verkhny Fiagdon
+"Zavoskoy",	;Zavodskoy
+"Qyzlar",	;Kizlyar
+"Wanel",	;Vaneli
+"Nogir",	;Nogir
+"Astaukkag Еrman", ;Shua-Ermani
+"Sunja",	;Sunzha
+"Qemulta",	;Kemulta
+"Saridtata",	;Saritata
+"Badzigat",	;Badzhigata
+"Khodz",	;Khodz
+"Khod",		;Khodi
+"Tsagat Tsipran", ;Chrdilo-Chiprani
+"Sokhta",	;Sokhta
+"Nazydjyn",	;Nazigina
+"Kotanto",	;Kotanto
+"Mikhaylobskay", ;Mikhaylovskoye
+"Elkhot",	;Elkhtovo
+"Qola",		;Kola
+"Chermen",	;Chermen
+"Qroz",		;Kroza
+"Cheliat",	;Cheliata
+"Gufzabar",	;Duzhabauri
+"Dallag Erman",	;Dallag Erman
+"Raro",		;Raro
+"Khussar Tsipran", ;Samkhret-Chiprani
+"Kabuzta",	;Kabuzta
+"Dallag Ursdzwa", ;Kvemo-Bakarta
+"Awnew",	;Avnevi
+"Arkhonska",	;Arkhonskaya
+"Bagiata",	;Bagiata
+"Buzala",	;Buzala
+"Litsi",	;Litsi
+"Cheselt"	;Keshelta

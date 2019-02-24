@@ -1,0 +1,74 @@
+[nation_cuban]
+
+name=_("キューバ共和国")
+plural=_("?plural:キューバ共和国")
+rule_name=_("Cuban")
+rule_plural=_("?plural:Cubans")
+groups="Modern", "American"
+legend=_("Cuba came under Spanish control in the 16th century. In the\
+ following centuries, the island became one of the leading producers of\
+ tobacco, sugar and coffee in the world. Cuba was granted nominal\
+ independence in 1902.")
+
+leaders = {
+ "name",                "sex"
+ "ホセ・マルティ",          "Male"
+ "フルヘンシオ・バティスタ",   "Male"
+ "カミロ・シエンフェゴス",   "Male"
+ "チェ・ゲバラ", "Male"
+ "フィデル・カストロ",        "Male"
+ "ラウル・カストロ",        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Communism",      _("国家評議会議長 %s"), _("国家評議会議長 %s")
+ "Despotism",      _("独裁大統領 %s"),   _("独裁大統領  %s")
+ "Democracy",      _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Monarchy",        _("独裁大統領 %s"), _("独裁大統領 %s")
+}
+
+flag="cuba"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "dominicano", "venezuelan", "taino"
+
+cities =
+  "La Habana",
+  "Camaguey",
+  "Guantanamo",
+  "Santiago de Cuba",
+  "Pedro Betancourt",
+  "Artemisa",
+  "Matanzas",
+  "Las Tunas",
+  "Manzanillo",
+  "Colon",
+  "Santa Clara",
+  "Trinidad",
+  "Moron",
+  "Cienfuegos",
+  "Holguin",
+  "Pinar del Rio",
+  "Placetas",
+  "Bayamo",
+  "Ciego de Avila",
+  "Sancti Spiritus",
+  "Manzanillo",
+  "Cardenas",
+  "Palma Soriano",
+  "Moa",
+  "Mayari",
+  "Nueva Gerona",
+  "Contramaestre",
+  "Consolacion del Sur",
+  "Florida",
+  "Puerto Padre",
+  "Guines",
+  "San Luis",
+  "San Cristobal"

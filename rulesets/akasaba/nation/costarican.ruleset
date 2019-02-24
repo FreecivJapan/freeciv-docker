@@ -1,0 +1,98 @@
+[nation_costarican]
+
+name = _("コスタリカ共和国")
+plural = _("?plural:コスタリカ")
+rule_name = _("Costa Rican")
+rule_plural = _("?plural:Costa Ricans")
+groups= "Modern", "American"
+legend=_("Costa Rica became an independent republic in 1840. It has been\
+ without an army since 1949 and is one of the most democratic and wealthy\
+ countries of Latin America.")
+
+leaders = {
+ "name",                                "sex"
+ "モーラ・フェルナンデス",                 "Male"
+ "ブラウリオ・コリーナ",             "Male"
+ "フェデリコ・グラナードス",            "Male"
+ "ラファエル・モーラポラス",            "Male"
+ "ガーディア",       "Male"
+ "ホセ・フィゲーレス・フェレール",                "Male"
+ "オスカー・サンチェス",                 "Male"
+ "ラウラ・チンチージャ",                    "Female"
+ "フランシスコ・モラサン",                "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("スペイン人総督 %s"),   _("?female:スペイン人総督 %s")
+ "Fundamentalism",  _("司教 %s"),    _("優しい母 %s")
+ "Monarchy",        _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag = "costa_rica"
+flag_alt = ""
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "cuban", "nicaraguan"
+
+cities =
+ "San José (mountains, hills)",
+ "Cartago (mountains, hills)",
+ "Puerto Limón (ocean)",
+ "Alajuela (mountains, hills)",
+ "Liberia (ocean)",
+ "Heredia (mountains, hills)",
+ "Puntarenas (ocean)",
+ "San Francisco",
+ "Nicoya",
+ "San Ramón",
+ "Paraíso",
+ "Desamparados",
+ "Santa Ana",
+ "San Isidro de El General",
+ "Curridabat",
+ "San Vincente de Moravia",
+ "Purral",
+ "Turrialba",
+ "San Miguel",
+ "Aguacaliente",
+ "San Rafael",
+ "Golfito (ocean)",
+ "San Rafael Abajo",
+ "Quesada",
+ "San Pedro Montes de Oca",
+ "Mercedes",
+ "Chacarita",
+ "Jacó (ocean)",
+ "Patalillo",
+ "Aserrí",
+ "Tirrases",
+ "El Tejar",
+ "San Felipe",
+ "Guadalupe",
+ "Patarrá",
+ "San Juan de Tibás",
+ "San Pablo",
+ "Ipís",
+ "Concepción",
+ "San Antonio",
+ "San Nicolás",
+ "Cañas",
+ "Guápiles",
+ "Ulloa",
+ "Siquerres",
+ "Mata de Plátano",
+ "Gravilias",
+ "Espíritu Santo",
+ "Colima",
+ "Esparta",
+ "Carmen",
+ "Damas",
+ "Cariari"

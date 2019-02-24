@@ -1,0 +1,115 @@
+[nation_panamanian]
+
+name=_("パナマ共和国")
+plural=_("?plural:パナマ")
+groups="American", "Modern"
+legend=_("Located on a narrow isthmus connecting North and South America,\
+ Panama is world famous for the Panama canal. Panama declared\
+ independence from Colombia in 1903 under US protection. Panamanian\
+ politics remained dominated by the United States for most of the 20th\
+ century, most notably in 1989 when the United States launched a\
+ military invasion to unseat and arrest General Noriega. Sovereignty over\
+ the Canal Zone was transferred to Panama in 1999. Panama is one of the\
+ few countries in the world without a standing army.")
+
+leaders = {
+ "name",                        "sex"
+ "バルボア",       "Male"
+ "ロレンツォ",          "Male"
+ "ゲレロ",      "Male"
+ "アリア",               "Male"
+ "オマル・トリホス",               "Male"
+ "マヌエル・ノリエガ",              "Male"
+ "ギジェルモ・エンダラ",            "Male"
+ "モスコッソ",              "Female"
+ "マルティン・トリホス",            "Male"
+ "リカルド・マルティネリ",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",      _("スペイン人総督 %s"),      _("?female:スペイン人総督 %s")
+ "Fundamentalism", _("司教 %s"),       _("優しい母 %s")
+ "Monarchy",       _("コロンビア人総督 %s"),         _("コロンビア人総督 %s")
+ "Republic",        _("アメリカ人総督 %s"), _("アメリカ人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="panama"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "colombian", "dominicano"
+
+cities =
+"Ciudad de Panama (ocean, river)",
+"Colon (ocean)",
+"David (mountains)",
+"Santiago de Veraguas (ocean)",
+"Chitre",
+"Bocas del Toro (river, ocean)",
+"Penonome (!ocean)",
+"Chitre (mountains)",
+"Las Tablas",
+"Portobelo (ocean)",
+"La Palma (river, jungle)",
+"San Miguelito",
+"Tocumen",
+"Arraijan",
+"Las Cumbres (mountains, hills)",
+"La Chorrera",
+"Pacora",
+"Union Choco (jungle, forest)",
+"El Porvenir (ocean)",
+"Chichica",
+"Cativa",
+"Changuinola",
+"Alcalde Diaz",
+"Puerto Armuelles (ocean)",
+"Aguadulce (river)",
+"Bajo Boquete (hills)",
+"Ipeti",
+"Pacora",
+"Veracruz",
+"Vista Alegre",
+"Chilibre",
+"La Concepcion",
+"Nuevo Arraijan",
+"Pedregal",
+"La Cabima",
+"Anton",
+"Chepo",
+"Penonome",
+"Puerto Escondido (ocean)",
+"El Coco",
+"Volcan",
+"Sabanitas",
+"Pocri",
+"Las Lomas (grassland)",
+"Guadalupe",
+"Rio Hato (river)",
+"Altos de San Francisco",
+"Taboga (ocean)",
+"Almirante (ocean)",
+"Wala",
+"Sona",
+"Alto Boquete (mountains)",
+"Guabito",
+"La Pesa",
+"Los Santos",
+"Puerto Pilon (ocean)",
+"Nata",
+"La Mitra",
+"Miraflores",
+"Contadora (ocean)",
+"Bastimentos (ocean)",
+"Vacamonte",
+"Nargana (ocean)",
+"Balboa",
+"Yaviza (jungle)"

@@ -1,0 +1,134 @@
+[nation_scottishgaelic]
+
+name=_("スコットランド・ゲール語族")
+plural=_("?plural:スコットランド・ゲール")
+rule_name=_("Scottish Gaelic")
+rule_plural=_("?plural:Scottish Gaels")
+groups="Medieval", "European"
+legend=_("Both Gaels and the Gaelic language were brought\
+ to Scotland by the Dalriada dynasty from Ireland. They first\
+ settled in Argyll (Earra Ghaidheal or the Coastland of the\
+ Gael) and soon expanded further into territory held by the\
+ indigenous Picts and culminating in Kenneth MacAlpin uniting\
+ the kingdoms of the Picts and Gaels around 843 CE.\
+ By the time of Malcolm III, Gaelic was the majority language\
+ of Scotland, as far south as Strathclyde, Galloway and parts\
+ of Lothian and the Borders. Today some 60,000 speakers of\
+ Gaelic remain, about half of which live in the Scottish\
+ Highlands and Islands, the other half living all over Scotland,\
+ in particular the Central Belt.")
+
+leaders = {
+ "name",                        "sex"
+ "C・マックアリペイン",	"Male" ; Kenneth I
+ 
+ 
+ 
+}
+
+ruler_titles = {
+ "government",  "male_title",           "female_title"
+ "Anarchy",     _("Pretender %s"),      _("?female:Pretender %s")
+ "Despotism",   _("Clan Chief %s"),     _("?female:Clan Chief %s")
+ "Fundamentalism",  _("Elder %s"),      _("?female:Elder %s")
+ "Democracy",   _("First Minister %s"), _("?female:First Minister %s")
+}
+
+flag="scottishgaelic"
+flag_alt="scotland"
+style="Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Scottish", "Irish", "Briton", "Manx"
+conflicts_with="Gaelic", "Scottish"
+
+cities =
+
+ "Dun Ada (ocean)",		; Dunadd
+ "Dun Ollaidh (ocean,hills)",	; Dunollie
+ "Dun Abhartaich (ocean)", 	; Dunaverty
+ "Dun Chailleann (river, grassland)", ; Dunkeld
+ "Sruighlea (hills)",		; Stirling
+ "Dun Breatainn (ocean)",	; Dumbarton
+ "Fionn-lagan (river)", 	; Finlaggan
+ "Peairt (river)",		; Perth
+ "Dun Bheagain (ocean)", 	; Dunvegan
+ "Bagh a' Chaisteil (ocean)", 	; Castlebay
+ "Dun Thuilm (ocean)",		; Duntulm
+ "Eilean Donnain (ocean)", 	; Eilean Donan
+ "Dun Eideann",			; Edinburgh
+ "Obar Dheathain (ocean, river)", ; Aberdeen
+ "Dun De (ocean, river)",	; Dundee
+ "Inbhir Nis (river)",		; Inverness
+ "Dun Pharlain",		; Dunfermline
+ "An Eaglais Bhreac",		; Falkirk
+ "Cille Mhearnaig",		; Kilmarnock
+ "Dun Phris (river)",		; Dumfries
+ "Cille Bhrighde an Ear (hills)", ; East Kilbride
+ "Lannraig (river)",		; Lanark
+ "Cill Rimhinn (ocean,river)",	; St Andrews
+ "Dun Stafhanais (ocean)",	; Dunstaffnage
+ "Cathair Chaladain (ocean)",	; Kirkcaldy
+ "Dun Omhain (ocean)",		; Dunoon
+ "Roghadal (ocean)",		; Rodel
+ "Comar nan Allt",		; Cumbernauld
+ "An t-Oban (ocean)",		; Oban
+ "Glaschu (river)",		; Glasgow
+ "Inbhir Liobhann (ocean)",	; Leven
+ "Paislig (ocean, river)",	; Paisley
+ "Dun Rath (ocean)",		; Dounreay
+ "Goillspidh (ocean)",		; Golspie
+ "Ceann Phadraig (ocean)",	; Peterhead
+ "An t-Sron Reamhar (ocean)",	; Stranraer
+ "An t-Ard Ruigh (hills)",	; Airdrie
+ "Tobar Mhoire (ocean)",	; Tobermory
+ "Inbhir Theorsa (ocean)",	; Thurso
+ "An t-Sron (ocean)",		; Troon
+ "Ullapul (ocean)", 		; Ullapool
+ "Inbhir Air (ocean, river)",	; Ayr
+ "An Aghaidh Mhor (mountains)",	; Aviemore
+ "Inbhir Uige (ocean)",		; Wick
+ "Dun Bhlathain (river)",	; Dunblane
+ "Ceann a' Ghiuthsaich (mountains)", ; Kingussie
+ "Blar Athall (hills)",		; Blair Atholl
+ "Monadh Rois (ocean, river)",	; Montrose
+ "Loch Baghastail (ocean)",	; Lochboisdale
+ "An Tob (ocean)",		; Leverburgh
+ "Monadh Feithe (ocean)",	; Monifieth
+ "Dun Barra (ocean, river)",	; Dunbar
+ "Steornabhagh (ocean)",	; Stornoway
+ "Calasraid (river)",		; Callander
+ "Crosabol (ocean)",		; Crossapoll
+ "Allt na h-Eirbhe (mountains)", ; Altnaharra
+ "Port Righ (ocean)",		; Portree
+ "Carlabhagh (ocean)",		; Carloway
+ "Cathair Ceann Tulach", 	; Kirkintilloch
+ "Diuirinis (ocean)",		; Durness
+ "Bogha Mor (ocean)",		; Bowmore
+ "Braigh Mharr (hills)",	; Braemar
+ "Inbhir Uraidh (hills, river)", ; Inverurie
+ "Alamhagh (river)",		; Alloa
+ "Druim na Drochaid (river)",	; Drumnadrochit
+ "Inbhir Gharbhain (ocean, river)", ; Girvan
+ "Cill Chuimein (ocean, river)", ; Fort Augustus
+ "Aird a' Bhasair (ocean)",	; Ardvasar
+ "Obar Bhrothaig (ocean)",	; Arbroath
+ "Loch nam Madadh (ocean)",	; Lochmaddy
+ "An t-Alltan Fuar (river)",	; Coldstream
+ "Inbhir Eighe (ocean, river)",	; Eyemouth
+ "Baile Bhoid (ocean)",		; Rothesay
+ "Inbhir Aora (ocean)",		; Inveraray
+ "Cuileann Ros (ocean)",	; Culross
+ "Guireag (ocean)",		; Gourock
+ "Cille Chomhghain (ocean)",	; Kilchoan
+ "Am Machaire (ocean)",		; Machrie
+ "Ceann Fhail (ocean)",		; /* Bo'ness */
+ "A' Bhruaich (ocean)",		; Fraserburgh
+ "Srath Bhalgaidh (hills)",	; Huntly
+ "Inbhir Uraidh (river)",	; Inverurie
+ "Na Puballan (river)",		; Peebles
+ "Eilginn (river)"		; Elgin
+

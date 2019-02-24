@@ -1,0 +1,79 @@
+[nation_easttimorese]
+
+name=_("東ティモール民主共和国")
+plural=_("?plural:ティモール")
+groups="Oceanian", "Asian", "Modern"
+legend=_("A former Portuguese colony, East Timor declared independence\
+ in 1975 but was overrun by Indonesian forces shortly thereafter. East\
+ Timor became the first newly sovereign state of the 21st century when\
+ Indonesia relinquished control on May 20, 2002.")
+
+leaders = {
+ "name",                "sex"
+ "ジョゼ・ラモス・ホルタ",    "Male"
+ "ルチア・ロバト",        "Female"
+ "マヌエル・カラス",  "Male"
+ "二コラウ・ロバトドス",      "Male"
+ "フレティリン",         "Male"
+ 
+}
+
+ruler_titles = {
+ "government",     "male_title",    "female_title"
+ "Fundamentalism", _("司教 %s"),  _("Mother 司教 %s")
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Communism",       _("書記長 %s"), _("書記長 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("首相 %s"), _("首相 %s")
+ 
+}
+
+flag="east_timor"
+flag_alt="-"
+style="Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Indonesian", "Malaysian"
+
+cities =
+ "Dili",
+ "Dare",
+ "Lospalos",
+ "Baucau",
+ "Ermera",
+ "Maliana",
+ "Suai",
+ "Bobonaro",
+ "Viqueque",
+ "Liquica",
+ "Pante Macassar",
+ "Metinaro",
+ "Gleno",
+ "Lolotoe",
+ "Bazartete",
+ "Lautem",
+ "Ainaro",
+ "Same",
+ "Manatuto",
+ "Aileu",
+ "Quelicai",
+ "Hatulia",
+ "Bobonaro",
+ "Maubisse",
+ "Letefoho",
+ "Uato-Lari",
+ "Ossu",
+ "Maubara",
+ "Atsabe",
+ "Laga",
+ "Venilale",
+ "Balibo",
+ "Nitibe",
+ "Hau-Builico",
+ "Oesilo"
+
+
+

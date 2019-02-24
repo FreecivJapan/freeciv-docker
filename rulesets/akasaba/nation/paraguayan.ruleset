@@ -1,0 +1,108 @@
+[nation_paraguayan]
+
+name=_("パラグアイ共和国")
+plural=_("?plural:パラグアイ")
+rule_name=_("Paraguayan")
+rule_plural=_("?plural:Paraguayans")
+groups="Modern", "American"
+legend=_("Paraguay is located in the heartland of South America. It was\
+ conquered by the Spanish in the late 16th century. The colony was mostly\
+ controlled by the Jesuits until their expulsion in 1767. In 1811,\
+ Paraguay was the first South American country to achieve independence\
+ from Spain. A number of highly authoritarian rulers governed the country\
+ as a tyranny but also turned it into a military and economic powerhouse.\
+ The War of the Triple Alliance of 1864-1870 led to the near\
+ annihilation of Paraguay, which lost half of its territory and eighty\
+ per cent of its male population. Paraguay's history remains marked by\
+ instability and authoritarianism, alhough it managed to defeat Bolivia\
+ in the Chaco War of 1932-1936. For much of the 20th century the country\
+ was ruled by General Stroessner, who provided a safe haven for Nazi war\
+ criminals. Around the turn of the millennium however Paraguay started to\
+ see a democratic system of government and an impressive economic growth.")
+
+leaders = {
+ "name",                        "sex"
+ "フランシア", "Male"
+ "カルロス・ロペス",        "Male"
+ "フランシスコ・ロペス",      "Male"
+ "エウゼビオ・アヤラ",               "Male"
+ "エスティガリビア",     "Male"
+ "モリニゴ",            "Male"
+ "ストロエスネル",          "Male"
+ "アンドレス・ロドリゲス",            "Male"
+ "フェルナンド・ルゴ",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Communism",       _("将軍 %s"),  _("将軍 %s")
+ "Despotism",       _("スペイン人総督 %s"),     _("?female:スペイン人総督 %s")
+ "Fundamentalism",  _("修道院長 %s"),       _("優しい母 %s")
+ "Republic",        _("執政官 %s"), _("執政官 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Monarchy",        _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ 
+}
+
+flag="paraguay"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="guarani"
+civilwar_nations="guarani", "german"
+
+cities =
+ "Asuncion",
+ "Ciudad del Este",
+ "Encarnacion",
+ "Coronel Oviedo",
+ "San Pedro de Ycuamandiyu",
+ "Caacupe",
+ "Villarrica",
+ "Concepcion",
+ "Pilar",
+ "Paraguari",
+ "Pedro Juan Caballero",
+ "Aregua",
+ "Mariano Roque Alsonso",
+ "Salto del Guaira",
+ "Caazapa",
+ "San Juan Bautista",
+ "Caagazu",
+ "Pozo Colorado",
+ "Filadelfia",
+ "Fuerte Olimpo",
+ "Ita",
+ "Santa Rita",
+ "Villa Hayes",
+ "San Estanislao",
+ "San Ignacio",
+ "Doctor Eulogio Estigarribia",
+ "San Lorenzo",
+ "Luque",
+ "Capiata",
+ "Lambare",
+ "Fernando de la Mora",
+ "Limpio",
+ "Nemby",
+ "Fernheim",
+ "Villa Elisa",
+ "Villeta",
+ "Hohenau",
+ "Doctor Pedro P. Pena",
+ "Nueva Italia",
+ "Capitan Pablo Lagerenza",
+ "Neufeld",
+ "Itagua",
+ "Hernandariaz",
+ "Presidente Franco",
+ "Minga Guazu",
+ "Repatriacion",
+ "Marechal Estigarribia",
+ "Nueva Germania"
+
+

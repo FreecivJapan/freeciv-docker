@@ -1,0 +1,71 @@
+[nation_indonesian]
+
+name=_("インドネシア共和国")
+plural=_("?plural:インドネシア共和国")
+rule_name=_("Indonesian")
+rule_plural=_("?plural:Indonesians")
+groups="Modern", "Asian", "Oceanian"
+legend=_("Indonesia is a large country on the Malay Archipelago with central\
+ government on the island of Java. The country has a Muslim majority and is\
+ one of the most populous in the world.")
+
+leaders = {
+ "name",                        "sex"
+ "スカルノ",                     "Male"
+ "スハルト",                     "Male"
+ "メガワティ",       "Female"
+ "ユドヨノ",                     "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("オランダ人総督 %s"), _("オランダ人総督 %s")
+ "Monarchy",        _("オランダ人総督 %s"), _("オランダ人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("日本人総督 %s"), _("日本人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="indonesia"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+; Singapore has very similar flag
+conflicts_with="Singaporean", "Majapahit", "Sri Vijaya"
+civilwar_nations="Acehnese", "East Timorese"
+
+cities =
+ "Jakarta",
+ "Surabaya",
+ "Bandung",
+ "Medan",
+ "Semarang",
+ "Palembang",
+ "Ujung Pandang",
+ "Padang",
+ "Malang",
+ "Surakarta",
+ "Banjarmasin",
+ "Yogyakarta",
+ "Pontianak",
+ "Makasar",
+ "Cirebon",
+ "Bandar Lampung",
+ "Denpasar",
+ "Mataram",
+ "Tegal",
+ "Samarinda",
+ "Pekan Baru",
+ "Banjarmasin",
+ "Manadao",
+ "Balikpapan",
+ "Jambi",
+ "Pacet",
+ "Ambon"
+
+

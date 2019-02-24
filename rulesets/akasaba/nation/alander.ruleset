@@ -1,0 +1,115 @@
+[nation_alander]
+
+name=_("オーランド")
+plural=_("?plural:オーランド")
+rule_name="Alander"
+rule_plural=_("?plural:Ålanders")
+groups="European"
+legend=_("Aland is an archipelago in the Baltic Sea, located between\
+ Sweden and Finland. The islands' inhabitants are Swedish speaking, but\
+ Aland is an autonomous province in Finland, a status that was reached\
+ in 1921 after a long period in which the islands were contested between\
+ Sweden and Finland. Aland's special and demilitarized status is protected\
+ by international law.")
+
+leaders = {
+ "name",                     "sex"
+ "エリック・エレン",                "Male"
+ "ペーテル・リンドベック", "Male"
+ "ロイエル・ノルドルンド",           "Male"
+ 
+}
+ruler_titles = {
+ "government",     "male_title",     "female_title"
+ "Democracy",      _("総督 %s"),  _("総督 %s")
+ "Despotism",      _("総督 %s"),     _("?female:総督 %s")
+ "Fundamentalism", _("教区牧師 %s"),    _("?female:教区牧師 %s")
+ "Republic",       _("総督 %s"), _("?female:総督 %s")
+}
+flag="aland"
+flag_alt = ""
+style = "celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "swedish", "finnish"
+
+cities =
+ "Mariehamn",
+ "Kyrkby",	;Jomala
+ "Godby",	;Finström
+ "Söderby",     ;Lemland
+ "Ödkarby",     ;Saltvik
+ "Kattby",	;Hammarland
+ "Björby",	;Sund
+ "Storby",	;Eckerö
+ "Degerby", 	;Föglö
+ "Åva",		;Brändö
+ "Vestergeta",	;Geta
+ "Strömsby",	;Vårdö
+ "Klemetsby",	;Lumparland
+ "Kumlinge",
+ "Kökar",
+ "Sottunga",
+ "Kastelholm",
+ "Långnäs",
+ "Lappo",
+ "Märket",
+ "Germundö",
+ "Hastersboda",
+ "Kasberget",
+ "Hellsö",
+ "Husö",
+ "Norrsunda",
+ "Önningeby",
+ "Vestansunda",
+ "Överö",
+ "Tängsödavik",
+ "Snäckö",
+ "Fiskö",
+ "Apalängen",
+ "Möckelgräs",
+ "Vessingsboda",
+ "Krogstad",
+ "Bamböle",
+ "Vargata",
+ "Höckböle",
+ "Ytterby",
+ "Prästgården",
+ "Västra Ytternäs",
+ "Granboda",
+ "Åsgårda",
+ "Överboda",
+ "Ytternäs",
+ "Björkö",
+ "Pålsböle",
+ "Emkarby",
+ "Kråkböle",
+ "Jomalby",
+ "Sibby",
+ "Torp",
+ "Bråttö",
+ "Övernäs",
+ "Bovik",
+ "Enklinge",
+ "Hellestorp",
+ "Ingby",
+ "Västanträsk",
+ "Ämnäs",
+ "Östernäs",
+ "Överby Degersand",
+ "Bistorp",
+ "Grelsby",
+ "Äppelö",
+ "Björnhuvud",
+ "Nääs",
+ "Espholm",
+ "Ängö",
+ "Finnö",
+ "Postad",
+ "Flisö",
+ "Bistorp",
+ "Skag",
+ "Strömsvik"

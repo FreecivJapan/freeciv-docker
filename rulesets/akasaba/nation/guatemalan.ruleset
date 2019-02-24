@@ -1,0 +1,110 @@
+[nation_guatemalan]
+
+name=_("グアテマラ共和国")
+plural=_("?plural:Guatemalans")
+groups="Modern","American"
+legend=_("The ancient heartland of the Mayas, Guatemala was conquered by\
+ the Spanish in the 16th century. It became independent in 1821 but was\
+ part of the United States of Central America until 1840. It has endured\
+ political turmoil for much of its history. Guatemala lived through one\
+ of the most brutal civil wars of the 20th century until a peace agreement\
+ was signed in 1996.")
+
+leaders = {
+ "name",                                "sex"
+ "ペドロ・デ・アルバラード",                   "Male"
+ "マヌエル・カブレラ",                      "Male"
+ "ホセ・バリオス",                 "Male"
+ "ホルフ・ウビーコ",                         "Male"
+ "フアン・ホセ・アレバーロ",                   "Male"
+ "ハコボ・グスマン",                "Male"
+ "カルロス・アルマス",               "Male"
+ "ミゲル・イディゴラス",                     "Male"
+ "モンテネグロ",       "Male",
+ "フェルナンド・ガルシア",         "Male"
+ "リオスモント",                   "Male"
+ "オットー・ペレス・モリーナ",                   "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Despotism",       _("スペイン人総督 %s"),     _("?female:スペイン人総督 %s")
+ "Communism",       _("司令官 %s"),  _("司令官 %s")
+ "Fundamentalism",  _("牧師 %s"),    _("?female:牧師 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Monarchy",        _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+}
+
+flag="guatemala"
+flag_alt="-"
+style="Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="salvadoran", "mayan"
+
+cities =
+  "Guatemala (mountains, hills)", 
+  "Huehuetenango (mountains)", 
+  "Quetzaltenango (mountains)", 
+  "Antigua (mountains)", 
+  "Escuintla (mountains, hills)", 
+  "Chimaltenango (mountains)", 
+  "Flores (jungle, lake)",
+  "Mixco (mountains)", 
+  "Villa Nueva", 
+  "Santa Lucia Cotzumalguapa (swamp)",
+  "Puerto Barrios (ocean, river, lake)", 
+  "Coban (mountains, forest)",
+  "Chichicastenango (mountains)", 
+  "San Pedro Sacatepequez (mountains, forest)",
+  "Jalapa",
+  "Totonicapan",
+  "Momostenango",
+  "Coatepeque",
+  "Poptun (jungle)",
+  "Mazatenango",
+  "Zacapa (river)",
+  "Chiquimula (river)",
+  "Santa Cruz del Quiche",
+  "Jutiapa",
+  "San Benito",
+  "Santiago Atitlan (lake)",
+  "San Cristobal Verapaz (jungle, forest)",
+  "Monterrico (ocean)", 
+  "Retalhuleu (swamp, river)",
+  "Rabinal (mountains)", 
+  "Livingston (ocean)",
+  "Panajachel (lake)", 
+  "San Andres Sajcabaja", 
+  "Santa Cruz del Quiche",
+  "Petapa",
+  "Santo Tomas de Castilla",
+  "Solola", 
+  "Chinautla",
+  "Esquipulas", 
+  "Melchor de Mencos (jungle)", 
+  "Ciudad Tecun Uman (jungle, river, swamp)", 
+  "San Juan Sacatepequez", 
+  "Villa Canales",
+  "San Antonio Suchitepequez",
+  "Cuilapa",
+  "Salama",
+  "Guastatoya",
+  "Amatitlan", 
+  "Nebaj",
+  "Santa Catarina Pinula",
+  "Palin",
+  "Barberena",
+  "Ostunalco",
+  "Tecpan Guatemala",
+  "San Mateo Ixtatan",
+  "La Mesilla",
+  "Sayaxche",
+  "Nahuala"
+
+

@@ -1,0 +1,67 @@
+[nation_malaysian]
+
+name = _("マレーシア国")
+plural = _("?plural:マレーシア")
+groups = "Modern", "Asian"
+legend = _("Malaysia was started with the founding of Malacca (Melaka) by\
+ Parameswara in the early 14th century.")
+
+leaders = {
+ "name",                "sex"
+ "パラメスワラ]",         "Male"
+ "マンスル",              "Male"
+ "ぺラ",               "Male"
+ "ハン・トゥアー",           "Male"
+ "アブドゥル・ラーマン",        "Male"
+ "アブドゥル・ラザク",         "Male"
+ "アブドゥル・ハリム",         "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Monarchy",        _("国王陛下 %s"),         _("女王陛下 %s")
+ "Republic",        _("首相 %s"),            _("?female:首相 %s")
+ "Democracy",       _("首相・互選国王 %s"), _("?female:首相・互選女王 %s")
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("国王 %s"), _("女王 %s")
+ "Communism",       _("戦時政府・互選国王 %s"), _("戦時政府・互選女王 %s")
+}
+
+flag = "malaysia"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs = ""
+init_buildings = ""
+init_units = ""
+
+; Similar flags
+conflicts_with = "american"
+civilwar_nations = "singaporean", "indonesian", "malagasy"
+
+cities =
+ "Kuala Lumpur",
+ "Putrajaya",
+ "Ipoh",
+ "George Town",
+ "Butterworth", 
+ "Muar",
+ "Melaka",
+ "Johor Bahru",
+ "Petaling Jaya",
+ "Kangar",
+ "Kuala Terengganu",
+ "Sungai Petani",
+ "Port Dickson", 
+ "Klang",
+ "Alor Setar",
+ "Kota Baharu",
+ "Taiping",
+ "Kuantan",
+ "Seremban",
+ "Kota Kinabalu",
+ "Kuching",
+ "Miri",
+ "Sibu",
+ "Sandakan"

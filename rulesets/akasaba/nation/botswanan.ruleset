@@ -1,0 +1,64 @@
+[nation_Botswana]
+
+name=_("ボツワナ共和国")
+plural=_("?plural:ボツワナ共和国")
+rule_name=_("Botswanan")
+rule_plural=_("?plural:Botswanans")
+groups="Modern", "African"
+legend=_("The Republic of Botswana is a country in Southern Africa.\
+ It gained independence from the UK in 1966. Botswana is considered\
+ the least corrupt country in Africa and it has a rapidly developing\
+ economy.")
+
+leaders = {
+ "name",                "sex"
+ "セベレ",              "Male" ; Chief circa 1885 of what became Bechuanaland
+ "カーマ３世",           "Male" ; Chief (1837?-1923)
+ "セレッツェ・カーマ",       "Male" ; First president until 1980 (d. 1980)
+ "クェット・マシーレ",        "Male" ; President from 1980 - 1998 (d. 1998)
+ "フェスタス・モハエ",        "Male" ; President from 1998 - 2008
+ "イアン・カーマ",        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("女王陛下 %s")
+ "Democracy",       _("女王陛下 %s"), _("女王陛下 %s")
+
+}
+flag="botswana"
+flag_alt = "-"
+style = "tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Boer", "Malawian", "Zimbabwean"
+
+cities =
+ "Gaborone",
+ "Francistown",
+ "Molepolole",
+ "Palapye",
+ "Serowe",
+ "Mogoditshane",
+ "Thamaga",
+ "Tshabong",
+ "Mochudi",
+ "Gabane",
+ "Masunga",
+ "Maun",
+ "Kanye",
+ "Mushopa",
+ "Goodhope",
+ "Kopong", 
+ "Hukuntsi",
+ "Kang",
+ "Ghanzi",
+ "Mochudi",
+ "Etsha",
+ "Gumare"

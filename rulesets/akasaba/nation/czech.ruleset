@@ -1,0 +1,70 @@
+[nation_czech]
+
+name = _("チェコ共和国")
+plural = _("?plural:チェコ共和国")
+rule_name = _("Czech")
+rule_plural = _("?plural:Czechs")
+groups="Modern", "Medieval", "European"
+legend=_("Today's Czech Republic was until 1993 part of Czechoslovakia,\
+ which had been until 1918 part of the Austro-Hungarian Empire.")
+
+leaders = {
+ "name",                "sex"
+ "ミラン・シュテファーニク",     "Male"
+ "マサリク",           "Male"
+ "エドヴァルド・ベネシュ",            "Male"
+ "クレメント・ゴットワルト",              "Male"
+ "グスターフ・フサーク",     "Male"
+ "ヴァーツラフ・ハヴェル",           "Male"
+ "ルドヴィーク・スヴォボダ",             "Male"
+ "アントニーン・ノヴォトニー", "Male"
+ "ヴラジミール・シュピドラ",       "Male"
+ "ヴァーツラフ・クラウス",        "Male"
+ "ヤン・シロヴィー",        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Anarchy",         _("Usurper %s"),      _("?female:Usurper %s")
+ "Despotism",       _("Voivode %s"),     _("?female:Voivode %s")
+ "Monarchy",        _("オーストリア人総督 %s"), _("オーストリア人総督 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("General Secretary %s"), _("?female:General Secretary %s")
+ "Fundamentalism",  _("Prophet %s"),     _("Prophetess %s")
+}
+
+flag = "czech"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="slovakian", "silesian", "moravian", "sorbian"
+
+cities =
+        "Praha", "Brno", "Ostrava", "Plzeň", "Hradec Králové",
+        "Olomouc", "České Budějovice", "Ústí nad Labem", "Opava",
+        "Most", "Pardubice", "Jihlava", "Chomutov", "Přerov",
+        "Teplice", "Frýdek Místek", "Znojmo", "Cheb", "Zlín",
+        "Karlovy Vary", "Uherské Hradiště", "Kolín", "Hodonín",
+        "Stará Boleslav", "Příbram", "Šumperk", "Písek",
+        "Litoměřice", "Třebíč", "Vyškov", "Kroměříž", "Klatovy",
+        "Havlíčkův Brod", "Prostějov", "Chrudim", "Louny", "Děčín",
+        "Rokycany", "Náchod", "Beroun", "Rakovník", "Mělník",
+        "Jičín", "Tachov", "Strakonice", "Kutná Hora",
+        "Bruntál", "Trutnov", "Sokolov", "Pelhřimov", "Nymburk",
+        "Svitavy", "Ústí nad Orlicí", "Nový Jičín", "Tábor",
+        "Domažlice", "Jindřichův Hradec", "Česká Lípa", "Benešov",
+        "Liberec", "Rychnov nad Kněžnou", "Český Krumlov",
+        "Prachatice", "Semily", "Žďár nad Sázavou", "Vsetín",
+        "Osek", "Litomyšl", "Velehrad", "Těšín", "Rožmberk",
+        "Tovačov", "Sezimovo Ústí", "Hořice", "Kouřim",
+        "Poděbrady", "Vilémov", "Kunvald", "Dvůr Králové",
+        "Bezděz", "Třeboň", "Šternberk", "Sázava", "Slaný",
+        "Mladá Boleslav", "Kunštát", "Zelená Hora", "Duchcov",
+        "Žatec", "Kladsko", "Horažďovice", "Čáslav", "Pirkštejn",
+        "Krnov", "Rožmitál", "Loket", "Kladno",
+        "Jablonec nad Nisou", "Břeclav", "Blansko", "Karviná"

@@ -1,0 +1,81 @@
+[nation_congolesebrazzaville]
+
+name=_("コンゴ共和国")
+plural=_("?plural:コンゴ共和国")
+groups="African", "Modern"
+legend=_("The Republic of the Congo is a country in Central Africa, not\
+ to be confused with the Democratic Republic of the Congo. Congo has been\
+ independent from France since 1960. From 1970 to 1991 it was governed as\
+ a Marxist-Leninist one party state; in this period the country was known\
+ as the People's Republic of the Congo. The country's economy relies\
+ heavily on the export of petroleum.")
+
+leaders = {
+ "name",                       "sex"
+ "フルベール・ユール", "Male"
+ "A・マサンバ＝デバ",          "Male"
+ "デーヴィッド・ムカサ",                "Male"
+ "マリアン・ングアビ",              "Male"
+ "ドニ・サスヌゲソ",             "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",     "female_title"
+ "Communism",      _("Chairman %s"), _("Chairwoman %s")
+ "Fundamentalism", _("Bishop %s"),   _("Mother Superior %s")
+ "Despotism",       _("総督 %s"), _("総督 %s")
+ "Republic",        _("大統領 %s"),  _("?female:大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ 
+ 
+}
+
+flag="r_congo"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with = "kongo"
+civilwar_nations = "congolese", "central african"
+
+cities =
+ "Brazzaville",
+ "Pointe-Noire (ocean)",
+ "Kinkala",
+ "Madingou",
+ "Sibiti",
+ "Impfondo",
+ "Ouesso",
+ "Owando",
+ "Djambala",
+ "Ewo",
+ "Dolisie",
+ "Nkayo",
+ "Loango",
+ "Mossendjo",
+ "Oyo",
+ "Gamboma",
+ "Loandjili",
+ "Ngamaba-Mfilou",
+ "Makoua",
+ "Matsanga",
+ "Sembe",
+ "Madingo-Kayes",
+ "Loudima",
+ "Bomassa",
+ "Diosso",
+ "Kayes",
+ "Mbinda",
+ "Souanke",
+ "Ikelemba",
+ "Mossaka",
+ "Ngoubou-Ngoubou",
+ "Kelle",
+ "Gamboma",
+ "Dia",
+ "Gamakala"
+
+

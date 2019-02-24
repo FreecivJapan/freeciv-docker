@@ -1,0 +1,126 @@
+[nation_frisian]
+
+name=_("フリースラント")
+plural=_("?plural:フリジア")
+groups="Medieval", "Early Modern", "European"
+legend=_("Romans already mentioned the Frisii but historians are unsure\
+ whether they were the ancestors of today's Frisians or not. In the early\
+ Middle Ages the Frisians controlled a kingdom stretching from the\
+ Scheldt to Jutland. Although eventually defeated by the Franks, they\
+ kept enjoying the famous Frisian freedom, refusing to recognize the rule\
+ of any feudal lord. In the 15th and 16th centuries Frisian territory was\
+ eventually carved up, the core becoming a province of the United\
+ Netherlands. In 1782 the Estates of Friesland was the first foreign\
+ government to recognize the independence of the United States of\
+ America.")
+
+leaders = {
+ "name",                                "sex"
+ "フィン",                                "Male"
+ "リッドバッド",                              "Male"
+ "エグバート２世",                           "Male"
+ "ティリックスマー",                     "Male"
+ "ホート",                    "Male"
+ "ランネンバーグ",                          "Male"
+ "エルンスト・カジミール",                       "Male"
+ "ヨハン・ウィレム・フリソー",                  "Male"
+ "I・フムダー",          "Male"
+ "F・ニイウェンハス",        "Male"
+ "マタ・ハリ",                           "Female"
+  "エッド・ナイペルス",        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Democracy",       _("州知事 %s"), _("?female:州知事 %s")
+ "Monarchy",	    _("伯爵 %s"),        _("伯爵 %s")
+ "Republic",	    _("総督 %s"),  _("総督 %s")
+ "Despotism",	    _("代官 %s"),    _("?female:代官 %s")
+}
+
+flag="frisia"
+flag_alt = "-"
+style = "Celtic"
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "dutch", "oldenburgian", "schleswig-holsteinian", "english"
+
+cities =
+;Frisian capitals
+
+  "Ljouwert", ;capital of Fryslan/Friesland province
+  "Auwerk (swamp, forest)", ;Medieval capital
+  "Emden (river, ocean)", ;capital of County of East Frisia
+
+;The eleven cities, with Ljouwert
+  "Snits (river)",
+  "Drylts (river)",
+  "Harns (ocean, river)",
+  "Frjentsjer (river)",
+  "Dokkum (river)",
+  "Sleat (river)",
+  "Warkum (ocean, lake)",
+  "Starum (ocean, lake)",
+  "Hylpen (ocean, lake)",
+  "Boalsert (river)",
+
+;Other cities
+  "Norden",
+  "Naibel",
+  "De Jouwer",
+  "Grou",
+  "Wittmund",
+  "Drachten (forest)",
+  "Wolvegea",
+  "De Lemmer (swamp)",
+  "Berltsum",
+  "Lier",
+  "Jever",
+  "It Hearrenfean",
+  "Wyk",
+
+;Other towns
+  "Sint-Anne",
+  "Friesoyte",
+  "Helgolan (ocean)",
+  "Wrangereach (ocean)",
+  "Butenpost",
+  "Mearum",
+  "Hollum",
+  "Kollum",
+  "Wommels",
+  "Dronryp",
+  "Tytsjerk",
+  "Holwert (ocean)",
+  "Stiens",
+  "Akkrum",
+  "Oerterp",
+  "De Westereen",
+  "Wursten (swamp, ocean)",
+  "Grytjesyl",
+  "Gytsjerk",
+  "West-Skylge (ocean)",
+  "Jemmingen (river)",
+  "Nij Beets",
+  "Feanwalden (forest)",
+  "De Gordyk",
+  "Menaam",
+  "Skiermuntseach (ocean)",
+  "Sint Nyk",
+  "Cloppenburg (swamp)",
+  "Amrum",
+  "Midslan (ocean)",
+  "Hollum (ocean)",
+  "Beestsersweach",
+  "Damwald",
+  "Burgum",
+  "Balk",
+  "Hurdegaryp",
+  "Makkum",
+  "Wytmarsum",
+  "Husem",
+  "Surhusterfean (swamp)",
+  "Minnertsgea",
+  "Warns"

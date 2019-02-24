@@ -1,0 +1,84 @@
+[nation_mongol]
+
+translation_domain="freeciv"
+
+name=_("モンゴル国")
+plural=_("?plural:モンゴル")
+rule_name=_("Mongol")
+rule_plural=_("?plural:Mongols")
+groups="Medieval", "Early Modern", "Modern", "Asian", "Core"
+legend=_("In the centuries after their unification by Chinggis Khan, the\
+ Mongols conquered the largest empire in human history, encompassing most\
+ of the continent of Asia. They became notorious for their utter\
+ ruthlessness in warfare.")
+
+leaders = {
+ "name",        "sex"
+ "チンギスハーン",	"Male" ; Genghis / Чингис
+ "オゴデイ ・ハーン",	"Male" ; ?гэдэй
+ "バトゥ",		"Male" ; Batu / Бат
+ "チャガタイ・ハン",	"Male" ; Chagatai / Цагадай
+ "トルイ",	"Male" ; Толуй
+ "トクタミシュ",	"Male" ; Тохтамыш
+ "スブタイ",	"Male" ; Subutai / С?бээдэй
+ "グユク", 	"Male" ; Г?юг
+ "モンケ・ハーン", 	"Male" ; Mongke / М?нх
+ "フビライ・ハーン",	"Male" ; Kublai / Хубилай
+ "フレグ",	"Male" ; Hulagu / Х?лэг?
+ "ジャムビン・バトムンフ",	"Male"
+ "ツァヒアギーン・エルベグドルジ",	"Male"
+ "チョイバルサン",	"Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("%s Khan"),      _("%s Khatan")
+ "Monarchy",        _("%s Khagan"),    _("?female:%s Khagan")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("書記長 %s"), _("書記長 %s")
+}
+
+flag="mongolia"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Tibetan", "Tuvan", "Kalmyk", "Timurid", "Uyghur", "Tatar",
+ "Crimean Tatar", "Buryat", "Golden Horde"
+
+cities=
+ "Karakorum", ; Каракорум
+ "Ulaanbaatar", ; Улаанбаатар
+ "Sainshand", ; Сайншанд
+ "Ulaangom", ; Улаангом
+ "Khovd", ; Ховд
+ "Tsetserleg", ; Цэцэрлэг
+ "Altanbulag", ; Алтанбулаг
+ "Zuunmod", ; Зуунмод
+ "Bayankhongor", ; Баянхонгор
+ "Dalanzadgad", ; Даланзадгад
+ "Choibalsan", ; Чойбалсан
+ "Erdenet", ; Эрдэнэт
+ "Mandalgovi", ; Мандалговь
+ "Mörön", ; Мөрөн
+ "Sükhbaatar", ; Сүхбаатар
+ "Züünkharaa", ; Зүүнхараа
+ "Öndörkhaan", ; Өндөрхаан
+ "Ölgii", ; Өлгий
+ "Arvaikheer", ; Арвайхээр
+ "Bulgan", ; Булган
+ "Altai", ; Алтай
+ "Baruun-Urt", ; Баруун-Урт
+ "Choir", ; Чойр
+ "Darkhan", ; Дархан
+ "Bayan-Uul", ; Баян-Уул
+ "Nalaikh", ; Налайх
+ "Zamyn-Üüd", ; Замын-Үүд
+ "Khatgal", ; Хатгал
+ "Uliastai", ; Улиастай
+ "Khuld" ; Хулд

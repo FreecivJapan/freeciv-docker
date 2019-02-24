@@ -1,0 +1,83 @@
+[nation_ghanaian]
+
+name=_("ガーナ共和国")
+plural=_("?plural:ガーナ")
+groups="African", "Modern"
+legend=_("Ghana takes its name from the old Ghana Empire. Known as the\
+ Gold Coast by the Europeans, the Portuguese, Dutch and Swedes founded\
+ outposts but in the 19th century Ghana became a British colony. In 1957\
+ Kwame Nkrumah proclaimed Ghana's independence.")
+
+leaders = {
+ "name",                        "sex"
+ "クワメ・ンクルマ",               "Male"
+ "ジョン・アッタ・ミルズ",           "Male"
+ "ジョセフ・アンクラ",        "Male"
+ "ヒラ・リマン",                "Male"
+ "ニャホ・ニャホ・タマクロー",              "Male"
+ "バンフォード・アッド",          "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("イギリス人提督 %s"), _("イギリス人提督 %s")
+ "Monarchy",        _("イギリス人提督 %s"), _("イギリス人提督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="ghana"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Ivoirian", "Burkinabe", "Togolese"
+
+cities =
+ "Accra",
+ "Kumasi",
+ "Sekondi",
+ "Koforidua",
+ "Tamale",
+ "Sunyani",
+ "Ho",
+ "Cape Coast (ocean)",
+ "Bolgatanga",
+ "Wa",
+ "Takoradi",
+ "Ashiaman",
+ "Obuasi",
+ "Teshie",
+ "Techiman",
+ "Tema",
+ "Madina",
+ "Bawku",
+ "Nungua",
+ "Tema New Town",
+ "Bolgatanga",
+ "Dome",
+ "Ejura",
+ "Lashibi",
+ "Tafo",
+ "Gbawe",
+ "Oduponkpehe",
+ "Taifa",
+ "Swedru",
+ "Aflao",
+ "Berekum",
+ "Nkawkaw",
+ "Winneba",
+ "Oda",
+ "Hohoe",
+ "Yendi",
+ "Adenta East",
+ "Kintapo",
+ "Mampong",
+ "Suhum",
+ "Konongo"

@@ -1,0 +1,80 @@
+[nation_burgundian]
+
+name=_("ブルゴーニュ公国")
+plural=_("?plural:ブルグント")
+rule_name=_("Burgundian")
+rule_plural=_("?plural:Burgundians")
+groups="Medieval", "European"
+legend=_("After the fall of the Western Roman Empire, a Germanic people\
+ known as the Burgundians settled in the Rhine Valley, lending their name\
+ to the region. Centuries later, the Duchy of Burgundy was a prosperous\
+ country with the court in Dijon outshining that of Paris. It is today one\
+ of the regions of France.")
+
+leaders = {
+ "name",                        "sex"
+ "キルデベルト1世",        "Male"
+ "テウデバルト1世",              "Male"
+ "ピピン3世",                  "Male"
+ "カール大帝",                    "Male"
+ "ロタール2世",           "Male"
+ "ハインリヒ5世",              "Male"
+ "コンラート3世 ",             "Male"
+ "正義公リシャール",        "Male"
+ "マリー・テレーズ",                  "Female"
+}
+
+ruler_titles = {
+ "government",  "male_title",     "female_title"
+ "Despotism",   _("国王 %s"), _("女王 %s")
+ "Monarchy",    _("公 %s"),     _("女公 %s")
+ "Republic",        _("辺境伯 %s"), _("辺境伯夫人 %s")
+}
+
+flag = "burgundy"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Flemish", "Savoyard", "Luxembourgish", "Lorrain"
+
+cities =
+; Bourgogne
+ "Dijon",
+ "Chalon-sur-Saône",
+ "Nevers",
+ "Auxerre",
+ "Mâcon",
+ "Sens",
+ "Le Creusot",
+ "Beaune",
+ "Montceau-les-Mines",
+ "Autun",
+ "Chenôve",
+ "Joigny",
+ "Bourbon-Lancy",
+ "Semur-en-Auxois",
+ "Charolles",
+ "Château-Chinon",
+ "Semur-en-Brionnais",
+ "Cluny",
+ "Vézelay",
+ "Langres",
+ "Châtillon-sur-Seine",
+ "Auxonne",
+ "Paray-le-Monial",
+ "Cuiseaux",
+
+; Franche-Comté
+ "Besançon",
+ "Pontarlier",
+ "Vesoul",
+ "Dole",
+ "Luxeuil",
+ "Lons-le-Saunier",
+ "Saint-Claude",
+ "Auxonne",
+ "Poligny"

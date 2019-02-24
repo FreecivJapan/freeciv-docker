@@ -1,0 +1,101 @@
+[nation_haitian]
+
+name=_("ハイチ共和国")
+plural=_("?plural:Haitians")
+groups="Modern", "American"
+legend=_("A slave rebellion led Haiti to independence in 1804. It was the\
+ first independent black republic and the second independent country in\
+ the Americas.")
+
+leaders = {
+ "name",                        "sex"
+ "トゥーサン・ルーヴェルチュール",              "Male"
+ "ジャック1世",             "Male"
+ "アンリ・クリストフ ",               "Male"
+ "ドワイ",               "Male"
+ "アレクサンドル・ペション ",            "Male"
+ "アレクシー",               "Male"
+ "サウロック",              "Male"
+ "'フランソワ・デュヴァリエ",          "Male"
+ "シモーヌ・デュヴァリエ",        "Female"
+ "ジャン・アリスティド",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Despotism", _("スペイン人総督 %s"), _("?female:スペイン人総督 %s")
+ "Monarchy",        _("皇帝 %s"),      _("皇帝 %s")
+ "Republic",        _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="haiti"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations =  "dominicano", "taino"
+
+cities =
+ "Potoprens (ocean)",
+ "Kap Ayisyen (ocean)",
+ "Gonayiv",
+ "Kafou",
+ "Delma",
+ "Petyonvil",
+ "Sen Mak",
+ "Okay",
+ "Veret",
+ "Podpe (ocean)",
+ "Jakmel",
+ "Lenbe",
+ "Jeremi",
+ "Ti Rivye Latibonit (river)",
+ "Ench",
+ "Tigwav",
+ "Dedin",
+ "Desalin",
+ "Sen Lwi dino",
+ "Sen Michel Latalay",
+ "Leyogan",
+ "Folibete",
+ "Twou dino",
+ "Wanament",
+ "Mibale",
+ "Grann Rivye dino (river)",
+ "Laskawobas",
+ "Ansdeno",
+ "Gwo Mon",
+ "Ansagale",
+ "Piyon",
+ "Kwadebouke",
+ "Dam Mari",
+ "Miragwan",
+ "Sen Rafayel",
+ "Aken",
+ "Kenskof",
+ "Fondeneg",
+ "Monben Kwochi",
+ "Koniyon",
+ "Lezangle",
+ "Mayisad",
+ "Tomasik",
+ "Grangwav",
+ "Milo",
+ "Jan Rabel",
+ "Dondon",
+ "Lakaye",
+ "Kabare",
+ "Ans Wouj",
+ "Tomazo",
+ "Wozo",
+ "Tomonn",
+ "Oboy",
+ "Pilat",
+ "Gresye",
+ "Plezans"

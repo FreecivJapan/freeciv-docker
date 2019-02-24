@@ -1,0 +1,89 @@
+[nation_hanoverian]
+
+name=_("ハノーヴァー")
+plural=_("?plural:ハノーヴァー")
+groups="European", "Early Modern"
+legend=_("Hanover was a state in Northern Germany, in current Lower\
+ Saxony. From 1714 to 1837 Hanover and the United Kingdom were united\
+ in a personal union. In 1866 it was gobbled up by Prussia.") 
+
+leaders = {
+ "name",                        "sex"
+ "エルンストアウグスト",                "Male"
+ "ゲオルク１世",                     "Male"
+ "ゲオルク２世",                    "Male"
+ "ゲオルク３世",                   "Male"
+ "ゲオルク６世",                    "Male"
+ "ルドルフ・フォン・ベニヒセン",        "Male"
+}
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("選帝侯 %s"), _("選帝侯 %s")
+ "Monarchy",        _("選帝侯 %s"), _("選帝侯 %s")
+
+}
+flag="hanover"
+flag_alt = "westphalia"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "frisian", "saxon", "westphalian", "british", "oldenburgian"
+
+cities =
+ "Hannover",
+ "Osnabruck",
+ "Luneburg",
+ "Stade",
+ "Aurich",
+ "Hildesheim",
+ "Emden",
+ "Gottingen",
+ "Goslar",
+ "Celle",
+ "Harburg",
+ "Leer",
+ "Diepholz",
+ "Alfeld",
+ "Burgdorf",
+ "Aschendorf/Ems",
+ "Otterndorf",
+ "Verden",
+ "Norden",
+ "Syke",
+ "Duderstadt",
+ "Fallingbostel",
+ "Bersenbruck",
+ "Osterholz-Scharmbeck",
+ "Weener",
+ "Rinteln",
+ "Einbeck",
+ "Gifhorn",
+ "Bentheim",
+ "Rotenburg in Hannover",
+ "Wittmund",
+ "Neustadt am Rubenberge",
+ "Hannoversch Munden",
+ "Isenhagen",
+ "Iburg",
+ "Achim",
+ "Nienburg/Weser",
+ "Northeim",
+ "Luchow",
+ "Lingen",
+ "Springe",
+ "Osterode am Harz",
+ "Dannenberg",
+ "Melle",
+ "Stolzenau",
+ "Peine",
+ "Soltau",
+ "Meppen",
+ "Sulingen",
+ "Uslar",
+ "Uelzen",
+ "Wittlage",
+ "Bremervorde",
+ "Clausthal-Zellerfeld",
+ "Oldenstadt"

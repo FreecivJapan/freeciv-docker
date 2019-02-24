@@ -1,0 +1,105 @@
+[nation_luxembourgian]
+
+name=_("ルクセンブルク大公国")
+plural=_("?plural:ルクセンブルク")
+rule_name=_("Luxembourgish")
+rule_plural=_("?plural:Luxembourgians")
+groups="European", "Medieval", "Modern"
+legend=_("One of Europe's smaller countries, Luxembourg was founded as\
+ a county in 963. In 1815 it was elevated to a Grand Duchy in a personal\
+ union with the Netherlands, which was severed in 1890.")
+
+leaders = {
+ "name",                "sex"
+ "ジークフリート１世",         "Male"
+ "ヘン・デ・ブランデン",     "Male"
+ "ハインリヒ6世",         "Male"
+ "ヴェンツェル1世",            "Male"
+ "ジギスムント",           "Male"
+ "カール４世",              "Male"
+ "ウィレム１世",            "Male"
+ "ウィレム３世",          "Male"
+ "ポール・アイスヒェン",        "Male"
+ "マリーアデライド",      "Female"
+ "シャルロット",           "Female"
+ "ジャン",                "Male"
+ "アンリ",                "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",           "female_title"
+ "Democracy",      _("首相・大公 %s"), _("?female:首相・大公 %s")
+ "Despotism",      _("ルクセンブルク伯 %s"),          _("ルクセンブルク伯 %s")
+ "Fundamentalism", _("司教 %s"),         _("優しい母 %s")
+ "Monarchy",       _("大公 %s"),     _("大公 %s")
+ "Republic",       _("総督 %s"),    _("総督 %s")
+ "Communism",       _("戦時政府・大公 %s"), _("戦時政府・大公 %s")
+ "Anarchy",         _("臨時政府・大公 %s"), _("臨時政府・大公 %s")
+}
+
+flag="luxembourg"
+flag_alt = "netherlands"
+style = "european"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with="dutch"
+civilwar_nations="german", "french", "walloon", "dutch"
+
+cities =
+ "Letzebuerg",		;Luxembourg
+ "Ettelbreck",		;Ettelbruck
+ "Dikrech",		;Diekirch
+ "Iechternach",		;Echternach
+ "Esch-Uelzecht",	;Esch-sur-Alzette
+ "Miersch",		;Mersch
+ "Wolz",		;Wiltz
+ "Deifferdeng",		;Differdange
+ "Greiwemaacher",	;Grevenmacher
+ "Diddeleng",		;Dudelange
+ "Veianen",		;Vianden
+ "Peiteng",		;Petange
+ "Reimech",		;Remich
+ "Suessem",		;Sanem
+ "Remeleng",		;Rumelange
+ "Kapellen",		;Capellen
+ "Klierf",		;Clervaux
+ "Hesper",		;Hesperange
+ "Beetebuerg",		;Bettembourg
+ "Scheffleng",		;Schifflange
+ "Keel",		;Kayl
+ "Nidderkaerjeng",	;Bascharage
+ "Mamer",		;Mamer
+ "Walfer",		;Walferdange
+ "Stroossen",		;Strassen
+ "Bartreng",		;Bertrange
+ "Monnerech",		;Monnercange
+ "Jonglenster",		;Junglinster
+ "Nidderaanwen",	;Niederanven
+ "Reiser",		;Roeser
+ "Kielen",		;Kehlen
+ "Steesel",		;Steinsel
+ "Stengefort",		;Steinfort
+ "Munneref",		;Mondorf-les-Bains
+ "Rammerech",		;Rambrouch
+ "Wentger",		;Wincrange
+ "Maertert",		;Mertert
+ "Dippech",		;Dippach
+ "Fiels",		;Larochette
+ "Freiseng",		;Frisange
+ "Reiden",		;Redange
+ "Schetter",		;Schuttrange
+ "Konter",		;Contern
+ "Luerenzweiler",	;Lorentzweiler
+ "Koplescht",		;Kopstal
+ "Sandweiler",		;Sandweiler
+ "Habscht",		;Hobscheid
+ "Betzder",		;Betzdorf
+ "Elwen",		;Troisvierges
+ "Kolmer-Bierg",	;Colmar-Berg
+ "Stadbriedemes",	;Stadtbrediumus
+ "Waasserbelleg",	;Wasserbillig
+ "Wuermeldeng",		;Wormeldange
+ "Esch-Sauer",		;Esch-sur-Sure
+ "Maarnech"		;Marnach

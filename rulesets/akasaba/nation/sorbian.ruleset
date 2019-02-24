@@ -1,0 +1,141 @@
+[nation_sorbian] 
+
+name=_("ソルブ") 
+plural=_("?plural:ソルブ") 
+groups="Medieval", "European" 
+legend=_("The Sorbs are West Slavic people living in the East of Germany\
+ in Eastern Saxony and Southern Brandenburg (Lusatia).\
+ The region has historically been associated with Poland and Bohemia.")
+
+leaders = {
+ "name",                        "sex"
+ "ディルワン",                      "Male"
+ "ミリダッチ",                    "Male"
+ "ボリスラウ",                    "Male" ; probably Polish king Boles?aw I Chrobry
+ "ボルコ",                       "Male" ; Bolko II Ma?y from silesian lineage
+                                       ; of Piast dynasty
+ "カスパー・ピューカー",               "Male"
+ "ジャン・スカラ",                   "Male"
+ "マルヤ・グロウマサック",             "Female" ; WW2 resistance fighter
+ "ナワクニコルスキー",    "Male"
+ "スタニスワフ・チリック",            "Male" ; prime minister of Saxony
+}
+
+ruler_titles = {
+ "government",     "male_title",       "female_title"
+ "Despotism",     _("公 %s"),      _("公 %s")
+ "Republic",      _("市長 %s"), _("?female:市長 %s")
+ "Democracy",       _("市長 %s"), _("市長 %s")
+} 
+
+flag= "lusatia" 
+flag_alt = "-" 
+style = "Celtic" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+civilwar_nations= "saxon", "polish", "czech"
+
+cities=
+  "Cho?ebuz",                ;Cottbus
+  "Budy?in",                 ;Bautzen
+  "Kamjenc",
+  "Wojerecy",
+  "Zhorjelc",                ;Gorlitz/Zgorzelec
+  "Slepo",
+  "Drje?d?any",              ;Dresden
+  "Mi?no",
+  "?itawa",                  ;?ytawa/Zittau
+  "Zaha?",                   ;?aga?/Sagan
+  "Kamjenica",               ;Chemnitz
+  "Bar??",                   ;Forst
+  "?arow",                   ;?ary/Sorau
+  "Luba?",                   ;Lauban
+  "Dobrjo?ug-Gostkow",
+  "B??a Gora",
+  "B??a Woda",
+  "Borkowy",
+  "De?no",
+  "Gubin",                   ;Guben
+  "P?ibus",                  ;Priebus
+  "?eme?",                   ;Sommerfeld
+  "Brody",                   ;Pforten
+  "Grabin",
+  "Kalawa",
+  "W?to?ow",
+  "T?avnica",
+  "Li?kow",
+  "Li?kowk",
+  "Stara Darbnja",
+  "?ejkow",
+  "?orna Woda",
+  "T?upc",
+  "Z?y Komorow",
+  "Bo?icy",
+  "Budestecy",
+  "Chros?icy",
+  "Chrostawa",
+  "Hal?trow",
+  "Zaru?",
+  "Hod?ij",
+  "Dobru?a-Huska",
+  "Hal?trowska Hola",
+  "Kub?icy",
+  "?az",
+  "Kulow",
+  "Hornja Horka",
+  "Nowe J??ercy",
+  "Korzym",
+  "?uty",
+  "Nowosolc",
+  "Hu?ina",
+  "Njebjel?icy",
+  "Kumwald",
+  "Porchow",
+  "?u?nica",
+  "Male?ecy",
+  "Njed?ichow",
+  "Radwor",
+  "Ramnow",
+  "S?enjow",
+  "Sepicy",
+  "Bukecy",
+  "Wjazo?ca",
+  "??rachow",
+  "Wospork",
+  "Wulka Dubrawa",
+  "Warno?icy",
+  "Sv?tla",
+  "Po??nica",
+  "Pan?icy-Kukow",
+  "Sprjewiny Do?",
+  "Wjele?in",
+  "Za?om",
+  "Ralbicy-Ro?ant",         ;Rosenthal
+  "Sm?lna-Pockowy",
+  "Rolany",
+  "Woslink",
+  "Wo?bramecy",
+  "Rakecy",
+  "Luboraz",
+  "Worklecy",
+  "Kinspork",
+  "Njesva?id?o",
+  "W?tnica",
+  "Zemicy-Tumicy",
+  "Drjowk",                 ;Drebkau
+  "Bukowk",
+  "Bukowina",
+  "Benad?ice",
+  "Mu?akow",
+  "Lubij",
+  "Habrach?icy",
+  "Ochranow",
+  "Wostrowc",
+  "Rozbork",
+  "Trjebule",               ;Triebel
+  "L??na",
+  "Zawidow",
+  "Niska"

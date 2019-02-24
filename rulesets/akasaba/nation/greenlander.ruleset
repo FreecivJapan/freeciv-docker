@@ -1,0 +1,78 @@
+[nation_greenlander]
+
+name=_("グリーンランド")
+plural=_("?plural:グリーンランド")
+rule_name=_("Greenlander")
+rule_plural=_("?plural:Greenlanders")
+groups="American"
+legend=_("Legend says that the Great Shaman Qitdlarssuaq led the Inuit\
+ people to Thule (Qaanaaq) on the west coast of Greenland in the 10th\
+ century. Around the same time, Scandinavian settlers arrived at the fjords\
+ on the southwestern tip of the island. Today, Greenland is a self-governing\
+ country within the Kingdom of Denmark with mixed Inuit and Scaninavian\
+ population.")
+
+leaders = {
+ "name",                "sex"
+ "クーピク・クライスト",       "Male"
+ "レナ・ペダーセン",       "Male"
+ "エスク・ブラン",           "Female"
+ "ハインリック・リンク",        "Male"
+ "ポール・エーゲデ",          "Male"
+ "Ｅ・トロベリソン", "Male" ; Eric the Red
+ "クイッキラスック",        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Democracy",       _("自治政府首相 %s"), _("?female:自治政府首相 %s")
+ "Fundamentalism",  _("シャーマン %s"),         _("?female:シャーマン %s")
+ "Despotism",       _("デンマーク人総督 %s"), _("デンマーク人総督 %s")
+ "Monarchy",        _("デンマーク人総督 %s"), _("デンマーク人総督 %s")
+ "Republic",        _("自治政府首相 %s"), _("自治政府首相 %s")
+ "Communism",       _("総統 %s"), _("総統 %s")
+ 
+}
+
+flag="greenland"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="Inuit", "Danish"
+
+cities =
+ "Nuuk",		; Godthab (Danish/Norwegian)
+ "Sisimiut",
+ "Ilulissat",		; Jakobshavn (Danish/Norwegian)
+ "Qaqortorq",
+ "Asiaat",
+ "Maniitsoq",
+ "Tasiilaq",
+ "Paamiut",		; Frederikshab (Danish/Norwegian)
+ "Narsaq",
+ "Nanortalik",
+ "Uummannaq",
+ "Qasigiannguit",
+ "Upernavik",
+ "Qeqertarsuaq",	; Godhavn (Danish/Norwegian)
+ "Qaanaaq",		; Thule (Danish/Norwegian)
+ "Kangaatsiaq",
+ "Kangerlussuaq",	; Sondre Stromfjord (Danish/Norwegian)
+ "Ittoqqortoormiit",	; Scoresbysund (Danish/Norwegian)
+ "Kullorsuaq",
+ "Kuummiit",
+ "Kangaamiut",
+ "Alluitsup Paa",
+ "Niaqornaarsuk",
+ "Kulusuk",
+ "Tasiusaq",
+ "Ikerasak",
+ "Qeqertarsuatsiaat",
+ "Attu",
+ "Sermiligaaq",
+ "Saattut",
+ "Nuussuaq",
+ "Upernavik Kujalleq"

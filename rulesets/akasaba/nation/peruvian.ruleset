@@ -1,0 +1,64 @@
+[nation_peruvian]
+
+name=_("ペルー共和国")
+plural=_("?plural:ペルー共和国")
+groups="Modern", "American"
+legend=_("Peru was the cradle of the Inca Empire and civilization. It is\
+ still today a major center of indigenous South American culture.")
+
+leaders = {
+ "name",                        "sex"
+ "トゥパク・アマルー2世",        "Male"
+ "トゥパク・アマルー１世",             "Male"
+ "Ｊ・デ・サン・マルティン",              "Male"
+ "Ａ・デ・サンタ・クルス",      "Male"
+ "ニコラス・デ・ピエロラ",        "Male"
+ "ペレス・ゴドイ",           "Male"
+ "アラン・ガルシア",             "Male"
+ "オジャンタ・ウマラ",     "Male"
+ "アルベルト・フジモリ",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",             "female_title"
+ "Communism",       _("将軍 %s"),       _("将軍 %s")
+ "Despotism",       _("スペイン人総督 %s"),        _("?female:スペイン人総督 %s")
+ "Monarchy",        _("スペイン人総督 %s"),          _("スペイン人総督 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="peru"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with = "inca"
+civilwar_nations = "chilean", "inca", "bolivian"
+
+cities =
+ "Lima",
+ "Arequipa",
+ "Piura",
+ "Trujillo",
+ "El Callao (ocean)",
+ "Chiclayo (ocean)",
+ "Huancayo",
+ "Chimbote (ocean)",
+ "Iquitos",
+ "Cusco",
+ "Ica",
+ "Tacna",
+ "Pucallpa",
+ "Juliaca",
+ "Huanuco",
+ "Sullana",
+ "Ayacucho",
+ "Cajamarca",
+ "Talara",
+ "Puno",
+ "Tumbes"

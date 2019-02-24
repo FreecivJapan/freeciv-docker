@@ -1,0 +1,68 @@
+[nation_belarusian]
+
+name=_("ベラルーシ共和国")
+plural=_("?plural:ベラルーシ共和国")
+rule_name=_("Belarusian")
+rule_plural=_("?plural:Belarusians")
+groups="Modern", "European"
+legend=_("Belarus was part of the ancient Slavic state of Kievan Rus', then\
+ subsequently Lithuania, Rzeczpospolita, the Russian Empire and the Soviet\
+ Union. Belarus became independent in 1991 with the dissolution of the\
+ Soviet Union.")
+
+leaders = {
+ "name",                        "sex"
+ "アレクサンドル・ルカシェンコ",    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("ベラルーシ共産党第一書記 %s"),      _("ベラルーシ共産党第一書記 %s")
+ "Monarchy",        _("ベラルーシ共産党第一書記 %s"),      _("ベラルーシ共産党第一書記 %s")
+ "Fundamentalism",  _("Patriarch %s"), _("Matriarch %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("独裁大統領 %s"), _("独裁大統領 %s")
+}
+
+flag="belarus"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="russian", "lithuanian", "polish", "ukrainian"
+
+cities =
+  "Minsk",
+  "Homyel",
+  "Vitsyebsk",
+  "Polatsak",
+  "Mahilyow",
+  "Orsha",
+  "Brest",
+  "Hrodna",
+  "Barysaw",
+  "Niasvizh",
+  "Pastavy",
+  "Lyepyel'",
+  "Maladzyechna",
+  "Lida",
+  "Krychaw",
+  "Asipovichy",
+  "Babruysk",
+  "Pinsk",
+  "Slutsk",
+  "Salihorsk",
+  "Zhlobin",
+  "Vawkavysk",
+  "Slonim",
+  "Baranavichy",
+  "Kobryn",
+  "Byaroza",
+  "Luninyets",
+  "Zhytkavichy",
+  "Mazyr",
+  "Rechytsa"

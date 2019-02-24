@@ -1,0 +1,73 @@
+[nation_maori]
+
+name=_("マオリ族")
+plural=_("?plural:マオリ族")
+groups="Oceanian"
+legend=_("The Maori are a Polynesian people that migrated to and settled the\
+ island group that is now New Zealand. According to archeological evidence,\
+ the migration commenced in the 900s and continued until the 1400s.")
+
+leaders = {
+ "name",                "sex"
+ "テ・コーティ",            "Male"
+ "テ・ラタ",           "Male"
+ "ポタタウ",             "Male"
+ "コロキ・マフタ",             "Male"
+ "ツヘイティア・パキ",       "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Monarchy",        _("大首長 %s"),     _("?female:大首長 %s")
+ "Republic",        _("代弁者 %s"),       _("代弁者 %s")
+ "Democracy",       _("マオリ王 %s"), _("?female:マオリ王 %s")
+}
+
+flag="maori"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="new zealand", "papuan"
+
+cities =
+ "Tamaki (hills, ocean)",	; Auckland (Maorification: ?karana)
+ "Rotorua (swamp, river, !ocean)",
+ "Ngaruawahia",
+ "Manukau (grassland, ocean)",
+ "Whakatane",
+ "Wairoa (ocean, plains)",
+ "Kataia",
+ "Whangarei", 
+ "Te Puke",
+ "Te Whanganui (hills, ocean)",	; Wellington; alt. Maori: Poneke
+ "Otautahi (plains, ocean)",	; Christchurch
+ "Otepoti (ocean)",		; Dunedin
+ "Waitakere",
+ "Waiheke (ocean)",
+ "Matakana",
+ "Hokianga (ocean)",
+ "Manawatu (river, plains)",
+ "Waikato",
+ "Kawerau (hills)",
+ "Wairarapa",
+ "Te Aroha (grassland)",
+ "Urewera",
+ "Mahia",
+ "Waihi (ocean, mountains)",
+ "Kaipara (ocean)",
+ "Hikurangi (mountains)",
+ "Heretaunga (plains)",
+ "Hikurangi",
+ "Kamo",
+ "Tangiwai",
+ "Takapuna",
+ "Waitemata",
+ "Papatoetoe",
+ "Papakura",
+ "Tamaki",
+ "Porirua",
+ "Ngaio",
+ "Opotiki"

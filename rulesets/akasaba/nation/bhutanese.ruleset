@@ -1,0 +1,109 @@
+[nation_bhutanese]
+
+name=_("ブータン王国")
+plural=_("?plural:ブータン")
+rule_name=_("Bhutanese")
+rule_plural=_("?plural:Bhutanese")
+groups="Early Modern", "Modern", "Asian"
+legend=_("Located in the Himalayas, Bhutan is one of the most isolated\
+ countries in the world. Bhutan has not been conquered or occupied\
+ by foreign invaders for a millennium if not more. In the 17th century\
+ Bhutan became a unified nation under Shabdrung Ngawang Namgyal, who\
+ repelled a Mongol invasion and united the rivaling Bhutanese tribes.")
+
+leaders = {
+ "name",                        "sex"
+ "リンポチェ",               "Male"
+ "Phajo Drugom Zhigpo",         "Male"
+ "シャブドゥン・ナムギャル",   "Male"
+ "テムジン",        "Male"
+ "ウゲン・ワンチュク",             "Male"
+ "ジグミ・ドルジ・ワンチュク",       "Male"
+ "ジグミ・シンゲ・ワンチュク",      "Male"
+ "ジグミ・ケサルワンチュク",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Democracy",       _("首相・国王陛下 %s"), _("?female:首相・女王陛下 %s")
+ "Fundamentalism",  _("ラマ %s"),           _("?female:ラマ %s")
+ "Monarchy",        _("国王陛下 %s"),    _("女王陛下 %s")
+ "Anarchy",         _("臨時政権・国王陛下 %s"), _("臨時政権・女王陛下 %s")
+ "Republic",        _("座主 %s"), _("座主 %s")
+ "Communism",       _("戦時政府・国王陛下 %s"), _("戦時政府・女王陛下 %s")
+ "Despotism",       _("豪族 %s"), _("豪族 %s")
+ 
+}
+
+flag="bhutan"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "tibetan", "nepali"
+
+cities =
+ "Punakha", ;ancient capital
+ "Thimpu", ;modern capital
+ "Chhukha",
+ "Samtse",
+ "Tashigang",
+ "Gelegphug",
+ "Samdrup Jongkhar",
+ "Monggar",
+ "Paro",
+ "Wangdue Phodrang",
+ "Damphu",
+ "Zhemgang",
+ "Daga",
+ "Trashi Yangtse",
+ "Jakar",
+ "Lhuntse",
+ "Pamagatshel",
+ "Tongsa",
+ "Ha",
+ "Gasa",
+ "Phuentsholing",
+ "Trashigang",
+ "Taga Dzong",
+ "Trongsa",
+ "Gedu",
+ "Bumthang",
+ "Gomtu",
+ "Deothang",
+ "Sarpang",
+ "Tsimalakha",
+ "Gyalposhing",
+ "Dala",
+ "Kanglung",
+ "Khaling",
+ "Tsimasham",
+ "Namglam",
+ "Jomotsangkha",
+ "Sipsu",
+ "Lingithang",
+ "Lhamoyzingkhar",
+ "Tingtibi",
+ "Nankhor",
+ "Rangjung",
+ "Wamrong",
+ "Bondey",
+ "Drukyegang",
+ "Dremtse",
+ "Nobding",
+ "Samdrup Choeling",
+ "Panbang",
+ "Rurichu",
+ "Gypsum",
+ "Autsho",
+ "Duksum",
+ "Khotakakpa",
+ "Reserboo",
+ "Dagapela",
+ "Kherigonpa",
+ "Sunkosh",
+ "Mongling",
+ "Yalang"

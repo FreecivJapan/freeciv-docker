@@ -1,0 +1,87 @@
+[nation_burmese]
+
+name=_("ミャンマー連邦共和国")
+plural=_("?plural:ミャンマー連邦共和国")
+rule_name=_("Burmese")
+rule_plural=_("?plural:Burmese")
+groups="Medieval", "Early Modern", "Modern", "Asian"
+legend=_("The Union of Burma (officially \"Myanmar\") is the largest country\
+ in mainland Southeast Asia.")
+
+leaders = {
+ "name",        "sex"
+ "アノーヤター",      "Male"
+ "アラウンパヤー",  "Male"
+ "アウンサン",      "Male"
+ "アウンサン・スー・チー",  "Female"
+ "ネ・ウィン",      "Male"
+ "ウー・ヌ",        "Male"
+ "テイン・セイン",        "Male"
+ "タン・シュエ",        "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",           "female_title"
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Republic",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Democracy",      _("大統領 %s"), _("?female:大統領 %s")
+ "Communism",       _("国家平和発展評議会議長 %s"), _("国家平和発展評議会議長 %s")
+}
+
+flag="myanmar"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "mon", "shan", "karen"
+
+cities =
+ "Yangon",
+ "Mandalay",
+ "Moulmein",
+ "Taunggyi",
+ "Sitkwin",
+ "Sagaing",
+ "Amarapura",
+ "Maymyo",
+ "Lashio",
+ "Mergui",
+ "Tavoy",
+ "Haka",
+ "Myitkyina",
+ "Magwe",
+ "Prome",
+ "Thaton",
+ "Hpa-an",
+ "Putao",
+ "Muse",
+ "Bhamo",
+ "Pakokku",
+ "Meiktila",
+ "Sittwe",
+ "Sandoway",
+ "Ngapali",
+ "Bassein",
+ "Syriam",
+ "Toungoo",
+ "Loi-kaw",
+ "Shadaw",
+ "Tachilek",
+ "Mogok",
+ "Mong Yawn",
+ "Hsipaw",
+ "Nyaungshwe",
+ "Monywa",
+ "Pyinmana",
+ "Yenangyaung",
+ "Pagan",
+ "Nyaung U",
+ "Mrauk U",
+ "Pegu",
+ "Minhla",
+ "Dala",
+ "Kyaukpadaung"

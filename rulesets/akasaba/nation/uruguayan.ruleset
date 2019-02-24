@@ -1,0 +1,102 @@
+[nation_uruguayan]
+
+name=_("ウルグアイ東方共和国")
+plural=_("?plural:ウルグアイ東方共和国")
+rule_name=_("Uruguayan")
+rule_plural=_("?plural:Uruguayans")
+groups="Modern", "American"
+legend=_("Uruguay, a small South American country sometimes referred to as\
+ \"Switzerland of the Americas\" due to its once highly developed social\
+ welfare system.")
+
+leaders = {
+ "name",                        "sex"
+ "ホセ・アルティーガス",                "Male"
+ "J・アントニオ・ラバジェ",      "Male"
+ "マヌエル・オリベ",                "Male"
+ "タバレ・バスケス",            "Male"
+ "J・B・y・オルドーニェス",       "Male"
+ "ホセ・ムヒカ",    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Monarchy",        _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+flag="uruguay"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="argentine", "brazilian"
+
+cities =
+ "Montevideo",
+ "Ciudad del Este",
+ "Salto",
+ "Las Piedras",
+ "Maldonado",
+ "Canelones",
+ "Artigas",
+ "Rocha",
+ "Melo",
+ "Minas",
+ "Colonia",
+ "San Jose de Mayo",
+ "Artigas",
+ "Tacuarembo",
+ "Rivera",
+ "Durazno",
+ "Punta del Este",
+ "Piriapolis",
+ "Trinidad",
+ "Paysandu",
+ "Mercedes",
+ "Fray Bentos",
+ "Flores",
+ "Treinta y Tres",
+ "Tranqueras",
+ "Pando",
+ "Bella Union",
+ "Soca",
+ "Santa Rosa",
+ "Tala",
+ "Atlantida",
+ "La Paz",
+ "Santa Lucia",
+ "Migues",
+ "Rio Branco",
+ "Olimar",
+ "Acegua",
+ "Carmelo",
+ "Nueva Palmira",
+ "Juan Lacaze",
+ "Carmen",
+ "Sarandi del Yi",
+ "Jose Batlle y Ordonez",
+ "San Carlos",
+ "Aigua",
+ "Santiago Vazquez",
+ "Guichon",
+ "San Javier",
+ "Young",
+ "Minas de Corrales",
+ "Castillos",
+ "Lascano",
+ "Constitucion",
+ "San Antonio",
+ "Belen",
+ "Dolores",
+ "Cardona",
+ "Paso de Los Toros",
+ "Vergara",
+ "Masoller",
+ "Agraciada",
+ "Asencio"

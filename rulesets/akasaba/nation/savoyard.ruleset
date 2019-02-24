@@ -1,0 +1,93 @@
+[nation_savoyard]
+
+name=_("サヴォイア")
+plural=_("?plural:サヴォイア")
+groups="Medieval", "Early Modern", "European"
+legend=_("Savoy emerged in the Western Alps after the disintegration of\
+ the Burgundian Kingdom. Its dynasty established control over Sardinia\
+ and Piedmont and later all of Italy. Savoy's growth and survival over\
+ the centuries were not based on spectacular conquests, but on gradual\
+ territorial expansion through marriage and methodical and highly\
+ manipulative political acquisitions. Savoy itself was annexed by France\
+ in 1860.")
+
+leaders = {
+ "name",                        "sex"
+ "アメデーオ8世",                 "Male"
+ "エマヌエーレ・フィリベルト",          "Male"
+ "Ｖ・アメデーオ2世",            "Male"
+ "カルロ1世",       "Male"
+}
+
+flag="savoy"
+flag_alt = "-"
+style = "European"
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Despotism",       _("公 %s"),           _("公 %s")
+ "Democracy",       _("州知事 %s"), _("?female:州知事 %s")
+ "Monarchy",        _("公 %s"), _("公 %s")
+}
+
+init_techs=""
+init_buildings=""
+init_government="Despotism"
+init_units=""
+conflicts_with = "danish" ;similar flag
+civilwar_nations = "burgundian", "piedmontese"
+
+cities =
+ "Chambery",
+ "Annecy",
+ "Thonon-les-Bains",
+ "Cluses",
+ "Bonneville",
+ "Moutiers",
+ "Montmelian",
+ "Aoste",
+ "Aix-les-Bains",
+ "Annemasse",
+ "Annecy-le-Vieux",
+ "Cran-Gevrier",
+ "Seynod",
+ "Albertville",
+ "Sallanches",
+ "La Motte-Servolex",
+ "Rumilly",
+ "Gaillard",
+ "Courmayeur",
+ "Passy",
+ "Chamonix",
+ "Saint-Julien-en-Genevois",
+ "La Roche-sur-Foron",
+ "Saint-Jean-de-Maurienne",
+ "Meythet",
+ "Evian-les-Bains",
+ "Saint-Vincent",
+ "Bourg-Saint-Maurice",
+ "Ugine",
+ "Scionzier",
+ "Ville-la-Grand",
+ "La Ravoire",
+ "Chatillon",
+ "Cognin",
+ "Ambilly",
+ "Poisy",
+ "Faverges",
+ "Thones",
+ "Vetraz-Monthoux",
+ "Reignier",
+ "Sarre",
+ "Marignier",
+ "Saint-Gervais-les-Bains",
+ "Saint-Pierre-en-Faucigny",
+ "Saint-Jorioz",
+ "Publier",
+ "Pont-Saint-Martin",
+ "Saint-Alban-Leysse",
+ "Thyez",
+ "Megeve",
+ "Sciez",
+ "Barberaz"
+

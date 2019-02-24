@@ -1,0 +1,84 @@
+[nation_eritrean]
+
+name=_("エリトリア国")
+plural=_("?plural:エリトリア")
+groups="Modern", "African"
+legend=_("Eritrea is a country in eastern Africa which borders Sudan,\
+ Ethiopia, and Djibouti. It was once the Kingdom of D'mt and was later\
+ conquered by Italy. In 1951 it was federated with Ethiopia, which led to\
+ the development of an independence movement in the 1960s. In 1991 the\
+ 31-year war ended with Eritrea gaining independence.")
+
+leaders = {
+ "name",                "sex"
+ "イサイアス・アフェウェルキ",     "Male" ; First provisional President (living).
+ "ハミッド・アワテ",   "Male" ; leader of Eritrean Liberation Army.
+ "アリ・アブデラ",    "Male" ; rebel commander, politician and diplomat.
+ "ハゲス",         "Male" ; 19th century local military commander.
+ "ウォルデムマリアン", "Male" ; early 20th century teacher and political
+                               ; leader.
+ "イブラヒム・アリ",  "Male" ; early 20th century independence activist.
+ "ハシム",        "Female" ; current minister of justice - female
+                                 ; (living).
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("イタリア人総督 %s"), _("イタリア人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("州首相 %s"), _("州首相 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="eritrea"
+flag_alt="-"
+style="Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Ethiopian", "Italian"
+
+cities =
+  "Asmara",	; capital
+  "Nakfa",	; associated with independence movement
+  ; remaining cities seen on Google maps 
+  "Hasta",
+  "Agra",
+  "Afchewa",
+  "Selset",
+  "Anker",
+  "Mariet",
+  "Ghinda",
+  "Mahmimet",
+  "Mebaa",
+  "Hashmet",
+  "Asmat",
+  "Afabet",
+  "Halhal",
+  "Akordat",
+  "Hagaz",
+  "Sebderat",
+  "Wekiro",
+  "Mitsiwa",
+  "Gheden",
+  "Keren",
+  "Teseney",
+  "Haikota",
+  "Barentu",
+  "Omhajer",
+  "Biet Gabriel",
+  "Mendefera",
+  "Dekemhare",
+  "Dbarwa",
+  "Gheden",
+  "Irafayle",
+  "Mersa Fatma",
+  "Aseb",
+  "Harsile",
+  "Ghibdo",
+  "Beylul"

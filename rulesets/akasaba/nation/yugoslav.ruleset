@@ -1,0 +1,44 @@
+[nation_yugoslav]
+
+name=_("ユーゴスラビア")
+plural=_("?plural:ユーゴスラビア")
+rule_name=_("Yugoslav")
+rule_plural=_("?plural:Yugoslavs")
+groups="European"
+legend=_("Yugoslavia was a state consisting of the Slavic nations of the\
+ western Balkans. It was a kingdom until 1941, when it was occupied by\
+ the Axis powers. After a national liberation war the communists threw\
+ out the occupants and continued to rule until the 1980s. The 1990s saw\
+ the bloody breakup of Yugoslavia into independent republics.")
+
+leaders = {
+ "name",                        "sex"
+ "アレクサンダル1世",   "Male"
+ "ペータル1世",          "Male"
+ "ペータル2世",       "Male"
+ "ヨシップ・ブロズ・ティトー",             "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Communism",       _("書記長 %s"), _("書記長 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="yugoslavia"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with = "slovenian", "croatian", "bosnian-herzegovinian",
+ "serbian", "montenegrin", "macedonian", "kosovar"
+civilwar_nations = "slovenian", "croatian", "bosnian-herzegovinian",
+ "serbian", "montenegrin", "macedonian"
+
+; Cities will be fetched from above nations

@@ -1,0 +1,100 @@
+[nation_chiapanec]
+
+name=_("チアパス")
+plural=_("?plural:チアパス州")
+groups="American"
+legend=_("Chiapas is a state in southern Mexico. It was governed from\
+ Guatemala during the colonial era, but in 1824, after a brief\
+ independence, it chose to join Mexico. Chiapas has a sizeable indigenous\
+ (predominantly Mayan) population. Much of Chiapas' history has been\
+ characterized by struggles between indigenous peasants and the mostly\
+ Ladino elite. The state's colonial cities, Mayan peoples and natural\
+ wealth have made it one of Mexico's major tourist destinations.")
+
+leaders = {
+ "name",                   "sex"
+ "B・デ・ラス カーサス", "Male"
+ "M・J・デ・ロジャース",   "Male"
+ "マルコス",                 "Male"
+ 
+}
+
+flag="chiapas"
+flag_alt = "-"
+style = "Tropical"
+
+ruler_titles = {
+ "government",     "male_title",       "female_title"
+ "Communism",      _("同志 %s"), _("同志 %s")
+ "Fundamentalism", _("Bishop %s"),     _("Mother Superior %s")
+ "Republic",       _("州知事 %s"),   _("?female:州知事 %s")
+ "Despotism",       _("総督 %s"), _("総督 %s")
+ "Democracy",       _("州知事 %s"), _("州知事 %s")
+ 
+}
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "mayan", "guatemalan"
+
+cities =
+ "San Cristobal de las Casas",
+ "Tuxtla Gutierrez",
+ "Tapachula",
+ "Chiapa de Corzo",
+ "Comitan",
+ "Palenque",
+ "Villaflores",
+ "Ocozocoautla",
+ "San Juan Chamula",
+ "Tonala",
+ "Cintalapa",
+ "Huixtla",
+ "Ocosingo",
+ "Reforma",
+ "Berriozabal",
+ "Motozintla",
+ "Las Rosas",
+ "Las Margaritas",
+ "Mapastepec",
+ "Pijijiapan",
+ "Venustiano Carranza",
+ "Frontera Comalapa (river, jungle)",
+ "Yajalon",
+ "Cacahoatan",
+ "Pichucalco",
+ "Ciudad Hidalgo",
+ "Suchiapa",
+ "Acala",
+ "Teopisca",
+ "El Parral",
+ "Bochil",
+ "Puerto Madero (ocean)",
+ "Villa Corzo",
+ "San Fernando",
+ "Escuintla",
+ "Jiquipilas",
+ "Jaltenango",
+ "Simojovel",
+ "San Pedro Buenavista",
+ "Palestina",
+ "Comaltitlan",
+ "Pueblo Nuevo Solistahuacan",
+ "La Concordia",
+ "Tuxtla Chico",
+ "Huehuetan",
+ "Benemerito de las Americas",
+ "La Trinitaria",
+ "San Juan Cancuc",
+ "Chicomuselo",
+ "Frontera Corozal (river, jungle)",
+ "Amatenango del Valle (hills)",
+ "Oxchuc",
+ "Ciudad Cuauhtemoc",
+ "Chenalho",
+ "Catazaja",
+ "Acteal",
+ "Lacanha Chansayab",
+ "Chicoasen"

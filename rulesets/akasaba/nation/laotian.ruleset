@@ -1,0 +1,97 @@
+[nation_laotian]
+
+name=_("ラオス人民民主共和国")
+plural=_("?plural:ラオス")
+groups="Modern", "Early Modern", "Medieval", "Asian"
+legend=_("The history of Laos starts with the Lan Xang kingdom\
+ created in the 14th century and ended in late 18th century\
+ with invasion of Siam (Thailand). In the end of the 19th\
+ century, Laos became part of French Indochina.\
+ French rule ended with independence in 1946 followed\
+ by 30 years of civil war. In 1975 the communist Pathet\
+ Lao established a strict socialist regime. However,\
+ in 1986 the liberalization and a gradual return to\
+ private enterprise started.")
+
+leaders = {
+ "name",                "sex"
+ "クーン・ロー",             "Male" ; first laotian king.
+ "ファー・グム",             "Male" ; king of Lan Xang kingdom.
+ "サームセーン・タイ",         "Male"
+ "ウィスン・ナラート",           "Male"
+ "ポーティサラ・ラーサー",         "Male"
+ "セタティラート2世",       "Male"
+ "スリニャ・ウォンサー",     "Male"
+ "アヌウォン",            "Male"
+ "ペサラート",          "Male" ; founder of modern Laos state.
+ "カイソーン・ポムウィハーン",  "Male" ; prime minister and president of Laos.
+ "スパーヌウォン",       "Male" ; president of Laos.
+ }
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("国王 %s"), _("女王 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Communism",       _("国家主席 %s"), _("国家主席 %s")
+ "Republic",        _("国家主席 %s"), _("国家主席 %s")
+ "Democracy",       _("国家主席 %s"), _("国家主席 %s")
+
+}
+
+flag="laos"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "thai", "cambodian", "burmese", "vietnamese"
+
+cities =
+ "Vientiane", ; Viangchan
+ "Louangphrabang", ; Luang Prabang
+ "Pakxe",
+ "Samakkhixai", ; Attapu
+ "Saravan", ; Salavan
+ "Khanthabouri",
+ "Savannakhet",
+ "Thakhek", ; Muang Khammouan
+ "Pakxan", ; Muang Pakxan
+ "Phongsali",
+ "Xaisomboun", ; Ban Mouang Cha
+ "Xam-Nua",
+ "Houayxay", ; Ban Houayxay
+ "Xaignabouri", ; Xaignabouli
+ "Xai", ; Muang Xai
+ "Louang-Namtha",
+ "Khong", ; Muang Khong
+ "Champasak",
+ "Laman", ; Lamarn
+ "Pek",
+ "Wang Tao",
+ "Phin", ; Muang Phin
+ "Xepon", ; Muang Xepon
+ "Champhon",
+ "Nam Phao", ; Ban Na Phao
+ "Pakkading",
+ "Nakay",
+ "Borikhan",
+ "Vangviang",
+ "Phonhong", ; Muang Phon-Hong
+ "Khoun",
+ "Kham",
+ "Phoukout",
+ "Xiangkho",
+ "Xiang-Ngeun",
+ "Xam-Tai",
+ "Chomphet",
+ "Xaithani",
+ "Phoukhoun", ; Ban Phoukhoun
+ "Boun Nua",
+ "Pha-Oudom",
+ "Pakbeng", ; Muang Pakbeng
+ "Boten",
+ "Long",
+ "Sing"

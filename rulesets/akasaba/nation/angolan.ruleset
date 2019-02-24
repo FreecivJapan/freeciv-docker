@@ -1,0 +1,96 @@
+[nation_angolan]
+
+name=_("アンゴラ共和国")
+plural=_("?plural:アンゴラ")
+rule_name=_("Angolan")
+rule_plural=_("?plural:Angolans")
+groups="Modern", "African"
+legend=_("When the Portuguese arrived in Angola in the 15th century the\
+ region was controlled by several Bantu kingdoms. Angola became an\
+ important source of slave traders until well into the 19th century.\
+ After two decades of guerrilla war against the Portuguese colonial\
+ authorities Angola finally achieved independence in 1975. Soon the various\
+ guerilla groups started fighting each other. After half a century of war\
+ a peace agreement was finally reached in 2002.")
+
+leaders = {
+ "name",                        "sex"
+ "ホールデン・ロベルト",              "Male"
+ "アゴスティニョ・ネト",              "Male"
+ "ジョナス・サヴィンビ",               "Male"
+ "サントス",     "Male"
+ "ンジンガ",           "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("ポルトガル総督 %s"), _("ポルトガル総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("ポルトガル総督 %s"), _("ポルトガル総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ 
+
+}
+flag= "angola"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="kongo", "namibian"
+
+cities =
+ "Luanda",
+ "Huambo",
+ "Cabinda",
+ "Lubango",
+ "Kuito",
+ "Malanje",
+ "Lobito",
+ "Benguela",
+ "Uíge",
+ "Namibe",
+ "Luena",
+ "Saurimo",
+ "Soyo",
+ "Sumbe",
+ "N'dalatando",
+ "Caála",
+ "Cubal",
+ "Dundo",
+ "Negage",
+ "Matala",
+ "Bailundo",
+ "Menongue",
+ "Mbanza Congo",
+ "Dondo",
+ "Uku",
+ "Lucapa",
+ "Waku Kungo",
+ "Andulo",
+ "Ganda",
+ "Caluquembe",
+ "Ambriz",
+ "Cafunfo",
+ "Nzagi",
+ "Catabola",
+ "Ondjiva",
+ "Dombe Grande",
+ "Lândana",
+ "Cuchi",
+ "Quimavongo",
+ "Catchiungo",
+ "Catumbela",
+ "Caimbambo",
+ "Cuimba",
+ "Baía Farta",
+ "Chipindo",
+ "Cazombo",
+ "Capulo",
+ "Calenga",
+ "Camacupa",
+ "Mussende"

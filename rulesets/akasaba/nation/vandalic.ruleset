@@ -1,0 +1,83 @@
+[nation_vandalic]
+
+name=_("ヴァンダル族")
+plural=_("?plural:Vandals")
+groups="Ancient", "Medieval", "European", "African"
+legend=_("The Vandals were an East Germanic people originating from what\
+ is now Southern Poland and Slovakia. They entered the Roman Empire in\
+ the early 5th century AD. Led by Geiseric, they eventually founded a\
+ kingdom in Carthage. The Vandals are perhaps best known for their sack\
+ of Rome in 455 AD. In 534 AD Belisarius conquered the Vandalic kingdom\
+ for the Byzantine Empire.")
+
+leaders = {
+ "name",        "sex"
+ "ゲイセリック",  "Male"
+ "フネリック",   "Male"
+ "グンタムント",   "Male"
+ "トラサムント",   "Male"
+ "ヒルデリック",  "Male"
+ "ゲリメル",    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",       "female_title"
+ "Fundamentalism",  _("長老 %s"),  _("?female:長老 %s") 
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+}
+
+flag="vandal"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with = "polish", "slovakian", "carthaginian", "tunisian"
+civilwar_nations = "visigothic", "amazigh", "ostrogothic"
+
+cities =
+ "Carthago",		;Carthage
+ "Sitiphis",		;Setif
+ "Caralis",		;Cagliari
+ "Saldae",		;Bejaia
+ "Syracusae",		;Syracusa
+ "Alalia",		;Aleria
+ "Caesarea",		;Cherchell
+ "Constantina",		;Cirta
+ "Panormus",		;Palermo
+ "Tingis",		;Tanger
+ "Thapsus",
+ "Thevestis",		;Tebessa
+ "Tacape",		;Gabes
+ "Lixus",
+ "Palma",		;Palma de Mallorca
+ "Leptis Magna",
+ "Volubilis",		;Walili
+ "Hadrumetum",		;Sousse
+ "Turris",		;Porto Torres
+ "Hippo Diarrhytus",	;Bizerte
+ "Hippo Regius",	;Annaba
+ "Messena",		;Messina
+ "Capsa",		;Gafsa
+ "Tripolis",		;Tripoli
+ "Pollentia",		;Pollenca
+ "Utica",
+ "Ruspe",		;Thelepte
+ "Lilybaeum",		;Marsala
+ "Icosium",
+ "Thamugadi",		;Timgad
+ "Bulla Regia",
+ "Thugga",		;Dougga
+ "Portus Magonis", 	;Mao
+ "Thysdrus",		;El Djem
+ "Leptiminus",		;Lamta
+ "Agrigentum",		;Agrigento
+ "Thuburbo Maius",
+ "Ruspina",		;Monastir
+ "Ebusus",		;Eivissa
+ "Leptis Parva",
+ "Segesta",		;Segesta
+ "Ad Decimum",
+ "Tricamarum"

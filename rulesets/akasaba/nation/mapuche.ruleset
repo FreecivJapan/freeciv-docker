@@ -1,0 +1,61 @@
+[nation_mapuche]
+
+name=_("マプチェ族")
+plural=_("?plural:マプチェ族")
+groups="American", "Early Modern"
+
+legend=_("The Mapuche people successfully resisted the expansion of the Inka\
+ empire, halting them at the Maule river in what is now central Chile. They\
+ proved to be stubborn opponents of the Spanish, too, who, along with their\
+ Chilean successors, took 300 years to conquer them.")
+
+leaders = {
+ "name",        "sex"
+ "レフ・トラル",   "Male"
+ "カウポリカン",  "Male"
+ "コロコロ",    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Monarchy",       _("長老 %s"),        _("?female:長老 %s")
+}
+
+flag         = "mapuche"
+flag_alt     = "-"
+style   = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "inca", "chilean"
+
+cities =
+ "Tucapel",
+ "Temuco",
+ "Puren",
+ "Lebu",
+ "Angol",
+ "Collipulli",
+ "Lonquimay",
+ "Ercilla",
+ "Traiguen",
+ "Lumaco",
+ "Curacautin",
+ "Marihuenu",
+ "Tolhuaca",
+ "Lonquimay",
+ "Llaima",
+ "Malleco",
+ "Malalcahuello",
+ "Carahue",
+ "Pillanlelbu",
+ "Pucon",
+ "Mulchen",
+ "Itata",
+ "Tolten",
+ "Yungay",
+ "Chillan",
+ "Niquen",
+ "Ranquil"

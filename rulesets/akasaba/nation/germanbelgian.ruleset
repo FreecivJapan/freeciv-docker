@@ -1,0 +1,97 @@
+[nation_germanbelgian]
+
+name=_("ドイツ語圏")
+plural=_("?plural:ドイツ語圏")
+groups= "European"
+legend=_("The German-speaking Community is one of the three federal\
+ communities of Belgium, part of the Walloon Region in the extreme east\
+ of the country. The area was annexed by Belgium after the First World\
+ War to compensate the country for the German occupation during that war.\
+ With about 75,000 inhabitants the German-speaking Community comprises\
+ less than one percent of Belgium's population. Long neglected, the\
+ German-speaking Belgians now enjoy the same rights as their Flemish and\
+ French-speaking compatriots. As a result, they are often dubbed 'the best\
+ protected minority of Europe' and 'the last true Belgians'.")
+
+leaders = {
+ "name",                   "sex"
+ "B・フォン・シャイブラー", "Male"
+ "ヒューゴ・ツィンマーマン",        "Male"
+ "レオ・トゥルト",             "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",                "female_title"
+ "Democracy",      _("Minister-President %s"),  _("?female:Minister-President %s")
+ "Fundamentalism", _("Abbot %s"),               _("Mother Superior %s")
+}
+
+flag="dgb"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "walloon", "luxembourgish", "rhenish"
+
+cities =
+ "Eupen",
+ "Sankt Vith",
+ "Kelmis",
+ "Raeren",
+ "Butgenbach",
+ "Bullingen",
+ "Amel",
+ "Lontzen",
+ "Burg-Reuland",
+ "Kettenis",
+ "Recht",
+ "Elsenborn",
+ "Hauset",
+ "Schonberg",
+ "Meyerode",
+ "Manderfeld",
+ "Crombach",
+ "Heppenbach",
+ "Lommersweiler",
+ "Neu-Moresnet",
+ "Thommen",
+ "Reuland",
+ "Eynatten",
+ "Walhorn",
+ "Hergenrath",
+ "Herbesthal",
+ "Murringen",
+ "Neudorf",
+ "Astenet",
+ "Oberhausen",
+ "Born",
+ "Iveldingen",
+ "Medell",
+ "Wiesenbach",
+ "Losheimergraben",
+ "Busch",
+ "Wereth",
+ "Merols",
+ "Ouren",
+ "Steffeshausen",
+ "Schlierbach",
+ "Wallerode",
+ "Hunningen",
+ "Schoppen",
+ "Deidenberg",
+ "Krewinkel",
+ "Moderscheid",
+ "Rocherath",
+ "Krinkelt",
+ "Berg",
+ "Hunningen",
+
+ "Malmedy",
+ "Weismes",
+ "Bellevaux-Ligneuville",
+ "Beverce",
+ "Robertville",
+ "Faymonville"

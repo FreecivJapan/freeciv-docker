@@ -1,0 +1,62 @@
+[nation_karen]
+
+name=_("カレン民族同盟")
+plural=_("?plural:カレン民族同盟")
+groups="Asian", "Ancient", "Medieval"
+
+legend=_("Karens are a hardy mountain people who have lived on the western\
+ fringes of Burmese kingdoms throughout recorded history. Their own oral\
+ history suggests that they at some point migrated southwards through the\
+ Gobi Desert to reach their current homeland. With the independence of\
+ Burma from the United Kingdom in 1948, a heterogenous Karen armed\
+ independence movement was initiated that continues to this day.")
+
+leaders = {
+ "name",                 "sex"
+ "ボー・ミャ",         "Male"
+ "ウィン・マング",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Communism",       _("議長 %s"), _("?female:議長 %s")
+ "Democracy",       _("議長 %s"), _("?female:議長 %s")
+ "Republic",        _("議長 %s"),       _("議長 %s")
+ "Despotism",       _("最高指導者 %s"), _("最高指導者 %s")
+}
+
+flag="karen"
+flag_alt="-"
+style="Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Burmese", "Mon", "Thai"
+
+cities =
+
+; Kayin State
+ "Hpa-An",
+ "Manerplaw",
+ "Mutraw", ; Hpapun
+ "Dooplaya", ; Kawkareik
+ "Hlaingbwe",
+ "Thandang", ; Thandaung
+ "Thandanggyi",
+ "Myawaddy",
+ "Kyeikdon",
+ "Kyain Seikgyi",
+ "Payathonsu",
+ "Apalon",
+ "Kanni",
+
+; Kayah State
+ "Loikaw",
+ "Demoso",
+ "Hpruso",
+ "Shadaw",
+ "Bawlakhe",
+ "Hpasawng",
+ "Mese"

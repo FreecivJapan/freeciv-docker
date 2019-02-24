@@ -1,0 +1,146 @@
+[nation_greaterpolish]
+
+name=_("ヴィエルコポルスカ")
+plural=_("?plural:ヴィエルコポルスカ")
+groups="European", "Medieval"
+legend=_("Greater Poland or Wielkopolska is a historic and geographic\
+ region of central-western Poland.")
+
+leaders = {
+ "name",                        "sex"
+ "ミズコー３世スタリ?",           "Male"
+ "ヴワディスワフ３世",     "Male"
+ "ヴワディスワフ・オドニック",            "Male"
+ "シャミシィ１世",                  "Male"
+ "ポバイジネ",            "Male"
+ "アンジェイ・ノヴァコフスキ ",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Despotism",       _("国王 %s"),          _("女王 %s")
+ "Fundamentalism",  _("司教 %s"),      _("優しい母 %s")
+ "Monarchy",        _("国王 %s"),    _("女王 %s")
+ "Communism",       _("第一書記 %s"), _("?female:第一書記 %s")
+ "Democracy",       _("県知事 %s"), _("県知事 %s")
+}
+
+flag = "greater_poland"
+flag_alt = "-"
+style = "European"
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "polish", "silesian"
+
+cities =
+  "Pozna?",
+"Gniezno",
+"Kalisz",
+"Konin",
+"Pi?a",
+"Ostrow Wielkopolski",
+"Leszno",
+"Swarz?dz",
+"?rem",
+"Krotoszyn",
+"Wrze?nia",
+"Lubo?",
+"Turek",
+"Jarocin",
+"W?growiec",
+"Ko?cian",
+"Ko?o",
+"?roda Wielkopolska",
+"Rawicz",
+"Gosty?",
+"Chodzie?",
+"Szamotu?y",
+"Z?otow",
+"Oborniki",
+"Pleszew",
+"Trzcianka",
+"Nowy Tomy?l",
+"K?pno",
+"Ostrzeszow",
+"Grodzisk Wielkopolski",
+"S?upca",
+"Wolsztyn",
+"Mosina",
+"Wronki",
+"Czarnkow",
+"Rogo?no",
+"Mi?dzychod",
+"Murowana Go?lina",
+"Puszczykowo",
+"Opalenica",
+"Kostrzyn",
+"Pobiedziska",
+"Jastrowie",
+"Witkowo",
+"Trzemeszno",
+"Pniewy",
+"Kornik",
+"Zb?szy?",
+"K?odawa",
+"Ko?min Wielkopolski",
+"Krzy? Wielkopolski",
+"Buk",
+"Sierakow",
+"Wiele?",
+"St?szew",
+"?migiel",
+"Wyrzysk",
+"Czempi?",
+"Odolanow",
+"Nowe Skalmierzyce",
+"Zduny",
+"Golina",
+"Szamocin",
+"Kleczew",
+"Krobia",
+"Skoki",
+"Okonek",
+"Uj?cie",
+"Krajenka",
+"Sompolno",
+"Mi?os?aw",
+"Go?a?cz",
+"Tuliszkow",
+"Nekla",
+"Rakoniewice",
+"Pyzdry",
+"?lesin",
+"Miejska Gorka",
+"Kobylin",
+"?ob?enica",
+"Margonin",
+"Zagorow",
+"Bojanowo",
+"Lwowek",
+"Poniec",
+"Sulmierzyce",
+"Ksi?? Wielkopolski",
+"Wysoka",
+"Rydzyna",
+"Klecko",
+"Czerniejewo",
+"Borek Wielkopolski",
+"Rychwa?",
+"Olbrzycko",
+"Osieczna",
+"?erkow",
+"Raszkow",
+"Pogorzela",
+"D?bie",
+"Ostrorog",
+"Grabow nad Prosn?",
+"Jutrosin",
+"Mikstat",
+"Przedecz",
+"Wielichowo",
+"Krzywi?",
+"Stawiszyn",
+"Dolsk",
+"Dobra"

@@ -1,0 +1,55 @@
+[nation_thai]
+
+translation_domain="freeciv"
+
+name=_("タイ王国")
+plural=_("?plural:タイ")
+rule_name=_("Thai")
+rule_plural=_("?plural:Thai")
+groups="Modern", "Early Modern", "Medieval", "Asian", "Core"
+legend=_("The Thai kingdom was the only country in Southeast Asia to\
+ preserve its independence through the colonial era of the 18th and\
+ 19th centuries CE.")
+
+leaders = {
+ "name",                "sex"
+ "ラーマ2世",        "Male"
+ "ラーマ1世",    "Male"
+ "ラーマ4世",        "Male"
+ "ラーマ5世",       "Male"
+ "ピブーンソンクラーム",      "Male"
+ "セニ・プラモート",        "Male"
+ "ラーマ9世プミポン",       "Male"
+}
+
+flag="thailand"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="shan", "khmer", "laotian"
+
+cities =
+ "Bangkok",
+ "Thon Buri",
+ "Nakhon Rachasima",
+ "Chiang Mai",
+ "Khon Kaen",
+ "Hat Yai",
+ "Chiang Rai",
+ "Chumphon",
+ "Hua Hin",
+ "Lop Buri",
+ "Lampang",
+ "Phitsanulok",
+ "Sawankhatok",
+ "Songkhla",
+ "Udon Thani",
+ "Pattaya",
+ "Laem Chabang",
+ "Kanchanaburi",
+ "Surat Thani",
+ "Thammarat",
+ "Phuket"

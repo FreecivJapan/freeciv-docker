@@ -1,0 +1,85 @@
+[nation_khazar]
+
+name = _("カザール")
+plural = _("?plural:カザール")
+groups="European", "Medieval"
+legend=_("The Khazars founded a steppe empire on the plains of Southern\
+ Russia in the Early Middle Ages. Originally shamanists, they adopted\
+ Judaism as their state religion.")
+
+leaders = {
+ "name",                "sex"
+ "カザレグ",            "Male"
+ "ガラーデプ",            "Male"
+ "ゼレビョ",              "Male"
+ "ブリ・サッド",            "Male"
+ "イルビス",               "Male"
+ "ブシル",               "Male"
+ "バリク",              "Male"
+ "バッハートラ",            "Male"
+ "カーントゥバ",          "Male"
+ "ハゼル",               "Male"
+ "ザカリア",           "Male"
+ "ヤゼル・ブラスク",        "Male"
+ "オバデヤ",             "Male"
+ "ヒゼキヤ",            "Male"
+ "カノンカフ",           "Male"
+ "マナセ１世",          "Male"
+ "マナセ２世",         "Male"
+ "ギオルギオス・ズル",       "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("国王 %s"),   _("?female:国王 %s")
+ "Fundamentalism",  _("ラビ %s"),     _("?female:ラビ %s")
+ "Monarchy",        _("%s 国王"),    _("?female:%s 国王")
+ 
+ 
+}
+
+flag="khazaria"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+
+init_units=""
+civilwar_nations="tatar", "israeli", "ruthenian"
+
+cities =
+"Atil",
+"Sarkel",
+"Khazaran",
+"Karcha", ;Kerch
+"Tmutarakan",
+"Samandar",
+"Sambalut",
+"Sambat", ;Kiev
+"Samiran",
+"Samosdelka",
+"Khumar",
+"Khamlij",
+"Sarighsin",
+"Sudak",
+"Tarki",
+"Balanjar",
+"Kazarki",
+"Yevpatoria",
+"Chersonesos Taurica",
+"Feodosya",
+"Khazaran",
+"Tamatarkha", ;Samkarsh
+"Bolgar",
+"Kazarki",
+"Guzliev",
+"Chernihiv",
+"Lubech",
+"Kursk",
+"Dores",
+"Tiflis",
+"Derbent",
+"Baku",
+"Azak"

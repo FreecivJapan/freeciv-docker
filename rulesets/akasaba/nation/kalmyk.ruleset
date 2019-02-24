@@ -1,0 +1,91 @@
+[nation_kalmyk]
+
+name=_("カルムイク共和国")
+plural=_("?plural:カルムイク")
+groups="European", "Early Modern"
+legend=_("The Kalmyks are a Western Mongolian ethnic group living in\
+ Kalmykia in southern Russia. They migrated to the Caspian plains in the\
+ 17th century and formed a khanate that was allied with Russia. The\
+ Kalmyks are the only Buddhist nation of Europe.")
+
+leaders = {
+ "name",                "sex"
+ "エシエン",                "Male"
+ "クオ・オク",           "Male"
+ "アユカ",               "Male"
+ "ウンバシ",              "Male"
+ "メンコ・ブルマンヒノフ",  "Male"
+ "オカ・グラドリョコフ",     "Male"
+ "キルサン・イルユムヒノフ",  "Male"
+ "アレクセイ・オルロフ",  "Male"
+}
+
+ruler_titles = {
+ "government",       "male_title",     "female_title"
+ "Despotism",        _("%s 国王"),     _("%s 女王")
+ "Fundamentalism",   _("ラマ %s"),     _("?female:ラマ %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="kalmykia"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="mongol", "russian", "tibetan"
+
+cities =
+ "Elst",
+ "Lagan",
+ "Ba?nta",
+ "Bul?n selan",
+ "Ik Buurl",
+ "Kot?nr",
+ "Oktyabrin",
+ "Priyutnin",
+ "Sarpin",
+ "Tselinnin",
+ "Har ?azrin",
+ "Yustan",
+ "Ya?lt",
+ "Ya?kul",
+ "Ba? Dorvd",
+ "Ar?an",
+ "Ik Tsar?",
+ "Ja?kul",
+ "Komsomolsk",
+ "Tsa?an Amn",
+ "Priyutn",
+ "Sadovoje",
+ "Ulan Hol",
+ "Mogata",
+ "Hargata",
+ "?eret",
+ "Kek Usn",
+ "Artezian",
+ "Sultan",
+ "Svetly Erek",
+ "Naryn Huduk",
+ "?in Teg",
+ "Haltryn Bor",
+ "Adyk",
+ "Sarul",
+ "Atsan Huduk",
+ "Hulhuta",
+ "Teegin Gerl",
+ "Rassvet",
+ "Dolan",
+ "Harba",
+ "Tatal",
+ "Sarpa",
+ "Hon? Nur",
+ "?arid?in",
+ "Hanata",
+ "Zurgan",
+ "?arnut",
+ "Dogzmakin"

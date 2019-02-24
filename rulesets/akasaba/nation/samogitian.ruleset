@@ -1,0 +1,57 @@
+[nation_samogitian]
+
+name=_("サモギティア")
+plural=_("?plural:ジェマイティヤ")
+groups="Medieval", "European"
+legend=_("Samogitia - historical country near the Baltic Sea - home to the\
+ last pagans in Europe (official until 1413). Today, Samogitia is a region\
+ of Lithuania.")
+
+leaders = {
+ "name",        "sex"
+ "ヴェアトキントス",     "Male"
+ "リンガードス",    "Male"
+ "トリンニュウトタ",   "Male"
+ "ゲッドヴィロス",     "Male"
+ "アルギミンス",     "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Monarchy",        _("公 %s"),         _("女公 %s")
+}
+
+flag="samogitia"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with = "lithuanian"
+civilwar_nations = "lithuanian", "latvian"
+
+cities =
+ "Tel??",
+ "Rasein?",
+ "Klaipieda",
+ "?iaul?",
+ "Plong?",
+ "Kretinga",
+ "Varn?",
+ "Reitavs",
+ "Tauragie",
+ "??lal?",
+ "Kelm?",
+ "Palonga",
+ "Ma?eik?",
+ "Kor?ien?",
+ "Akmen?",
+ "Skouds",
+ "Salont?",
+ "Seda",
+ "Kra??",
+ "Tr??k?",
+ "V?ik?n?",
+ "Muosedis"

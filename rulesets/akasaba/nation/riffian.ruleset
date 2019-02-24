@@ -1,0 +1,69 @@
+[nation_riffian]
+
+name=_("リフ族")
+plural=_("?plural:リフ")
+groups="African"
+legend=_("The Confederal Republic of the Tribes of the Rif was a short-lived\
+ nation founded in September 1921 when Riffians revolted against the Spanish\
+ and Moroccans. The country was conquered by the Spanish and French in\
+ 1926. The area is now part of Morocco.")
+
+leaders = {
+ "name",                "sex"
+ "アブド・エル・クリム",         "Male" ; First president
+ "ハジィ・ハットミ",          "Male" ; Prime minister 1923 - 1926
+ "モハメッド・アマジアン",   "Male" ; 19th century freedom fighter
+}
+
+ruler_titles = {
+ "government", "male_title",         "female_title"
+ "Monarchy",   _("首長 %s"),            _("首長 %s")
+ "Republic",   _("%s バシャ"),           _("?female:%s バシャ")
+ "Democracy",       _("首相 %s"), _("首相 %s")
+}
+
+flag="rif"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Spanish", "French", "Moroccan"
+
+cities =
+ "Ajdir",
+ "Nador",
+ "Al Hoceima", ; a.k.a. Biya
+ "Azghenghan",
+ "Selwan",
+ "Tawrirt",
+ "Taza",
+ "El Jebha",
+ "Tetouan",
+ "Saidia",
+ "Ras El Ma",
+ "Kariet Arkmane",
+; Misc. localities in the Rif region
+ "Ait Kamara",
+ "Annual",
+ "Fnideq",
+ "Bouanqoud",
+ "Aknoul",
+ "Tara Tazougaght",
+ "Bord",
+ "Tastite",
+ "Kassita",
+ "Tamjount",
+ "Tisliouine",
+ "Imzouren",
+ "Khadab",
+ "Mezguitem",
+ "Ras Kebdana",
+ "Targist",
+ "Temsaman",
+ "Bouadia",
+ "Imezzean",
+ "Imbrabden",
+ "Ikecheouen"

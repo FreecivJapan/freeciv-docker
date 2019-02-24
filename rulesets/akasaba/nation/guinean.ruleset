@@ -1,0 +1,72 @@
+[nation_guinean]
+
+name=_("ギニア共和国")
+plural=_("?plural:ギニア共和国")
+groups="African", "Modern"
+; /* TRANS: The second letter in "Sekou" and last in "Toure" should be */
+; /* TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in */
+; /* TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 00E9. */
+legend=_("Guinea declared independence from France in 1958. Its first\
+ president Ahmed Sekou Toure continued to rule the country until his death\
+ in 1984. Guinea is not to be confused with neighboring Guinea-Bissau.")
+leaders = {
+ "name",                   "sex"
+ "アルファ・コンデ",	   "male"
+ "ムサ・ダディス・カマラ", "male"
+ "ランサナ・コンテ",          "male"
+}
+ruler_titles = { "government",     "male_title",         "female_title"
+                 "Despotism",      _("General %s"),      _("?female:General %s")
+                 "Fundamentalism", _("Grand Mufti %s"),  _("?female:Grand Mufti %s")
+	       }
+flag="guinea"
+flag_alt = "-"
+style = "tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "fulani", "bissau-guinean"
+
+cities =
+ "Conakry",
+ "Nzerekore",
+ "Kankan",
+ "Kindia",
+ "Labe",
+ "Guekedou",
+ "Boke",
+ "Kissidougou",
+ "Fria",
+ "Faranah",
+ "Macenta",
+ "Coyah",
+ "Kamsar",
+ "Mamou",
+ "Lalo",
+ "Kerouane",
+ "Yomou",
+ "Siguiri",
+ "Forecariah",
+ "Dinguiraye",
+ "Boffa",
+ "Sangaredi",
+ "Dabola",
+ "Tondon",
+ "Telimele",
+ "Koundara",
+ "Pita",
+ "Beyla",
+ "Tokonou",
+ "Kouroussa",
+ "Dubreka",
+ "Sangueya",
+ "Mandiana",
+ "Youkounkoun",
+ "Gaoual",
+ "Dalaba",
+ "Lelouma",
+ "Mali",
+ "Tougue",
+ "Koubia"

@@ -1,0 +1,80 @@
+[nation_tongan]
+
+name=_("トンガ王国")
+plural=_("?plural:トンガ")
+groups="Medieval", "Modern", "Oceanian"
+legend=_("An island group in the Southern Pacific, Tonga was settled by\
+ Polynesians around 1000 BC. Although the islands became a British\
+ protectorate in the 19th century, they are the only country in Oceania\
+ to have escaped actual colonization.")
+
+leaders = {
+ "name",                        "sex"
+ "ジョージ・ツポウ2世 ",        "Male"
+ "タウファアハウ・ツポウ4世 ",                   "Male"
+ "ジョージ・ツポウ1世",              "Male"
+ "サローテ・ツポウ3世 ",            "Female"
+ "ツポウ6世 ",               "Male"
+}
+
+ruler_titles = {
+ "government",    "male_title",           "female_title"
+ "Democracy",     _("首相・国王陛下 %s"), _("?female:首相・女王陛下 %s")
+ "Despotism",       _("首長 %s"), _("首長 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Republic",        _("議会・国王陛下 %s"), _("議会・女王陛下 %s")
+ "Communism",       _("戦時政府・国王陛下 %s"), _("戦時政府・女王陛下 %s")
+ "Anarchy",         _("臨時政府・国王陛下 %s"), _("臨時政府・女王陛下 %s")
+}
+
+flag= "tonga"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="polynesian", "fijian"
+
+cities =
+ "Nuku'alofa",
+ "Neiafu",
+ "Pangai",
+ "'Ohonua",
+ "Mu'a",
+ "Haveloloto",
+ "Vaini",
+ "Tofoa-Koloua",
+ "Nihifo",
+ "Ha'ateiho",
+ "Pea",
+ "Fua'amotu",
+ "Houma",
+ "Nukunuku",
+ "Leimatu'a",
+ "Kolonga",
+ "Hihifo",
+ "Tokomololo",
+ "Vaitongo",
+ "Ha'asini-Hamula",
+ "Navutoka",
+ "Folaha",
+ "Longumapu",
+ "Niutoua",
+ "'Uiha",
+ "Nomuka",
+ "Mo'unga'one",
+ "Fotuha'a",
+ "Lofanga",
+ "Ha'ano",
+ "Tungua",
+ "'O'ua",
+ "Falehau",
+ "Vaipoa",
+ "Tafuna",
+ "Tafahi",
+ "Tatakamotonga",
+ "Kolovai",
+ "'Utulau",
+ "Ngau"

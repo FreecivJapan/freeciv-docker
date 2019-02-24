@@ -1,0 +1,90 @@
+[nation_leonese]
+
+name=_("レオン")
+plural=_("?plural:レオン")
+groups="European", "Medieval"
+legend=_("Leon was a medieval kingdom in the northwestern part of the\
+ Iberian peninsula. Currently Leon is part of the Spanish autonomous\
+ community of Castile and Leon.")
+
+leaders = {
+ "name",                        "sex"
+ "ガルシア１世",                    "Male"
+ "フルエラ２世",                   "Male"
+ "アルフォンソ７世",                 "Male"
+ "フェルナンド２世",                 "Male"
+ "アルフォンス６世",       "Male"
+ "ホセ・エギヤガライ",             "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",   "female_title"
+ "Fundamentalism", _("司教 %s"), _("優しい母 %s")
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+}
+
+flag="leon"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="asturian", "galician", "castilian"
+
+cities =
+ "Llion",
+ "Salamanca",
+ "Zamora",
+ "Ponferrada",
+ "Sanandres del Rabaneu",
+ "Benavente",
+ "Villaquilame",
+ "Santa Marta de Tormes",
+ "Beyar",
+ "Cia Rodrigu",
+ "Astorga",
+ "La Baneza",
+ "Vitsablinu",
+ "Bembibre",
+ "Toru",
+ "Villamayor",
+ "Valverde de la Virgen",
+ "Penaranda de Bracamonte",
+ "Gixuelu",
+ "Alba de Tormes",
+ "Villares de la Reina",
+ "Carbayosa de la Sagrada",
+ "Cacabiellos",
+ "Fabeiru",
+ "La Robla",
+ "Valencia de Don Xuan",
+ "Campunaraya",
+ "Sariegos",
+ "Torenu",
+ "La Pola de Gordon",
+ "Cabreirizos",
+ "Carracediellu",
+ "Villafranca d'El Bierzu",
+ "Terradiellos",
+ "Cistierna",
+ "Santa Maria del Paramu",
+ "Villareyu d'Orbigu",
+ "Torre d'El Bierzu",
+ "Safagun",
+ "Banavices",
+ "Vitigudinu",
+ "Torre de Santamarina",
+ "Carrizu",
+ "Veiga d'Espinareda",
+ "Morales del Vinu",
+ "Xouzas d'Abaixu",
+ "Santa Marina del Rei",
+ "Bonare",
+ "Toural de los Vados",
+ "San Xustu de la Veiga",
+ "Valdeiras",
+ "Valdefreisnu"
+

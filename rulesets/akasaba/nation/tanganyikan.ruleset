@@ -1,0 +1,69 @@
+[nation_tanganyikan]
+
+name=_("タンガニーカ共和国")
+plural=_("?plural:タンガニーカ共和国")
+groups="African"
+legend=_("Inhabited by Bantu tribes since the beginning of the Common Era,\
+ Tanganyika became a German colony in the late 19th century. It was\
+ conquered by the British during World War I and declared independence in\
+ 1961. Three years later it merged with Zanzibar to form the Union of\
+ Tanzania.")
+
+leaders = {
+ "name",                         "sex"
+ "ホヤス・バヤタ",                 "Male"
+}
+
+flag="tanganyika"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "maasai", "swahili"
+
+cities =
+ "Dar es Salaam (ocean)",
+ "Bagamoyo",
+ "Mwanza",
+ "Arusha",
+ "Mbeya",
+ "Morogoro",
+ "Dodoma",
+ "Tanga",
+ "Kigoma",
+ "Moshi",
+ "Tabora",
+ "Songea",
+ "Musoma",
+ "Shinyanga",
+ "Katumba",
+ "Iringa",
+ "Ushirombo",
+ "Mtwara",
+ "Kilosa",
+ "Sumbawanga",
+ "Mpanda",
+ "Bukoba",
+ "Singida",
+ "Uyovu",
+ "Sengerama",
+ "Kalangalala",
+ "Mishoma",
+ "Mererani",
+ "Buseresere",
+ "Bunda",
+ "Makambako",
+ "Katoro",
+ "Ifakara",
+ "Njombe",
+ "Utengule Usongwe",
+ "Kiranyi",
+ "Siha Kati",
+ "Nkome",
+ "Nkololo",
+ "Nguruka",
+ "Lindi",
+ "Vwawa"

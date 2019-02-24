@@ -1,0 +1,119 @@
+[nation_japanese]
+
+translation_domain="freeciv"
+
+name=_("日本国")
+plural=_("?plural:日本国")
+rule_name=_("Japanese")
+rule_plural=_("?plural:Japanese")
+groups="Medieval", "Early Modern", "Modern", "Asian", "Core"
+legend=_("According to traditional Japanese mythology, Japan was founded\
+ in the 7th century BCE by the ancestral Emperor Jimmu.")
+
+leaders = {
+ "name",                "sex"
+ "明仁",               "Male"
+ "昭和",           "Male"
+ "田中角栄",            "Male"
+ "吉田茂",        "Male"
+ "小泉純一郎",     "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Anarchy",           _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("天皇陛下 %s"), _("天皇陛下 %s")
+ "Monarchy",        _("天皇陛下 %s"),        _("天皇陛下 %s")
+ "Republic",          _("内閣総理大臣 %s"),         _("内閣総理大臣 %s")
+ "Democracy",     _("内閣総理大臣 %s"), _("内閣総理大臣 %s")
+ "Communism",   _("首相 %s"), _("首相 %s")
+}
+
+flag="japan"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations= "Nikkyou", "Nippon Teikoku", "Nippon Koukoku", "ryukyuan", "ainu"
+
+cities=
+"帝都東京",
+"逢坂(ocean)",
+"平安京(!ocean)",
+"平城京(!ocean)",
+"福岡(ocean)",
+"鹿児島(ocean)",
+"名古屋(ocean)",
+"札幌",
+"埼玉(!ocean)",
+"京都(!ocean)",
+"大和(!ocean)",
+"横濱(ocean)",
+"廣島(ocean)",
+"山口",
+"静岡",
+"新潟(ocean)",
+"松山(ocean)",
+"神奈川(ocean)",
+"堺(ocean)",
+"相模原(!ocean)",
+"八王子(!ocean)",
+"長野(!ocean)",
+"熊本",
+"岡山(ocean)",
+"浜松(ocean)",
+"秋田(ocean)",
+"姫路(ocean)",
+"長崎(ocean)",
+"横須賀(ocean)",
+"大分(ocean)",
+"岐阜(!ocean)",
+"和歌山(ocean)",
+"磐城",
+"旭川(!ocean)",
+"高松(ocean)",
+"高知(ocean)",
+"富山(ocean)",
+"那覇(ocean)",
+"青森(ocean)",
+"函館(ocean)",
+"盛岡(!ocean)",
+"徳島(ocean)",
+"山形(!ocean)",
+"福井(ocean)",
+"松本(!ocean)",
+"甲府(!ocean)",
+"船橋",
+"宇都宮(!ocean)",
+"宮崎(ocean)",
+"福山",
+"豊田(!ocean)",
+"所沢(!ocean)",
+"福島(!ocean)",
+"四日市(ocean)",
+"下関(ocean)",
+"小金井(!ocean)",
+"八戸(ocean)",
+"水戸(!ocean)",
+"佐世保(ocean)",
+"松江(ocean)",
+"川口(!ocean)",
+"釧路(ocean)",
+"調布(!ocean)",
+"布施(!ocean)",
+"熊谷(!ocean)",
+"尼崎(ocean)",
+"市川",
+"佐賀",
+"町田(!ocean)",
+"鳥取(ocean)",
+"豊中(!ocean)",
+"藤沢(ocean)",
+"久留米(!ocean)",
+"豊橋(ocean)",
+"川越(!ocean)",
+"津(ocean)"
+
+

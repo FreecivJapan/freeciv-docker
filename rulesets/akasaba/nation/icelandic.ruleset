@@ -1,0 +1,96 @@
+[nation_icelandic]
+
+name=_("アイスランド共和国")
+plural=_("?plural:アイスランド")
+rule_name=_("Icelandic")
+rule_plural=_("?plural:Icelanders")
+groups="Modern", "European"
+legend=_("Iceland was long one of the largest uninhabited islands in the\
+ world, until it was settled by Norwegian Vikings in the\
+ late 9th century. The island was kept initially under the Norwegian and\
+ later the Danish crown until independence from Denmark in 1944.")
+
+leaders = {
+ "name",                        "sex"
+ "Haut",            "Male"
+ "ヨゥン・シグルズソン",              "Male"
+ "インゴールヴル・アルナルソン",           "Male"
+ "スヴェイン・ビョルンソン",            "Male"
+ "アースゲイルソン",           "Male"
+ "エルトヤウルトン",            "Male"
+ "ヴィグディス",       "Female"
+}
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("Earl %s"),           _("?female:Earl %s")
+ "Monarchy",        _("デンマーク国王 %s"), _("デンマーク国王 %s")
+ "Communism",       _("戦時政府・大統領 %s"), _("戦時政府・大統領 %s")
+ "Republic",        _("民主議会 %s"), _("民主議会 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Fundamentalism",  _("Bishop %s"),         _("?female:Bishop %s")
+}
+flag="iceland"
+flag_alt = "norway"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "danish", "faroese"
+
+cities =
+    "Reykjavík",
+    "Akureyri",
+    "Hafnarfjörður",
+    "Kópavogur",
+    "Akranes",
+    "Borgarnes",
+    "Dalvík",
+    "Egilsstaðir",
+    "Garðabær",
+    "Grindavik",
+    "Höfn",
+    "Húsavík",
+    "Hveragerði",
+    "Ísafjörður",
+    "Keflavík",
+    "Mosfellsbær",
+    "Neskaupsstaður",
+    "Njarðvík",
+    "Ólafsvík",
+    "Sauðárkrókur",
+    "Selfoss",
+    "Siglufjörður",
+    "Stykkishólmur",
+    "Vestmannaeyjar",
+    "Þorlákshöfn",
+    "Bíldudalur",
+    "Blönduós",
+    "Bolungarvík",
+    "Breiðdalsvík",
+    "Búðardalur",
+    "Djúpivogur",
+    "Djúpavík",
+    "Drangsnes",
+    "Eskifjörður",
+    "Eyrarbakki",
+    "Fáskrúðsfjörður",
+    "Garður",
+    "Hella",
+    "Hólar",
+    "Hólmavík",
+    "Hvammstangi",
+    "Hvolsvöllur",
+    "Kirkjubæjarklaustur",
+    "Mjóifjörður",
+    "Ólafsfjörður",
+    "Reyðarfjörður",
+    "Reykholt",
+    "Seyðisfjörður",
+    "Skálholt",
+    "Skógar",
+    "Stokkseyri",
+    "Stöðvarfjörður",
+    "Vík í Mýrdal",
+    "Vogar"

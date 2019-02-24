@@ -1,0 +1,112 @@
+[nation_texan]
+
+name=_("テキサス")
+plural=_("?plural:テキサス")
+groups="American"
+legend=_("Texas is second largest and second most populous state of the\
+ USA, famous for its \"larger than life\" cowboy mentality.")
+
+leaders = {
+ "name",                "sex"
+ "サム・ヒューストン",         "Male"
+ "ステファンF.オスティン",   "Male"
+ "J・P.・ヘンダーソン",  "Male"
+ "マー・ファーガソン",         "Female"
+ "リンドン・ジョンソン",   "Male"
+ "ジョージ・W・ブッシュ",      "Male"
+ "リック・ペリー",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("フランス人総督 %s"),   _("?female:フランス人総督 %s")
+ "Republic",        _("州知事 %s"),  _("?female:州知事 %s")
+ "Fundamentalism",  _("牧師 %s"),  _("?female:牧師 %s")
+ "Democracy",       _("州知事 %s"), _("州知事 %s")
+ 
+}
+
+flag="texas"
+flag_alt = "usa"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="american", "chilean" ; Latter because of similar flags
+civilwar_nations="american", "mexican", "hasinay"
+
+cities =
+ "Austin",
+ "Dallas",
+ "Houston",
+ "San Antonio",
+ "Fort Worth", 
+ "Galveston",
+ "Corpus Christi",
+ "El Paso",
+ "Lubbock",
+ "Amarillo", 
+ "Eagle Pass",
+ "Wichita Falls",
+ "Midland",
+ "Odessa",
+ "Waco",
+ "Beaumont", 
+ "Irving",
+ "Denton",
+ "Texarkana",
+ "Port Arthur",
+ "Brownsville",
+ "Laredo",
+ "Nacogdoches",
+ "Lufkin",
+ "Killeen",
+ "College Station",  
+ "Abilene",
+ "Waxahachie",
+ "Bryan",
+ "Huntsville",
+ "Texas City",
+ "Tyler",
+ "Arlington",
+ "Garland",
+ "Carrollton",
+ "Mesquite",
+ "Weatherford",  
+ "Stephenville",
+ "New Braunfels",
+ "San Marcos",
+ "Plainview",
+ "Uvalde",
+ "Lake Jackson",
+ "Sherman",
+ "Del Rio",
+ "Kerrville", 
+ "Brownwood",
+ "Round Rock",
+ "The Woodlands", 
+ "Wharton",
+ "Orange",
+ "Temple",
+ "Victoria",
+ "Kingsville",
+ "Harlingen",
+ "Muleshoe",
+ "Canyon",
+ "Lamesa",
+ "Fort Stockton", 
+ "McAllen",
+ "Big Spring",
+ "San Angelo",
+ "Alpine",
+ "Pecos",
+ "Dalhart",
+ "Sweetwater",
+ "Snyder",
+ "Dumas",
+ "Borger",
+ "Pampa",
+ "Perryton",
+ "Tuna"

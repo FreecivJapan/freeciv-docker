@@ -1,0 +1,58 @@
+[nation_europe]
+
+name=_("欧州連合")
+plural=_("?plural:欧州連合")
+rule_name=_("European")
+rule_plural=_("?plural:Europeans")
+groups="Imaginary"
+legend=_("The foundation for the European Union was laid in 1957 with the\
+ Treaty of Rome. The EU project has developed since then and is beginning to\
+ resemble a fledgeling super state. But the question remains: Does such a\
+ thing as a common European identity and nation actually exist?")
+
+; Presidents of the European Commission that held office over one year.
+leaders = {
+ "name",                        "sex"
+ "ウォルター・ハルシュタイン",            "Male"
+ "ジャン・レイ",                    "Male"
+ "F・マリア・マルファッティ",       "Male"
+ "S・ L. マンスホルト",           "Male"
+ "ロイ・ジェンキンス",                 "Male"
+ "ヘルマン・Ｖ・ロンパウ",                 "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Democracy",       _("Commissioner %s"), _("?female:Commissioner %s")
+ "Fundamentalism",  _("Pope %s"),         _("Popess %s")
+}
+
+flag="europe"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+
+conflicts_with="austrian", "belgian", "bulgarian", "czech", "cypriot",
+               "danish", "estonian", "finnish", "french", "german",
+               "hellenic", "hungarian", "irish", "italian", "latvian",
+               "lithuanian", "luxembourgish", "maltese", "dutch", "polish",
+               "portuguese", "romanian", "slovakian", "slovenian",
+               "spanish", "swedish", "british"
+civilwar_nations="austrian", "belgian", "bulgarian", "czech", "cypriot",
+               "danish", "estonian", "finnish", "french", "german",
+               "hellenic", "hungarian", "irish", "italian", "latvian",
+               "lithuanian", "luxembourgish", "maltese", "dutch", "polish",
+               "portuguese", "romanian", "slovakian", "slovenian",
+               "spanish", "swedish", "british"
+cities=
+; Sites of EU institutions
+ "Brussel",
+ "Lëtzebuerg",
+ "Strasbourg",
+ "Frankfurt am Main",
+ "Den Haag"
+; Subsequent cities fetched from city lists of member nations

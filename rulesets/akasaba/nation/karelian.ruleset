@@ -1,0 +1,91 @@
+[nation_karelian]
+
+name=_("カレリア共和国")
+plural=_("?plural:Karelians")
+groups="European"
+legend=_("The Karelians are a Finno-Ugric people inhabiting Karelia, a\
+ region currently divided between Finland and Russia. They are closely\
+ related to the Finns.")
+
+leaders = {
+ "name",                "sex"
+ "ヴィナモニエン",         "Male"
+ "セッポ・イルモリニアン",     "Male"
+ "ラウウシ",               "Female"
+ "A・ペルットゥニアン",   "Male"
+ "カール・ラウティオ",         "Male"
+ "ラウリ・トルニ",         "Male"
+ "オットー・クーシネン",       "Male"
+ "ヨハネス・ビオライニョン", "Male"
+ "アンドレイ・ネリドフ", "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("議長 %s"), _("議長 %s")
+ "Monarchy",        _("最高会議幹部会議長 %s"), _("最高会議幹部会議長 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("最高会議幹部会議長  %s"), _("最高会議幹部会議長  %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="karelia"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "finnish", "sami", "russian"
+
+cities =
+;Names in Finnish/Karelian, Russian names in comment
+ "Petroskoi",	;Petrozavodsk
+ "Kalevala",
+ "Viipuri",	;Vyborg
+ "Anus",	;Olonets
+ "Joensuu",
+ "Lappeenranta",
+ "Kondupohju",	;Kondopoga
+ "Sekee",	;Segezha
+ "Kostamus",	;Kostomuksha
+ "Imatra",
+ "Sortavala",
+ "Kakisalmi",	;Priozersk
+ "Karhumagi",	;Medvezhyegorsk
+ "Enso",	;Svetogorsk
+ "Kem",
+ "Pitaranta",	;Pitkyaranta
+ "Soroka",	;Belomorsk
+ "Lieksa",
+ "Lahdenpohju",	;Lakhdenpokhja
+ "Joutseno",
+ "Kitee",
+ "Nurmes",
+ "Outokumpu",
+ "Antrea",	;Kamenogorsk
+ "Ilomantsi",
+ "Koivisto",	;Pirmorsk
+ "Uhtuo",	;Uhtua
+ "Suojarvi",	;Suoyarvi
+ "Puudosi",	;Pudozh
+ "Pyhaksalka",
+ "Vojatsu",	;Nadvoitsy
+ "Parikkala",
+ "Louhi",	;Louki
+ "Eno",
+ "Pinduinen",	;Pindushi
+ "Ruokolahti",
+ "Pria?a",	;Pryazha
+ "Juuka",
+ "Mujehdarvi",	;Muyezersky
+ "Taipalsaari",
+ "Laskela",	;Lyaskelya
+ "Tohmajarvi",
+ "Porarvi",	;Porosozero
+ "T?uuppa",	;Chupa
+ "Luumaki",
+ "?uoju",	;Shuya
+ "Polvijarvi"

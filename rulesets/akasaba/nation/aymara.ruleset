@@ -1,0 +1,127 @@
+[nation_aymara]
+
+name=_("アイマラ族")
+plural=_("?plural:アイマラ族")
+rule_name=_("Aymara")
+rule_plural=_("?plural:Aymaras")
+groups="Medieval", "American"
+legend=_("After the collapse of the Tiwanaku civilization in the\
+ Andes, their heirs reorganized into a set of culturally close\
+ Aymara kingdoms that thrived around the Titicaca lake until they\
+ were conquered by the Incas.")
+
+leaders = {
+ "name",                "sex"
+ "トゥパックス・カタリ",        "Male" ; born Julian Apasa
+ "パウラ・セラリ",        "Male"
+ "サントス・マルカ・タラ",  "Male"
+ "ワタリナ・シサ",      "Female"
+ "カティンプ",             "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Republic",        _("マリク %s"),       _("タリク %s")
+}
+
+flag="aymara"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "inca", "bolivian"
+
+cities =
+ "Altupata",
+ "Taypi-Qala",
+ "Pukara",
+ "Ariqhipa",
+ "Chukiyapu",
+ "Quta-Qhawaña",
+ "Wanchu-Lima",
+ "Warisata",
+ "Uru-Uru",
+ "Jillawi",
+ "Jatun-Qulla",
+ "Jayu-Jayu",
+ "Sullkawi",
+ "Inkawi",
+ "Jacchakachi",
+ "Karanka",
+ "Xulli",
+ "Amantani",
+ "Suriki",
+ "Chukuwitu",
+ "Wankani",
+ "Uyuni",
+ "Axura",
+ "Killaka",
+ "Arika",
+ "Wiyacha",
+ "Taraqu",
+ "Warina",
+ "Aruma",
+ "Achuqalla",
+ "Isquma",
+ "Karaqullu",
+ "Killa-Qullu",
+ "Karaqutu",
+ "Sipita",
+ "Iki-Iki",
+ "Asapa",
+ "Waki",
+ "Yunkuyu",
+ "Pusi",
+ "Wiñaymarka",
+ "Thaqaña",
+ "Muqhiwa",
+ "Katamarka",
+ "Jayawiri",
+ "Waruchiri",
+ "Aya-Kuchu",
+ "Wakullani",
+ "Willkan-Uta",
+ "Qalaquta",
+ "Jincchupalla",
+ "Asiruni",
+ "Kaxamarka",
+ "Sikuwani",
+ "Jathakama",
+ "Putina",
+ "Pilkuyu",
+ "Chipana",
+ "Kachipukara",
+ "Arapa",
+ "Umayu",
+ "Lampa",
+ "Illimani",
+ "Illampu",
+ "Lariqaxa",
+ "Kuxata",
+ "Laraqiri",
+ "Wañaskkuyu",
+ "Irukkuyu",
+ "Tiyawaya",
+ "Suqhawaya",
+ "Muxu",
+ "Pukarani",
+ "Jawirani",
+ "Anta-Uta",
+ "Saxama",
+ "Apulupampa",
+ "Quluqulu",
+ "Kaminaka",
+ "Puquwata",
+ "Wataxata",
+ "Laxa",
+ "Machaqa",
+ "Challapata",
+ "Chawaya",
+ "Surata",
+ "Ayata",
+ "Charasani",
+ "Qunsata",
+ "Pillapi",
+ "Chuxusiwi"

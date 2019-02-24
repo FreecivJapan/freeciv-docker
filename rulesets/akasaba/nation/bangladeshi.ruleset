@@ -1,0 +1,72 @@
+[nation_bangladeshi]
+
+name=_("バングラデシュ人民共和国")
+plural=_("?plural:バングラデシュ人民共和国")
+rule_name=_("Bangladeshi")
+rule_plural=_("?plural:Bangladeshis")
+groups="Modern", "Asian"
+legend=_("The People's Republic of Bangladesh was formed from the former\
+ Pakistani territory of East Bengal following a war of independence.")
+
+leaders = {
+ "name",                   "sex"
+ "S・ムジブル・ラフマン",        "Male"
+ "ジアウル・ラフマン",           "Male"
+ "H・M・エルシャド",  "Male"
+ "アブドゥル・ハーミド",       "Male"
+ "シェイク・ハシナ", "Male"
+ "カレダ・ジア",            "Female"
+}
+
+ruler_titles = {
+ "government",     "male_title",         "female_title"
+ "Despotism",      _("総督 %s"),         _("総督 %s")
+ "Monarchy",       _("大統領 %s"),     _("大統領 %s")
+ "Republic",       _("大統領 %s"),        _("?female:大統領 %s")
+ "Fundamentalism", _("Mullah %s"),       _("?female:Mullah %s")
+ "Democracy",       _("大統領 %s"),      _("?female:大統領 %s")
+}
+
+flag="bangladesh"
+flag_alt = "-"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="Bengali"
+civilwar_nations="Sikkimese", "Assamese"
+
+cities =
+ "Dhaka",
+ "Chittagong",
+ "Khulna",
+ "Rajshahi",
+ "Tongi",
+ "Sylhet",
+ "Rangpur",
+ "Mymensingh",
+ "Narayangonj",
+ "Barisal",
+ "Jessore",
+ "Comilla",
+ "Nawabganj",
+ "Dinajpur",
+ "Bogra",
+ "Kadamrasul",
+ "Madhabdi",
+ "Sirajganj",
+ "Tangail",
+ "Brahmanbaria",
+ "Gazipur",
+ "Savar",
+ "Naogaon",
+ "Jamalpur",
+ "Pabna Sadar",
+ "Feni",
+ "Saidpur",
+ "Faridpur",
+ "Magura",
+ "Chandpur"
+

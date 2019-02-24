@@ -1,0 +1,121 @@
+[nation_flemish]
+
+name=_("フランダース")
+plural=_("?plural:フランダース")
+groups="Medieval", "European"
+legend = _("In the Middle Ages, Flanders was a county on the border of\
+ France and the Holy Roman Empire. In the 15th century, it came under\
+ Habsburg domination and subsequently it became one of the Seventeen\
+ Netherlands. Only after its conquest by Revolutionary France was the\
+ county legally dissolved. Nowadays the name is applied to the\
+ Dutch (or Flemish) speaking part of Belgium.")
+
+leaders = {
+ "name",                                "sex"
+ "ボールドウィン・アーム",        "Male"
+ "チャールズ・グッド",                      "Male"
+ "ダンピエール",                "Male"
+ "ボルツ",                         "Male"
+ "ロバート３世",                 "Male"
+ "カレル５世",                             "Male"
+ "シャルル・グレーヴ",            "Male"
+ "レープシート",                  "Male"
+ "クリャック",                      "Male"
+ "ガストン・ギーンス",                        "Male"
+ "リターメ",                        "Male"
+ "クリス・ペーテルス",                        "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Democracy",       _("首相 %s"), _("?female:首相 %s")
+ "Fundamentalism",  _("司教 %s"),         _("優しい母 %s")
+ "Monarchy",	    _("伯爵 %s"),          _("伯爵 %s")
+ "Republic",	    _("オランダ人総督 %s"),    _("オラン人ダ総督 %s")
+ "Despotism",       _("伯爵 %s"), _("伯爵 %s")
+ "Communism",       _("首相 %s"), _("首相 %s")
+}
+
+flag="flanders"
+flag_alt = "belgium"
+style = "european"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="dutch", "walloon"
+
+cities =
+ "Antwerpen (river)",
+ "Gent (river)",
+ "Brugge (ocean)",
+ "Leuven (forest)",
+ "Mechelen (river, forest)",
+ "Aalst (river)",
+ "Kortrijk (river)",
+ "Hasselt (forest)",
+ "Sint-Niklaas",
+ "Oostende (ocean)",
+ "Genk (forest)",
+ "Roeselare",
+ "Dendermonde (river)",
+ "Beringen",
+ "Turnhout (forest)",
+ "Sint-Truiden",
+ "Lokeren",
+ "Vilvoorde",
+ "Waregem (river)",
+ "Ninove (river, hills)",
+ "Geel",
+ "Ieper (hills)",
+ "Halle",
+ "Lier (river)",
+ "Menen (river)",
+ "Tienen",
+ "Lommel (forest)",
+ "Geraardsbergen (hills)",
+ "Bilzen",
+ "Tongeren",
+ "Oudenaarde (river)",
+ "Deinze",
+ "Aarschot (forest)",
+ "Izegem",
+ "Harelbeke",
+ "Herenthals",
+ "Zottegem",
+ "Mortsel",
+ "Ronse (hills)",
+ "Maaseik (river)",
+ "Diest",
+ "Poperinge",
+ "Eeklo",
+ "Torhout",
+ "Tielt",
+ "Dilsen",
+ "Hoogstraten (forest)",
+ "Blankenberge (ocean)",
+ "Wervik (river)",
+ "Peer",
+ "Diksmuide",
+ "Landen",
+ "Bree",
+ "Hamont",
+ "Veurne",
+ "Damme (river, swamp)",
+; Historically Flemish territory in France
+ "Duinkerke (ocean)", ; Dunkerque
+ "Rijssel (river)", ; Lille
+ "Dowaai", ; Douai
+ "Oorschie", ; Ochies
+ "Grevelingen (ocean)", ; Gravelines
+ "Sint-Winoksbergen (hills)", ; Bergues
+ "Sint-Omaars", ; Saint-Omer
+ "Hazebroek", ;Hazebrouck
+; Historically Flemish territory in the Netherlands
+ "Sluis (river, swamp)",
+ "Aardenburg",
+ "Hulst",
+ "Axel",
+ "Saeftinge (swamp)",
+ "Terneuzen (ocean)"
+

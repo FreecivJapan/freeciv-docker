@@ -1,0 +1,79 @@
+[nation_central_african]
+
+name=_("中央アフリカ共和国")
+plural=_("?plural:中央アフリカ")
+rule_name=_("Central African")
+rule_plural=_("?plural:Central Africans")
+groups="Modern", "African"
+legend=_("The Central African Republic is a country in Central Africa,\
+ formerly known as the French African territory of Ubangi-Shari. It was\
+ ruled briefly as a dictatorship in the 70s under Emperor Bokassa I during\
+ which it was called the Central African Empire.")
+leaders=
+{
+ "name",		"sex"
+ "アンドレ・コリンバ",	"male"
+ "デビッド・ダッコ",		"male"
+ "エリザベート・ドミチェン",	"female"
+ "ボカサ",	"male"
+ "ボゴンダ",	"male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Monarchy",        _("皇帝 %s"),   _("皇帝 %s")
+ "Despotism",       _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Republic",        _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="car"
+flag_alt="-"
+style="Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Sudanese", "Congolese", "Cameroonian"
+
+cities =
+ "Bangui",
+ "Bimbo",
+ "Mbaiki",
+ "Berberati",
+ "Kaga-Bandoro",
+ "Bozoum",
+ "Carnot",
+ "Sibut",
+ "Bambari",
+ "Bria",
+ "Bouar",
+ "Bossangoa",
+ "Nola",
+ "Bangassou",
+ "Damara",
+ "Mobaye",
+ "Paoua",
+ "Boda",
+ "Ippy",
+ "Batangafo",
+ "Alindao",
+ "Kabo",
+ "Rafai",
+ "Bouca",
+ "Obo",
+ "Ndele",
+ "Kembe",
+ "Mongoumba",
+ "Yakole",
+ "Birao",
+ "Gamboula",
+ "Kouango",
+ "Baoro",
+ "Boali",
+ "Oudda",
+ "Gambo",
+ "Ouango"

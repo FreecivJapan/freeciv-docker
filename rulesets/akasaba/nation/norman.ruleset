@@ -1,0 +1,76 @@
+[nation_norman]
+
+name=_("ノルマンディー")
+plural=_("?plural:ノルマンディー")
+rule_name=_("Norman")
+rule_plural=_("?plural:Normans")
+groups="Medieval", "European"
+legend=_("After several devastating Viking raids on what is today northern\
+ France and a siege of Paris, the Frankish king Charles the Simple granted\
+ the Viking leader Rollo a fiefdom in the area. This fief evolved into the\
+ Duchy of Normandy, of which the most famous duke is William II \"the\
+ Conqueror\" who invaded England in 1066.")
+
+; See http://nrm.wikipedia.org/wiki/Liste_des_dus_de_Normaundie
+leaders = {
+ "name",        "sex"
+ "徒歩公ロロ",     "Male" ; English: Rollo
+ "無怖公リシャール1世",    "Male" ; English: Richard
+ "善良公リシャール2世",   "Male"
+ "長剣公ギヨーム1世",  "Male" ; English: William the Conqueror
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Despotism",       _("%s ノルマンディー公"),          _("?female:%s ノルマンディー公")
+ "Monarchy",        _("ノルマンディー公 %s"),          _("ノルマンディー公 %s")
+ "Republic",        _("廷吏 %s"),       _("?Female:廷吏 %s")
+}
+
+flag="normandy"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "viking", "french", "english", "sicilian"
+
+cities =
+; Major cities in Normandy
+ "Rouën",
+ "Caën",
+ "Lé Hâvre",
+ "Tchidbouo", ; French: Cherbourg
+; More cities and towns of Normandy in order of 1999 population
+ "Évreux",
+ "Dieppe",
+ "Alençoun", ; French: Alençon
+ "Lisieux",
+ "Saint-Lô",
+ "Bayeus", ; French: Bayeux
+ "Coutanches", ; French: Coutances
+ "Avranches",
+ "Honflieu", ; French: Honfleur
+ "Falaise",
+ "Villers-Bocage",
+ "Doudeville",
+ "Mortain",
+ "Houlgate",
+ "Arromanches",
+; A selection of parishes of the Channel Islands
+ "Saint Hélyi", ; English: Saint Helier
+ "Saint Brélade",
+ "Saint Pierre Port (ocean)", ; English: Saint Peter Port
+ "Sainte-Âone", ; English: Saint Anne
+; Random assortment of Norman place-names with Scandinavian origin
+ "Tournebu",
+ "Cricqueville",
+ "Dieppedale",
+ "Lé Houlme (ocean)",
+ "Drubec",
+ "Carquebu",
+ "Lé Bû-sur-Rouvres",
+ "Barneville",
+ "Oudalle",
+ "Torgistorp"

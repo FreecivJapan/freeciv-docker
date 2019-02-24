@@ -1,0 +1,86 @@
+[nation_ashanti] 
+
+name=_("アシャンティ王国") 
+plural=_("?plural:アシャンティ")
+rule_name=_("Ashanti") 
+rule_plural=_("?plural:Ashantis") 
+groups="African", "Medieval", "Early Modern" 
+legend=_("The Ashanti were an ancient kingdom in part of modern Ghana. The\
+ first Ashanti kingdom was founded in the 11th century.")
+
+leaders = {
+ "name",                "sex"
+ "トゥム",                "Male"
+ "アントゥイ",               "Male"
+ "コビア・アマムフィー",        "Male"
+ "オチ・アケンテン",         "Male"
+ "オビリ・イェボア",         "Male"
+ "オセイ・トゥトゥ",   "Male"
+ "アマニアームポン",          "Male"
+ "カタキィ", "Male"
+ "オバーデュム",        "Male"
+ "ケンタンカ",       "Male"
+ "オコアワイア", "Male"
+ "オセイ・クワメ",          "Male"
+ "アタコラ・クワメ",       "Male"
+ "フォフィエ",         "Male"
+ "オセイ・ヨー・ アトコ",      "Male"
+ "カリカリ",       "Male"
+ "ボンス",         "Male"
+ "パニーイン",     "Male"
+ "プレンペ１世",           "Male"
+}
+
+ruler_titles = {
+ "government",  "male_title",       "female_title"
+ "Monarchy",    _("国王陛下 %s"), _("?female:女王陛下 %s")  
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Democracy",       _("州知事 %s"), _("州知事 %s")
+ "Republic",        _("総督 %s"), _("総督 %s")
+ "Communism",       _("戦時政府・大統領 %s"), _("戦時政府・大統領 %s")
+}
+
+flag= "ashanti" 
+flag_alt = "-" 
+style = "Celtic" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+civilwar_nations="dahomean", "malian"
+
+cities=
+  "Kumasi",
+  "Bono Mansu",
+  "Bekwai",
+  "Dumassi",
+  "Jabin",
+  "Abofu",
+  "Insuta",
+  "Jemo",
+  "Ajumakassi",
+  "Odumasi",
+  "Sirasu",
+  "Dudiasi",
+  "Fumsu",
+  "Amudasu",
+  "Akrofumu",
+  "Kumavu",
+  "Kumvo",
+  "Dasuo",
+  "Dahnsu",
+  "Edujan",
+  "Boreman",
+  "Ejura",
+  "Tanosu",
+  "Adada",
+  "Toibassu",
+  "Essian Kwanta",
+  "Moinsi",
+  "Kokotu",
+  "Bosumakwe",
+  "Odumasi",
+  "Mampon",
+  "Edunku"

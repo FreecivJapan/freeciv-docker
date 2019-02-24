@@ -1,0 +1,61 @@
+[nation_lankese]
+
+name=_("スリランカ民主社会主義共和国")
+plural=_("?plural:スリランカ")
+groups="Ancient", "Medieval", "Early Modern", "Modern", "Asian"
+legend=_("Prince Vijaya came to Sri Lanka from Orissa, in north-eastern\
+ India during the 6th century BC and founded the Sinhalese kingdom there.\
+ During British colonialism the country was known as Ceylon.")
+
+leaders = {
+ "name",                "sex"
+ "ラナシンハ・プレマダーサ",              "Male"
+ "ウィリアム・ゴパラワ",     "Male"
+ "D.S.セーナーナーヤカ",             "Male"
+ "マヒンダ・ラジャパクサ",    "Male"
+}
+
+ruler_titles = {
+ "government",   "male_title",             "female_title"
+ "Despotism",    _("イギリス人総督 %s"),           _("イギリス人総督 %s")
+ "Republic",     _("首相 %s"),         _("?female:首相 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",    _("大統領 %s"),_("?female:大統領r %s")
+}
+
+flag="srilanka"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "indian", "bengali"
+
+cities =
+ "Anuradhapura", ; The first six cities are all
+ "Polonnaruwa",  ; historical capitals of Sri Lanka
+ "Dambadeniya",
+ "Sri Jayewardenepura",
+ "Kandy",
+ "Kolamba",	; English: "Colombo"
+ "Gimhathiththa",
+ "Jaffna",
+ "Kitulgala",
+ "Nuwara Eliya",
+ "Sigiriya",
+ "Trincomalee",
+ "Valvettithurai",
+ "Batticaloa",
+ "Dehiwala",
+ "Mt Lavinia",
+ "Matale",
+ "Moratuwa",
+ "Negombo",
+ "Ratnapura",
+ "Hambantota",
+ "Badulla",
+ "Puttalam",
+ "Kalpitiya",
+ "Mannar"

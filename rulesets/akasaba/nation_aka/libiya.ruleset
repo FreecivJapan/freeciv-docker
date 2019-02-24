@@ -1,0 +1,75 @@
+[nation_libiya]
+
+name=_("社会主義人民リビア・アラブ国")
+plural=_("?plural:リビア")
+rule_name=_("Libiya")
+rule_plural=_("?plural:Libiya")
+groups="Modern", "African"
+legend=_("The region that is now Libya was a Roman colony until it was\
+ conquered by the Arab civilization in the 7th century. In 1912 it came\
+ under the control of Italy and after the Second World War Libya was granted\
+ independence as a condition of the Allied peace treaty with Italy.")
+
+leaders = {
+ "name",                "sex"
+ "ムアンマル・アル・カダフィ",  "Male"
+ "イドリース1世",      "Male"
+ "サイフ・アル・イスラーム",      "Male"
+ "ハーンニーバール",    "Male"
+ "Ｍ・アブドルジャリル",      "Male"
+ "Muammar",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title" 
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Republic",        _("%s 革命指導者"),         _("?female:%s 革命指導者")
+ "Democracy",       _("革命指導者 %s"), _("革命指導者 %s")
+ "Communism",       _("革命指導者 %s"),     _("?female:革命指導者 %s")
+}
+
+flag ="sokoto"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 40
+trait_expansionist_max = 180
+trait_expansionist_default = 100
+trait_trader_min       = 60
+trait_trader_max       = 180
+trait_trader_default = 100
+trait_aggressive_min   = 60
+trait_aggressive_max   = 200
+trait_aggressive_default = 100
+
+
+civilwar_nations = "Libyan", "egyptian arab", "tunisian"
+
+cities =
+ "Tarabulus",	; Also known as "Tripoli"
+ "Tobruk",
+ "Banghazi",
+ "Zuwarah",
+ "Surt",
+ "Ra's Lanuf",
+ "Al Bayda",
+ "Al Burayqah",
+ "Darnah",
+ "Sabha",
+ "Al Jawf",
+ "Ghadamis",
+ "Al Marj",
+ "Ajdabiya",
+ "Waddan",
+ "Bani Walid",
+ "Misratah",
+ "Al Khums",
+ "Gharyan",
+ "Az Zawiyah",
+ "Yafran",
+ "Awbari"

@@ -1,0 +1,61 @@
+[nation_inuit]
+
+name=_("イヌイット")
+plural=_("?plural:イヌイット")
+rule_name=_("Inuit")
+rule_plural=_("?plural:Inuits")
+groups="American"
+legend=_("The Inuits are a group of peoples inhabiting the Arctic areas\
+ of North America and Siberia. The Canadian territory of Nunavut has a\
+ majority population of Inuits; the name of the territory means \"our\
+ land\" in Inuktitut.")
+
+leaders = {
+ "name",                "sex"
+ "アベ・オクピック",           "Male"
+ "ヘレン",      "Female"
+ "ポール・オキャリック",         "Male"
+ "エヴァ",          "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Fundamentalism",  _("シャーマン %s"),        _("?female:シャーマン %s")
+}
+
+flag="nunavut"
+flag_alt = "greenland" ; used previously
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="Canadian", "Aleut", "Greenlander"
+
+cities =
+; Communities recognised by the Government of Nunavut
+ "Iqaluit",		; Frobisher Bay
+ "Kangiqiniq",
+ "Arviat",		; Eskimo Point
+ "Qamani窶冲uaq",
+ "Iglulik",
+ "Iqaluktuuttiaq",
+ "Pangniqtuuq",
+ "Mittimatalik",
+ "Qurluqtuq",
+ "Kinngait",
+ "Uqsuqtuuq",
+ "Kangiqtugaapik",
+ "Talurjuaq",
+ "Salliit",
+ "Naujaat",
+ "Sanikiluaq",
+ "Ikpiarjuk",
+ "Arviligjuaq",
+ "Sanirajak",
+ "Qikiqtarjuaq",
+ "Kimmirut",		; Lake Harbour
+ "Tikirarjuaq",
+ "Igluligaarjuk",
+ "Qausuittuq",
+ "Aujuittuq"

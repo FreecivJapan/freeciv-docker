@@ -1,0 +1,82 @@
+[nation_riograndense]
+
+name=_("リオグランデセ")
+plural=_("?plural:リオグランデセ")
+groups="American"
+legend=_("The Rio-Grandense Republic or Piratini Republic existed in the\
+ Brazilian state of Rio Grande do Sul from 1836 to 1845. It fought the\
+ War of Tatters against the Brazilian Imperial Army and was supported by\
+ Giuseppe Garibaldi amongst others.")
+
+leaders = {
+ "name",                        "sex"
+ "A・デ・スーザ・ネト",       "Male"
+ "ダ・シルヴァ",    "Male"
+ "ホセ・ガリバルディ",              "Male"
+ "ダヴィ・カナボロ",              "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Communism",       _("司令官 %s"), _("司令官 %s")
+ "Democracy",       _("首相 %s"), _("首相 %s")
+
+}
+
+flag = "piratini"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "Brazilian", "Argentine", "Uruguayan", "Tupi"
+
+cities =
+ "Piratini",
+ "Alegrete",
+ "Cacapava do Sul",
+ "Porto Alegre (ocean)",
+ "Rio Grande (river)",
+ "Bage",
+ "Sao Borja",
+ "Santa Maria",
+ "Caixas do Sul",
+ "Pelotas",
+ "Canoas",
+ "Gravatai",
+ "Viamao",
+ "Novo Hamburgo",
+ "Alvorada",
+ "Sao Leopoldo",
+ "Passo Fundo",
+ "Uruguaiana",
+ "Sapucaia do Sul",
+ "Cachoeirinha",
+ "Santa Cruz do Sul",
+ "Guaibas",
+ "Bento Goncalves",
+ "Erechim",
+ "Santana do Livramento",
+ "Esteio",
+ "Sapiranga",
+ "Alegrete",
+ "Cachoeira do Sul",
+ "Ijui",
+ "Farroupilha",
+ "Lajeado",
+ "Cruz Alta",
+ "Santo Angelo",
+ "Carazinho",
+ "Santa Rosa",
+ "Vacaria",
+ "Montenegro",
+ "Sao Gabriel",
+ "Camaqua",
+ "Campo Bom",
+ "Parobe",
+ "Taquara",
+ "Santiago",
+ "Estancia Velha",
+ "Venancio Aires"
+

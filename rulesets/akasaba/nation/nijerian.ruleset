@@ -1,0 +1,79 @@
+[nation_nijerian]
+
+name=_("ナイジェリア連邦共和国")
+plural=_("?plural:ナイジェリア")
+groups="Modern", "African"
+legend=_("Nigeria won full independence from British rule in 1960. It is\
+ the most populous country of Africa.")
+
+leaders = {
+ "name",                        "sex"
+ "A・タファワ・バレワ",      "Male"
+ "アズケ",              "Male"
+ "ヤク・ブゴウォン",                "Male"
+ "サニ・アバシャ",                 "Male"
+ "グッドラック・ジョナサン",                 "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("国軍高官 %s"), _("国軍高官 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="nigeria"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="Kanem-Bornu"
+civilwar_nations="Biafran", "Togolese"
+
+cities =
+ "Abuja",
+ "Lagos",
+ "Ibadan",
+ "Kano",
+ "Oshogbo",
+ "Ilorin",
+ "Abeokuta",
+ "Port Harcourt",
+ "Kaduna",
+ "Maiduguri",
+ "Enugu",
+ "Benin City",
+ "Katsina",
+ "Jos",
+ "Sokoto",
+ "Zaria",
+ "Bauchi",
+ "Makurdi",
+ "Abeokuta",
+ "Gusau",
+ "Gombe",
+ "Damaturu",
+ "Lafia",
+ "Aba",
+ "Warri",
+ "Onitsha",
+ "Akure",
+ "Ife",
+ "Ondo",
+ "Gboko",
+ "Owerri",
+ "Jalingo",
+ "Asaba",
+ "Ijebu Ode",
+ "Oyo",
+ "Ado",
+ "Ilesha",
+ "Minna"
+

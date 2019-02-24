@@ -1,0 +1,133 @@
+[nation_nikyou]
+
+name=_("日本人民共和国")
+plural=_("?plural:日共")
+rule_name=_("Nikkyou")
+rule_plural=_("?plural:Nikkyou")
+groups="Medieval", "Early Modern", "Modern", "Asian"
+legend=_("ここにわれらは、人民の間から選ばれた代表を通じて人民のための政治が行われるところの人民共和政体の採択を宣言し、この憲法を決定するものである。\
+天皇制はそれがどんな形をとろうとも、人民の民主主義体制とは絶対に相容れない。\
+天皇制の廃止、寄生地主的土地所有制の廃絶と財閥的独占資本の解体、基本的人権の確立、人民の政治的自由の保障、人民の経済的福祉の擁護、\
+これらに基調をおく本憲法こそ、日本人民の民主主義的発展と幸福の真の保障となるものである。\
+日本人民の圧倒的多数を占める勤労人民大衆を基盤とするこの人民的民主主義体制だけが帝国主義者のくわだてる専制抑圧政治の復活と侵略戦争への野望とを防止し、\
+人民の窮極的解放への道を確実にする。それは人民の民主的祖国としての日本の独立を完成させ、われらの国は国際社会に名誉ある当然の位置を占めるだろう。\
+日本人民はこの憲法に導かれつつ、政治的恐怖と経済的窮乏と文化的貧困からの完全な解放をめざし、全世界の民主主義的な平和愛好国家との恒久の親睦をかため、\
+世界の平和、人類の無限の向上のために、高邁な正義と人道を守りぬくことを誓うものである。この国は社会主義者もしくは反天皇体制時に使うこと。")
+
+leaders = {
+ "name",                "sex"
+ "荒畑寒村",           "Male"
+ "徳田球一",            "Male"
+ "志位和夫",        "Male"
+ "片山哲",     "Male"
+ "鈴木茂三郎",     "Male"
+ "西尾末広",     "Male"
+ "福島瑞穂",     "Female"
+ "仙石由人",     "Male"
+ "管直人",     "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Despotism",     _("国会常任幹事会議長 %s"), _("国会常任幹事会議長 %s")
+ "Monarchy",       _("国会常任幹事会議長 %s"), _("国会常任幹事会議長 %s")
+ "Republic",         _("国会常任幹事会議長 %s"), _("国会常任幹事会議長 %s")
+ "Democracy",    _("国会常任幹事会議長 %s"), _("国会常任幹事会議長 %s")
+ "Communism",  _("国会常任幹事会議長 %s"), _("国会常任幹事会議長 %s")
+}
+
+flag="japan"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 10
+trait_expansionist_max = 80
+trait_expansionist_default = 20
+trait_trader_min       = 10
+trait_trader_max       = 150
+trait_trader_default = 40
+trait_aggressive_min   = 10
+trait_aggressive_max   = 80
+trait_aggressive_default = 20
+
+civilwar_nations= "Nippon Koukoku", "Nippon Teikoku", "Japanese"
+
+cities =
+  "東京 (ocean)",
+  "広島 (ocean)",
+  "鹿児島 (ocean)",
+  "名古屋 (ocean)",
+  "埼玉 (ocean)",
+  "京都 (!ocean)",
+  "大和 (!ocean)",
+  "札幌 (ocean)",
+  "横濱 (ocean)",
+  "福岡 (ocean)",
+  "山口 (ocean)",
+  "静岡 (ocean)",
+  "新潟 (ocean)",
+  "松山 (ocean)",
+  "神奈川 (ocean)",
+  "堺 (ocean)",
+  "相模原 (!ocean)",
+  "八王子 (!ocean)",
+  "長野 (!ocean)",
+  "熊本 (ocean)",
+  "岡山 (ocean)",
+  "浜松 (ocean)",
+  "秋田 (ocean)",
+  "姫路 (ocean)",
+  "長崎 (ocean)",
+  "横須賀 (ocean)",
+  "大分 (ocean)",
+  "岐阜 (!ocean)",
+  "和歌山 (ocean)",
+  "磐城 (ocean)",
+  "旭川 (!ocean)",
+  "高松 (ocean)",
+  "高知 (ocean)",
+  "富山 (ocean)",
+  "那覇 (ocean)",
+  "青森 (ocean)",
+  "函館 (ocean)",
+  "盛岡 (!ocean)",
+  "小津",
+  "徳島 (ocean)",
+  "山形 (!ocean)",
+  "福井 (ocean)",
+  "松本 (!ocean)",
+  "甲府 (!ocean)",
+  "船橋 (ocean)",
+  "宇都宮 (!ocean)",
+  "宮崎 (ocean)",
+  "福山",
+  "豊田 (!ocean)",
+  "所沢 (!ocean)",
+  "福島 (!ocean)",
+  "四日市 (ocean)",
+  "下関 (ocean)",
+  "小金井 (!ocean)",
+  "八戸 (ocean)",
+  "水戸 (!ocean)",
+  "佐世保 (ocean)",
+  "松江 (ocean)",
+  "川口 (!ocean)",
+  "釧路 (ocean)",
+  "調布 (!ocean)",
+  "布施(!ocean)",	; One of the old cities that now is "Higashi-Osaka"
+  "熊谷 (!ocean)",
+  "尼崎 (ocean)",
+  "市川",
+  "佐賀",
+  "町田 (!ocean)",
+  "鳥取 (ocean)",
+  "豊中 (!ocean)",
+  "藤沢 (ocean)",
+  "久留米 (!ocean)",
+  "豊橋 (ocean)",
+  "川越 (!ocean)",
+  "津 (ocean)"

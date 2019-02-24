@@ -1,0 +1,71 @@
+[nation_elamite]
+
+name=_("エラム")
+plural=_("?plural:エラム")
+rule_name=_("Elamite")
+rule_plural=_("?plural:Elamites")
+groups="Asian", "Ancient"
+legend=_("Elam was an ancient civilization located in the area of modern\
+ southwest Iran, which arose around 3100 BCE. The Elamite language,\
+ written in cuneiform, is of unknown origin. In 643 BCE the Elamite\
+ civilization was destroyed by the Assyrians under Assurbanipal.")
+
+leaders = {
+ "name",                        "sex"
+ "ギル・ナンメ ",                    "Male"
+ "タン・ルフラテル１世",             "Male"
+ "インダットゥ・ナピル",                "Male"
+ "キディヌ",                      "Male"
+ "インシュシナク・ナッピピル", "Male"
+ "パヒル・イシュシャン",               "Male"
+ "ウンタシュ・ナピリシャ",          "Male"
+ "シュトゥルク・ナフンテ",            "Male"
+ "クティル・ナフンテ３世 ",          "Male"
+ "シルハク・インシュシナク",        "Male"
+ "シルハナ・ハムル・ラガマル",      "Male"
+ "タッマリトゥ２世",                "Male"
+}
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Anarchy",         _("Usurper %s"),       _("?female:Usurper %s")
+  "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Communism",       _("国王陛下 %s"), _("女王陛下 %s")
+}
+
+flag = "elam"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with = "iranian"
+civilwar_nations = "assyrian", "sumerian", "babylonian", "persian"
+
+cities =
+ "Anshan",
+ "Susa",
+ "Dur-Untash-Napirisha",
+ "Avan",
+ "Shimashki",
+ "Hamazi",
+ "Sherihum",
+ "Tukrish",
+ "Khukhnur",
+ "Der",
+ "Adamdun",
+ "Humban",
+ "Tahrid",
+ "Hidalu",
+ "Rashi",
+ "Aiapir",
+ "Gisati",
+ "Zamin",
+ "Samati",
+ "Zari",
+ "Jiroft",
+ "Zabol",
+ "Marhasi"
+

@@ -1,0 +1,63 @@
+[nation_lojbanistani]
+
+name=_("ロジバン平和主義共和国")
+plural=_("?plural:平和主義共和国")
+rule_name=_("Lojbanistani")
+rule_plural=_("?plural:Lojbanistanis")
+groups="Imaginary"
+legend=_("全世界の平和主義者同志たちよロジバン旗のもとに集え！！平和主義こそ正義！！平和なるロジバンこそ正義なのだ。世界の人民に告ぐ、武器を捨て新たに平和の礎を建てるだ！！\
+ \
+ \
+ (\"\"),\
+ ")
+
+leaders = {
+ "name",                "sex"
+ "マイク",              "Male"
+ "アレックス",               "Male"
+ "ロック",      "Male"
+ "ライト",           "Male"
+ "リー",               "Male"
+ "レッド",              "Male"
+ "ムバラク",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("執政官 %s"), _("執政官 %s")
+ "Despotism",       _("執政官 %s"), _("執政官 %s")
+ "Monarchy",        _("執政官 %s"), _("執政官 %s")
+ "Communism",       _("執政官 %s"), _("執政官 %s")
+ "Republic",        _("執政官 %s"), _("執政官 %s")
+ "Democracy",       _("執政官 %s"), _("執政官 %s")
+ 
+}
+
+flag="jbonai"
+flag_alt = "american"   ; Born there
+style = "Classical"
+ 
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="american", "canadian", "argentine", "russian", "viking"
+
+cities =
+ "jbotcad",
+ "feirfeks",
+ "bais",
+ "berti cmana (mountains)",
+ "ri'etcad (river)",
+ "blanu rokci cmama'a (hills)",
+ "xumjimcelxa'i danmno",
+ "tsali barda cmana (mountains)",
+ "ricfoi lalxu (forest)",
+ "barda kevna",
+ "mirli poi spofu se tuple",
+ "da'onri'e (river)",
+ "cribyjgalu",
+ "pamoi xagji sofybakni",
+ "remoi xagji sofybakni",
+ "cimoi xagji sofybakni",
+ "vomoi xagji sofybakni",
+ "mumoi xagji sofybakni"

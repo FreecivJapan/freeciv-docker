@@ -1,0 +1,108 @@
+[[nation_ivoirian]
+
+name=_("コートジボワール共和国")
+plural=_("?plural:コートジボワール")
+groups="Modern", "African"
+; /* TRANS: The second letter in "Cote" should be */
+; /* TRANS: U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX if available in */
+; /* TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 00F4. */
+legend=_("Ivory Coast or Cote d'Ivoire achieved independence in 1960. It\
+ has been relatively stable compared to other West African countries, but\
+ in the 2000s it lived through a civil war.")
+
+leaders = {
+ "name",                "sex"
+ "ウフェボワニ",      "Male"
+ "コナン・ベディエ",           "Male"
+ "ロベール・ゲイ",                 "Male"
+ "ローラン・バボ",              "Male"
+ "アラサン・ワタラ",              "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Monarchy",        _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag = "ivory_coast"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="malian", "burkinabe"
+
+cities =
+ "Abidjan",
+ "Yamoussoukro",
+ "Bouake",
+ "Daloa",
+ "Korhogo",
+ "San-Pedro",
+ "Man",
+ "Gagnoa",
+ "Divo",
+ "Anyama",
+ "Abengourou",
+ "Soubre",
+ "Grand Bassam",
+ "Dabou",
+ "Agboville",
+ "Duekoue",
+ "Bouafle",
+ "Sinfra",
+ "Bondoukou",
+ "Katiola",
+ "Seguela",
+ "Ferkessedougou",
+ "Dimbokro",
+ "Issia",
+ "Guiglo",
+ "Bingerville",
+ "Adzope",
+ "Danane",
+ "Oume",
+ "Odienne",
+ "Agnibilekrou",
+ "Aboisso",
+ "Bonoua",
+ "Lakota",
+ "Toumodi",
+ "Sassandra",
+ "Tiassale",
+ "Tingrela",
+ "Boundiali",
+ "Zuenoula",
+ "Vavoua",
+ "Daoukro",
+ "Akoupe",
+ "Arrah",
+ "Bongouanou",
+ "Tabou",
+ "Touba",
+ "Affery",
+ "Bouna",
+ "Mbato",
+ "Biankouma",
+ "Beoumi",
+ "Mankono",
+ "Tanda",
+ "Toulepleu",
+ "Bangolo",
+ "Adiake",
+ "Tiebissou",
+ "M'bahiakro",
+ "Sakassou",
+ "Dabakala",
+ "Botro",
+ "Ayame",
+ "Guiberoua",
+ "Grand-Lahou",
+ "Bocanda"

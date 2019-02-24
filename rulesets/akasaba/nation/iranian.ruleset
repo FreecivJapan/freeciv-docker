@@ -1,0 +1,135 @@
+[nation_iranian]
+
+name=_("イラン・イスラム共和国")
+plural=_("?plural:イラン")
+rule_name=_("Iranian")
+rule_plural=_("?plural:Iranians")
+groups="Modern", "Asian"
+legend=_("Iran means \"Land of the Aryans\" - long known as Persia in the\
+ Western world. The country is today an Islamic Republic and a major\
+ power in the Middle East.")
+
+leaders = {
+ "name",                        "sex"
+; Islamic Republic
+ "モハンマド・ハタミ",            "Male"
+ "ハメネイ師",    "Male"
+ "ホメイニ師",           "Male"
+ "M・アフマディーネジャド",           "Male"
+; Pahlavi
+ "レザー・パフラヴィー",                "Male"
+ "M・レザー・パフラヴィー",       "Male"
+; Ghajar
+ "アーガ・モハンマド",          "Male"
+ "ファトフ・アリー",                     "Male"
+ "モハンマド",                  "Male"
+ "ナーセロッディン",              "Male"
+ "アフマド",                "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Despotism",       _("Leader %s"),        _("?female:Leader %s")
+ "Monarchy",        _("%s Shah"),          _("%s Shahbanu")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("最高指導者 %s"), _("最高指導者 %s")
+ "Fundamentalism",  _("Ayatollah %s"),     _("?female:Ayatollah %s")
+}
+
+flag="iran"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Tajik", "Pashtun", "Azeri"
+
+; http://de.wikipedia.org/wiki/Liste_der_Städte_im_Iran
+cities =
+ "Tehran (mountains, hills, !ocean)",
+ "Mashhad",
+ "Isfahan (river)",
+ "Karaj",
+ "Tabriz",
+ "Shiraz",
+ "Qom (!ocean, desert)",
+ "Ahvaz (!ocean, desert)",
+ "Kermanshah",
+ "Uromia (ocean, river)",
+ "Rasht",
+ "Kerman",
+ "Zahedan",
+ "Hamedan (hills)",
+ "Arak",
+ "Yazd",
+ "Ardabil",
+ "Abadan",
+ "Zanjan",
+ "Sanandaj",
+ "Qazvin (!ocean)",
+ "Khorramshahr",
+ "Khorramabad",
+ "Islamshahr",
+ "Bandar Abbas (ocean, swamp)",
+ "Kashan",
+ "Khomeinishahr",
+ "Ghods",
+ "Sari (ocean, swamp)",
+ "Borujerd",
+ "Gharchak",
+ "Gorgan",
+ "Sabzevar",
+ "Najafabad",
+ "Nishapur",
+ "Nazarbad",
+ "Bukan",
+ "Dezful",
+ "Sirjan",
+ "Babol",
+ "Amol",
+ "Birjand",
+ "Bojnurd",
+ "Qaemshahr",
+ "Varamin",
+ "Malayer",
+ "Saveh",
+ "Khoy",
+ "Maragheh",
+ "Andimeshk",
+ "Mahabad",
+ "Bushehr",
+ "Saqqez",
+ "Rafsanjan (!ocean, desert)",
+ "Shahinshahr",
+ "Ilam",
+ "Yasuj",
+ "Miandoab",
+ "Shahrud",
+ "Gonbad-e Kavous",
+ "Iranshahr",
+ "Marvdasht",
+ "Shahr-e Kord",
+ "Torbat-e Heydarieh",
+ "Semnan",
+ "Marand",
+ "Zabol",
+ "Dorud",
+ "Quchan",
+ "Jiroft",
+ "Masjed Soleyman",
+ "Marivan",
+ "Bandar-e Anzali (ocean, swamp)",
+ "Jahrom",
+ "Izeh",
+ "Baneh",
+ "Parsabad",
+ "Shahreza",
+ "Kuhdasht",
+ "Hormuz (ocean, swamp)",
+;Islands
+ "Kish (ocean, hills)",
+ "Gheshm (ocean)",
+ "Khark (ocean)"

@@ -1,0 +1,100 @@
+[nation_puertorican]
+
+name=_("プエルトリコ")
+plural=_("?plural:プエルトリコ")
+groups="American"
+legend=_("The smallest of the Greater Antilles, Puerto Rico was inhabited\
+ by the indigenous Taino people when it was conquered by the Spanish. It\
+ was conquered by the United States in 1898, just one year after Spain\
+ had granted autonomy to the island. Currently it is a US commonwealth,\
+ but its definitive status is still being discussed.")
+
+leaders = {
+ "name",                        "sex"
+ "フアン・ポンセ・デ・レオン",          "Male"
+ "ジャイラット",        "Male"
+ "カーフェラシイ",             "Male"
+ "R・エメテリオ・ベタンセス",     "Male"
+ "ベルベス",         "Male"
+ "マヌエル・ロハス",                "Male"
+ "カペットロ",             "Female"
+ "ルイス・ムニョス・リベラ",           "Male"
+ "ペドロ・アルビス・カンポス",         "Male"
+ "ブランカ・カナレス",              "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Despotism",       _("スペイン人総督 %s"), _("?female:スペイン人総督  %s")
+ "Fundamentalism",  _("父 %s"),          _("母 %s")
+ "Republic",        _("知事 %s"),        _("?female:知事 %s")
+ "Democracy",       _("知事 %s"), _("知事 %s")
+}
+
+flag="puerto_rico"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "taino", "dominicano", "cuban"
+
+cities =
+ "San Juan",
+ "Bayamon",
+ "Mayaguez",
+ "Ponce",
+ "Lares",
+ "Carolina",
+ "Caguas",
+ "Guaynabo",
+ "Trujillo Alto",
+ "Arecibo",
+ "Fajardo",
+ "Vega Baja (grassland)",
+ "Levittown",
+ "Catano",
+ "Guayama",
+ "Yauco",
+ "Humacao",
+ "Candelaria",
+ "Cayey",
+ "Manati",
+ "Aguadilla",
+ "Dorado",
+ "Hormigueros",
+ "Pajaros",
+ "Rio Grande (river)",
+ "Vega Alta (grassland)",
+ "Isabela",
+ "San German",
+ "San Sebastian",
+ "Coamo",
+ "Cabo Rojo (ocean)",
+ "Corozal",
+ "San Lorenzo",
+ "Sabana Grande (plains)",
+ "Utuado",
+ "Gurabo",
+ "San Isidro",
+ "Canovanas",
+ "Juana Diaz",
+ "Guanica",
+ "Juncos",
+ "Luquillo",
+ "Aibonito",
+ "Florida",
+ "Campanilla",
+ "Penuelas",
+ "Las Piedras",
+ "Santa Isabel",
+ "Puerto Real (ocean)",
+ "Arroyo",
+ "San Antonio",
+ "Yabucoa",
+ "Vieques",
+ "Culebra",
+ "Mona"
+

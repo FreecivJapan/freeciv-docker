@@ -1,0 +1,112 @@
+[nation_salishan]
+
+name=_("サリシャン")
+plural=_("?plural:サリシャン")
+groups="American"
+legend=_("The Salishans are a cultural-linguistic group of peoples in\
+ the Pacific Northwest region of the United States and Canada. Among the\
+ most famous Salishans is Chief Seattle, leader of the Duwamish tribe,\
+ after whom the city of Seattle is named. Other well known Salishan tribes\
+ include the Bella Coola (Nuxalk), Spokane and Coeur d'Alene. The Salishan\
+ languages are famous for their unusual characteristics. They have a large\
+ inventory of consonants and some even feature words without any vowels.")
+
+leaders = {
+ "name",                "sex"
+ "チャリオ",              "Male"
+ "パットカンナム",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Monarchy",        _("Great Chief %s"),     _("?female:Great Chief %s")
+ "Democracy",       _("Principal Chief %s"), _("?female:Principal Chief %s")
+}
+
+flag="salish"
+flag_alt="-"
+style="Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Nuu-chah-nulth", "Nimiipuu", "Chinook"
+
+cities =
+; Names based on tribes, bands and assorted geographical names. Tried to be
+; as consistent as possible in ortography, but if anybody notices mistakes,
+; feel more than free to fix it.
+
+; Coast Salish
+ "Dxw'dew'ab?", 	;Duwamish
+ "S'dukwalbixw",	;Snoqualmie
+ "Pwiya'lap",		;Puyallup
+ "Xacuab?",		;Sammamish
+ "Sqwali'ab?",		;Nisqually
+ "Noxws'a'aq",		;Nooksack
+ "?a?i?alh",		;Shishalh
+ "Skwxwu7me?",		;Squamish
+ "Nexws?ayem",		;Klallam
+ "Xwlemi",		;Lummi
+ "Nuxalk",		;Bella Coola
+ "Wsane?",		;Saanich
+ "Samens",		;Samish
+ "Semiahme",		;Semyome
+ "T'sou-ke",		;Sooke
+ "Lku'ngen",		;Songish
+ "Sqwuqwo'be?",		;Skokomish
+ "K'omoks",		;Comox
+ "?a A'min",		;Sliammon
+ "?ohos",		;Klahoose
+ "Snuneymuxw",		;Snuneymux
+ "Sts'ailes",		;Chehalis
+ "Eslha7an",		;Uslawn
+ "Xwemelch'stn",	;Homulchesan
+ "St'a7mes",		;Stawamus
+ "Bo?e?en",		;Pauquachin
+ "Malexe?",		;Malahat
+ "Sixme?e?",		;Esquimalt
+ "Ts'a'utw",		;Tsawout
+ "W?ianew",		;Becher Bay
+ "Wjo?e?p",		;Tsartlip
+ "Wsikem",		;Tseycum
+ "Stolo",		;Stolo
+
+; Interior Salish
+ "Spokane",		;Spokane
+ "Salish",		;Flathead
+ "Schitsu'um?",		;/* Coeur d'Alene */
+ "?e'xwepmex",		;Shuswap
+ "St'at'imc",		;/* St'at'imc */
+ "Skowa'xtsenex",	;Sinkiuse
+ "Syilx'tsn",		;Osoyoos
+ "Nespelem",		;Nespelem
+ "S-ookanhkchinx",	;Okanagan
+ "N'selixtcl'n",	;Sanpoil
+ "Kalispel",		;Kalispel
+ "Stswecem'c",		;Canoe Lake
+ "Xgat'tem",		;Dog Creek
+ "T'exelc",		;Williams Lake
+ "Sexqeltqin",		;Adams Lake
+ "Tk'umlups",		;Kamloops
+ "Quaaout",		;Little Shuswap
+ "Sk'etsin",		;Neskonlith
+ "Splats'in",		;Spalumcheen
+ "St'uxwtews",		;Bonaparte
+ "Pellt'iq't",		;Whispering Pines
+ "Simpcw",		;North Thompson
+ "Ts'kw'aylaxw",	;Pavilion
+ "Esketemc",		;Akali Lake
+ "Nxwisten",		;Bridge River
+ "Tsal'alh",		;Selton Lake
+ "Sekw'el'was",		;Cayoose Creek
+ "Xa'xlip",		;Fountain First
+ "Lil'wa",		;Mount Curri
+ "T'it'q'et",		;Lillooet
+ "N'quatqua",		;Nequatque
+ "Xa'xtsa",		;Port Douglas
+ "Nle'ke'pmx",		;Thompson River
+ "Spaxomin",		;Upper Nicola
+ "Senijextee",		;Sinixt
+ "P'squosa"		;Wenatchi

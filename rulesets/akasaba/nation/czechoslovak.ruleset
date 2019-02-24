@@ -1,0 +1,41 @@
+[nation_czechoslovak]
+
+name = _("チェコスロバキア共和国")
+plural = _("?plural:チェコスロバキア共和国")
+rule_name = _("Czechoslovakian")
+rule_plural = _("?plural:Czechoslovakians")
+groups="European"
+legend=_("Czechoslovakia was founded in 1918. It was long the only\
+ democracy in Eastern Europe until it was overrun by the Nazis in 1939\
+ and the Soviet Union in 1948. Four years after the fall of communism it\
+ was split into the Czech and Slovak republics.")
+leaders = {
+ "name",                "sex"
+ "トマーシュ・マサリク",	"male"
+ "エドヴァルド・ベネシュ",	"male"
+ "アントニーン・ノヴォトニー",	"male"
+ "グスターフ・フサーク",	"male"
+ "ヴァーツラフ・ハヴェル",	"male"
+ "クレメント・ゴットワルト",		"male"
+}
+
+
+flag = "czechoslovakia"
+flag_alt = "czech" ;flag was identical to Czech flag
+style = "European"
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Despotism",       _("Voivode %s"),     _("?female:Voivode %s")
+ "Republic",        _("大統領 %s"),       _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("?female:大統領 %s")
+ "Communism",       _("General Secretary %s"), _("?female:General Secretary %s")
+}
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with="czech", "slovakian", "moravian"
+civilwar_nations="czech", "slovakian"
+
+;city names will be taken from Czech and Slovakian nations

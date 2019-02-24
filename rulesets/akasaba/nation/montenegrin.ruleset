@@ -1,0 +1,89 @@
+[nation_montenegrin]
+
+name=_("モンテネグロ国")
+plural=_("?plural:モンテネグロ")
+rule_name=_("Montenegrin")
+rule_plural=_("?plural:Montenegrins")
+groups="Modern", "Early Modern", "Medieval", "European"
+legend=_("Montenegro is a small country on the Balkans, the last to be\
+ conquered by the Ottomans and the first to become independent again.\
+ Part of Yugoslavia in the 20th century, it dissolved its union\
+ with Serbia in 2006.")
+
+leaders = {
+ "name",                                "sex"
+ "ミハイロ1世",                           "Male"
+ "ペーター２世",            "Male"
+ "ダニーロ1世",            "Male"
+ "ニコラ1世",     "Male"
+ "ミロ・マタノヴィッチ",                      "Male"
+ "フィリップ・ヴヤノヴィッチ",                      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Monarchy",        _("国王 %s"),         _("国王 %s")
+ "Fundamentalism",  _("司教 %s"),  _("司教 %s")
+ "Despotism",       _("モンテネグロ公 %s"), _("モンテネグロ公 %s")
+ "Republic",        _("委員長 %s"), _("委員長 %s")
+ "Communism",       _("委員長 %s"), _("委員長 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="montenegro"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "serbian", "bosnian-herzegovinian", "albanian", "italian"
+
+cities =
+ "Podgorica",
+ "Nikšić",
+ "Kotor (ocean)",
+ "Pljevlja",
+ "Bijelo Polje",
+ "Bar",
+ "Cetinje",
+ "Herceg Novi",
+ "Budva",
+ "Berane",
+ "Ulcinj",
+ "Tivat",
+ "Rožaje",
+ "Dobrota",
+ "Danilovgrad",
+ "Tuzi",
+ "Bijela",
+ "Mojkovac",
+ "Škaljari",
+ "Igalo",
+ "Plav",
+ "Burtaiši",
+ "Ibarac",
+ "Kolašin",
+ "Golubovci",
+ "Šušanj",
+ "Resnik",
+ "Nedakusi",
+ "Sutomore",
+ "Risan",
+ "Ozrinići",
+ "Mojanovići",
+ "Baošići",
+ "Potkrajci",
+ "Žabljak",
+ "Pešca",
+ "Budimlja",
+ "Mrčevac",
+ "Stari Bar",
+ "Donje Luge",
+ "Polje",
+ "Spuž",
+ "Zelenika",
+ "Beran Zelo",
+ "Rastovac"
+

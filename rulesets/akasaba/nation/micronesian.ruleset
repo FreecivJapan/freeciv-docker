@@ -1,0 +1,84 @@
+[nation_micronesian]
+
+name=_("ミクロネシア連邦")
+plural=_("?plural:ミクロネシア")
+rule_name=_("Micronesian")
+rule_plural=_("?plural:Micronesian")
+groups= "Oceanian", "Modern"
+legend=_("Micronesia is located in the Central Western Pacific. The site\
+ of several ancient seafaring cultures, nowadays most of the region is\
+ governed by the Federated States of Micronesia.")
+
+leaders = {
+ "name",                "sex"
+ "オロショッパ",            "Male"
+ "ムヲハンムウェイ",           "Male"
+ "イソケレケル",          "Male"
+ "ナカヤマ",     "Male"
+ "マニー・モリ",          "Male"
+}
+
+ruler_titles = {
+ "government",   "male_title",          "female_title"
+ "Republic",     _("ドイツ人総督 %s"),  _("?female:ドイツ人総督 %s")
+ "Despotism",       _("スペイン人総督 %s"), _("スペイン人総督 %s")
+ "Monarchy",        _("ドイツ人総督 %s"), _("ドイツ人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="micronesia"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "fijian", "papuan"
+
+cities =
+ "Palikir",
+ "Kolonia",
+ "Weno",
+ "Colonia", ;sic
+ "Tofol",
+ "Lelu",
+ "Tol",
+ "Nan Madol",
+ "Dinay",
+ "Kitti",
+ "Nett",
+ "Madolenihmw",
+ "Fefen",
+ "Tonoas",
+ "Polle",
+ "Uman",
+ "Tafunsak",
+ "U",
+ "Paata",
+ "Udot",
+ "Malem",
+ "Polowat",
+ "Romanum",
+ "Kuttu",
+ "Pollap",
+ "Nama",
+ "Satowan",
+ "Tomil",
+ "Lekinioch",
+ "Woleai",
+ "Utwe",
+ "Wonei",
+ "Weloy",
+ "Dalipebinaw",
+ "Onoun",
+ "Moch",
+ "Fanapanges",
+ "Gagil",
+ "Ulithi",
+ "Murillo",
+ "Sapwuahfik",
+ "Nomwin",
+ "Map"

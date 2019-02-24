@@ -1,0 +1,70 @@
+[nation_cossack] 
+
+name=_("コサック") 
+plural=_("?plural:コサック") 
+rule_name=_("Cossack") 
+rule_plural=_("?plural:Cossacks") 
+groups="European", "Early Modern"
+legend=_("The Zaporozhian Cossacks lived in Zaporozhia, in Central\
+ Ukraine. They were a multi-ethnic community with Ruthenians being the\
+ dominant element, organized in a military manner.")
+
+leaders = {
+ "name",                        "sex"
+ "リヤントスコロンスキー",     "Male"
+ "ダシュカビー",            "Male"
+ "ヴィッシュネヴェスキー",         "Male"
+ "シヴゴロスキー",             "Male"
+ "イヴァン・ピッコラ",                "Male"
+ "カシィンスキー",           "Male"
+ "スリーマ",                 "Male"
+ "カメリオスキー",          "Male"
+ "ボハーン",                  "Male"
+ "イヴァン・マゼーパ",                 "Male"
+ "プンバトック",             "Male"
+ "ロゾモスキー",           "Male"
+ "ポーギャンチヴ",           "Male"
+ "ボフダン・フメリニツキー",           "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Republic",        _("棟梁 %s"),    _("?female:棟梁 %s")
+ "Monarchy",        _("棟梁 %s"),    _("棟梁 %s")
+ "Fundamentalism",  _("総主教 %s"), _("女家長 %s")
+ "Despotism",       _("棟梁 %s"), _("棟梁 %s")
+ 
+}
+
+flag= "cossack" 
+flag_alt = "-" 
+style = "Celtic" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+conflicts_with = "ukrainian"
+civilwar_nations = "ruthenian", "ukrainian", "russian", "crimean tatar"
+
+cities =
+ "Chyhyryn",
+ "Zaporizhzhia",
+ "Stara Sich",
+ "Nova Sich",
+ "Hlukhiv",
+ "Kyiv",
+ "Nizhyn",
+ "Terek",
+ "Azov",
+ "Tsaritsyn",
+ "Astrakhan",
+ "Vladikavkaz",
+ "Kamyshin",
+ "Orenburg",
+ "Sevastopol",
+ "Mozdok",
+ "Baturyn"
+
+; More cities will be fetched from above nations

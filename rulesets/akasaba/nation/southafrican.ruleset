@@ -1,0 +1,102 @@
+[nation_southafrican]
+
+name=_("南アフリカ共和国")
+plural=_("?plural:南アフリカ")
+rule_name=_("South African")
+rule_plural=_("?plural:South Africans")
+groups="Modern", "African"
+legend=_("Dutch settlers began colonizing southern Africa in the 17th\
+ century. After many wars between primarily Boers (descendants of Dutch\
+ settlers), British forces and Zulus, the Union of South Africa was created\
+ in 1910. The South African government became notorious for its\
+ \"apartheid\" policy of legal inequality based on the color of a citizen's\
+ skin. Following the adoption of the country's first non-racist constitution\
+ in 1994, long-time political prisoner Nelson Mandela became the\
+ first truly democratically elected president of South Africa.")
+
+leaders = {
+ "name",                "sex"
+ "ネルソン・マンデラ",      "Male"
+ "P.W. ボタ",          "Male"
+ "ジェイコブ・ズマ",          "Male"
+ "H.F. ボワード",       "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("オランダ人総督 %s"), _("オランダ人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="south_africa"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="boer", "zulu"
+civilwar_nations="boer", "zulu", "namibian"
+
+; The three capitals at top and the rest in order of population as of 2005
+; http://de.wikipedia.org/wiki/Liste_der_Stadte_in_Sudafrika
+cities =
+ "Kaapstad",
+ "Pretoria",
+ "Bloemfontein",
+ "Johannesburg",
+ "Durban",
+ "Soweto",
+ "Port Elizabeth (ocean)",
+ "Pietermaritzburg",
+ "Benoni",
+ "Tembisa",
+ "Vereeniging",
+ "Boksburg",
+ "Welkom",
+ "East London",
+ "Newcastle",
+ "Krugersdorp",
+ "Botshabelo",
+ "Brakpan",
+ "Witbank",
+ "Richards Bay (ocean)",
+ "Vanderbijlpark",
+ "Centurion",
+ "Uitenhage",
+ "Alberton",
+ "Paarl",
+ "Springs",
+ "Somerset West",
+ "Carltonville",
+ "Klerksdorp",
+ "George",
+ "Midrand",
+ "Westonaria",
+ "Middelburg",
+ "Vryheid",
+ "Orkney",
+ "Kimberley",
+ "Embalenhle",
+ "Nigel",
+ "Epumalanga",
+ "Bisho",
+ "Randfontein",
+ "Worcester",
+ "Rustenburg",
+ "Polokwane",
+ "Potchefstroom",
+ "Virginia",
+ "Brits",
+ "Emnambithi",
+ "Nelspruit",
+ "Phalaborwa",
+ "Queenstown",
+ "Kroonstad",
+ "Bethal",
+ "Potgietersrus"

@@ -1,0 +1,59 @@
+[nation_isis]
+
+name=_("イスラム国")
+plural=_("?plural:イスラム国")
+rule_name=_("ISIS")
+rule_plural=_("?plural:ISIS")
+groups="Asian"
+legend = _("Islamic State in Iraq and Syria.")
+
+leaders={
+"name","sex"
+"バグダーディー", "Male"
+"マスリー", "Male"
+}
+
+ruler_titles={
+"government", "male_title", "female_title"
+"Despotism", _("Caliph %s"),            _("Calipha %s")
+"Monarchy", _("Caliph %s"),            _("Calipha %s")
+"Republic", _("Caliph %s"),            _("Calipha %s")
+"Democracy", _("Caliph %s"),            _("Calipha %s")
+"Communism", _("Caliph %s"),            _("Calipha %s")
+"Fundamentalism", _("Caliph %s"),   _("Calipha %s")
+}
+
+flag="isis"
+flag_alt="pirate"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 100
+trait_expansionist_max = 200
+trait_expansionist_default = 200
+trait_trader_min       = 10
+trait_trader_max       = 60
+trait_trader_default = 20
+trait_aggressive_min   = 150
+trait_aggressive_max   = 200
+trait_aggressive_default = 200
+
+civilwar_nations="Iraqi", "Syrian"
+
+
+cities =
+"Raqqa",
+"Mosul",
+"Deir al-Zour",
+"Ramadi",
+"Kobane",
+"Sinjar",
+"Baiji",
+"Falluja",
+"Rashed",
+"Hassakeh",
+"Hawija",
+"Qaim"

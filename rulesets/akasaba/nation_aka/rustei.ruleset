@@ -1,0 +1,123 @@
+[nation_rustei]
+
+name=_("ロシア帝国")
+plural=_("?plural:ロシア帝国")
+rule_name=_("Rossiyskaya Imperiya")
+rule_plural=_("?plural:Rossiyskaya Imperiya")
+groups="Early Modern", "Modern", "European", "Asian"
+legend=_("(語:Российская империя ラスィーイスカヤ・インピェーリヤ)は、1721年から1917年までに存在した帝国である。\
+ロシアを始め、フィンランド、リボニア、リトアニア、ベラルーシ、ウクライナ、ポーランド、カフカーズ、中央アジア、シベリア、満州などの\
+ユーラシア大陸の北部を広く支配していた。帝政ロシア（ていせいロシア）とも呼ばれる。")
+
+leaders = {
+ "name",                        "sex"
+ "聖ウラジーミル",                      "Male"
+ "ミハイル",                      "Male"
+ "アレクセイ",   "Male"
+ "イヴァン5世",     "Male"
+ "エカチェリーナ1世",            "Female"
+ "ピョートル2世",             "Male"
+ "イヴァン3世",                    "Male" ; "the Great"
+ "イヴァン雷帝",                 "Male" ; "the Terrible"
+ "ピョートル1世",                      "Male" ; a.k.a Pyotr Alexeyevich or Peter the Great
+ "パーヴェル1世",                     "Male"
+ "ニコライ1世",                   "Male"
+ "アレクサンドル2世",                "Male"
+ "ニコライ2世",                "Male"
+ "ゲオルギー・ロマノフ",                "Male"
+ "アンナ・イヴァノヴナ",              "Female"
+ "エリザヴェータ",          "Female"
+ "エカチェリーナ2世",                "Female" ; also Yekaterina, Catherine: ; compare Yekaterinburg
+}
+
+; Alternative titles for an 'Imperial' Monarchy is Imperator/Imperatritsa
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Anarchy",         _("Pretender %s"), _("?female:Pretender %s")
+ "Despotism",       _("Prince %s"),    _("Princess %s")
+ "Monarchy",        _("Tsar %s"),      _("Tsaritsa %s")
+ "Republic",        _("元老院・皇帝 %s"), _("元老院・女帝 %s")
+ "Democracy",       _("大臣会議議長・皇帝 %s"), _("大臣会議議長・女帝 %s")
+ "Communism",       _("戦時政府・皇帝 %s"), _("戦時政府・女帝 %s")
+ "Fundamentalism",  _("Patriarch %s"), _("Matriarch %s")
+}
+
+flag="russia"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 100
+trait_expansionist_max = 200
+trait_expansionist_default = 160
+trait_trader_min       = 50
+trait_trader_max       = 200
+trait_trader_default = 100
+trait_aggressive_min   = 100
+trait_aggressive_max   = 200
+trait_aggressive_default = 150
+
+civilwar_nations="Soviet", "Russian"
+
+cities=
+"Sankt-Peterburg",
+"Moskva",
+"Tsaritsyn",
+"Saratov",
+;"Odessa",
+;"Riga",
+;"Tashkent",
+;"Vilnius",
+"Rostov-na-Donu",
+"Yekaterinburg",
+"Tomsk",
+"Alaska",
+"Vladivostok",
+"Omsk",
+"Tula",
+"Kursk",
+"Bessarabia",
+"Pskov",
+"Vladimir",
+"Yaroslavl",
+"Novosibirsk",
+"Smolensk",
+"Briansk",
+"Oriel",
+"Voronezh",
+"Saransk",
+"Perm",
+"Ufa",
+"Petrozavodsk",
+"Chelyabinsk",
+"Irkutsk",
+"Vladivostok",
+"Khabarovsk",
+"Krasnoyarsk",
+"Vologda",
+"Murmansk",
+"Arkhangelsk",
+"Krasnodar",
+"Stavropol",
+"Murom",
+"Kaluga",
+"Tambov",
+"Lipetsk",
+"Belgorod",
+"NizhnyNovgorod",
+"Kostroma",
+"Izhevsk",
+"Astrakhan",
+"Orenburg",
+"Kurgan",
+"Tyumen",
+"Kemerovo",
+"Yakutsk",
+"Chita",
+"Magadan",
+"Norilsk",
+"Novokuznetsk"

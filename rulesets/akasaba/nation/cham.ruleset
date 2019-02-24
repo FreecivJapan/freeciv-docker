@@ -1,0 +1,64 @@
+[nation_cham]
+
+name=_("チャム")
+plural=_("?plural:チャムパ")
+rule_name=_("Cham")
+rule_plural=_("?plural:Chams")
+groups="Asian", "Medieval"
+legend=_("Champa was the name of a group of closely related polities\
+ in what is now the southern half of Vietnam. From the time of the\
+ earliest historical records, the Champa kings were Hindus who\
+ worshipped Shiva in particular. Involved with conflicts with the\
+ neighboring Khmer and Dai Viet states for centuries, Champa was\
+ essentially subdued by Dai Viet in the late 15th century. By this\
+ time, most of the Cham nobility had converted to Islam. The majority of\
+ Muslims in modern Vietnam are of Cham ethnicity.")
+
+leaders = {
+ "name",                "sex"
+ "ポー",         "Male"
+ "ジャヤ・インドラヴァルマン６世", "Male"
+ "ハリヴァルマン3世",       "Male"
+ "イサナヴァルマン",         "Female"
+ "ジャヤ・シンハヴァルマン1世",   "Male"
+ "インドラヴァルマン2世",      "Male"
+ "ヴィクランタヴァルマン1世",    "Male"
+}
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+
+}
+
+flag="cham"
+flag_alt="-"
+style="Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Acehnese", "Vietnamese", "Sri Vijaya",
+ "Majapahit", "Cambodian"
+
+cities =
+ "Indrapura",
+ "Vijaya",
+ "Simhapura",
+ "Panduranga",
+ "Kauthara",
+ "Singhapura",
+ "Amaravati",
+ "Po Nagar", ; temple in Kauthara
+ "Po Klaung Garai", ; temple in Panduranga
+
+; temple sites in Vietnam associated with Champa
+ "My Son",
+ "Senapati Par",
+ "Mong Duc",
+ "Hoa Lai",
+ "Dong Duong",
+ "Ron",
+ "Yang Prong",
+ "Tra Kieu"

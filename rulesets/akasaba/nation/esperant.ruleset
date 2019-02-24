@@ -1,0 +1,91 @@
+[nation_esperant]
+
+name=_("エスぺラント")
+plural=_("?plural:エスぺラント")
+rule_name=_("Esperant")
+rule_plural=_("?plural:Esperants")
+groups= "Imaginary"
+legend=_("The Esperants are a world community united by the Esperanto\
+ language.")
+
+leaders = {
+ "name",                        "sex"
+ "L.L. ZAMENHOF",               "Male"
+ "Theophile CART",              "Male"
+ "Fernand DORE",                "Male"
+ "Georges KERSAUDY",            "Male"
+ "Georges LAGRANGE",            "Male"
+ "Frederic PUJULA I VALLES",    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("独裁執政官 %s"), _("独裁執政官 %s")
+ "Monarchy",        _("将軍 %s"), _("将軍 %s")
+ "Republic",        _("民選執政官 %s"), _("民選執政官 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大総統 %s"), _("大総統 %s")
+}
+
+flag="esperanto"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "volapukan"
+
+cities =
+ "Esperanturbo",
+ "Novurbo",
+ "Kongresurbo",
+ "Sabla Plaĝo (ocean)",
+ "Nordaj Montetoj (mountains)",
+ "Venta Valo (plains, grassland)",
+ "Herbejorojo",
+ "Sunleviĝo",
+ "Ferorivereto (river)",
+ "Egaleco",
+ "Montriĉa (mountains)",
+ "Genuo de Mortigicerv",
+ "Piedo de Urso",
+ "Lama Cervo",
+ "Monto de la Lupo (mountains)",
+ "Malakra Tranĉilo",
+ "Eta Grandkorno",
+ "Blua Akvo (ocean)",
+ "Betulara Ravino",
+ "Arbarlago (forest)",
+ "Blankŝtona Monteto (hills)",
+ "Lago de l' Morta Bubalo",
+ "Blankbirda Rojo (river)",
+ "Klar-akvo (ocean)",
+ "Granda Truo",
+ "Pinara Kresto",
+ "Paco",
+ "Espero",
+ "Pafilfumo",
+ "Flugmonaĥino",
+ "Sankta Johano",
+ "Sankta Petro",
+ "Sankta Mateo",
+ "Sankta Andreo",
+ "Sankta Paŭlo",
+ "Sankta Jakvo",
+ "Granda Monto",
+ "Sankta Georgo",
+ "Sankta Baptisto",
+ "Verda Arbaro",
+ "Blua Lago (river)",
+ "Ruĝa Lago (river)",
+ "Nigra Monto",
+ "Neĝa Monto",
+ "Blankŝtona Monteto",
+ "Birda Rojo",
+ "Granda Rojo",
+ "Banburgo-ĉe-Rivero (river)",
+ "Granda Rivero (river)",
+ "Novburgo-ĉe-Maro (ocean)"

@@ -1,0 +1,87 @@
+[nation_tanzanian]
+
+name=_("タンザニア連合共和国")
+plural=_("?plural:タンザニア")
+rule_name=_("Tanzanian")
+rule_plural=_("?plural:Tanzanians")
+groups="African", "Modern"
+legend=_("Tanzania was formed as a merger of the former British colonies\
+ of Tanganyika and Zanzibar in 1964. For two decades the country was\
+ ruled by Julius Nyerere, who followed the tenets of African socialism.\
+ In 1985 Nyerere was the first African head of state to voluntarily step\
+ down.")
+
+leaders = {
+ "name",                "sex"
+ "ジュリアス・ニエレレ",      "Male"
+ "エドワード・ソコイネ",      "Male"
+ "アリ・ハッサン・ムウィニ",   "Male"
+ "ジャカヤ・キクウェテ",   "Male"
+ "ミゼンゴ・ピンダ",   "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ 
+
+}
+
+flag="tanzania"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="kenyan", "maasai"
+
+cities =
+ "Dodoma (!ocean)",
+ "Dar es Salaam (ocean)",
+ "Zanzibar City (ocean)",
+ "Mwanza",
+ "Arusha",
+ "Mbeya",
+ "Morogoro",
+ "Tanga",
+ "Kigoma",
+ "Moshi",
+ "Tabora",
+ "Songea",
+ "Musoma",
+ "Shinyanga",
+ "Katumba",
+ "Iringa",
+ "Ushirombo",
+ "Mtwara",
+ "Kilosa",
+ "Sumbawanga",
+ "Bagamoyo",
+ "Mpanda",
+ "Bukoba",
+ "Singida",
+ "Uyovu",
+ "Sengerama",
+ "Kalangalala",
+ "Mishoma",
+ "Mererani",
+ "Buseresere",
+ "Bunda",
+ "Makambako",
+ "Katoro",
+ "Ifakara",
+ "Njombe",
+ "Utengule Usongwe",
+ "Kiranyi",
+ "Siha Kati",
+ "Nkome",
+ "Nkololo",
+ "Nguruka",
+ "Lindi",
+ "Vwawa"

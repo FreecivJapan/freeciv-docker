@@ -1,0 +1,131 @@
+[nation_southkorean]
+
+name=_("大韓民国")
+plural=_("?plural:韓国")
+rule_name=_("South Korean")
+rule_plural=_("?plural:South Koreans")
+groups="Modern", "Asian"
+legend=_("Formerly the site of a unified Korean state, the Korean\
+ peninsula is today divided into two states - North and South Korea -\
+ as a result of the stalemate after the Korean War in 1953. The South\
+ Korean government was formed from the nationalist and anti-communist\
+ \"Provisional Government of the Republic of Korea\" in 1948.")
+
+leaders = {
+ "name",                "sex"
+ "金九",              "Male"
+ "李承晩",       "Male"
+ "朴正煕",      "Male"
+ "金大中",        "Male"
+ "盧武鉉",        "Male"
+ "朴槿恵",       "Female"
+ "李明博",        "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("朝鮮総督 %s"), _("朝鮮総督 %s")
+ "Monarchy",        _("朝鮮総督 %s"), _("朝鮮総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領%s")
+ 
+
+}
+
+flag="korea"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "North Korean", "Korean"
+
+; Sorted according to 2005 population
+cities =
+ "ソウル",
+ "釜山",
+ "仁川",
+ "大邱広域市",
+ "大田",
+ "光州",
+ "ウルサン",
+ "スウォン",
+ "城南",
+ "高陽",
+ "富川",
+ "龍仁",
+ "安山",
+ "清州",
+ "安陽",
+ "全州",
+ "ポハン",
+ "チャンウォン",
+ "金海",
+ "南楊州市",
+ "マサン",
+ "議政府",
+ "始興市",
+ "平沢",
+ "亀尾",
+ "晋州",
+ "光明",
+ "益山",
+ "麗水",
+ "済州",
+ "華",
+ "ウォンジュ",
+ "慶州",
+ "軍浦",
+ "順天",
+ "群山",
+ "パジュ",
+ "チュンチョン",
+ "木浦",
+ "江陵",
+ "慶山",
+ "ヤンサン",
+ "金浦",
+ "チュンジュ",
+ "牙山",
+ "九里",
+ "巨済市",
+ "利川",
+ "安東",
+ "鎮海",
+ "安城",
+ "楊州",
+ "抱川市",
+ "瑞山",
+ "義王",
+ "金泉",
+ "堤川",
+ "光陽",
+ "論山",
+ "統",
+ "河南",
+ "井",
+ "公州",
+ "烏山",
+ "栄",
+ "密陽",
+ "泗川",
+ "尚",
+ "永川",
+ "保寧",
+ "金堤",
+ "トンヘ",
+ "ナジュ",
+ "南原",
+ "束草",
+ "西帰浦",
+ "東豆川市",
+ "聞慶",
+ "三陟",
+ "太白",
+ "鷄龍",
+ "谷城"

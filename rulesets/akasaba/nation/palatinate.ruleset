@@ -1,0 +1,92 @@
+[nation_palatinate]
+
+name=_("プファルツ")
+plural=_("?plural:プファルツ")
+groups="Medieval", "Early Modern", "European"
+legend=_("The Electoral Palatinate was one of the electorates of the Holy\
+ Roman Empire, located on the banks of the Rhine. It had a volatile\
+ political history, continuously splitting and reuniting. Elector\
+ Frederick V's capture of the Bohemian throne sparked the Thirty Years\
+ War in 1618, in which much of the area was devastated. The Palatinate\
+ was united in a personal union with Bavaria in 1777. Currently it is\
+ part of the German state of Rhineland-Palatinate, with smaller areas in\
+ Baden-Wuerttemberg and Bavaria.")
+
+leaders = {
+ "name",			"sex"
+ "K・デア・スターファー",		"male"
+ "ルプレヒト１世",			"male"
+ "ルプレヒト３世",		"male"
+ "F・デア・シーグライク",	"male"
+ "アッデインチ",			"male"
+ "フリードリヒ５世",			"male"
+ "エリザベス・シャーロット",		"female"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Despotism",       _("プファルツ伯 %s"), _("プファルツ伯 %s")
+ "Fundamentalism",  _("司教 %s"),  _("優しい母 %s")
+ "Monarchy",        _("選帝侯 %s"),        _("選帝侯 %s")
+ "Republic",  _("選帝侯 %s"), _("?female:選帝侯 %s")
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+ 
+}
+
+flag="palatinate"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "lorrain", "bavarian", "badian"
+
+cities =
+ "Heidelberg",
+ "Mannheim",
+ "Speyer",
+ "Worms",
+ "Neustadt an der Weinstrase",
+ "Weinheim",
+ "Schwetzingen",
+ "Kaiserslautern",
+ "Amberg",
+ "Alzey",
+ "Zweibrucken",
+ "Ladenburg",
+ "Mosbach",
+ "Bad Kreuznach",
+ "Frankenthal",
+ "Landau in der Pfalz",
+ "Pirmasens",
+ "Bad Durkheim",
+ "Ludwigshafen",
+ "Lindenfels",
+ "Neumarkt",
+ "Boxberg",
+ "Kusel",
+ "Germersheim",
+ "Bretten",
+ "Otzberg",
+ "Umstadt",
+ "Bacharach",
+ "Neuburg an der Donau",
+ "Neustadt am Kulm",
+ "Birkenfeld",
+ "Oppenheim",
+ "Seltz",
+ "Simmern",
+ "Veldenz",
+ "Sulzbach",
+ "Bischweiler",
+ "Lutzelstein",
+ "Rappoltstein",
+ "Sponheim",
+ "Eschenbach",
+ "Sinsheim",
+ "Traben-Trarbach",
+ "Gollheim",
+ "Kirchheimbolanden"
+
+

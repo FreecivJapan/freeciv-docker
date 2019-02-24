@@ -1,0 +1,114 @@
+[nation_bolivian]
+
+name=_("ボリビア多民族国")
+plural=_("?plural:ボリビア")
+rule_name=_("Bolivian")
+rule_plural=_("?plural:Bolivians")
+groups="Modern", "American"
+; /* TRANS: The fourth letter in "Simon" should be */
+; /* TRANS: U+00F3 LATIN SMALL LETTER O WITH ACUTE if available in */
+; /* TRANS: your charset.  In ISO-8859-1 (ISO Latin 1) this is 243. */
+legend=_("Bolivia is a landlocked country in South America with a large\
+ indigenous heritage. The country is named after Simon Bolivar.\
+ Independent since 1825, the country was wrecked by instability and lost\
+ its Pacific coast to Chile. The 1932-1936 Chaco war against Paraguay\
+ led to another humiliating defeat. Discontent with Bolivia's oligarchic\
+ regime led to a revolution in 1952. After a series of military coups in\
+ the 1970s the country returned to democratic rule in the 1980s. In 2006\
+ Evo Morales became the country's first indigenous president.")
+
+leaders = {
+ "name",                        "sex"
+ "アントニオ・ホセ・デ・スクレ",       "Male"
+ "アンドレス・デ・サンタクルス",        "Male"
+ "マヌエル",                "Male"
+ "マリアーノ メルガレホ",           "Male"
+ "ダサ",               "Male"
+ "ホセ・ マヌエル・ パンド",           "Male"
+ "ダニエル・ サラマンカ",            "Male"
+ "ブッシュ",                "Male"
+ "ビジャ・ロペス",        "Male"
+ "ビクター パス ・エステンソロ ",       "Male"
+ "エルナン・シーレス",          "Male"
+ "ルネ・オルトゥー",             "Male"
+ "ヒューゴ・スアレス",                 "Male"
+ "リディア・テハダ",               "Female"
+ "エボ・モラレス",                 "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Communism",      _("将軍 %s"),   _("将軍 %s")
+ "Despotism",      _("総督 %s"),      _("?female:総督l %s")
+ "Fundamentalism", _("大司教 %s"),   _("優しい母 %s")
+ "Republic",       _("解放者 %s"),    _("?female:解放者 %s")
+ "Democracy",       _("大統領 %s"), _("大統領  %s")
+ "Monarchy",        _("総督 %s"), _("総督 %s")
+}
+
+flag="bolivia"
+flag_alt = "aymara"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "aymara", "inca", "peruvian", "chilean"
+
+cities =
+ "La Paz (!ocean, mountains)",
+ "Sucre (!ocean, mountains)",
+ "Santa Cruz (plains, !mountains)",
+ "Cochabamba (mountains)",
+ "Oruro",
+ "El Alto (mountains)",
+ "Trinidad (!mountains)",
+ "Cobija (jungle)",
+ "Potosi (mountains, desert, !plains)",
+ "Tarija",
+ "Sacaba",
+ "Montero",
+ "Riberalta",
+ "Yacuiba",
+ "Quillacollo",
+ "Colcapirhua",
+ "Viacha",
+ "Guayaramerin",
+ "Villazon (desert)",
+ "Camiri",
+ "Bermejo",
+ "Tiquipaya",
+ "El Carmen",
+ "San Ignacio",
+ "Warnes",
+ "Tupiza",
+ "San Borja",
+ "Villamontes",
+ "Cotoca",
+ "Yapacani",
+ "Puerto Aguirre (river)",
+ "Uyuni (desert)",
+ "El Torno",
+ "Caranavi",
+ "Vinto",
+ "Ascension de Guarayos",
+ "Llallagua",
+ "Punata",
+ "Huanuni",
+ "Santa Ana de Yacuma",
+ "Mineros",
+ "Rurrenabaque",
+ "Puerto Suarez (river)",
+ "Portachuelo",
+ "Achocalla",
+ "Pailon",
+ "La Guardia",
+ "Ivirgarzama",
+ "Puerto Quijarro (river)",
+ "Patacamaya",
+ "Monteagudo",
+ "San Juan de Yapacani",
+ "San Jose de Chiquitos",
+ "San Javier",
+ "Robore"

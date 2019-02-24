@@ -1,0 +1,97 @@
+[nation_hessian]
+
+name=_("ヘッセン")
+plural=_("?plural:Hessians")
+groups="European", "Early Modern", "Medieval"
+legend=_("Hesse became a landgraviate of the Holy Roman Empire in the\
+ 13th century. In the 16th century it splintered into a a number of\
+ smaller territories. Many Hessians fought in the American Revolution as\
+ mercenaries on both sides. Currently Hesse is one of the states of the\
+ Federal Republic of Germany.")
+
+leaders = {
+ "name",                        "sex"
+ "ハインリッヒ",           "Male"
+ "オットー",               "Male"
+ "ハインリッヒ２世",     "Male"
+ "ルートヴィヒ",     "Male"
+ "ウルリッヒ・フォン・ハッテン",           "Male"
+ "フィリップ１世",    "Male"
+ "ヴィルヘルム６世",        "Male"
+ "フリードリヒ・シュエデン",      "Male"
+ "ルートヴィッヒ５世",                    "Male"
+ "フォルカー・ブッフィェー",                    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Despotism",       _("方伯 %s"),   _("方伯 %s")
+ "Monarchy",        _("選帝侯 %s"),     _("選帝侯 %s")
+ "Republic", _("選帝侯 %s"), _("?female:選帝侯 %s")
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+ 
+}
+
+flag="hesse"
+flag_alt = "germany"
+style = "european"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="bavarian", "hanoverian", "badian", "palatinate"
+
+cities =
+ "Kassel",
+ "Marburg",
+ "Darmstadt",
+ "Wiesbaden",
+ "Homburg",
+ "Frankfurt am Main",
+ "Nassau",
+ "Offenbach am Main",
+ "Hanau",
+ "Weilburg",
+ "Giesen",
+ "Fulda",
+ "Russelsheim",
+ "Wetzlar",
+ "Rodgau",
+ "Oberursel",
+ "Dreieich",
+ "Bensheim",
+ "Hofheim",
+ "Maintal",
+ "Langen",
+ "Neu-Isenburg",
+ "Morfelden-Walldorf",
+ "Limburg",
+ "Dietzenbach",
+ "Viernheim",
+ "Nauheim",
+ "Vilbel",
+ "Lampertheim",
+ "Hersfeld",
+ "Taunusstein",
+ "Friedberg",
+ "Baunatal",
+ "Kelkheim",
+ "Rodermark",
+ "Griesheim",
+ "Hattersheim",
+ "Heppenheim",
+ "Butzbach",
+ "Pfungstadt",
+ "Korbach",
+ "Friedrichsdorf",
+ "Dillenburg",
+ "Weiterstadt",
+ "Obertshausen",
+ "Gros-Gerau",
+ "Idstein",
+ "Karben",
+ "Stadtallendorf",
+ "Gelnhausen",
+ "Gros-Umstadt",
+ "Rheinfels"

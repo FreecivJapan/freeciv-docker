@@ -1,0 +1,113 @@
+[nation_eastgerman]
+
+name=_("ドイツ民主共和国")
+plural=_("?plural:東ドイツ")
+rule_name=_("East German")
+rule_plural=_("?plural:East Germans")
+groups="European"
+legend=_("The German Democratic Republic was founded in the Soviet\
+ Occupation Zone of postwar Germany in 1949. It was part of the\
+ Soviet dominated eastern bloc during the Cold War. The GDR was known\
+ for the Berlin Wall and its vast internal security apparatus, the Stasi.\
+ In 1989 the communist regime collapsed and one year later it was annexed\
+ to the Federal Republic of Germany.")
+
+leaders = {
+ "name",                        "sex"
+ "オットー・グローテヴォール",              "Male"
+ "ヴィルヘルム・ピーク",               "Male"
+ "ヴィリー・シュトフ",                 "Male"
+ "ヴァルター・ウルブリヒト",             "Male"
+ "エーリッヒ・ホーネッカー",              "Male"
+ "エーリッヒ・ミールケ",                "Male"
+ "ザビーネ・ベルクマン",        "Female"
+ "ロタール・デメジエール",          "Male"
+}
+
+ruler_titles = {
+ "government",  "male_title",                "female_title"
+ "Anarchy",     _("Enemy of the People %s"), _("?female:Enemy of the People %s")
+ "Despotism",   _("Commissar %s"),           _("?female:Commissar %s")
+ "Monarchy",        _("総統閣下 %s"), _("総統閣下 %s")
+ "Republic",    _("閣僚評議会議長 %s"),  _("?female:Prime Minister %s")
+ "Democracy",       _("閣僚評議会議長 %s"), _("閣僚評議会議長 %s")
+ "Communism",   _("First Secretary %s"),     _("?female:First Secretary %s")
+}
+
+flag = "ddr"
+flag_alt = "germany"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with = "saxon", "brandenburgian", "mecklenburgian", "thuringian",
+ "anhaltian"
+civilwar_nations = "german", "sorbian", "saxon", "brandenburgian", "mecklenburgian", "thuringian",
+ "anhaltian",  "volga german"
+
+cities =
+  "Berlin (grassland, !mountains)", 
+  "Leipzig (grassland, plains, hills, !ocean)",
+  "Dresden (plains, hills, river, mountains, !ocean)",
+  "Karl-Marx-Stadt (hills, mountains, !ocean)",
+  "Magdeburg (grassland, plains, river)",
+  "Rostock (grassland, ocean, river, !mountains)",
+  "Halle (grassland, plains, river, !ocean, !mountains)",
+  "Erfurt (hills, forest, !ocean)",
+  "Potsdam (grassland, swamp, !mountains)",
+  "Gera (forest, hills)",
+  "Schwerin (grassland, ocean, !mountains)",
+  "Cottbus (swamp, plains, forest, river)",
+  "Zwickau (forest, hills, mountains, !ocean)",
+  "Jena (hills, river, !ocean)",
+  "Dessau (plains, forest)",
+  "Brandenburg an der Havel (river, plains, forest)",
+  "Halle-Neustadt (grassland, plains, river, !ocean, !mountains)",
+  "Neubrandenburg (plains, forest, swamp)",
+  "Frankfurt (grassland, plains, swamp, river)",
+  "Görlitz (river, hills)",
+  "Plauen (mountains, hills)",
+  "Stralsund (grassland, ocean, !mountains)",
+  "Hoyerswerda (river, swamp, plains)",
+  "Greifswald (grassland, ocean, swamp, !mountains)",
+  "Weimar (plains, forest, !ocean)",
+  "Wismar (grassland, ocean, !mountains)",
+  "Gotha (forest, hills)",
+  "Suhl (mountains, forest, hills)",
+  "Eberswalde-Finow (swamp, forest, grassland)",
+  "Wittenberg (grassland, plains, river, !mountains)",
+  "Altenburg (forest, hills, !ocean)",
+  "Eisenhüttenstadt (grassland, plains, swamp, river)",
+  "Schwedt (grassland, plains, swamp, river)",
+  "Bautzen (hills, mountains, forest)",
+  "Freiberg (hills, mountains)",
+  "Stendal (grassland, plains)",
+  "Nordhausen (hills, forest)",
+  "Riesa (river)",
+  "Eisenach (hills, mountains)",
+  "Halberstadt (plains, hills)",
+  "Oranienburg",
+  "Falkensee",
+  "Pirna",
+  "Mühlhausen",
+  "Wernigerode",
+  "Merseburg",
+  "Schönebeck",
+  "Quedlinburg",
+  "Meißen",
+  "Saalfeld",
+  "Ilmenau",
+  "Apolda",
+  "Neustrelitz",
+  "Prenzlau",
+  "Torgau (river)",
+  "Schwarzenberg (mountains)",
+  "Bad Langensalza",
+  "Schneeberg (mountains)",
+  "Wittstock",
+  "Ludwigslust",
+  "Bad Doberan (ocean)",
+  "Saßnitz (ocean)",
+  "Thalheim (mountains)",
+  "Johanngeorgenstadt"

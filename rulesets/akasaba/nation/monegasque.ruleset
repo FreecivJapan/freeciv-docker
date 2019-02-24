@@ -1,0 +1,99 @@
+[nation_monegasque]
+
+name = _("モナコ公国")
+plural = _("?plural:モナコ")
+rule_name = _("Monegasque")
+rule_plural = _("?plural:Monegasque")
+groups="European", "Modern", "Early Modern", "Medieval"
+legend=_("With only two square kilometers, Monaco is the second smallest\
+ country in the world. It has been ruled by the Grimaldi dynasty ever\
+ since the country was founded in 1297. In 1861 Monaco lost more than 95\
+ percent of its territory to France. The principality is noted for its\
+ absence of income taxes, its casino and its Formula 1 track. Foreigners\
+ make up more than 80 percent of the population. In terms of GDP per\
+ capita Monaco is the wealthiest country in the world by a large margin.")
+
+leaders = {
+ "name",                "sex"
+ "フランソワ・グリマルディ",   "Male"
+ "チャールズ・グリマルディ",    "Male"
+ "クロディーヌ",            "Female"
+ "サントノーレ２世",           "Male"
+ "フロレスタン１世",         "Male"
+ "ルイ２世",            "Male"
+ "レニエ３世",         "Male"
+ "アルベール２世",           "Male"
+ "カロライナ",            "Female"
+}
+
+ruler_titles = {
+ "government",     "male_title",           "female_title"
+ "Democracy",   _("国務大臣・大公 %s"), _("?female:国務大臣・大公 %s")
+ "Fundamentalism", _("司教 %s"),         _("優しい母 %s")
+ "Monarchy",       _("大公 %s"),         _("大公 %s")
+ "Republic",        _("議会 %s"), _("議会 %s")
+ "Communism",       _("戦時政府・大公 %s"), _("戦時政府・大公 %s")
+ "Despotism",       _("大公 %s"), _("大公 %s")
+}
+
+flag = "monaco_alternative" 
+flag_alt = "indonesia" ;the regular flag is identical to the Indonesian flag
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="italian", "french"
+
+cities =
+;traditional quarters
+ "Monaco-Ville",
+ "Monte-Carlo",
+ "La Condamine",
+ "Fontvieille",
+;wards and neighborhoods
+ "Spelugues",
+ "La Rousse",
+ "Saint-Roman",
+ "Larvotto",
+ "Bas Moulins",
+ "Saint-Michel",
+ "La Colle",
+ "Les Revoires",
+ "Le Portier",
+ "Moneghetti",
+ "Le Tenao",
+;territory lost in 1861
+ "Roquebrune",
+ "Menton",
+ "Monti",
+ "Garavan",
+ "Cap-Martin",
+;titles of the Grimaldi dynasty
+ "Valentinois",
+ "Baux",
+ "Carlades",
+ "Polignac",
+ "Calvinet",
+ "Buis",
+ "Saint-Remy",
+ "Matignon",
+ "Torigni",
+ "Saint-Lo",
+ "La Luthumiere",
+ "Hambye",
+ "Estouteville",
+ "Mazarin",
+ "Mayenne",
+ "Chateau-Porcien",
+ "Ferrette",
+ "Belfort",
+ "Thann",
+ "Rosemont",
+ "Altkirch",
+ "Isenheim",
+ "Chilly",
+ "Longjumeau",
+ "Massy",
+ "Guiscard"

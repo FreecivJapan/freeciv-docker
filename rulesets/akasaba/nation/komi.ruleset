@@ -1,0 +1,68 @@
+[nation_komi] 
+
+name=_("コミ共和国") 
+plural=_("?plural:コミ共和国") 
+rule_name=_("komi") 
+rule_plural=_("?plural:komi") 
+groups="European", "Medieval"
+legend=_("The Komi are a Finno-Ugric people living in the northern part of\
+ European Russia. In the Middle Ages, the area inhabited by people of Komi\
+ was dominated by the Republic of Novgorod. In the 15th century, the Komi\
+ were subordinated to Moscow, becoming part of Russia.")
+leaders = {
+ "name",                    "sex"
+ "ヴャチェスラフ・ガイゼル",          "male"
+ "ウラジーミル・トルロポフ",                    "male"
+ "ユーリ・スピリドノフ",           "male"
+ 
+}
+
+flag= "komi" 
+flag_alt = "-" 
+style = "Celtic"
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Democracy",       _("大統領 %s"),   _("?female:大統領 %s")
+ "Republic",        _("大統領 %s"),   _("?female:大統領 %s")
+ "Fundamentalism",  _("Great Shaman %s"), _("?female:Great Shaman %s")
+}
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+civilwar_nations = "mordvin", "Muscovite" ;novgorodian
+
+cities =
+ "Syktyvkar",
+ "Uskar",
+ "Ukva",                  ;Uhta
+ "Inta",
+ "Vorkuta",               ;Vorkuta
+ "Vuktyl",
+ "Parma",
+ "Aykatyla",
+ "Emba",
+ "Izva",
+ "Koygort",
+ "Kortkeros",
+ "Kulomdyn",
+ "Abyachoy",
+ "Myldyn",
+ "Sosnagort",
+ "Vizin",
+ "Vylgort",
+ "Koslan",
+ "Chilimdyn",
+ "Sedkyrkeshch",
+ "Kozhym",
+ "Pechora",
+ "Izyyayu",
+ "Kozhva",
+ "Voyvozh",
+ "Shudayag",
+ "Yarega",
+ "Vorgashor",
+ "Mikun",
+ "Zheshart"

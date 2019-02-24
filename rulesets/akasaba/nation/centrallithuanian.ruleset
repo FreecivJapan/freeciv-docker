@@ -1,0 +1,78 @@
+[nation_centrallithuanian]
+
+name=_("中部リトアニア共和国")
+plural=_("?plural:中部リトアニア共和国")
+rule_name=_("Central Lithuanian")
+rule_plural=_("?plural:Central Lithuanians")
+groups="European"
+legend=_("Lithuanian Poles are an ethnic minority in Lithuania, mainly in\
+ the Aukshtota region. They are a remnant of the Polish-Lithuanian\
+ Commonwealth - the Commonwealth of Two Nations, which was founded with\
+ the Union of Lublin in 1569. This state united the Kingdom of Poland with\
+ the Grand Duchy of Lithuania and was founded by the Lithuanian grand duke\
+ Jogaila, who was baptized with the name Wladyslaw. The presence of the first\
+ Polish community in Lithuania dates back to duke Mindaugas of Lithuania.\
+ The first Poles came to Lithuania as prisoners of war taken\
+ during raids on the frontier lands (mainly to Mazovia). After uniting the\
+ two countries there was a very strong Polonization of the Lithuanian\
+ nobility. The Polish-speaking community in Lithuania survived the collapse\
+ and partition of the Polish state, co-existing with Lithuanian-speaking\
+ people. In 1920, the rebellious general Zeligowski announced the creation\
+ of a Republic of Central Lithuania, which was then incorporated into\
+ Poland. After World War II most of the Lithuanian Poles were displaced to\
+ Poland's new western territories.")
+leaders = {
+ "name",                "sex"
+ "ジェリコフスキ",  "Male"
+}
+flag="central_lithuania"
+flag_alt = "-"
+style = "Celtic"
+
+ruler_titles = {
+ "government",      "male_title",                "female_title"
+ "Communism",       _("将軍 %s"),  _("?female:将軍 %s")
+ "Despotism",       _("将軍 %s"),              _("?female:将軍 %s")
+ "Monarchy",        _("将軍 %s"),          _("将軍 %s")
+ "Fundamentalism",  _("Archbishop %s"),          _("Mother Superior %s")
+}
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "Lithuanian", "Polish", "Belarusian", "Lipka Tatar", "Mazovian"
+
+cities =
+ "Wilno",                 ;Vilnius
+ "Olkieniki",             ;Valkininkai
+ "Soleczniki",            ;Šalčininkai
+ "Orany",                 ;Varėna
+ "Druskieniki",           ;Druskininkai
+ "Święciany",             ;Švenčionys
+ "Oszmiana",              ;Ašmena
+ "Jaszuny",               ;Jašiūnai
+ "Szyrwinty",             ;Širvintos
+ "Krewo",                 ;Krėva
+ "Merecz",                ;Merkinė
+ "Zygmunciszki",          ;Žygmantiškės
+ "Karkliny",              ;Karkliniai
+ "Songiniszki",           ;Sanginiškės
+ "Daugieliszki",          ;Daugėliškis
+ "Twerecz",               ;Tverečius
+ "Świr",                  ;Svieriai
+ "Wojstom",
+ "Żodziszki",
+ "Dukszty",               ;Dūkštas
+ "Łyntupy",               ;Lentupis
+ "Komaje",                ;Kamojys
+ "Mielegiany",            ;Mielagėnai
+ "Podbrodzie",            ;Pabradė
+ "Szemetowszczyzna",
+ "Kołtyniany",            ;Kaltanėnai
+ "Hoduciszki",            ;Adutiškis
+ "Holszany",              ;Alšėnai
+ "Giedrojcie",            ;Giedraičiai
+ "Giełwany",              ;Gelvonai
+ "Niemenczyn",            ;Nemenčinė
+ "Turgiele"               ;Turgeliai

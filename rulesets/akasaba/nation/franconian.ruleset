@@ -1,0 +1,95 @@
+[nation_franconian] 
+
+name=_("フランケン") 
+plural=_("?plural:フランケン") 
+groups="European", "Medieval" 
+legend=_("Franconia was one of the stem duchies of the Holy Roman\
+ Empire. Founded in the 9th century, unlike the other stem duchies it\
+ didn't manage to consolidate itself and by the 12th century it had\
+ completely disappeared. Franconia continues to exist as a cultural\
+ region in the modern states of Bavaria, Thuringia and Baden-Wuerttemberg.")
+
+leaders = {
+ "name",                                "sex"
+ "エバーハルト",                            "Male"
+ "コンラート３世",                "Male"
+ "ローレンツ・フォン・ビーブラ",                    "Male"
+ "J・メスプーポン",       "Male"
+ "アルタイル",             "Male"
+ "ヨハン・グッテンバーグ",     "Male"
+}
+
+ruler_titles = {
+ "government",       "male_title",          "female_title"
+ "Despotism",        _("伯爵 %s"),     _("伯爵 %s")
+ "Monarchy",         _("大公 %s"),          _("大公 %s")
+ "Fundamentalism",   _("司教 %s"), _("優しい母 %s")  
+}
+
+flag= "franconia" 
+flag_alt = "-" 
+style = "Celtic" 
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+conflicts_with="indonesian" ;similar flag
+civilwar_nations="wuerttembergian", "bavarian", "hessian", "saxon"
+
+cities=
+"Nurnberg",
+"Bayreuth",
+"Ansbach",
+"Bamberg",
+"Wurzburg",
+"Coburg",
+"Aschaffenburg",
+"Hof",
+"Erlangen",
+"Furth",
+"Schweinfurt",
+"Suhl",
+"Hassfurt",
+"Kitzingen",
+"Hochstadt",
+"Kronach",
+"Heilbronn",
+"Kulmbach",
+"Neustadt an der Aisch",
+"Bad Windsheim",
+"Feuchtwangen",
+"Rothenburg ob der Tauber",
+"Wassertrudingen",
+"Gunzenhausen",
+"Weissenburg",
+"Solnhofen",
+"Hilpoltstein",
+"Forchheim",
+"Pegnitz",
+"Pyrbaum",
+"Roth",
+"Schwabach",
+"Neckarsulm",
+"Lohr",
+"Karlstadt",
+"Gemunden",
+"Bad Kissingen",
+"Lichtenfels",
+"Sonneberg",
+"Hildburghausen",
+"Meiningen",
+"Schmalkalden",
+"Gersfeld",
+"Schwabisch Hall",
+"Hilders",
+"Naila",
+"Munchberg",
+"Selb",
+"Bad Neustadt an der Saale",
+"Creussen",
+"Wunsiedel",
+"Lauf",
+"Wertheim",
+"Hersbruck",
+"Marktredwitz",
+"Tauberbischofsheim"

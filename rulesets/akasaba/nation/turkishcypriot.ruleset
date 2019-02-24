@@ -1,0 +1,75 @@
+[nation_turkishcypriot]
+
+name=_("北キプロス・トルコ共和国")
+plural=_("?plural:北キプロス・トルコ共和国")
+groups="Modern", "European"
+legend=_("Turks first settled in Cyprus after the Ottomans conquered the\
+ island in 1571. Political unrest and ethnic tensions between Turkish and\
+ Greek Cypriots led to an invasion by the Turkish military in 1974, followed\
+ by the declaration of independence of the Turkish Republic of North Cyprus\
+ in 1983. Currently, the only country that recognizes the independence of\
+ the TRNC is Turkey.")
+leaders = {
+ "name",                  "sex"
+ "デルヴィシュ・エロール", "Male"
+}
+flag="trnc"
+flag_alt = "-"
+style = "classical"
+
+ruler_titles = {
+ "government",      "male_title",        "female_title"
+ "Despotism",       _("%s Pasha"),       _("?female:%s Pasha")
+ "Fundamentalism",  _("Grand Mufti %s"), _("?female:Grand Mufti %s")
+}
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+
+civilwar_nations = "cypriot", "turkish"
+
+cities = 
+ "Lefko?a",	;Nicosia
+ "Gazima?usa",	;Famagusta
+ "Girne",	;Kyrenia
+ "Guzelyurt",	;Morphou
+ "?skele",	;Trikomo
+ "Gonyeli",
+ "Lefka",
+ "De?irmenlik",
+ "Lapta",
+ "Alsancak",
+ "Catalkoy",
+ "Yeni Bo?azici",
+ "Beyarmudu",
+ "Haspolat",
+ "?nonu",
+ "Hamitkoy",
+ "Ozankoy",
+ "Dikmen",
+ "Alaykoy",
+ "Akdo?an",
+ "Vadili",
+ "Kar?iyaka",
+ "Dipkarpaz",
+ "Pa?akoy",
+ "Yeni Erenkoy",
+ "Esentepe",
+ "Kalkanl?",
+ "Mehmetcik",
+ "Tatlisu",
+ "Gecitkale",
+ "Do?anc?",
+ "Bo?azkoy",
+ "Ayd?nkoy",
+ "Boyukkonuk",
+ "Akcay",
+ "Camlibel",
+ "Serdarl?",
+ "Beylerbey",
+ "Gaziveren",
+ "Zumrutkoy",
+ "Cihangir"
+

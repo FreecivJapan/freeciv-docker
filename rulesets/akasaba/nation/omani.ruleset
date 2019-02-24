@@ -1,0 +1,91 @@
+[nation_omani] 
+
+name=_("オマーン王国") 
+plural=_("?plural:オマーン") 
+groups="Medieval", "Early Modern", "Modern", "Asian" 
+legend=_("Oman is an Arab country in southwest Asia on the southeast coast\
+ of the Arabian Peninsula. Before the arrival of Islam Oman was controlled\
+ by Achaemenids, Parthians and Sassanids.")
+
+leaders = {
+ "name",                        "sex"
+ "カブース・ビン",       "Male"
+ "ウマル・ハッターブ",         "Male"
+ "ウマル・アル・シャリフ",              "Male"
+ "ムハンマド・イブン・イスマイル",         "Male"
+ "ムハンマド・イブン・バラカット",        "Male"
+ "ナシル・ビン",           "Male"
+ "ビンスルタン・サイード",           "Male"
+ "モハメッド・イブン・ナシル",          "Male"
+ "アブ・アル・ヒラル・セッド",    "Male"
+ "サイードビンスルタン",          "Male"
+ "アザン・クァイス",              "Male"
+ "タイムラ・ビン・ファイサル",           "Male"
+ "カーブース・ビン・サイード",           "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",           "female_title"
+ "Monarchy",       _("国王陛下 %s"),         _("女王陛下 %s")
+ "Fundamentalism", _("イマーム %s"),           _("イマーム %s")
+ "Despotism",      _("長老 %s"),         _("長老 %s")
+ "Democracy",      _("国王陛下 %s"), _("?female:国王陛下 %s")
+ "Communism",   _("戦時政府・国王陛下 %s"), _("?female:戦時政府・女王陛下 %s")
+ "Anarchy",         _("臨時政権・国王陛下 %s"), _("臨時政権・女王陛下 %s")
+ "Republic",        _("護国卿 %s"), _("護国卿  %s")
+ 
+}
+
+flag= "oman" 
+flag_alt = "arab" 
+style = "Babylonian" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+civilwar_nations = "arab", "emirati", "himyarite", "persian"
+
+cities = 
+  "Al Maskat",
+"Nizwa",
+"Al Hamra",
+"Dibba Al-Baya",
+"Ruwi",
+"Jalan Bani Bu Hassan",
+"Khasab",
+"Masirah",
+"Mudhaybi",
+"Izki",
+"As Sib",
+"Manah",
+"Al Buraimi",
+"Ibra",
+"Thumrait",
+"Jabrin",
+"Haima",
+"Adam",
+"Al Suwaiq",
+"Barka",
+"Samail",
+"Saiq",
+"Rustaq",
+"Ibri",
+"Sohar",
+"Mahooth",
+"Matrah",
+"Al Jazer",
+"Shinas",
+"Mudhaireb",
+"Salalah",
+"Sur",
+"Bidiya",
+"Saham",
+"Seeb",
+"Bidbid",
+"Raysut",
+"Bahla",
+"Quriyat",
+"Mad'ha",
+"Duqm"
+

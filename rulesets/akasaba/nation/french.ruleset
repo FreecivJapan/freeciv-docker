@@ -1,0 +1,256 @@
+[nation_french]
+
+translation_domain="freeciv"
+
+name=_("フランス共和国")
+plural=_("?plural:フランス")
+rule_name=_("French")
+rule_plural=_("?plural:French")
+groups="Modern", "Early Modern", "Medieval", "European", "Core"
+legend=_("フランス共和国（フランスきょうわこく、仏: Republique francaise）、\
+通称フランスは、西ヨーロッパ西部に位置する共和制国家である。\
+現在は第五共和制期である。.")
+
+leaders = {
+ "name",                "sex"
+ "ルイ・ナポレオン",  "Male"
+ "ロベスピエール",         "Male"
+ "アドルフ・ティエール",            "Male"
+ "アルベール・ルブラン",           "Male"
+ "シャルル・ド・ゴール",   "Male"
+ "ヴァンサン・オリオール",       "Male"
+ "ルネ・コティ",              "Male"
+ "ジャック・シラク",      "Male"
+ "ジャンヌ・ダルク",        "Female"
+ "ニコラ・サルコジ",      "Male"
+ "フランソワ・オランド",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Anarchy",         _("Citizen %s"),      _("?female:Citizen %s")
+ "Despotism",       _("Chieftain %s"),    _("?female:Chieftain %s")
+ "Democracy",       _("大統領 %s"),      _("?female:大統領 %s")
+ "Republic",        _("第1統領 %s"), _("第1統領 %s")
+ "Monarchy",        _("第1統領 %s"), _("総裁 %s")
+ "Communism",       _("General Secretary %s"), _("female:General Secretary %s")
+ "Fundamentalism",  _("Cardinal %s"),     _("Mother Superior %s")
+}
+
+flag="france"
+flag_alt = "france_old"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations =
+ "Kingdom of France", "Empire France",
+; sub-national nations
+ "Alsatian", "Breton", "Burgundian", "Lorrain", "Norman", "Occitan",
+ "Savoyard",
+; overseas settlements
+ "Acadian", "Algerian", "Quebecois", "Tahitian"
+
+cities =
+ "Paris",
+ "Lyon (river)",
+ "Marseille (ocean)",
+ "Lille (plains, grassland)",
+ "Toulouse (grassland)",
+ "Nice (ocean)",
+ "Bordeaux (river, swamp)",
+ "Nantes (ocean)",
+ "Strasbourg (river, plains)",
+ "Toulon (ocean)",
+ "Rennes (grassland)",
+ "Rouen (grassland, forest)",
+ "Grenoble (mountains)",
+ "Montpellier (swamp, grassland)",
+ "Metz (river)",
+ "Versailles",
+ "Nancy (river)",
+ "Clermont-Ferrand (!ocean, hills)",
+ "Valenciennes",
+ "Tours",
+ "Caen",
+ "Orléans (!ocean)",
+ "Angers",
+ "Dijon (!ocean)",
+ "Fort-de-France (ocean)",
+ "Saint-Étienne",
+ "Brest (ocean)",
+ "Le Havre (ocean)",
+ "Le Mans",
+ "Reims (!ocean)",
+ "Avignon (river)",
+ "Mulhouse (!ocean)",
+ "Amiens",
+ "Béthune",
+ "Dunkerque (ocean)",
+ "Perpignan (ocean)",
+ "Limoges (mountains)",
+ "Besançon",
+ "Nîmes",
+ "Pau",
+ "Bayonne (ocean)",
+ "Annemasse",
+ "Poitiers",
+ "Annecy",
+ "Lorient (ocean)",
+ "Montbéliard",
+ "Saint-Denis",
+ "Troyes",
+ "Saint-Nazaire (ocean)",
+ "Ajaccio (ocean, mountains)",
+ "La Rochelle (ocean)",
+ "Valence",
+ "Thionville (ocean)",
+ "Angoulême",
+ "Boulogne-sur-Mer (ocean)",
+ "Chambéry",
+ "Chalon-sur-Saône (river)",
+ "Chartres",
+ "Saint-Pierre (ocean)",
+ "Niort",
+ "Calais (ocean)",
+ "Béziers",
+ "Arras",
+ "Bourges",
+ "Lens",
+ "Saint-Brieuc (ocean)",
+ "Quimper",
+ "Cayenne (ocean, jungle)",
+ "Vannes",
+ "Cherbourg (ocean)",
+ "Maubeuge",
+ "Aix-en-Provence (ocean, mountains)",
+ "Blois",
+ "Vichy (!ocean)",
+ "Colmar",
+ "Tarbes",
+ "Compiègne",
+ "Charleville-Mézières",
+ "Belfort (mountains)",
+ "Roanne",
+ "Forbach",
+ "Saint-Quentin",
+ "Laval",
+ "Bourg-en-Bresse (!ocean)",
+ "Beauvais",
+ "Nevers",
+ "Villeurbanne",
+ "La Roche-sur-Yon (river)",
+ "Créteil",
+ "Montauban",
+ "Mamoudzou (ocean, jungle)",
+ "Boulogne-Billancourt",
+ "Soissons",
+ "Albi",
+ "Nanterre",
+ "Montluçon",
+ "Narbonne (ocean)",
+ "Châteauroux",
+ "Cergy",
+ "Foix",
+ "Châlons-en-Champagne",
+ "Évry",
+ "Carcassonne",
+ "Évreux",
+ "Bastia (ocean)",
+ "Bobigny",
+ "Melun",
+ "Gap",
+ "Auxerre",
+ "Épinal",
+ "Cambrai",
+ "Mâcon",
+ "Agen",
+ "Mont-de-Marsan (forest)",
+ "Aurillac (mountains)",
+ "Périgeux (mountains, river)",
+ "Alençon",
+ "Rodez",
+ "Laon",
+ "Chaumont",
+ "Moulins",
+ "Auch",
+ "Cahors",
+ "Saint-Lô",
+ "Le Puy-en-Velay (!ocean)",
+ "Lons-le-Saunier",
+ "Digne-les-Bains (mountains)",
+ "Vesoul",
+ "Bar-le-Duc",
+ "Carpentras",
+ "Tulle",
+ "Guéret",
+ "Mende",
+ "Basseterre (ocean)",
+ "Verdun",
+ "Privas",
+ "Pontoise",
+ "Navarrenx",
+ "Grasse",
+ "Oloron-Sainte-Marie",
+ "Pointe-à-Pitre (ocean)",
+ "Saint-Flour",
+ "Feurs",
+ "Douai",
+ "Montbrison",
+ "Villefranche-de-Rouergue (!ocean)",
+ "Castres",
+ "Draguignan",
+ "Gray",
+ "Fontenay-le-Comte",
+ "Saintes",
+ "Coutances",
+ "Pamiers",
+ "Brive-la-Gaillarde",
+ "Dole",
+ "Saint-Dizier",
+ "Cannes (ocean)",
+ "Meaux",
+ "Tournon-sur-Rhône (river)",
+ "Tourcoing",
+ "Chelles",
+ "Antibes (ocean)",
+ "Argenteuil",
+ "Creil",
+ "Saint-Omer",
+ "Alès",
+ "Elbeuf",
+ "Saint-Chamond",
+ "Fréjus (ocean)",
+ "Dieppe (ocean)",
+ "Arles",
+ "Mérignac",
+ "Saint-Malo (ocean)",
+ "Courbevoie",
+ "Sète",
+ "Évian-les-Bains",
+ "Corbeil-Essonnes",
+ "Saint-Laurent-du-Maroni (ocean, jungle)",
+ "Sainte-Geneviève-des-Bois",
+ "Haguenau",
+ "Châtellerault",
+ "Thonon-les-Bains",
+ "Les Sables-d'Olonne (ocean)",
+ "Biarritz (ocean)",
+ "Bergerac",
+ "Villeneuve-d'Ascq",
+ "Saint-Jean-Pied-de-Port (mountains)",
+ "Vittel",
+ "Lourdes",
+ "Orange",
+ "Sens",
+ "Lisieux",
+ "Toul",
+ "Aix-les-Bains",
+ "Briançon",
+ "Sedan (hills)",
+ "Millau (mountains, hills)",
+ "Vienne",
+ "Saint-Amand-Montrond (!ocean)",
+ "Amboise (river)"

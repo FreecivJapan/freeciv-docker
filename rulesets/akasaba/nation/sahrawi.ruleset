@@ -1,0 +1,71 @@
+[nation_sahrawi]
+
+name=_("サハラ・アラブ民主共和国")
+plural=_("?plural:サハラ・アラブ")
+rule_name=_("Sahrawi")
+rule_plural=_("?plural:Sahrawis")
+groups="African", "Modern"
+legend=_("The Sahrawi are the inhabitants of the Western Sahara, a former\
+ Spanish colony. Morocco currently controls most of the area, which is\
+ considered an illegal occupation by most of the international community.\
+ The Moroccan Army and Sahrawi Polisario rebels have been fighting each\
+ other since 1975.")
+
+leaders = {
+ "name",                        "sex"
+ "ムハンマ・バスリー",            "Male"
+ "サイード",     "Male"
+ "モハメド・アブデルアジズ",           "Male"
+ "A・ハイダー",             "Female"
+ "アブデルアジズ",     "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Communism",       _("指導者 %s"), _("指導者 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="sadr"
+flag_alt = "-"
+style = "Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="moroccan", "amazigh"
+
+cities =
+ "al-Ayun",
+ "Bir Lehlu",
+ "ad-Dakhla",
+ "Smara",
+ "Ras Bujadur",
+ "El Marsa",
+ "Hawza",
+ "al-Mahbass",
+ "Guelta Zemmur",
+ "Bir Anzarane",
+ "Tichla",
+ "Awserd",
+ "El Argub",
+ "La Gouria",
+ "Zug",
+ "Guerguerat",
+ "Tifariti",
+ "Dougaj",
+ "Agounit",
+ "Amgala",
+ "Meharrize",
+ "Boukra",
+ "Lemseid",
+ "Umm Dreiga",
+ "Jdiriya",
+ "Zbayra",
+ "Chalwa",
+ "Aridal",
+ "as-Sakn",
+ "al-Ga'ada",
+ "Bir Qanduz"

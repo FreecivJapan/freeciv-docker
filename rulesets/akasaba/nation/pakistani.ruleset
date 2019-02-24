@@ -1,0 +1,104 @@
+[nation_pakistani]
+
+name=_("パキスタン・イスラム共和国")
+plural=_("?plural:パキスタン・イスラム共和国")
+rule_name=_("Pakistani")
+rule_plural=_("?plural:Pakistanis")
+groups="Modern", "Asian"
+legend=_("The Federation of Pakistan was formed from the\
+ predominantly Muslim regions of British India in 1947.")
+
+leaders = {
+ "name",                "sex"
+ "イスカンダル・ミルザー", "Male"
+ "ムハンマド・アリー・ジンナー", "Male"
+ "アイユーブ・ハーン",      "Female"
+ "パルヴェーズ・ムシャラフ", "Male"
+ "アースィフ・アリ・ザルダリ",  "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+flag="pakistan"
+flag_alt="-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Iranian", "Pashtun", "Kashmiri"
+
+; http://de.wikipedia.org/wiki/Liste_der_Stadte_in_Pakistan
+cities =
+ "Karachi",
+ "Lahore",
+ "Faisalabad",
+ "Rawalpindi",
+ "Multan",
+ "Gujranwala",
+ "Hyderabad",
+ "Peshawar",
+ "Islamabad",
+ "Quetta",
+ "Bahawalpur",
+ "Sargodha",
+ "Sialkot",
+ "Sukkur",
+ "Larkana",
+ "Shekhupura",
+ "Jhang",
+ "Rahim Yar Khan",
+ "Gujrat",
+ "Mardan",
+ "Kasur",
+ "Dera Ghazi Khan",
+ "Wah",
+ "Sahiwal",
+ "Nawabshah",
+ "Mingaora",
+ "Okara",
+ "Mirpur Khas",
+ "Kamoke",
+ "Chiniot",
+ "Sadiqabad",
+ "Burewala",
+ "Jacobabad",
+ "Muridike",
+ "Muzaffargarh",
+ "Jhelum",
+ "Shikarpur",
+ "Khanewal",
+ "Hafizabad",
+ "Kohat",
+ "Khuzdar",
+ "Dadu",
+ "Khanpur",
+ "Gojra",
+ "Mandi Bahauddin",
+ "Tando Allah Yar",
+ "Abottabad",
+ "Daska",
+ "Pakpattan",
+ "Bahawalnagar",
+ "Tando Adam",
+ "Khairpur",
+ "Chishtian Mandi",
+ "Jaranwala",
+ "Ahmadpur East",
+ "Vihari",
+ "Kamalia",
+ "Kot Addu",
+ "Khushab",
+ "Chakwal",
+ "Wazirabad",
+ "Dera Ismail Khan",
+ "Lodhran",
+ "Swabi"

@@ -1,0 +1,67 @@
+[nation_tupi]
+
+name=_("トゥピ語族")
+plural=_("?plural:トゥピ語族")
+groups="American"
+
+legend=_("The Tupi are a native Brazilian people related to the Guarani who\
+ inhabited the modern Brazilian states of Paraiba, Pernambuco, Ceara, Rio\
+ Grande do Norte, Alagoas, Sergipe and others as well. Their chiefdoms were\
+ destroyed through Portuguese slave-raids, the creation of mission-villages,\
+ and disease. The Tupi intermarried with African slaves and Europeans alike\
+ and a great many Brazilian place names are derived from Tupi words. ")
+
+leaders = {
+ "name",        "sex"
+ "ティヴィリカ",    "Male"
+ "ピンデュブーク",   "Male"
+ "ジュガス",      "Male"
+ "コンヤン・ベベ", "Male"
+}
+
+flag         = "tupi"
+flag_alt     = "-"
+style   = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "taino", "tairona", "guarani"
+
+cities =
+ "Alagoa",
+ "Syara",
+ "Parayba",
+ "Parana",
+ "Piauy",
+ "Siri Jibe",
+ "Tukantin",
+ "Itapeva",
+ "Ka'aokai",
+ "Capuan",
+ "Icarai",
+ "Jandaiguaba",
+ "Paumirim",
+ "Pabussu",
+ "Tabapua",
+ "Igapora",
+ "Uubatyba",
+ "Iperoig",
+ "Itauna",
+ "Potengi",
+ "Sergipe",
+ "Yuasu",
+ "Ypanema",
+ "Itaanaga",
+ "Itakuakesetyba",
+ "Iaguaraiuna",
+ "Pakaembu",
+ "Paranayba",
+ "Paranamir?",
+ "Pindo",
+ "Pirai",
+ "?buarama",
+ "Tupinambarana",
+ "Uwattibi",
+ "Arari"

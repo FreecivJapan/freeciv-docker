@@ -1,0 +1,111 @@
+[nation_slavic]
+
+name=_("スラヴ")
+plural=_("?plural:スラヴ")
+rule_name=_("Slavic")
+rule_plural=_("?plural:Slavs")
+groups="Ancient", "European"
+legend=_("The Slavs are a modern linguistic group of several nations in\
+ Eastern Europe with common historical roots.\
+ The origin of the Slavs is not known precisely, therefore there are many\
+ hypotheses trying to explain them.\
+ Their sudden appearance in the history of civilized Europe may be related\
+ to the arrival of Iranian peoples and the expansion of the Huns.")
+
+leaders = {
+ "name",                "sex"
+ "ボズ",                 "Male"   ;ruler of Ants, probably Sarmatian,
+                                 ;murdered by the Goths, mentioned in
+                                 ;the chronicle of Jordanes
+ "ブロスラヴ・ゾーバジェイ",  "Male"   ;Polish king Boles?aw Chrobry
+ "ヴォルディスラヴ",          "Male"   ;W?odzis?aw, Lendian prince
+ "ラドゴースト",           "Male"   ;leader of Sclaveni, in greek sources
+                                 ;known as Ardagast
+ "スタスラヴ",          "Male"   ;Svyatoslav Veliky, grand prince of Kiev
+ "J・ドズイ",   "Male"   ;Jaroslav Mudry, grand prince of Kiev
+ "バグウプスラフ",           "Male"
+ "ケイチ",                "Male"   ;legendary founder of Kiev
+ "ポズナン",             "Male"   ;legendary founder of Poznan city
+                                 ;in Greater Poland
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Despotism",       _("公 %s"),       _("公 %s")
+ "Monarchy",        _("大公 %s"), _("大公 %s")
+ "Republic",        _("指導者 %s"),      _("?female:指導者 %s")
+ "Fundamentalism",  _("総主教 %s"),    _("総主教 %s")
+}
+
+flag="slavic"
+flag_alt="yugoslavia"
+style="Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="Ruthenian", "Russian", "Belarusian", "Ukrainian",
+ "Cossack", "Slovakian", "Moravian", "Czech", "Lendian", "Polish",
+ "Western Pomeranian", "Sorbian", "Slovenian", "Croatian", "Serbian",
+ "Bosnian-Herzegovinian", "Montenegrin", "Macedonian", "Bulgarian",
+ "Silesian", "Greater Polish", "Mazovian", "Yugoslav"
+ ; Kashubian Polabian Novgorodian
+civilwar_nations="Ruthenian", "Russian", "Belarusian", "Ukrainian",
+ "Cossack", "Slovakian", "Moravian", "Czech", "Lendian", "Polish",
+ "Western Pomeranian", "Sorbian", "Slovenian", "Croatian", "Serbian",
+ "Bosnian-Herzegovinian", "Montenegrin", "Macedonian", "Bulgarian",
+ "Silesian", "Greater Polish", "Mazovian" ; Kashubian Polabian Novgorodian
+
+cities=
+
+ "Pinĭskŭ",                       ;Pinsk
+ "Měnĭskŭ",                       ;Minsk
+ "Berstĭ",                        ;Brest
+ "Mogilĭvĭ",                      ;Mahilyow/Mogilev
+ "Gomĭlĭ",                        ;Homel
+ "Gordŭno",                       ;Grodno
+ "Baranoviki",                    ;Baranovichi
+ "Berza",                         ;Bereza
+ "Dorgyčinŭ",                     ;Drahichyn/Drogichin
+ "Kobrinŭ",                       ;Kobrin
+ "Mozyr",                         ;Mazyr
+ "Orgachĭv",                      ;Rogachev
+ "Kŭrma",                         ;Korma
+ "Črvenĭ",                        ;Czerwień
+ "Volynĭ",                        ;Wołyń
+ "Praga",
+ "Kruxĭvika",                     ;Kruszwica
+ "Vislika",                       ;Wiślica
+ "Stradomŭ",                      ;Stradom
+ "Velikŭje Luky",                 ;Wielkie Łuki
+ "Tŭmątarkan",                    ;Tmutarakań/Tamantarkhan
+ "Sarkel",                        ;Sarakel
+ "Arkona",
+ "Vologostĭ",                     ;Wołogoszcz/Wolgast
+ "Hrvatinja",                     ;Charwatynia
+ "Ljubitje",                      ;Libice
+ "Pętjukostely",                  ;Pecs
+ "Polckŭ",                        ;Płock, Połock (both names from one form)
+ "Soligorŭskŭ",                   ;Soligorsk
+ "Srby",                          ;Serby
+ "Drĭzdĭno",                      ;Dresden/Drježdźany/Drezno
+ "Budišinŭ",                      ;Bautzen
+ "Xŭtebądĭ",                      ;Cottbus
+ "Misĭno",                        ;Meissen
+ "Ljublin",                       ;Lublin
+ "Ljubljana",                     
+ "Belŭgordŭ",                     ;Belgrad
+ "Moskŭva",                       ;Moscow
+ "Kyjovĭ",                        ;Kiev
+ "Kovŭlĭ",                        ;Kovel
+ "Luckŭ",                         ;Luck
+ "Sermĭ",                         ;Śrem
+ "Serdika",                       ;Sredica
+ "Polŭtava",                      ;Poltava
+ "Gnězdĭno",                      ;Gniezno
+ "Gordisko",                      ;Grodzisko
+ "Sędomirĭ",                      ;Sandomierz
+ "Ląčika",                        ;Łęczyca
+ "Kalixĭ",                        ;Kalisz
+ "Galič"                          ;Halych

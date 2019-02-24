@@ -1,0 +1,84 @@
+[nation_ryukyuan]
+
+name=_("沖縄")
+plural=_("?plural:沖縄")
+rule_name=_("Ryukyuan")
+rule_plural=_("?plural:Ryukyuans")
+groups="Medieval", "Early Modern", "Asian"
+legend=_("The Ryukyu Kingdom (1372-1879) was the Land of Propriety, a\
+ peaceful maritime trading nation eventually invaded, occupied, and annexed\
+ by Japan.")
+
+leaders = {
+ "name",        "sex"
+ "明治",  "Male"
+ "大正",   "Male"
+ "昭和",      "Male"
+ "明仁",     "Male"
+ "稲嶺恵一 ",      "Male"
+ "ヨソイドン",	"Female"
+ "仲井眞弘多",      "Male"
+ "屋良朝苗",      "Male"
+}
+
+ruler_titles={
+ "government",    "male_title",           "female_title"
+ "Democracy",     _("沖縄県知事 %s"), _("?female:沖縄県知事%s")
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Monarchy",        _("沖縄県知事 %s"), _("沖縄県知事 %s")
+ "Despotism",       _("沖縄県知事 %s"), _("沖縄県知事 %s")
+ "Republic",        _("沖縄県知事 %s"), _("沖縄県知事 %s")
+ "Communism",       _("戦時沖縄県知事 %s"), _("戦時沖縄県知事 %s")
+ 
+}
+
+flag="ryukyu"
+flag_alt="-"
+style="Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="japanese", "taiwanese"
+
+cities=
+; Okinawan name used, Japanese in comment
+ "東京",
+ "首里",			; Shuri
+ "那覇",		; Naha
+ "沖縄",		; Okinawa
+ "閏間",
+ "浦添",		; Urasoe
+ "宜野湾",		; Ginowan
+ "名護",		; Nago
+ "糸満",		; Itoman
+ "豊見城",		; Tomigusuku
+ "石垣",		; Miyako
+ "宮古",		; Ishigaki
+ "南城",		; Nanjo
+ "読谷",		; Yomitan
+ "西原",		; Nishihara
+ "南風原",		; Haebaru
+ "北谷",
+ "中城",		; Nakagusuku
+ "与那原",		; Yonabaru
+ "本部",		; Motobu
+ "嘉手納",		; Kadena
+ "金武",		; Kin
+ "今帰仁",		; Nakijin
+ "恩納",		; Onna
+ "久米島 (ocean)",	; Kumejima
+ "伊江島 (ocean)",	; Ie
+ "宜野座",		; Ginoza
+ "竹富",		; Taketomi
+ "大宜味",		; Ogimi
+ "東 (ocean)",	; Higashi
+ "伊是名",		; Izena
+ "与那国島 (ocean)",		; Yonaguni
+ "伊平屋",		; Iheya
+ "多良間",
+ "粟国",
+ "座間味",
+ "渡嘉敷",		; Tokashiki
+ "北大東 (ocean)",; Kitadaito
+ "渡名喜"		; Tonaki

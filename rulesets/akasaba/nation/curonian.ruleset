@@ -1,0 +1,81 @@
+[nation_curonian] 
+
+name=_("クルシュー") 
+plural=_("?plural:クルシュー") 
+groups="Medieval", "Early Modern", "European" 
+legend=_("The Duchy of Courland and Semigallia was created as the result\
+ of the secularization of the Teutonic Order State. The dukes of Courland\
+ were vassals of Poland until its collapse. Duke Jakob Kettler led the\
+ failed attempts of colonization in South America and Africa.")
+
+leaders = {
+ "name",                        "sex"
+ "マーティン・リーフィッツ",               "Male"
+ "ヘンリー・グレーブス",            "Male"
+ "ヘルマン",           "Male"
+ "ゴッタルド・ケトラー",            "Male"
+ "フリードリヒ・ケトラー",           "Male"
+ "ヤコブ・ケトラー",               "Male"
+ "F・カシミール・ケトラー",   "Male"
+ "F・ヴィルヘルム・ケトラー",   "Male"
+ "フェルディナンド・ケトラー",           "Male"
+ "E・ヨハン・ビロン",          "Male"
+ "ペーター・フォン・ビロン",             "Male"
+ "ドロテア・フォン・ミーデム",          "Female"
+}
+
+ruler_titles = {
+ "government",     "male_title",          "female_title"
+ "Despotism",      _("指導者 %s"),        _("指導者 %s")
+ "Fundamentalism", _("司教 %s"),        _("優しい母 %s")
+ "Monarchy",       _("大公 %s"),          _("大公夫人 %s")
+}
+
+flag= "courland" 
+flag_alt = "-" 
+style = "European" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+conflicts_with="latvian", "indonesian" ;latter because of similar flag
+civilwar_nations="teutonic", "latvian"
+
+cities=
+  "Mitau",
+  "Goldingen",
+  "Windau",
+  "Pilten",
+  "Libau",
+  "Dunaburg",
+  "Jakobstadt",
+  "Grobin",
+  "Hasenpoth",
+  "Frauenburg",
+  "Paulshafen",
+  "Tuckum",
+  "Talsen",
+  "Ascheraden",
+  "Kokenhausen",
+  "Doblen",
+  "Illuxt",
+  "Bauske",
+  "Kirchholm",
+  "Alt-Autz",
+  "Stockmannshof",
+  "Berghof",
+  "Zabeln",
+  "Eckengrafen",
+  "Illuxt",
+  "Schrunden",
+  "Sasmacken",
+  "Kalnzeem",
+  "Friedrichstadt",
+  "Preekuln",
+  "Oknist",
+  "Stenden",
+  "Pilten",
+  "Paulshafen",
+  "Subbath",
+  "Durben"

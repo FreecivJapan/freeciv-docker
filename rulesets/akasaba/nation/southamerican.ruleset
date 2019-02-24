@@ -1,0 +1,44 @@
+[nation_southamerican]
+
+name=_("南米諸国連合")
+plural=_("?plural:南米諸国連合")
+rule_name=_("South American")
+rule_plural=_("?plural:South Americans")
+groups= "Imaginary"
+legend=_("The Union of South American Nations was formed in 2008, modeled\
+ after the European Union, but panamericanism has already existed since\
+ the 19th century.")
+
+leaders = {
+ "name",                                "sex"
+ "フランシスコ・デ・ミランダ",                "Male"
+ "V・R・デ・ラ・トレ",        "Male"
+ "チェ・ゲバラ",                         "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Despotism",       _("Caudillo %s"),      _("Caudilla %s")
+ "Republic",    _("書記長 %s"), _("?female:書記長 %s")
+ "Communism",       _("Comandante %s"),    _("Comandanta %s")
+ "Fundamentalism",  _("Archbishop %s"),    _("Madre %s")
+}
+
+flag="unasur"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with="argentine", "bolivian", "brazilian", "chilean", "colombian",
+ "ecuadorian", "guyanese", "paraguayan", "peruvian", "surinamese", "uruguayan", "venezuelan"
+civilwar_nations = "argentine", "bolivian", "brazilian", "chilean", "colombian",
+ "ecuadorian", "guyanese", "paraguayan", "peruvian", "surinamese", "uruguayan", "venezuelan"
+
+cities=
+; Sites of Uasur institutions
+ "Quito",
+ "Cochabamba",
+ "Caracas"
+; Subsequent cities fetched from city lists of member nations

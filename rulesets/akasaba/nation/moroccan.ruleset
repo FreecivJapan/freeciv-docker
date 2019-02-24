@@ -1,0 +1,114 @@
+[nation_moroccan]
+
+name=_("モロッコ王国")
+plural=_("?plural:モロッコ")
+groups="Medieval", "Early Modern", "Modern", "African"
+legend=_("Modern Morocco gained independence in 1956.  However, the area\
+ has been inhabited since at least 8000 BC.  In classical times the region\
+ was known as Mauretania.")
+
+leaders = {
+ "name",                        "sex"
+ "アクバ・イブン・ナーフィ",               "Male" ; A general of the Umayyads, d. 683.
+ "タリク・イブン・ジヤド",             "Male" ; An Amazigh general of the Umayyads,
+                                       ; d. 720.
+ "イドリス１世",                     "Male" ; Founder of the Idrisid Dynasty,
+                                       ; ruled 788 - 791.
+ "Yイブン・ターシュフィーン",       "Male" ; Reigned 1009-1106, founder of.
+                                       ; The Almoravide Amazigh Dynasty.
+ "イスマイルイブン・シャリフ",           "Male" ; Reigned 1672 - 1727.
+ "モハメド・ベン・アブダラ",       "Male" ; Reigned 1757 - 1790.
+ "ムハンマド５世",                  "Male" ; Reigned 1927 - 1953, 1957 - 1961.
+ "ハッサン２世",                   "Male" ; Reigned 1961 - 1999.
+ "ファティマ",           "Female" ; Prominent educator, d 880.
+ "ムハンマド6世",                   "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Despotism",       _("首長 %s"),          _("首長 %s")
+ "Monarchy",        _("フランス人総督 %s"),           _("フランス人総督 %s")
+ "Republic",        _("フランス人総督 %s"),          _("フランス人総督 %s")
+ "Communism",       _("戦時政府・国王陛下 %s"),          _("戦時政府・女王陛下 %s")
+ "Democracy",       _("首相・国王陛下 %s"), _("首相・女王陛下 %s")
+ "Anarchy",         _("臨時政権・国王陛下 %s"), _("臨時政権・女王陛下 %s")
+}
+
+flag="morocco"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="Amazigh", "Riffian", "Sahrawi"
+
+cities =
+ "Rabat",
+ "Casablanca", ; Dar al-Beida
+ "Fes",
+ "Marrakech",
+ "Beni Mellal",
+ "Agadir",
+ "Meknes",
+ "Oujda",
+ "Kenitra",
+ "Tetouan",
+ "Essaouira",
+ "Mohammadia",
+ "Ouarzazat",
+ "Safi",
+ "Sale",
+ "Tangier",
+ "Nador",
+ "Taourirt",
+ "Settat",
+ "Guelmim",
+ "Laayoun",
+ "Dakhla",
+ "Figuig", 
+ "Ifrane",
+ "Azrou",
+ "Imouzzar",
+ "Chichaoua",
+ "Chefchaouen",
+ "Assila",
+ "Taza",
+ "El Hajeb",
+ "Errachidia",
+ "Amizmiz",
+ "Tameslouht",
+ "Tamesna",
+ "Tan-Tan",
+ "Smara",
+ "Boujdour",
+ "Lagouira",
+ "Sidi Kacem",
+ "Ben Slimane",
+ "Khouribga",
+ "El Jadida",
+ "Moulay Yacoub",
+ "Bhalil",
+ "Boulemane",
+ "Assa",
+ "Zag",
+ "Berkane",
+ "Jerada",
+ "Temara",
+ "Khemisset",
+ "Tiznit",
+ "Zagora",
+ "Taroudant",
+ "Azilal",
+ "Chefchaouen",
+ "Larache",
+ "Tarfaya",
+ "Erfoud",
+ "Midelt",
+ "Al Hoceima",
+ "Tetouan",
+ "Ouarzazate",
+ "Er Rachidia",
+ "Saidia",
+ "Zagora",
+ "Walili" ; Volubilis

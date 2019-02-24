@@ -1,0 +1,81 @@
+[nation_scanian]
+
+name=_("スカニア")
+plural=_("?plural:スカニア")
+groups="Medieval", "European"
+legend=_("Scania is the southernmost region of Sweden. Historically one of\
+ many petty kingdoms in Viking age Scandinavia, it became in medieval times\
+ part of Denmark but was ceded to Sweden through the Treaty of Roskilde in\
+ 1658. Scania saw something of a national revival in the late 20th century\
+ with calls for greater autonomy within the Kingdom of Sweden.")
+
+leaders = {
+ "name",             "sex"
+ "スカルク",            "Male"
+ "I・フロデソン", "Male"
+}
+
+ruler_titles = {
+ "government",   "male_title",           "female_title"
+ "Despotism",    _("Earl %s"),           _("?female:Earl %s")
+}
+
+flag="scania"
+flag_alt="-"
+style="European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="Danish" ; Similar flag
+civilwar_nations="Swedish"
+
+; Cities in Skane unless otherwise noted
+; Danish/Scanian forms with Swedish in comment
+cities =
+ "Lindholm (ocean)", ; Lindholmen
+ "Luntertun",
+ "Va", ; Va
+ "Hven", ; Ven
+ "Tommerup", ; Tumathorp
+ "Villand",
+ "Asbo",
+ "Gonge", ; Goinge
+ "Gers", ; Gards
+ "Albo",
+ "Onso", ; Onsjo
+ "Frosta",
+ "Fers", ; Fars
+ "Ronnebjerg (mountains, hills)", ; Ronneberg
+ "Harriager", ; Harjager
+ "Oxie",
+ "Torna",
+ "Bara",
+ "Vemmenhoj (hills)", ; Vemmenhog
+ "Herrested", ; Herrestad
+ "Ingelsted", ; Ingelstad
+ "Jerrested", ; Jarrestad
+ "Ahus",
+ "Opager", ; Uppakra
+ "Dalby",
+
+; Greater Skaneland
+ "Beridsholm (ocean)",
+ "Falsterbo",
+ "Falkenberg (mountains, hills)", ; in Halland
+ "Simrishamn (ocean)",
+ "Solvesborg", ; Solvesborg, Blekinge
+ "Helsingborg",
+ "Visborg", ; in Gotland
+ "Halmstad", ; in Halland
+ "Hammershus", ; Bornholm, Denmark
+ "Lykkeby", ; Lycka, Blekinge
+ "Christiansstad", ; Kristianstad
+ "Landskrone", ; Landskrona
+ "Laholm (ocean)", ; in Halland
+ "Varberg (mountains, hills)", ; in Halland
+ "Lundegard",
+ "Nasbyholm (ocean)", ; Nasbyholm
+ "Malmohus", ; Malmohus
+ "Arnsborg" ; in Saaremaa, Estonia

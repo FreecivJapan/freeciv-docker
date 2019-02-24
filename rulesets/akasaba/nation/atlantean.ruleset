@@ -1,0 +1,104 @@
+[nation_atlantean]
+
+name=_("アトランティス")
+plural=_("?plural:アトランティス")
+rule_name=_("Atlantean")
+rule_plural=_("?plural:Atlantean")
+groups="Imaginary"
+legend=_("The mythical continent of Atlantis")
+
+leaders = {
+ "name",        "sex"
+ "ポセイドン",    "Male"
+ "イベノル",      "Male"
+ "クレイト",      "Female"
+ "プラトン",       "Male"
+ "ティマイオス",     "Male"
+ "カルム",      "Male"
+ "モンエセウス",     "Male"
+ "カリプソ",     "Female"
+}
+
+ruler_titles = {
+ "government",     "male_title",        "female_title"
+ "Anarchy",        _("Usurper %s"),     _("?female:Usurper %s")
+ "Monarchy",       _("High King %s"),   _("High Queen %s")
+}
+
+flag="atlantis"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="martian", "antarctican", "guanche"
+
+cities =
+ "Atlantipolis",
+ "Poseidonium",
+ "Antillia",
+ "Fortunata",
+ "Hyperborea",
+ "Brasil",
+ "Antarctica",
+ "Ultima Thule",
+ "Zarahemla",
+ "Finis Terrae",
+ "Bimini",
+ "Azora",
+ "California",
+ "Neptunia",
+ "Ophir",
+ "Thera",
+ "Madeira",
+ "Nazca",
+ "Brendania",
+ "Baltia",
+ "Heliopolis",
+ "Ymana",
+ "Scania",
+ "Lemuria",
+ "Bermuda",
+ "Bacalao",
+ "Aztla",
+ "Ferro",
+ "Santorini",
+ "Tartessus",
+ "Satanzes",
+ "Cumeni",
+ "Pepys",
+ "Norombega",
+ "Rocabarra",
+ "Royllo",
+ "Mu",
+ "Spartel",
+ "Pactacama",
+ "Aurora",
+ "Arcadia",
+ "Lehi Nephi",
+ "Albania",
+ "Tolla",
+ "Mayda",
+ "Buyan",
+ "Tlila Tlapalla",
+ "Australipolis",
+ "Estoti",
+ "Cassiterus",
+ "Cumora",
+ "Utopia",
+ "Mitla",
+ "Calpe",
+ "Symplegada",
+ "Aeaea",
+ "Argyre",
+ "Amazonia",
+ "Ogygia",
+ "Ani Anti",
+ "Xibalba",
+ "Tlaloca",
+ "Sais",
+ "Calypsia",
+ "Vilcabamba",
+ "Gaia",
+ "Malta"

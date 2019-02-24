@@ -1,0 +1,69 @@
+[nation_northkorean]
+
+name=_("朝鮮民主主義人民共和国")
+plural=_("?plural:朝鮮民主主義人民共和国")
+rule_name=_("North Korean")
+rule_plural=_("?plural:North Koreans")
+groups="Modern", "Asian"
+legend=_("In 1945 Korea was split by the Soviet Union and\
+ the United States into two states along the 38th parallel,\
+ forming North Korea and South Korea. 60 years on,\
+ North Korea remains a communist state of the Stalinist type.")
+
+leaders = {
+ "name",                "sex"
+ "金正日総書記",         "Male" ; Second leader of DPRK.
+ "金日成主席",         "Male" ; First leader of DPRK.
+ "金正恩第一書記",         "Male" ; Third leader of DPRK.
+ "金正男",         "Male"
+ "金正哲",         "Male"
+}
+flag="north_korea"
+flag_alt = "-"
+style = "Asian"
+
+ruler_titles = {
+ "government",      "male_title",               "female_title"
+ "Anarchy",         _("輝く朝鮮の英雄 %s"), _("輝く朝鮮の英雄 %s")
+ "Despotism",       _("伝説の指導者 %s"), _("伝説の指導者  %s")
+ "Monarchy",        _("父なる首領 %s"), _("母なる首領 %s")
+ "Republic",        _("親愛なる %s"), _("親愛なる %s")
+ "Democracy",       _("雄大なる愛の指導者 %s"), _("雄大なる愛の指導者 %s")
+ "Communism",       _("偉大なる領導者 %s"), _("?female:偉大なる領導者 %s")
+ "Fundamentalism", _("Dear Leader %s"),         _("?female:Dear Leader %s")
+}
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "South Korean", "Korean"
+
+; Sorted according to 2005 population
+cities =
+ "平壌",
+ "清津",
+ "南浦特別市",
+ "フンナム",
+ "開城",
+ "ウォンサン",
+ "チョンジン",
+ "新義州",
+ "ヘジュ",
+ "江界市",
+ "金策市",
+ "サリウォン",
+ "松林市",
+ "平城市",
+ "恵山",
+ "シンポ",
+ "タンチョン",
+ "羅先",
+ "アンジュ",
+ "会寧",
+ "德川市",
+ "熙川市",
+ "价川市",
+ "満浦",
+ "文川市",
+ "スンチョン"

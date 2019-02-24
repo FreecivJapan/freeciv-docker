@@ -1,0 +1,94 @@
+[nation_sammarinese]
+
+name = _("サンマリノ共和国")
+plural = _("?plural:サンマリノ")
+rule_name = _("Sammarinese")
+rule_plural = _("?plural:Sammarinese")
+groups="European", "Modern", "Early Modern", "Medieval"
+legend=_("San Marino is a tiny landlocked country on the Italian Peninsula.\
+ It is the oldest independent republic in the world. According to legend,\
+ it was founded by Saint Marinus in 301 AD.")
+
+leaders = {
+ "name",                        "sex"
+ "聖マリノ",                      "Male"
+ "ジャンジャコモ・アンジェリ",         "Male"
+ "アントニオ・オノフリ",              "Male"
+ "D・M・ベルゾピー",     "Male"
+ "ドメニコ・ファットーリ",            "Male"
+ "ジュリアーノ・ゴジー",               "Male"
+ "アンジェ",   "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Communism",       _("主席 %s"),       _("主席 %s")
+ "Democracy",       _("評議員 %s"),     _("?female:評議員 %s")
+ "Fundamentalism",  _("修道院長 %s"),          _("優しい母 %s")
+ "Monarchy",        _("公 %s"),           _("公 %s")
+ "Republic",        _("執政 %s"), _("?female:執政 %s")
+}
+
+flag = "san_marino"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Italian", "Papal"
+
+cities =
+ "San Marino",
+ "Acquaviva",
+ "Borgio Maggiore",
+ "Chiesanuova",
+ "Serravalle",
+ "Domagnano",
+ "Fiorentino",
+ "Faetano",
+ "Montegiardino",
+ "Dogana",
+ "Falciano",
+ "Fiorina",
+ "Piandivello",
+ "Spaccio Giannoni",
+ "Rovereta",
+ "Ventoso",
+ "Torraccia",
+ "Cerbaiola",
+ "Cailungo",
+ "Montalbo",
+ "Valgiurata",
+ "Ca Chiavello",
+ "Monte Pulito",
+ "Ca Ragni",
+ "Corianino",
+ "Molarini",
+ "Ponte Mellini",
+ "San Giovanni sotto le Penne",
+ "Crociale",
+ "Poggio Chiesanuova",
+ "Canepa",
+ "Castellaro",
+ "Capanne",
+ "Poggio Casalino",
+ "Valdragone",
+ "Santa Mustiola",
+ "Ca Rigo",
+ "Confine",
+ "Pianacci",
+ "Gualdicciolo",
+ "Casole",
+ "Calligaria",
+ "Ca Giannino",
+ "Cinque Vie",
+ "Ca Berlone",
+ "Murata",
+ "Caladino",
+ "Ca Melone",
+ "Galavotto",
+ "Lesignano",
+ "Teglio",
+ "La Serra"

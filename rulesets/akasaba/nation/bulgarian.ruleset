@@ -1,0 +1,124 @@
+[nation_bulgarian]
+
+name=_("ブルガリア共和国")
+plural=_("?plural:ブルガリア共和国")
+rule_name=_("Bulgarian")
+rule_plural=_("?plural:Bulgarians")
+groups="Modern", "Medieval", "European"
+legend=_("Bulgar leader Khan Asparukh led his people into the northern\
+ Balkans, and founded Bulgaria in 681. This was the first Slavic\
+ nation-state in history.")
+
+leaders = {
+ "name",                        "sex"
+ "アスパルフ",                    "Male"
+ "ボリス1世",                     "Male"
+ "ペタル2世",                      "Male"
+ "アセン1世",                        "Male"
+ "イヴァン・アセン5世",                       "Male"
+ "アレクサンダル1世",                      "Male"
+ "フェルディナンド1世",                      "Male"
+ "ボリス3世",                       "Male"
+ "シメオン2世",                       "Male"
+ "トドル・ジフコフ",                     "Male"
+ "Ｍ・コレフ・ネイチェフ",                  "Male"
+ "ニコライ・トドロフ",                      "Male"
+ "ロセン・プレヴネリーエフ",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",         "female_title"
+ "Despotism",       _("皇帝 %s"), _("女帝 %s")
+ "Monarchy",        _("Tsar %s"),         _("Tsaritsa %s")
+ "Republic",        _("国家評議会議長 %s"), _("国家評議会議長 %s")
+  "Democracy",       _("大統領 %s"), _("大統領 %s")
+  "Communism",       _("国家評議会議長 %s"), _("国家評議会議長 %s")
+ "Fundamentalism",  _("Patriarch %s"),    _("Matriarch %s")
+}
+
+flag="bulgaria"
+flag_alt = "-"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="romanian", "macedonian"
+
+cities =
+ "Sofia",
+ "Plovdiv",
+ "Varna",
+ "Burgas",
+ "Pleven",
+ "Stara Zagora",
+ "Rousse",
+ "Montana",
+ "Kjustendil",
+ "Pazardzhik",
+ "Razgrad",
+ "Haskovo",
+ "Smolian",
+ "Kyrzdhali",
+ "Dobrich",
+ "Krichim",
+ "Oriahovo",
+ "Veliko Tyrnovo",
+ "Vraca",
+ "Lovech",
+ "Biala",
+ "Elena",
+ "Dupnica",
+ "Bansko",
+ "Samokov",
+ "Kostenec",
+ "Asenovgrad",
+ "Vidin",
+ "Lom",
+ "Karlovo",
+ "Kazanlyk",
+ "Zlatica",
+ "Pirdop",
+ "Elin Pelin",
+ "Bankya",
+ "Krumovgrad",
+ "Pernik",
+ "Tryn",
+ "Breznik",
+ "Zemen",
+ "Petrich",
+ "Stanke Dimitrov",
+ "Chepelare",
+ "Dimitrovgrad",
+ "Slivnica",
+ "Dragoman",
+ "Sozopol",
+ "Ahtopol",
+ "Pomorie",
+ "Primorsko",
+ "Kavarna",
+ "Aitos",
+ "Karnobat",
+ "Shumen",
+ "Yambol",
+ "Kotel",
+ "Ugarchin",
+ "Svoge",
+ "Levski",
+ "Svilengrad",
+ "Malko Tyrnovo",
+ "Devnya",
+ "Godech",
+ "Teteven",
+ "Troyan",
+ "Yablanitza",
+ "Botevgrad",
+ "Kula",
+ "Nikopol",
+ "Silistra",
+ "Kostinbrod",
+ "Koprivshtica",
+ "Panagyurishte",
+ "Peryshtica",
+ "Ihtiman"

@@ -1,0 +1,105 @@
+[nation_hansa]
+
+name=_("ハンザ同盟")
+plural=_("?plural:ハンザ同盟")
+groups="Medieval", "Early Modern", "European"
+legend=_("The Hanseatic League was a powerful alliance of trading cities\
+ which existed from the 12th to the 19th century. Hanseatic cities were found\
+ in the North Sea and Baltic regions. Members of the league had their own\
+ law system and occasionally the Hansa went to war with rival powers.")
+
+leaders = {
+ "name",                "sex"
+ "ハインリック・デ・ロー",     "Male"
+ "ヨハン・リンク",        "Male"
+ "ゲオルク・ギース",         "Male"
+ "ポール・ベネケ",         "Male"
+ "アルブレヒト・ギース",      "Male"
+ "ヨハン・スメッド",        "Male"
+ "ハインリッヒ・ズーダーマン",  "Male"
+ "サイモン・バン・ユトレヒト",   "Male"
+ "ユルゲン・ウレンウェーバー",  "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",       "female_title"
+ "Republic",       _("市長 %s"), _("?female:市長 %s") 
+}
+
+flag="hansa"
+flag_alt = "germany"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="Knights Templar"
+civilwar_nations="Dutch", "Danish", "Westphalian", "Prussian", "Hanoverian",
+ "Polish", "Latvian", "Estonian", "Lithuanian", "Swedish", "Frisian",
+ "Schleswig-Holsteinian", "Brandenburgian"
+
+cities = ;names in Low German
+ "Lubeck",
+ "Bronswiek", ;Brunswick
+ "Meideborg", ;Magdeburg
+ "Danzig", ;Gda?sk
+ "Riga",
+ "Duorpm", ;Dortmund
+ "Hamborg", ;Hamburg
+ "Kiel",
+ "Wismer", ;Wismar
+ "Hameln",
+ "Derpt", ;Tartu
+ "Bremen",
+ "Rostock",
+ "Hannober", ;Hanover
+ "Revel", ;Tallinn
+ "Ossenbrugge", ;Osnabruck
+ "Deventer",
+ "Bargen", ;Bergen
+ "Stettin", ;Szczecin
+ "Goslar", ;Goslar
+ "Hilmessen", ;Hildesheim
+ "Breslau", ;Wroc?aw
+ "Grunnen", ;Groningen
+ "Stralsund",
+ "Halle",
+ "Nordhausen",
+ "Konigsbarg", ;Kaliningrad
+ "Monster", ;Munster
+ "Naugard", ;Veliky Novgorod
+ "Kampen",
+ "Elbing", ;Elbl?g
+ "Griepswohld", ;Greifswald
+ "Berlin",
+ "Frankfort", ;Frankfurt
+ "Queddelnborg", ;Quedlinburg
+ "Krakau", ;Krakow
+ "Visby",
+ "Windau", ;Ventspils
+ "Lumborg", ;Luneburg
+ "Aimbeck", ;Einbeck
+ "Helmstidde", ;Helmstedt
+ "Pleskau", ;Pskov
+ "Pernau", ;Parnu
+ "Wolmar", ;Valmiera
+ "Zwolle",
+ "Duisborg", ;Duisburg
+ "Saust", ;Soest
+ "Nimwaege", ;Nijmegen
+ "Riakelhausen", ;Recklinghausen
+ "Minden",
+ "Brannenborg", ;Brandenburg
+ "Erfurt",
+ "Muhlhausen",
+ "Thorn", ;Toru?
+ "Koln",
+ "Baukem", ;Bochum
+ "Hamm",
+ "Zutfent", ;Zutphen
+ "Brugge", ;Bruges
+ "Stood", ;Stade
+ "Memel", ;Klaipeda
+ "Chottingen", ;Gottingen
+ "Falsterbo"

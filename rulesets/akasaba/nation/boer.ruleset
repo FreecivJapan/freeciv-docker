@@ -1,0 +1,51 @@
+[nation_boer]
+
+name=_("ボーア")
+plural=_("?plural:ボーア")
+rule_name=_("Boer")
+rule_plural=_("?plural:Boers")
+groups= "African"
+legend=_("The Boers were Dutch settlers in British-controlled South\
+ Africa from 1650 AD.  They briefly controlled two republics, the\
+ Transvaal and the Orange Free State, before being defeated by the British\
+ in the war of 1899-1902.")
+
+leaders = {
+ "name",                "sex"
+ "ヤコブス プレトリウス",   "Male"
+ "ルイ・ ボタ",         "Male"
+ " ウェッセル プレトリウス",    "Male"
+ "パウルス ・クルーガー",       "Male"
+ "ピートレティーフ",         "Male"
+ "ヤン・スマッツ",           "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("オランダ総督 %s"), _("オランダ総督 %s")
+ "Monarchy",        _("オランダ総督 %s"), _("オランダ総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="boer"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "dutch"
+
+cities =
+  "Kaapstad", "Stellenbosch", "Swellendam", "Graaff-Reinet",
+  "Johannesburg", "Oudtshoorn", "Vereeniging",
+  "Bloemfontein", "Welkom", "Bethlehem", "Nieu-Bethesda",
+  "Pretoria", "De Aar", "Middelburg", "Springbok", "Uitenhage",
+  "Paarl", "Potchefstroom", "Leliesfontein", "Nelspruit",
+  "Pietermaritzburg", "Lydenburg", "Ermelo", "Klerksdorp",
+  "Vryburg", "Hotazel", "Postmasburg", "Pofadder", "Kenhardt",
+  "Vanrhynsdorp", "Bitterfontein", "Potgietersrus", "Waterkloof"

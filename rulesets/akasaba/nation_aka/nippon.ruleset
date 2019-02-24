@@ -1,0 +1,152 @@
+[nation_nippon]
+
+name=_("大日本皇国")
+plural=_("?plural:大日本皇国")
+rule_name=_("Nippon Koukoku")
+rule_plural=_("?plural:Nippon Koukoku")
+groups="Medieval", "Early Modern", "Modern", "Asian"
+legend=_("「日本」という国号の表記は、太陽崇拝と相俟った自国中心的発想に基づくもの、\
+また日本列島が中国大陸から見て東の果て、つまり「日の本（ひのもと）」に位置することに由来しているのではないかとされる。\
+憲法の表題に「日本国憲法」や「大日本帝国憲法」と示されているが、国号を「日本国」ないしは「日本」と直接かつ明確に規定した法令は存在しない。\
+他に法律などで正式な国名を規定していない国としてはスペインなどが挙げられる。\
+「日本」の表記が定着する以前、日本列島には、中国の王朝から「倭国・倭」と称される国家があった。\
+新羅本紀では「670年、倭国が国号を日本と改めた」とされている。「倭国」と「日本国」とはどのような関係かというと、\
+日本書紀によれば、「ヤマト」の勢力が中心に倭を統一した古代の日本では、漢字の流入と共に「倭」を借字として「ヤマト」と読むようになり、\
+やがて、その「ヤマト」に当てる漢字を「倭」から「日本」に変更し、当初はこれを「ヤマト」と読んだとする。\
+旧唐書は、「倭国」と「日本国」を併記した上で、日本国は倭国の別種とし、倭国が日本国に改名した可能性と元小国の日本が倭国を併合した可能性について記している。")
+
+leaders = {
+ "name",                "sex"
+ "天照大御神",     "female"
+ "神武",               "Male"
+ "明治",           "Male"
+ "昭和",            "Male"
+ "明仁",           "Male"
+ "持統",        "female"
+ "後醍醐",               "Male"
+ "天智",            "Male"
+ "正親町",           "Male"
+ "清和",            "Male"
+ "後白河",            "Male"
+ "桓武",            "Male"
+ "後亀山",            "Male"
+ "継体",            "Male"
+ "天武",            "Male"
+ "推古",        "female"
+ "後村上",            "Male"
+ "孝明",            "Male"
+ "聖武",            "Male"
+ "後三条",            "Male"
+ "宇多",            "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Anarchy",        _("臨時政権・天皇陛下 %s"),        _("臨時政権・天皇陛下 %s")
+ "Despotism",       _("大王 %s"), _("大王 %s")
+ "Monarchy",        _("天皇 %s"),        _("天皇 %s")
+ "Republic",        _("幕府・天皇 %s"),         _("幕府・天皇 %s")
+ "Democracy",       _("首相・天皇陛下 %s"), _("首相・天皇陛下 %s")
+ "Communism",       _("戦時政府・天皇陛下 %s"),  _("戦時政府・天皇陛下 %s")
+ "Fundamentalism",  _("天皇陛下 %s"), _("天皇陛下 %s")
+ "Aristocracy",  _("摂政・天皇 %s"), _("関白・天皇 %s")
+}
+
+flag="japan"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 20
+trait_expansionist_max = 160
+trait_expansionist_default = 80
+trait_trader_min       = 50
+trait_trader_max       = 200
+trait_trader_default = 100
+trait_aggressive_min   = 20
+trait_aggressive_max   = 150
+trait_aggressive_default = 80
+
+civilwar_nations="Nikkyou", "Nippon Teikoku", "Japanese"
+
+cities =
+  "帝都東京 (ocean)",
+  "逢坂 (ocean)",
+  "平安京 (!ocean)",
+  "平城京 (!ocean)",
+  "福岡 (ocean)",
+  "鹿児島 (ocean)",
+  "名古屋 (ocean)",
+  "札幌 (ocean)",
+  "埼玉 (ocean)",
+  "京都 (!ocean)",
+  "大和 (!ocean)",
+  "横濱 (ocean)",
+  "廣島 (ocean)",
+  "山口 (ocean)",
+  "静岡 (ocean)",
+  "新潟 (ocean)",
+  "松山 (ocean)",
+  "神奈川 (ocean)",
+  "堺 (ocean)",
+  "相模原 (!ocean)",
+  "八王子 (!ocean)",
+  "長野 (!ocean)",
+  "熊本 (ocean)",
+  "岡山 (ocean)",
+  "浜松 (ocean)",
+  "秋田 (ocean)",
+  "姫路 (ocean)",
+  "長崎 (ocean)",
+  "横須賀 (ocean)",
+  "大分 (ocean)",
+  "岐阜 (!ocean)",
+  "和歌山 (ocean)",
+  "磐城 (ocean)",
+  "旭川 (!ocean)",
+  "高松 (ocean)",
+  "高知 (ocean)",
+  "富山 (ocean)",
+  "那覇 (ocean)",
+  "青森 (ocean)",
+  "函館 (ocean)",
+  "盛岡 (!ocean)",
+  "小津",
+  "徳島 (ocean)",
+  "山形 (!ocean)",
+  "福井 (ocean)",
+  "松本 (!ocean)",
+  "甲府 (!ocean)",
+  "船橋i",
+  "宇都宮 (!ocean)",
+  "宮崎 (ocean)",
+  "福山",
+  "豊田 (!ocean)",
+  "所沢 (!ocean)",
+  "福島 (!ocean)",
+  "四日市 (ocean)",
+  "下関 (ocean)",
+  "小金井 (!ocean)",
+  "八戸 (ocean)",
+  "水戸 (!ocean)",
+  "佐世保 (ocean)",
+  "松江 (ocean)",
+  "川口 (!ocean)",
+  "釧路 (ocean)",
+  "調布 (!ocean)",
+  "布施(!ocean)",	; One of the old cities that now is "Higashi-Osaka"
+  "熊谷 (!ocean)",
+  "尼崎 (ocean)",
+  "市川",
+  "佐賀",
+  "町田 (!ocean)",
+  "鳥取 (ocean)",
+  "豊中 (!ocean)",
+  "藤沢 (ocean)",
+  "久留米 (!ocean)",
+  "豊橋 (ocean)",
+  "川越 (!ocean)",
+  "津 (ocean)"

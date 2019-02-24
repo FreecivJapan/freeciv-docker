@@ -1,0 +1,80 @@
+[nation_vietnamese]
+
+name=_("ベトナム社会主義共和国")
+plural=_("?plural:ベトナム")
+rule_name=_("Vietnamese")
+rule_plural=_("?plural:Vietnamese")
+groups="Medieval", "Early Modern", "Modern", "Asian"
+legend=_("The Vietnamese nation was founded in the first century CE by\
+ twin sisters who became the war leaders of a revolt against a Chinese\
+ military governor.")
+
+leaders = {
+ "name",                "sex"
+ "チュン・チャック",          "Female"
+ "チュン・ニ",           "Female"
+ "リ・ボン",              "Male"
+ "ジア・ロング",            "Male"
+ "バオ・ダイ",             "Male"
+ "ホー・チ・ミン",         "Male"
+ "チュオン・タン・サン",         "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("国王 %s"), _("女王 %s")
+ "Monarchy",        _("Emperor %s"),   _("Empress %s")
+  "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("国家主席 %s"), _("国家主席 %s")
+}
+
+flag="vietnam"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "south vietnamese", "cham"
+
+cities =
+  "Hà Nội",
+  "Thành phố Hồ Chí Minh",	; alt. "Sài Gòn"
+  "Hải Phòng",
+  "Đà Nẵng",
+  "Biên Hòa",
+  "Huế",
+  "Nha Trang",
+  "Cần Thơ",
+  "Rạch Giá",
+  "Qui Nhơn",
+  "Vũng Tàu",
+  "Nam Định",
+  "Phan Thiết",
+  "Long Xuyên",
+  "Hạ Long",			; alt. "Hong Gai"
+  "Buôn Mê Thuột",
+  "Cam Ranh",
+  "Cẩm Phả",
+  "Thái Nguyên",
+  "Đà Lạt",
+  "Mỹ Tho",
+  "Sóc Trăng",
+  "Pleiku",
+  "Thanh Hóa",
+  "Cà Mau",
+  "Bạc Liêu",
+  "Vinh",
+  "Hòa Bình",
+  "Vĩnh Long",
+  "Kontum",
+  "An Lộc",
+  "Bến Tre",
+  "Cao Bằng",
+  "Lạng Sơn",
+  "Điện Biên Phủ",
+  "Hội An",
+  "Quảng Ngãi",
+  "Tuyên Quang"

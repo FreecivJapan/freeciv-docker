@@ -1,0 +1,59 @@
+[nation_abyssinian]
+
+name=_("エチオピア帝国")
+plural=_("?plural:エチオピア帝国")
+rule_name=_("Abyssinian")
+rule_plural=_("?plural:Abyssinians")
+groups="Ancient", "Medieval", "Early Modern", "African"
+legend=_("Abyssinians - also known as Habesha or Ethiopians - are a\
+ Semitic people who ruled historical states in the Horn of Africa, the\
+ most prominent being the Aksumite Kingdom and the Ethiopian Empire.")
+
+leaders = {
+ "name",                "sex"
+ "ソロモン1世",               "Male"
+ "イクノ・アムラク",        "Male"
+ "テオドロス2世",            "Male"
+ "ヨハンネス2世",               "Male"
+ "メネリク2世",            "Male"
+ "スセニョス1世",          "Male"
+ "ハイレ・セラシエ1世",      "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",       "female_title"
+ "Monarchy",        _("Emperor %s"),    _("Empress %s")
+ "Fundamentalism",  _("Patriarch %s"),  _("Matriarch %s")
+}
+
+flag="ethiopia_old"
+flag_alt="-"
+style="Babylonian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="Ethiopian", "Eritrean", "Nubian"
+conflicts_with="Ethiopian", "Eritrean"
+
+cities =
+ "Yeha",
+ "Aksum",
+ "Wukro",
+ "Matara",
+ "Adulis",
+ "Qohaito",
+ "Hawulti",
+ "Mendefera",
+ "Zula",
+ "Dungur",
+ "Lalibela",
+ "Gondar",
+ "Debarwa",
+ "Mek'ele",
+ "Adigrat",
+ "Gefegef",
+ "Tiya",
+ "Debre Berhan",
+ "Magdala"

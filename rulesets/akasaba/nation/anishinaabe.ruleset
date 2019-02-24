@@ -1,0 +1,83 @@
+[nation_anishinaabe]
+
+name=_("アニシナーベ")
+plural=_("?plural:アニシナーベ")
+rule_name=_("Anishinaabe")
+rule_plural=_("?plural:Anishinaabeg")
+groups="American", "Early Modern"
+legend=_("The Anishinaabeg are a group of closely related Native American\
+ tribes in the North American Great Lakes region, including the Ottawa,\
+ Ojibwe, Algonkin and Potawatomi. They speak Algonquian languages.\
+ Together they are one of the most numerous indigenous peoples of North\
+ America.")
+
+leaders = {
+ "name",                "sex"
+ "ポンティアック",             "Male"
+ "イグシャワ",            "Male"
+ "ニングイーゴン",          "Male"
+ "シュップ・セワナ",        "Male"
+ "シャーウェイ・ジー",  "Female"
+ "ギチウェスキン",      "Male"
+ "オザウインドウイブ",          "Male"
+ "チペワチーフ",        "Male"
+ "レナード・ペルティエ",     "Male"
+ 
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Monarchy",        _("族長 %s"),     _("?female:族長 %s")
+ "Democracy",       _("首長 %s"), _("?female:首長 %s")
+ "Despotism",       _("族長 %s"), _("族長 %s")
+}
+
+flag="anishinaabe"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "cree", "quebecois"
+
+cities =
+ "Gnoozhekaaning",
+ "Wemitigoozhiiwitigwaaning",
+ "Zhiibaahaasing",
+ "Aazhoomog",
+ "Bikoganaagan",
+ "Agaming",
+ "Gibaakwa'iganing",
+ "Mooningwanekaaning",
+ "Namekaawa'iganing",
+ "Nagaajiwanaang",
+ "Gaa-zhiigwanaabikokaag",
+ "Neyaashiing",
+ "Chi-minising",
+ "Gaa-mitaawangaagamaag",
+ "Manoominikaan-zaaga'iganiing",
+ "Minisinaakwaang",
+ "Asinikaaning",
+ "Ne-zhingwaakokaag",
+ "Gichi-oodenaang",
+ "Oshki-oodenaang",
+ "Wiikwegamaang",
+ "Zaagawaamikaag-wiidwedong",
+ "Mooz-eskani-zaaga'iganiing",
+ "Onigamiinsing",
+ "Namaygoosisagagun",
+ "Minjikaning",
+ "Shapawe",
+ "Chi-achaabaaning",
+ "Gaa-mitaawangaagamaag",
+ "Siipiising",
+ "Makadewaagamijiwanong",
+ "Iskatewi-zaaga'iganiing",
+ "Azaadiwi-ziibi",
+ "Asabiinyashkosiwagong",
+ "Gitigaan-ziibi",
+ "Bizhiw-zaaga'iganiing",
+ "Gasabaanakaa",
+ "Gichi-namegosib ininiwag",
+ "Misi-zhaaga'iganiing"

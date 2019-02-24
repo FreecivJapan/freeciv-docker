@@ -1,0 +1,133 @@
+[nation_capeverdean]
+
+name = _("カーボベルデ共和国")
+plural = _("?plural:カーボベルデ共和国")
+rule_name = _("Cape Verdean")
+rule_plural = _("?plural:Cape Verdean")
+groups="African", "Modern"
+legend=_("Cape Verde is an archipelago off the coast of West Africa.\
+ Before the islands were settled by the Portuguese in the 15th century\
+ they were probably uninhabited. Cape Verde subsequently became a major\
+ center for the Atlantic slave trade. The islands declared independence\
+ from Portugal in 1975. The Cape Verdean population is of mixed European\
+ and African descent.")
+
+leaders = {
+ "name",              "sex"
+ "J・C・フォンセカ",    "Male"
+ "アリスティデス・ペレイラ",   "Male"
+ "ペドロ・ピレス",   "Male"
+ "A・M・モンテイロ",    "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",    "female_title"
+ "Despotism",       _("総督 %s"), _("?female:総督 %s")
+ "Republic",        _("大統領 %s"),  _("?female:大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Fundamentalism",  _("Padre %s"),   _("Madre %s")
+}
+
+flag = "cape_verde"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="bissau-guinean"
+
+cities =
+ "Praia",
+ "Cidade Velha",
+ "Mindelo",
+ "Assomada",
+ "Porto Novo",
+ "Sao Filipe",
+ "Pedra Badejo",
+ "Tarrafal",
+ "Espargos",
+ "Ribeira Brava",
+ "Calheta de Sao Miguel",
+ "Vila do Maio",
+ "Ribeira Grande",
+ "Sal Rei",
+ "Sao Domingos",
+ "Vila das Pombas",
+ "Nova Sintra",
+ "Mosteiros",
+ "Cova Figueira",
+ "Joao Teves",
+ "Picos",
+ "Tarrafal de Sao Nicolau",
+ "Ponta do Sol",
+ "Santa Maria",
+ "Morro Bras",
+ "Salamansa",
+ "Preguica",
+ "Agua do Gato",
+ "Bangaeira",
+ "Salto",
+ "Janela",
+ "Hortela",
+ "Campo",
+ "Patim",
+ "Madeiral",
+ "Queimada",
+ "Castilhano",
+ "Cabecalinho",
+ "Sao Lourenco",
+ "Juncalinho",
+ "Terra Boa",
+ "Figueira Pavao",
+ "Sao Pedro",
+ "Achada Banana",
+ "Murdeira",
+ "Atalaia",
+ "Lazareto",
+ "Faja de Cima",
+ "Eito",
+ "Coxo",
+ "Santo Antonio",
+ "Topim",
+ "Carvoeiro",
+ "Fajazinha",
+ "Fonsaco",
+ "Lomba de Santo",
+ "Mato Ingles",
+ "Baixo Rocha",
+ "Calejao",
+ "Rui Vaz",
+ "Ribeira da Cruz",
+ "Praia Branca",
+ "Estancia Roque",
+ "Eito de Baixo",
+ "Lomba",
+ "Galinheiros",
+ "Furna",
+ "Cachaco",
+ "Curral Grande",
+ "Faja de Baixo",
+ "Estancia de Bras",
+ "Sao Francisco",
+ "Curral da Russa",
+ "Seixal",
+ "Sinagoga",
+ "Tarrafal de Monte Trigo",
+ "Pedra de Lume",
+ "Fonte Aleixo",
+ "Ponta Verde",
+ "Ribeira Ilheu",
+ "Carrical",
+ "Achada Grande",
+ "Calhau",
+ "Baia das Gatas",
+ "Belem",
+ "Cha das Caldeiras",
+ "Covada",
+ "Jalunga",
+ "Fontainhas",
+ "Palmeira",
+ "Coculi",
+ "Vicente Dias"

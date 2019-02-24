@@ -1,0 +1,98 @@
+[nation_sicilian]
+
+name=_("シチリア")
+plural=_("?plural:シチリア")
+rule_name=_("Sicilian")
+rule_plural=_("?plural:Sicilians")
+groups="Medieval", "Early Modern", "European"
+legend=_("Sicily is the largest island of Italy. It has been ruled by\
+ Greeks, Carthaginians, Romans, Vandals, Ostrogoths, Byzantines and\
+ Arabs. In the 11th century the Normans founded the Kingdom of Sicily\
+ which gradually became one of Italy's more powerful states. In 1816 it\
+ was merged with Naples into the Kingdom of the Two Sicilies which was\
+ united with Italy in 1861.")
+
+leaders = {
+ "name",                        "sex"
+ "ルッジェーロ２世",                  "Male"
+ "ルッジェーロ３世",                 "Male"
+ "G・ディ・アンティオキア",        "Male"
+ "カステンザ",                    "Female"
+ "フェデリーコ1世",                  "Male"
+ "ペトル３世",         "Male"
+ "フェルディナンド2世", "Male"
+ "S・ジェリーナ",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("伯爵 %s"),     _("伯爵 %s")
+ "Fundamentalism",  _("修道士 %s"),     _("優しい母 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+}
+
+flag="sicily"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+
+init_units=""
+civilwar_nations = "neapolitan", "maltese"
+
+cities =
+ "Palermu",
+ "Catania",
+ "Missina",
+ "Sarausa",
+ "Marsala",
+ "Gela",
+ "Rausa",
+ "Trapani",
+ "Nissa",
+ "Vittoria",
+ "Girgenti",
+ "Jaciriali",
+ "Muorica",
+ "Mazzara",
+ "Patenno",
+ "Mustarjancu",
+ "Arcamu",
+ "Sciacca",
+ "Barcillona",
+ "Caltaggiruni",
+ "Licata",
+ "Baaria",
+ "Murriali",
+ "Adranu",
+ "Canniati",
+ "Favara",
+ "Austa",
+ "Carini",
+ "Milazzu",
+ "Avula",
+ "Partinicu",
+ "Castedduvitranu",
+ "Enna",
+ "Erici",
+ "Caniatti",
+ "Jaci Catina",
+ "Commisu",
+ "Mascalucia",
+ "Gravina",
+ "Musulumeli",
+ "Parma di Muntichiaru",
+ "Giarri",
+ "Termini",
+ "Scicli",
+ "Niscemi",
+ "Belpassu",
+ "Biancavilla",
+ "Nuotu",
+ "Lintini",
+ "San Cataldu",
+ "Trimmisteri",
+ "Lipari (ocean)",
+ "Pantiddiria (ocean)",
+ "Lampidusa (ocean)"

@@ -1,0 +1,84 @@
+[nation_nigerien]
+
+name = _("ニジェール共和国")
+plural = _("?plural:ニジェール共和国")
+groups="African", "Modern"
+legend=_("Niger is a country in the Sahel region of West Africa, named\
+ after the Niger river. It achieved independence from France in 1960.\
+ Since then it has been ruled intermittently by civil and military\
+ governments. One of the poorest countries in the world, Niger ranks rock\
+ bottom in international rankings such as the Human Development Index.\
+ Niger has both the highest fertility rate and infant mortality rate in\
+ the world. Niger should not be confused with Nigeria.")
+
+leaders = {
+ "name",                        "sex"
+ "アマニ・ディオリ",                "Male"
+ "アリー・セブ",              "Male"
+ "サル・ジボ",                  "Male"
+ "マハマドゥ・イスフ",     "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Despotism",       _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Monarchy",        _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag = "niger"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="indian" ;similar flag
+civilwar_nations="malian", "kanem-bornu", "songhai"
+
+cities =
+ "Niamey",
+ "Zinder",
+ "Maradi",
+ "Agadez",
+ "Tahoua",
+ "Tillabery",
+ "Dosso",
+ "Diffa",
+ "Arlit",
+ "Birni N'Konni",
+ "Gaya",
+ "Tessaoua",
+ "Dogondoutchi",
+ "Madaoua",
+ "Mayahi",
+ "Tera",
+ "Mirrah",
+ "Magaria",
+ "N'Guigmi",
+ "Dakoro",
+ "Matameye",
+ "Illela",
+ "Goure",
+ "Tanout",
+ "Aguie",
+ "Abalak",
+ "Boboye",
+ "Filingue",
+ "Kollo",
+ "Guidan Roumdji",
+ "Tchorzerine",
+ "Say",
+ "Maine-Soroa",
+ "Tchitabaraden",
+ "Madarounfa",
+ "Keita",
+ "Bouza",
+ "Ouallam",
+ "Loga",
+ "Bagountara"
+

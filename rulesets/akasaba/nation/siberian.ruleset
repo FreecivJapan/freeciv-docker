@@ -1,0 +1,102 @@
+[nation_siberian] 
+
+name=_("シベリア") 
+plural=_("?plural:シベリア")
+rule_name=_("Siberian") 
+rule_plural=_("?plural:Siberians") 
+groups="Asian" 
+legend=_("Siberia is a historical and geographical region of Russia and\
+ the USSR. During the reign of the czars separatist sentiments prevailed\
+ amongst some Slavic colonists. In 1918 a Siberian Republic was proclaimed\
+ but it was annexed by the USSR after only a few months.")
+
+leaders = {
+ "name",                "sex"
+ "シチャポフ",   "Male"
+ "グリゴリー・ポターニン",     "Male"
+ "ニコライ・ヤドリンツェフ",  "Male"
+ "A・コルチャーク",   "Male"
+ "ペペリイェフ",   "Male"
+}
+
+ruler_titles = {
+ "government",          "male_title",      "female_title"
+ "Despotism",           _("ロシア人総督 %s"),   _("?female:ロシア人総督 %s")
+ "Fundamentalism",      _("総主教 %s"), _("総主教 %s")
+ "Monarchy",            _("公 %s"),      _("公 %s") 
+ "Republic",            _("知事 %s"),  _("?female:知事 %s")
+} 
+
+flag= "siberia" 
+flag_alt = "-" 
+style = "European" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+conflicts_with="sarmatian", "gokturk" ;saka
+civilwar_nations="russian", "tatar", "tuvan", "mongol", "yakut"
+
+cities=
+ "Omsk",
+ "Krasnoyarsk",
+ "Novosibirsk",
+ "Tomsk",
+ "Irkutsk",
+ "Vladivostok",
+ "Yakutsk",
+ "Barnaul",
+ "Chelyabinsk",
+ "Tobolsk",
+ "Kurgan",
+ "Tyumen",
+ "Surgut",
+ "Salekhard",
+ "Severobaykalsk",
+ "Ulan-Ude",
+ "Khanty-Mansiysk",
+ "Novokuznetsk",
+ "Chita",
+ "Tayshet",
+ "Bratsk",
+ "Abakan",
+ "Kemerovo",
+ "Petropavlovsk-Kamchatsky",
+ "Kyzyl",
+ "Khabarovsk",
+ "Gorno-Altaysk",
+ "Anadyr",
+ "Khabarovsk",
+ "Norilsk",
+ "Birobidzhan",
+ "Magadan",
+ "Tynda",
+ "Neryungri",
+ "Yuzhno-Sakhalinsk",
+ "Aldan",
+ "Blagoveshchensk",
+ "Okhotsk (ocean)",
+ "Lensk",
+ "Dudinka",
+ "Khatanga",
+ "Nadym",
+ "Tiksi",
+ "Nordvik",
+ "Verkhoyansk (glacier, tundra)",
+ "Komsomolsk-na-Amure (river)",
+ "Biysk",
+ "Angarsk",
+ "Blagoveshchensk",
+ "Ussuriysk",
+ "Oymyakon (glacier, tundra)",
+ "Dikson",
+ "Kiselevsk",
+ "Nizhnevartovsk",
+ "Achinsk",
+ "Nakhodka",
+ "Kansk",
+ "Rubtsovsk",
+ "Provideniya"
+
+

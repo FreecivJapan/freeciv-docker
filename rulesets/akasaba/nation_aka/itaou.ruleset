@@ -1,0 +1,143 @@
+[nation_itaou]
+
+name = _("イタリア王国")
+plural = _("?plural:イタリア王国")
+rule_name = _("Regno  dItalia")
+rule_plural = _("?plural:Regno dItalia")
+groups="Modern", "European"
+legend=_("1861年成立1946年に国民投票により共和政に移行")
+
+leaders = {
+ "name",                        "sex"
+ "V・エマヌエーレ2世",            "Male"
+ "ウンベルト1世",             "Male"
+ "V・エマヌエーレ3世",     "Male"
+ "ウンベルト2世",              "Male"
+ "カミッロ・カヴール",           "Male"
+ "ベニート・ムッソリーニ",            "Male"
+ "アルチデ・デ・ガスペリ",           "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Anarchy",         _("臨時政権 %s"),   _("臨時政権 %s")
+ "Despotism",       _("国王 %s"),            _("?female:女王 %s")
+ "Monarchy",        _("国王 %s"),     _("女王 %s")
+ "Republic",        _("議会・国王陛下 %s"),        _("?female:議会・女王陛下 %s")
+ "Democracy",       _("首相・国王陛下 %s"),    _("首相・女王陛下 %s")
+ "Communism",       _("首相 %s"),    _("?female:首相 %s")
+ "Fundamentalism",  _("Archbishop %s"),      _("?female:Archbishop %s")
+}
+
+flag = "itaou"
+flag_alt = "italy"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 10
+trait_expansionist_max = 150
+trait_expansionist_default = 80
+trait_trader_min       = 60
+trait_trader_max       = 200
+trait_trader_default = 140
+trait_aggressive_min   = 10
+trait_aggressive_max   = 150
+trait_aggressive_default = 80
+
+conflicts_with="Florentine", "Friulian", "Genoese", "Milanese", "Neapolitan", 
+"Piedmontese", "Sardinian"
+civilwar_nations="Italian", "Papal"
+
+cities =
+  "Roma",
+  "Milano",
+  "Napoli",
+  "Torino",
+  "Palermo",
+  "Genova",
+  "Bologna",
+  "Firenze",
+  "Bari",
+  "Catania",
+  "Venezia",
+  "Verona",
+  "Messina",
+  "Padova",
+  "Trieste",
+  "Taranto",
+  "Brescia",
+  "Prato",
+  "Reggio Calabria",
+  "Parma",
+  "Modena",
+  "Reggio Emilia",
+  "Perugia",
+  "Livorno",
+  "Ravenna",
+  "Cagliari",
+  "Foggia",
+  "Rimini",
+  "Salerno",
+  "Ferrara",
+  "Sassari",
+  "Siracusa",
+  "Pescara",
+  "Monza",
+  "Latina",
+  "Bergamo",
+  "Forlì",
+  "Vicenza",
+  "Trento",
+  "Terni",
+  "Novara",
+  "Bolzano",
+  "Piacenza",
+  "Ancona",
+  "Andria",
+  "Arezzo",
+  "Udine",
+  "La Spezia",
+  "Lecce",
+  "Pesaro",
+  "Alessandria",
+  "Barletta",
+  "Catanzaro",
+  "Pistoia",
+  "Brindisi",
+  "Pisa",
+  "Como",
+  "Lucca",
+  "Treviso",
+  "Varese",
+  "Grosseto",
+  "Caserta",
+  "Asti",
+  "Ragusa",
+  "L'Aquila",
+  "Cremona",
+  "Pavia",
+  "Massa",
+  "Trapani",
+  "Cosenza",
+  "Potenza",
+  "Viterbo",
+  "Savona",
+  "Benevento",
+  "Crotone",
+  "Matera",
+  "Caltanissetta",
+  "Agrigento",
+  "Avellino",
+  "Cuneo",
+  "Teramo",
+  "Olbia",
+  "Siena",
+  "Chieti",
+  "Trani",
+  "Rovigo",
+  "Pordenone",
+  "Ascoli Piceno",
+  "Campobasso"

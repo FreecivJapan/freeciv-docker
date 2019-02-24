@@ -1,0 +1,67 @@
+[nation_swazi]
+
+name=_("スワジランド王国")
+plural=_("?plural:スワジランド王国")
+groups="Modern", "African"
+legend=_("The Swazi are a Bantu people of southern Africa. Under the\
+ leadership of Mswati II (1820 - 1868), the Swazis expanded their territory\
+ and stabilized the southern frontier with the Zulus.")
+
+leaders = {
+ "name",        "sex"
+ "ドラニミ1世",   "Male"
+ "ヌグワネ3世",   "Male"
+ "ムスワジ2世",   "Male"
+ "ムスワティ3世",  "Male"
+ "ヌトンビ",      "Female"
+}
+
+ruler_titles = {
+ "government",     "male_title",            "female_title"
+ "Republic",       _("イギリス人弁務官 %s"),       _("イギリス人弁務官 %s")
+ "Despotism",       _("国王 %s"), _("女王 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Democracy",      _("国王陛下 %s"), _("?female:国王陛下 %s")
+ "Communism",       _("国王陛下 %s"), _("女王陛下 %s")
+}
+
+flag="swaziland"
+flag_alt = "rwanda"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="zulu", "kenyan"
+
+; The two capitals at top and the rest in order of population as of 2005
+; http://de.wikipedia.org/wiki/Liste_der_Stadte_in_Swasiland
+cities =
+ "Lobamba",
+ "Mbabane",
+ "Manzini",
+ "Big Bend",
+ "Malkerns",
+ "Nhlangano",
+ "Mhlume",
+ "Hluti",
+ "Simunye",
+ "Siteki",
+ "Pigg's Peak",
+ "Ngomane",
+ "Vuvulane",
+ "Mpaka",
+ "Kwaluseni",
+ "Bhunya",
+ "Mhlambanyatsi",
+ "Mondi",
+ "Tabankulu",
+ "Hlatikulu",
+ "Bulembu",
+ "Kubuta",
+ "Tjaneni",
+ "Sidvokodvo",
+ "Lavumisa",
+ "Ngwenya",
+ "Nsoko",
+ "Mankayane"

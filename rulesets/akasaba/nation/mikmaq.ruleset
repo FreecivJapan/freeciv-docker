@@ -1,0 +1,55 @@
+[nation_mikmaq] 
+
+name=_("ミクマク族") 
+plural=_("?plural:ミクマク") 
+groups="American" 
+legend=_("Today numbering roughly 25,000, the Mi'kmaq inhabited (and\
+ largely continue to) Nova Scotia. The first Mi'kmaq to convert to\
+ Christianity did so in 1610 under French suzerainty. French\
+ rule gave way to English and English to Canadian.")
+
+leaders = {
+ "name",                "sex"
+ "メンブータウ",           "Male"
+ "プランスー",      "Male"
+ "カウ",         "Male"
+ "テニ",           "Male"
+}
+
+flag = "mikmaq" 
+flag_alt = "-" 
+style = "Celtic" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+civilwar_nations="cree", "iroquois", "inuit" 
+
+cities = 
+"Miawpukwek", 
+"Epekwitk", 
+"Malikiaq", 
+"Ulustuk", 
+"L’setkuk", 
+"Puktusk", 
+"Eskinuopitijk", 
+"Waqmitkuk", 
+"Potlotek", 
+"Natuaqanek", 
+"Keskapekiaq", 
+"Puksaqteknekatik", 
+"Oqpikanjik", 
+"Lsipuktuk", 
+"Eskisoqnik", 
+"Amlamkuk Kwesawek", 
+"Kespek", 
+"Pesikitk", 
+"Listikujk", 
+"Maupeltuk", 
+"Wekopekwitk", 
+"Kampalijek", 
+"Kekwapskuk", 
+"Paqtnkek", 
+"Sipeknikatik", 
+"Wekoqmaq", 
+"Metepnakiaq"

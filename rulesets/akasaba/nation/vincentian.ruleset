@@ -1,0 +1,84 @@
+[nation_vincentian]
+
+name=_("セントビンセント・G諸島")
+plural=_("?plural:セントビンセント・G")
+groups="American", "Modern"
+legend=_("Saint Vincent and the Grenadines were amongst the last\
+ Caribbean islands to be colonized, as local Carib Indians intermarried\
+ with runaway slaves and fought off European colonizers. In the 18th\
+ century the islands were contested by the French and British. In 1783\
+ the French relinquished their claims. Saint Vincent and the Grenadines\
+ became independent from Britain in 1979 and are currently a Commonwealth\
+ realm.")
+
+leaders = {
+ "name",                        "sex"
+ "ジョセフ・チャトヤー",             "Male"
+ "E.T. ジョシュア",                 "Male"
+ "ミルトン・カトー",                 "Male"
+ "ジェームズ・ミッチェル",   "Male"
+ "ラルフ・ゴンサルベス",             "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Democracy",      _("首相 %s"), _("?female:首相 %s")
+ "Fundamentalism", _("司教 %s"),         _("?female:司教 %s")
+ "Despotism",       _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Republic",        _("首相 %s"), _("首相 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ 
+}
+
+flag="svg"
+flag_alt = "-"
+style = "Tropical"
+
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "taino", "grenadian"
+
+cities =
+ "Kingstown",
+ "Georgetown",
+ "Port Elizabeth (ocean)",
+ "Layou",
+ "Chateaubelair",
+ "Barrouaillie",
+ "Byera Hill",
+ "Biabou",
+ "Calliaqua",
+ "Hamilton",
+ "Dovers",
+ "Cumberland",
+ "Paul Over",
+ "Petit Bordel",
+ "Prospect",
+ "Troumaca",
+ "Sharps",
+ "Rose Hall",
+ "Colonarie",
+ "Evesham",
+ "Rose Bank",
+ "Stubbs",
+ "Ashton",
+ "Clare Valley",
+ "Owia",
+ "Fancy",
+ "Questelles",
+ "Diamond Village",
+ "Spring Village",
+ "Lauders",
+ "Vermont",
+ "Mesopotamia",
+ "Greiggs",
+ "Sion Hill",
+ "Richland Park",
+ "Lodge",
+ "Belmont",
+ "Clifton",
+ "Peruvian Vale",
+ "Villa",
+ "Arnos Vale"

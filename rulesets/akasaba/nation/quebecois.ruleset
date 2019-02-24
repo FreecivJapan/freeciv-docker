@@ -1,0 +1,45 @@
+[nation_quebecois]
+
+name=_("ケベック")
+plural=_("?plural:ケベック")
+rule_name=_("Quebecois")
+rule_plural=_("?plural:Quebecois")
+groups= "American"
+legend=_("Quebec is the largest province of Canada, housing the majority of\
+ the Francophone population of America.")
+
+leaders = {
+ "name",                        "sex"
+ "S・ド・シャンプラン",         "Male"
+ "ルイ・ド・フロンテナック",          "Male"
+ "ルイ・ジョゼフ・ド・カーム",    "Male"
+ "ルイ・ジョゼフ・パピノー",       "Male"
+ "ルネ・レベスク",               "Male"
+}
+
+ruler_titles = {
+ "government",  "male_title",      "female_title"
+ "Monarchy",    _("イギリス人総督 %s"),  _("?female:イギリス人総督 %s")
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+ "Communism",       _("州首相 %s"), _("州首相 %s")
+} 
+
+flag = "quebec"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations="canadian", "inuit"
+
+cities =
+  "Quebec", "Montreal", "Trois-Rivieres", "Sherbrooke", "Levis", "Sorel", 
+  "Chicoutimi", "Jonquiere", "Rimouski", "Chateauguay", "Gatineau", 
+  "Tadoussac", "Chambly", "Iberville", "St-Jean", "Vercheres", "St-Denis", 
+  "St-Eustache", "Riviere-du-Loup", "Matane", "Gaspe", "Roberval", "Alma",
+  "St-Hyacinthe", "Drummondville", "La Malbaie", "St-Georges", "Montmagny", 
+  "Tracy", "Mont-Joli", "Trois-Pistoles", "Cap-de-la-Madeleine",
+  "Sept-Iles", "Baie-Comeau", "Rouyn-Noranda", "Val d'Or", "Granby",
+  "Varennes", "Lachute", "St-Jerome", "Mont-Laurier", 
+  "Maniwaki", "Shawinigan", "La Tuque", "Havre-St-Pierre", "Chibougamau" 

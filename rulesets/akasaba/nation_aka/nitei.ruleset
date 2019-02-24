@@ -1,0 +1,134 @@
+[nation_nitei]
+
+name=_("大日本帝国")
+plural=_("?plural:大日本帝国")
+rule_name=_("Nippon Teikoku")
+rule_plural=_("?plural:Nippon Teikoku")
+groups="Medieval", "Early Modern", "Modern", "Asian"
+legend=_("大日本帝国（だいにっぽんていこく、だいにほんていこく、大日本帝國）は、日本国の国号呼称の一つ。\
+1868年（明治元年）の明治維新の前後から使用し始められ、1945年（昭和20年）の太平洋戦争（大東亜戦争）の終戦時、あるいは1946年頃まで公式に使用された。\
+一般には1889年（明治22年）の大日本帝国憲法発布時に憲法典の名称として使用されたことから権威づけられ、\
+1947年（昭和22年）の日本国憲法施行時までの約58年間、天皇が大日本帝国憲法を通じて統治する日本として使用された国号のひとつとされる。\
+1868年（明治元年）の明治維新から1945年（昭和20年）の太平洋戦争（大東亜戦争）の終戦時までの77年半の日本の歴史的時代を表象する国号として指すこともある。\
+最盛時には現在の日本の領土に加え、南樺太、千島列島、朝鮮半島、台湾などを領有していた他、北東アジアや太平洋にいくつかの委任統治領や租借地を保有した。.")
+
+leaders = {
+ "name",                "sex"
+ "明治",               "Male"
+ "大正",           "Male"
+ "昭和",            "Male"
+ "伊藤博文",        "Male"
+ "山形有朋",     "Male"
+ "東郷平八郎",     "Male"
+ "近衛文麿",     "Male"
+
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Anarchy",         _("天皇陛下 %s"), _("天皇陛下 %s")
+ "Despotism",      _("首相・天皇陛下 %s"), _("首相・女帝陛下 %s")
+ "Monarchy",       _("首相・天皇陛下 %s"),        _("首相・天皇陛下 %s")
+ "Republic",        _("首相・天皇陛下 %s"),         _("首相・女帝陛下 %s")
+ "Democracy",     _("首相・天皇陛下 %s"), _("首相・女帝陛下 %s")
+ "Communism",   _("戦時政府・天皇陛下 %s"), _("戦時政府・女帝陛下 %s")
+}
+
+flag="japan"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+trait_expansionist_min = 60
+trait_expansionist_max = 200
+trait_expansionist_default = 100
+trait_trader_min       = 50
+trait_trader_max       = 200
+trait_trader_default = 100
+trait_aggressive_min   = 80
+trait_aggressive_max   = 200
+trait_aggressive_default = 100
+
+civilwar_nations= "Nikkyou", "Nippon Koukoku", "Japanese"
+
+cities =
+  "帝都東京 (ocean)",
+  "大阪 (ocean)",
+  "台北",
+  "樺太 (ocean)",
+  "ソウル",
+  "鹿児島 (ocean)",
+  "千島 (ocean)",
+  "奉天 (ocean)",
+  "京都 (!ocean)",
+  "福岡 (ocean)",
+  "大連 (ocean)",
+  "札幌 (ocean)",
+  "横濱 (ocean)",
+  "廣島 (ocean)",
+  "山口 (ocean)",
+  "静岡 (ocean)",
+  "新潟 (ocean)",
+  "青島 (ocean)",
+  "神奈川 (ocean)",
+  "名古屋 (ocean)",
+  "相模原 (!ocean)",
+  "八王子 (!ocean)",
+  "長野 (!ocean)",
+  "熊本 (ocean)",
+  "岡山 (ocean)",
+  "浜松 (ocean)",
+  "秋田 (ocean)",
+  "姫路 (ocean)",
+  "長崎 (ocean)",
+  "横須賀 (ocean)",
+  "大分 (ocean)",
+  "岐阜 (!ocean)",
+  "和歌山 (ocean)",
+  "磐城 (ocean)",
+  "旭川 (!ocean)",
+  "高松 (ocean)",
+  "高知 (ocean)",
+  "富山 (ocean)",
+  "那覇 (ocean)",
+  "青森 (ocean)",
+  "函館 (ocean)",
+  "盛岡 (!ocean)",
+  "小津",
+  "徳島 (ocean)",
+  "山形 (!ocean)",
+  "福井 (ocean)",
+  "松本 (!ocean)",
+  "甲府 (!ocean)",
+  "船橋",
+  "宇都宮 (!ocean)",
+  "宮崎 (ocean)",
+  "福山",
+  "豊田 (!ocean)",
+  "所沢 (!ocean)",
+  "福島 (!ocean)",
+  "四日市 (ocean)",
+  "下関 (ocean)",
+  "小金井 (!ocean)",
+  "八戸 (ocean)",
+  "水戸 (!ocean)",
+  "佐世保 (ocean)",
+  "松江 (ocean)",
+  "川口 (!ocean)",
+  "釧路 (ocean)",
+  "調布 (!ocean)",
+  "布施(!ocean)",	; One of the old cities that now is "Higashi-Osaka"
+  "熊谷 (!ocean)",
+  "岐阜 (ocean)",
+  "市川",
+  "佐賀(!ocean)",
+  "町田 (!ocean)",
+  "豊中 (!ocean)",
+  "藤沢 (ocean)",
+  "久留米 (!ocean)",
+  "豊橋 (ocean)",
+  "川越 (!ocean)",
+  "津 (ocean)"

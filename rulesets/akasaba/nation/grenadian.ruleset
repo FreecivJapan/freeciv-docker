@@ -1,0 +1,71 @@
+[nation_grenadian]
+
+name=_("グレナダ国")
+plural=_("?plural:グレナダ")
+groups="American", "Modern"
+legend=_("Grenada is an island nation in the Caribbean. It gained\
+ independence from the United Kingdom in 1974. The main island was known\
+ as Camahogne by the indigenous Caribs.")
+
+leaders = {
+ "name",                "sex"
+ "エリック・ゲイリー",          "Male" ; First Prime Minister.
+ "モーリス・ビショップ",      "Male" ; New Jewel Movement.
+ "バーナード・カラード",       "Male" ; Army coup.
+ "フィリス・カラード",       "Female" ; Army coup.
+ "ハーバート・ブライズ",      "Male" ; Founder of GNP.
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Democracy",       _("総督 %s"), _("?female:総督 %s")
+ "Despotism",       _("フランス人総督 %s"), _("フランス人総督  %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Republic",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("書記長 %s"), _("書記長  %s")
+ 
+}
+
+flag="grenada"
+flag_alt = "united_kingdom"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "vincentian"
+
+cities =
+ "St. George's",	; Previously known as Fort Royal
+ "Grenville",
+ "Gouyave",
+ "Hillsborough",
+ "Hence",
+ "North Village",
+ "Grand Bay",
+ "Victoria",
+ "Marquis",
+ "Sauteurs",
+ "Calivigny",
+ "Grand Roy",
+ "Diego Piece",
+ "Upper Pearl",
+ "Simon",
+ "Chutz",
+ "Mamma Cannes",
+ "Beaton",
+ "Morne",
+ "Lance aux Epines",
+ "Morne Docteur",
+ "Mabouya",
+ "Argyle",
+ "Lovell",
+ "Barbruce",
+ "Old Wall",
+ "Mt Royal",
+ "Glossy",
+ "Retreat",
+ "L'Ance Guyac",
+ "Cheltenham",
+ "Ashton",
+ "L'Appelle"

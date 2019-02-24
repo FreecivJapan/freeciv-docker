@@ -1,0 +1,97 @@
+[nation_congolese]
+
+name=_("コンゴ民主共和国")
+plural=_("?plural:Congolese")
+groups="Modern", "African"
+
+; /* TRANS: The second letter in "Leopold" should be */
+; /* TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in */
+; /* TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 00E9. */
+legend=_("The Democratic Republic of the Congo is a big country in\
+ Central Africa. Despite (or because of) its wealth of natural\
+ resources it has been in ruins for most of its modern history. In 1885\
+ Congo was awarded to Leopold II of Belgium as his personal possession,\
+ the Congo Free State, which turned the country into a slaughterhouse.\
+ At least twenty per cent of the population perished and after an\
+ international outcry it became a Belgian colony in 1906.\
+ It achieved independence in 1960. The Mobutu dictatorship started\
+ a new round of pillaging. When Mobutu was toppled the country sank\
+ into a civil war, causing five million deaths, the bloodiest event\
+ since World War II.")
+
+leaders = {
+ "name",                        "sex"
+ "レオポルド２世",      "Male"
+ "パトリス・ルムンバ",             "Male"
+ "ジョセフ・カサブブ",             "Male"
+ "モブツ・セセ・セコ",            "Male"
+ "デジレ・カビラ",       "Male"
+ "ジョセフ・カビラ",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+ "Anarchy",         _("臨時政権 %s"), _("臨時政権 %s")
+ "Despotism",       _("ベルギー人総督 %s"), _("ベルギー人総督 %s")
+ "Monarchy",        _("ベルギー人総督 %s"), _("女王陛下 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+}
+
+flag="dr_congo"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+conflicts_with = "kongo"
+civilwar_nations = "kongo", "rwandan", "burundian"
+
+cities =
+ "Kinshasa (river)",
+ "Lumumbashi (jungle)",
+ "Kolwezi (river, jungle)",
+ "Mbuyi-Mayi",
+ "Kisangani",
+ "Kananga",
+ "Likasi",
+ "Boma",
+ "Tshikapa",
+ "Bukavu",
+ "Mewene-Ditu",
+ "Kikwit",
+ "Mbandaka",
+ "Matadi (ocean)",
+ "Uvira",
+ "Gandajika",
+ "Butembo",
+ "Kalemie",
+ "Goma (hills)",
+ "Kindu",
+ "Isiro",
+ "Bandundu",
+ "Gemena",
+ "Ilebo",
+ "Bumba",
+ "Bunia",
+ "Beni",
+ "Mbanza-Ngungu",
+ "Kamina",
+ "Lisala",
+ "Lodja",
+ "Kipushi",
+ "Kabinda",
+ "Binga",
+ "Kasongo",
+ "Kalima",
+ "Mweka",
+ "Gbadolite",
+ "Banana (ocean)",
+ "Bulungu",
+ "Lubao",
+ "Buta",
+ "Lusambo",
+ "Basoko"

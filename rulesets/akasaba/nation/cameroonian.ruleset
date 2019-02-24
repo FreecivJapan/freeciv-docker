@@ -1,0 +1,80 @@
+[nation_cameroonian]
+
+name = _("カメルーン共和国")
+plural = _("?plural:カメルーン")
+rule_name = _("Cameroonian")
+rule_plural = _("?plural:Cameroonians")
+groups="African", "Modern"
+legend=_("Cameroon is a country in West Central Africa. Colonized by the\
+ Germans, it was divided between Britain and France after World War I. It\
+ has been independent since 1960.")
+leaders = {
+ "name",                "sex"
+ "ジョン・フォンチャ", "Male"
+ "アヒジョ", "Male"
+ "ポール・ビヤ", "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",     "female_title"
+
+ "Despotism",       _("ドイツ人総督 %s"), _("ドイツ人総督 %s")
+ "Monarchy",        _("イギリス人総督 %s"), _("イギリス人総督 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+ "Republic",        _("フランス人総督 %s"), _("フランス人総督 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+
+
+}
+
+flag = "cameroon"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="nigerian"
+
+cities =
+ "Yaoundé",
+ "Douala",
+ "Maroua",
+ "Bafoussam",
+ "Bamenda",
+ "Buéa",
+ "Garoua",
+ "Bertoua",
+ "Ngaoundéré",
+ "Ebolowa",
+ "Loum",
+ "Kumba",
+ "Edéa",
+ "Mbouda",
+ "Foumban",
+ "Djang",
+ "Nkongsamba",
+ "Ebolowa",
+ "Limbe",
+ "Guider",
+ "Meiganga",
+ "Yagoua",
+ "Tiko",
+ "Mbalmayo",
+ "Kousséri",
+ "Bafang",
+ "Wum",
+ "Bafia",
+ "Kribi",
+ "Sangmélima",
+ "Foumbot",
+ "Banyo",
+ "Batouri",
+ "Bangangté",
+ "Bali",
+ "Nkambé",
+ "Melong",
+ "Mokolo",
+ "Manjo",
+ "Mbanga"

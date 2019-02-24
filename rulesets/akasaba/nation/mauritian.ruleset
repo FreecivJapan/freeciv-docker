@@ -1,0 +1,81 @@
+[nation_mauritian]
+
+name = _("モーリシャス共和国")
+plural = _("?plural:モーリシャス共和国")
+groups="African", "Modern"
+legend=_("Mauritius is an island in the Indian Ocean. It was first settled\
+ by the Dutch, who named it after Maurice of Nassau. The island is famous\
+ for being the habitat of the dodo, which was was brought to extinction\
+ within a century after its discovery. The Dutch abandoned the island in\
+ 1710 and Mauritius was subsequently settled by the French. During the\
+ Napoleonic Wars the island was captured by the British. The island\
+ became independent in 1968. Nowadays, Mauritius is one of the most\
+ developed countries of Africa. The population is mostly of Indian,\
+ African and European origin.")
+
+leaders = {
+ "name",                                     "sex"
+ "ナヴィン・ラングーラム",                     "Male"
+ "ピュリャグ", "Male"
+}
+
+flag = "mauritius"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="malagasy", "seychellois"
+
+cities =
+ "Port Louis",
+ "Beau Bassin-Rose Hill",
+ "Centre de Flacq",
+ "Triolet",
+ "Mahebourg",
+ "Poude d'Or",
+ "Quartier Militaire",
+ "Bambous",
+ "Souillac",
+ "Port Mathurin",
+ "Vacoas-Phoenix",
+ "Pamplemousse",
+ "Moka",
+ "Curepipe",
+ "Quatre Bornes",
+ "Goodlands",
+ "Riviere Seche",
+ "Saint Pierre",
+ "Lataniers-Mont Lubin",
+ "Le Hochet",
+ "Baie du Tombeau",
+ "Rose Belle",
+ "Chemin Grenier",
+ "Riviere du Rempart",
+ "Grand Baie",
+ "Plaine Magnien",
+ "Pailles",
+ "Petit Gabriel",
+ "Lalmatie",
+ "Surinam",
+ "New Grove",
+ "Riviere des Anguilles",
+ "Terre Rouge",
+ "Petit Raffray",
+ "Montagne Blanche",
+ "L'Escalier",
+ "Riviere Cocos",
+ "Long Mountain",
+ "Plaines des Papaues",
+ "Grand Bois",
+ "Pointe aux Piments",
+ "Brisee Verdiere",
+ "Medine-Camp de Masque",
+ "Nouvelle France",
+ "Poste de Flacq",
+ "Vingt Cinq",
+ "Grand Gaube",
+ "Beau Vallon",
+ "Raphael"

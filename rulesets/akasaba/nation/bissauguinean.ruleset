@@ -1,0 +1,79 @@
+[nation_bissauguinean]
+
+name = _("ギニアビサウ共和国")
+plural = _("?plural:ギニアビサウ共和国")
+rule_name = _("Bissau-Guinean")
+rule_plural = _("?plural:Bissau-Guineans")
+groups="African", "Modern"
+legend=_("Guinea-Bissau is a country in West Africa. Formerly known as\
+ Portuguese Guinea, it declared independence in 1973.")
+
+leaders = {
+ "name",                 "sex"
+ "アミルカル・カブラル",         "Male"
+ "アンスマネ・マネ",       "Male"
+ "クンバ・ヤラ",          "Male"
+ "アリスティデス・ゴメス",       "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",          "female_title"
+ "Despotism",       _("総督 %s"), _("?female:総督 %s")
+ "Monarchy",        _("総督 %s"), _("総督 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag = "guinea-bissau"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="guinean", "cape verdean"
+
+cities =
+ "Bissau",
+ "Bolama",
+ "Cacheu",
+ "Gabú",
+ "Bafatá",
+ "Catió",
+ "Buba",
+ "Farim",
+ "Quinhámel",
+ "Canghungo",
+ "Bissorã",
+ "Mansôa",
+ "Safim",
+ "Quebo",
+ "Ingoré",
+ "Bula",
+ "São Domingos",
+ "Bubaque",
+ "Bambadinca",
+ "Caboxanque",
+ "Piche",
+ "Paunca",
+ "Contuboel",
+ "Pelundo",
+ "Mansabá",
+ "Nhacra",
+ "Fasse",
+ "Calequisse",
+ "Olossato",
+ "Cumeré",
+ "Mato Farroba",
+ "Fulacunda",
+ "Contuba",
+ "Prábis",
+ "Cacine",
+ "Jobicunda",
+ "Empada",
+ "Bigene",
+ "Tite",
+ "Canfate",
+ "Utia"
+

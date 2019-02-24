@@ -1,0 +1,86 @@
+[nation_comorian]
+
+name=_("コモロ連合")
+plural=_("?plural:コモロ連合")
+groups="Modern", "African"
+legend=_("The Comoros is an island country in the Mozambique channel,\
+ consisting of Grande Comore, Moheli and Anjouan, although the Comoran\
+ government also claims Mayotte, which is currently a French overseas\
+ departement. Having been under Arab influence since the 8th century,\
+ the Comoros is the southernmost Muslim-majority country in the world.")
+
+leaders = {
+ "name",            "sex"
+ "イキリル・ドイニン",         "Male"
+ "アーメド・アブダラ", "Female"
+ "サイード・ジャファー",  "Male"
+ "モハメド・アフメド",      "Male"
+}
+
+ruler_titles = {
+ "government",     "male_title",        "female_title"
+ "Communism",      _("Chairman %s"),    _("Chairwoman %s")
+ "Fundamentalism", _("Grand Mufti %s"), _("?female:Grand Mufti %s")
+ "Monarchy",       _("大統領 %s"),      _("Sultana %s")
+ "Republic",        _("大統領 %s"),  _("?female:大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ 
+}
+
+flag="comoros"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "swahili", "arab" ; anjouan
+
+cities =
+ "Moroni",
+ "Moutsamoudou",
+ "Fomboni",
+ "Iconi",
+ "Domoni",
+ "Nioumachoua",
+ "Ounkazi",
+ "Tsembehou",
+ "Djoiezi",
+ "Mbeni",
+ "Ongodjou",
+ "Wanani",
+ "Mitsamiouli",
+ "Sima",
+ "Ndrodoni",
+ "Ouellah",
+ "Adda Daoueni",
+ "Mtakoudja",
+ "Mvouni",
+ "Ouani",
+ "Mboigoma",
+ "Foumbouni",
+ "Mirontsi",
+ "Ziroudani",
+ "Tsidje",
+ "Bazmini",
+ "Barakani",
+ "Nkourani ya Simi",
+ "Koni Djodjo",
+ "Mbatse",
+ "Mitsoundje-Troumbeni",
+ "Moyo",
+ "Hoani",
+ "Dembeni",
+ "Dindri",
+ "Bandar Salama",
+ "Ntsoundjini",
+ "Ngandzale",
+ "Kangani",
+ "Mde-Sahani",
+ "Barakani",
+ "Miringoni",
+ "Ivembeni-Bandasamoulini",
+ "Mbambao Mtsanga",
+ "Hamavouna"
+ 

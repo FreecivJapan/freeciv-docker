@@ -1,0 +1,99 @@
+[nation_surinamese]
+
+name=_("スリナム共和国")
+plural=_("?plural:スリナム")
+groups="American", "Modern"
+
+legend=_("Suriname is the smallest independent country of South America.\
+ Originally it was inhabited by Arawak Indians. It was first colonized by\
+ the English who traded it with the Dutch for New Amsterdam, modern New\
+ York, in 1667. Suriname was granted self government in 1954 and became\
+ fully independent in 1975.")
+
+leaders = {
+ "name",                        "sex"
+ "アブラハム・クレイジンセン",           "Male"
+ "バシトン",        "Male"
+ "ボニ族",                        "Male"
+ "R・F・バン・ラダース", "Male"
+ "ヨハネス・キエストラ",           "Male"
+ "アントン・デ・コム",                "Male"
+ "ヘンク・アーロン",                 "Male"
+ "ヘンク・チンアセン",             "Male"
+ "デシ・ボーターセ",               "Male"
+}
+
+ruler_titles = {
+ "government",    "male_title",           "female_title"
+ "Despotism",     _("オランダ人総督 %s"),       _("?female:オランダ人総督 %s")
+ "Republic",      _("陸軍曹長 %s"), _("?female:陸軍曹長 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="suriname"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="tupi", "dutch", "guyanese"
+
+cities =
+ "Paramaribo",
+ "Lelydorp",
+ "Nieuw-Nickerie",
+ "Moengo",
+ "Meerzorg",
+ "Nieuw-Amsterdam",
+ "Marienburg",
+ "Wageningen",
+ "Albina",
+ "Groningen",
+ "Brownsweg",
+ "Brokopondo",
+ "Onverwacht",
+ "Totness",
+ "Apoera",
+ "Paloemeu",
+ "Sipalwini",
+ "Benzdorp",
+ "Kamp 52",
+ "Langatabbetja",
+ "Zanderij",
+ "Jodensavanne (grassland)",
+ "Kwakoegron",
+ "Wasjabo",
+ "Avanero",
+ "Amotopo",
+ "Kwamalasamoetoe",
+ "Jenny",
+ "Calcutta",
+ "Boskamp (forest, jungle)",
+ "Tamanredjo",
+ "Tamarin",
+ "Galibi",
+ "Nason",
+ "Cottica",
+ "Kawemhakan",
+ "Witagrond",
+ "Kaaimanston",
+ "Poesoegroenoe",
+ "Afobaka",
+ "Berg en Dal",
+ "Savana",
+ "Bigi Polka",
+ "Pakhuis",
+ "Paranam",
+ "Stolkertsijver",
+ "Java",
+ "Pokigron",
+ "Alkmaar",
+ "Berlijn",
+ "Cabendadorp",
+ "Katwijk",
+ "Nieuw-Rotterdam",
+ "Peperpot",
+ "Post Utrecht",
+ "Thorarica"

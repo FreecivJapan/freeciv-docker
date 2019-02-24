@@ -1,0 +1,48 @@
+[nation_aramean] 
+
+name=_("アラム") 
+plural=_("?plural:アラム")
+rule_name=_("Aramean") 
+rule_plural=_("?plural:Arameans") 
+groups="Ancient", "Asian" 
+legend=_("According to legend, the Aramean people are the descendants of\
+ Aram, the grandson of Noah.") 
+
+leaders = {
+ "name",        "sex"
+ "アフニ",       "Male"
+ "カパラ",      "Male"
+ "ハセエル",      "Male"
+ "ゼオビア",     "Female"
+ "アリヨ",        "Male"
+ "アブゴリ8世",  "Male" ; a.k.a. Abgar the Great
+}
+
+flag="aram" 
+flag_alt = "-" 
+style = "Classical" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+civilwar_nations = "assyrian", "babylonian", "palmyrene"
+
+cities = 
+ "Aram",
+ "Amid",
+ "Mardin",
+ "Commagene",
+ "Urhoi", 
+ "Haran",
+ "Melitene",
+ "Nisibin",
+ "Guzana",
+ "Yamkhat",
+ "Hama", 
+ "Homs",
+ "Damascus",
+ "Tadmor",
+ "Ebla", 
+ "Midyat",
+ "Tikrit",
+ "Bethsaida" 

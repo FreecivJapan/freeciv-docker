@@ -1,0 +1,75 @@
+[nation_lesothoan]
+
+name=_("レソト王国")
+plural=_("?plural:レソト王国")
+groups="African", "Modern"
+legend=_("Lesotho first formed a unified polity in the early 19th century\
+ under king Moshoeshoe I, who united the Sotho clans. Moshoeshoe sought\
+ protection from the British against Boer incursions and in 1869 the\
+ country turned into the British protectorate of Basutoland. Although\
+ surrounded by South Africa on all sides, that country's apartheid\
+ policies prevented its integration into South Africa. In 1966 Basutoland\
+ became the independent Kingdom of Lesotho.")
+
+leaders = {
+ "name",                     "sex"
+ "レツィエ3世",             "Male"
+ "モショエショエ2世",                "Male"
+ "モショエショエ1世",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Monarchy",        _("国王陛下 %s"),     _("?female:女王陛下 %s")
+ "Republic",        _("国王陛下・首相 %s"),       _("国王陛下・首相 %s")
+ "Democracy",       _("国王陛下・首相 %s"), _("?female:女王陛下・首相 %s")
+ "Despotism",       _("首長 %s"), _("首長 %s")
+}
+
+flag="lesotho"
+flag_alt = "-"
+style = "Celtic"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+conflicts_with="sotho"
+civilwar_nations="zulu", "xhosa", "tswana"
+
+cities =
+ "Maseru",
+ "Teyateyaneng",
+ "Mafeteng",
+ "Mohale's Hoek",
+ "Hlotse", ;leribe
+ "Quthing",
+ "Butha-Buthe",
+ "Qacha's Nek",
+ "Mokhotlong",
+ "Thaba-Tseka",
+ "Maputsoa",
+ "Peka",
+ "Roma",
+ "Thaba Bosiu",
+ "Nyakosoba",
+ "Nkoebe",
+ "Seshote",
+ "Khomo-Phatsoa",
+ "Makhunoane",
+ "Semonkong",
+ "White-Hill",
+ "Makhalaneng",
+ "Monyake",
+ "Malumeng",
+ "Seforong",
+ "Rafolatsane",
+ "Mosetoa",
+ "Kao",
+ "Makheka",
+ "Mabote",
+ "Manka",
+ "Nazareth",
+ "Mantsonyane",
+ "Ha Baroana",
+ "Marakabei"

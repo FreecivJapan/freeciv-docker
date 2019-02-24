@@ -1,0 +1,65 @@
+[nation_manchu]
+
+name=_("満州帝国")
+plural=_("?plural:満州帝国")
+rule_name=_("Manchu")
+rule_plural=_("?plural:Manchus")
+groups="Medieval", "Asian", "Early Modern"
+legend=_("The Manchus were a semi-nomadic people originating from the region\
+ called Manchuria in Northeast Asia. In the 17th century they conquered and\
+ ruled China as the Manchu Empire until 1911.")
+
+leaders = {
+ "name",                "sex"
+ "宣統帝愛新覺羅溥儀",                "Male"
+ "西太后",                "Female"
+ "乾隆帝",      "Male" ; Qianlong Emperor
+ "康熙帝",          "Male" ; Kangxi Emperor
+ "ホンタイジ",           "Male"
+ "ヌルハチ",             "Male"
+ "順治帝",           "Male"
+ "光緒帝",               "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Monarchy",        _("皇帝 %s"),   _("帝后 %s")
+ "Communism",       _("皇帝 %s"), _("帝后 %s")
+}
+
+flag="manchuria"
+flag_alt = "-"
+style = "Asian"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "mongol", "korean", "chinese"
+
+cities =
+ "Mukden",		; Shenyang
+ "Harbin",
+ "Cicigar",		; Qiqihar
+ "Aihun",		; Aigun
+ "Giyamusi",		; Jiamusi
+ "Ninguta",		; Ning`an
+ "Ishangga Gashan",	; Yingkou
+ "Mudan Bira (river)",	; Mudanjiang
+ "Alchuka",		; Acheng
+ "Sahaliyan Ula (river)",; Heihe
+ "Girin",		; Jilin
+ "Huncun",		; Hunchun
+ "Abkai Imiyangga",	; Fengtianfu
+ "Non Ula (river)",	; Nenjiang
+ "Imiyangga Jase",	; Zhangjiakou
+ "Hulun",		; Hailar
+ "Gioro",
+ "Erdemu Be Aliha",	; Chengde
+ "Tumen Ula (river)",
+ "Kiyaktu",		; Kyakhta
+ "Nibcu",		; Nerchinsk
+ "Usuri Ula (river)",	; Ussuri
+ "Yalu Ula (river)",
+ "Nibcu Bira (river)",	; Nercha
+ "Sunggari Ula (river)",; Songhua
+ "Ilan Boo"		; Sanjiazi

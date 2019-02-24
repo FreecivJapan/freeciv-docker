@@ -1,0 +1,99 @@
+[nation_brandenburgian]
+
+name=_("ブランデンブルク")
+plural=_("?plural:ブランデンブルク")
+rule_name=_("Brandenburgian")
+rule_plural=_("?plural:Brandenburgians")
+groups="Medieval", "Early Modern", "European"
+legend=_("Formerly the Northern March of East Francia, Brandenburg became\
+ an electorate of the Holy Roman Empire in the 12th century. The rulers of\
+ Brandenburg acquired Prussia in 1618 and was absorbed by Prussia in 1701.\
+ Brandenburg kept its nominal independence until 1806, when it became\
+ a province of Prussia. Currently it is one of the states of the Federal\
+ Republic of Germany.")
+leaders = {
+"name",			"sex"
+"ゲロ",			"male"
+"アルブレヒト1世",	"male"
+"オットー1世",		"male"
+"ルートヴィヒ1世",		"male"
+"フリードリヒ１世",		"male"
+"フリードリヒ２世",		"male"
+"アンナ",			"female"
+"アルブレヒト・フリードリヒ",	"male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Communism",       _("第一書記 %s"), _("?female:第一書記 %s")
+ "Despotism",       _("辺境伯 %s"),        _("辺境伯 %s")
+ "Fundamentalism",  _("大司教 %s"),      _("優しい母 %s")
+ "Monarchy",        _("選帝侯 %s"),         _("選帝侯 %s")
+ "Republic",  _("選帝侯 %s"), _("?female:選帝侯 %s")
+ "Democracy",       _("州首相 %s"), _("州首相 %s")
+ 
+}
+
+flag="brandenburg" 
+flag_alt = "-" 
+style = "european" 
+
+init_techs="" 
+init_buildings="" 
+init_units="" 
+
+conflicts_with = "hessian" ;similar flag
+civilwar_nations = "prussian", "sorbian"
+
+cities = 
+"Brandenburg an der Havel (river)",
+"Potsdam",
+"Berlin",
+"Frankfurt (river)",
+"Spandau",
+"Cottbus",
+"Eberswalde",
+"Forst",
+"Rathenow",
+"Guben",
+"Wittenberge",
+"Landsberg",
+"Colln",
+"Neubrandenburg",
+"Kopenick",
+"Prenzlau",
+"Schwedt (river)",
+"Charlottenburg",
+"Neuruppin",
+"Soldin",
+"Torgau",
+"Bautzen",
+"Merseburg",
+"Bernstein",
+"Oranienburg",
+"Driesen",
+"Wittstock",
+"Lubben",
+"Herzberg",
+"Seelow",
+"Senftenberg",
+"Beeskow",
+"Bad Belzig",
+"Perleberg",
+"Luckenwalde",
+"Bernau",
+"Konigs Wusterhausen",
+"Pasewalk",
+"Dramburg",
+"Tempelburg",
+"Angermunde",
+"Strausberg",
+"Liebenwalde",
+"Wolmirstedt",
+"Havelberg",
+"Vorsfelde",
+"Zossen",
+"Spremberg"
+
+
+

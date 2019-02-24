@@ -1,0 +1,54 @@
+[nation_rwandan]
+
+name=_("ルワンダ共和国")
+plural=_("?plural:ルワンダ共和国")
+groups="Modern", "African"
+legend=_("Rwanda is a hilly and very fertile country in the Great Lakes\
+ region of eastern Africa. It supports the densest population of\
+ the continent.")
+
+leaders = {
+ "name",                "sex"
+ "ジュベナール・ハビャリマナ", "Male"
+ "グレゴワール・カイバンダ",  "Male"
+ "キゲリ5世",            "Male"
+ "ムタラ3世",          "Male"
+ "ポール・カガメ",          "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("国王陛下 %s"), _("女王陛下 %s")
+ "Monarchy",        _("国王陛下 %s"), _("女王陛下 %s")
+ "Republic",        _("大統領 %s"), _("大統領 %s")
+ "Democracy",       _("大統領 %s"), _("大統領 %s")
+ "Communism",       _("大統領 %s"), _("大統領 %s")
+}
+
+flag="rwanda"
+flag_alt = "-"
+style = "Tropical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "burundian", "congolese"
+
+; http://de.wikipedia.org/wiki/Liste_der_Stadte_in_Ruanda
+cities =
+ "Kigali",
+ "Butare",
+ "Gitarama",
+ "Ruhengeri",
+ "Gisenyi",
+ "Byumba",
+ "Cyangugu",
+ "Nyanza",
+ "Kabuga",
+ "Ruhango",
+ "Rwamagana",
+ "Kibuye",
+ "Kibungo",
+ "Gikongoro",
+ "Umutara"

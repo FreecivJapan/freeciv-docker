@@ -1,0 +1,84 @@
+[nation_mazovian]
+
+name=_("マゾフシェ")
+plural=_("?plural:マゾフシェ")
+groups="European", "Medieval"
+legend=_("Mazovia is a historic and geographic region of central-eastern Poland.")
+
+leaders = {
+ "name",                        "sex"
+ "ニカラ",                     "Male"
+ "ボレスワフ６世",     "Male"
+ "カジミェシュ２世",   "Male"
+ "レシェク1世",              "Male"
+ "コンラッド１世",         "Male"
+ "ヤヌシュ１世",                   "Male"
+ "ヤヌシュ３世",                  "Male"
+ "コンラッド３世",             "Male"
+ "レシェック・ミジェリンスキ",             "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",            "female_title"
+ "Despotism",       _("大公 %s"),          _("大公 %s")
+ "Fundamentalism",  _("司教 %s"),      _("優しい母 %s")
+ "Monarchy",        _("大公 %s"),    _("大公 %s")
+ "Communism",       _("第一書記 %s"), _("?female:第一書記 %s")
+ "Republic",        _("県知事 %s"), _("県知事 %s")
+ "Democracy",       _("県知事 %s"), _("県知事 %s")
+}
+
+flag = "mazovia"
+flag_alt = "-"
+style = "European"
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations = "polish"
+
+cities =
+  "Czersk",
+"Płock",
+"Warszawa",
+"Łomża",
+"Rawa",
+"Dobrzyń",
+"Sierpc",
+"Mława",
+"Żarnów",
+"Radom",
+"Zakroczym",
+"Sochaczew",
+"Gostynin",
+"Wizna",
+"Liw",
+"Płońsk",
+"Kuczbork",
+"Niedzbórz",
+"Szreńsk",
+"Nur",
+"Wyszogród",
+"Grójec",
+"Ciechanów",
+"Przasnysz",
+"Ostrołęka",
+"Zambrów",
+"Drohiczyn",
+"Żuromin",
+"Pułtusk",
+"Kozienice",
+"Żyrardów",
+"Pruszków",
+"Otwock",
+"Siedlce",
+"Garwolin",
+"Zwoleń",
+"Skierniewice",
+"Łowicz",
+"Wyszków",
+"Radzymin",
+"Warka",
+"Iłża",
+"Różan",
+"Serock"

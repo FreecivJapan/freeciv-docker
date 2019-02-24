@@ -1,0 +1,83 @@
+[nation_un]
+
+name=_("国際連合")
+plural=_("?plural:国際連合")
+rule_name=_("UN")
+rule_plural=_("?plural:UN")
+groups="Imaginary"
+legend=_("The United Nations believe in human rights and the protection of\
+ the weak.")
+
+leaders = {
+ "name",                        "sex"
+ "トリグブ・リー",                  "Male"
+ "ダグ・ハマーショルド",            "Male"
+ "ウ・タント",                     "Male"
+ "コフィー・アナン",                  "Male"
+ "潘基文",                 "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",       "female_title"
+  "Despotism",       _("議長 %s"),_("議長 %s")
+ "Monarchy", _("事務総長 %s"), _("事務総長 %s")
+ "Republic",        _("事務総長 %s"), _("事務総長 %s")
+ "Democracy",       _("事務総長 %s"), _("事務総長 %s")
+ "Communism",       _("事務総長 %s"), _("事務総長 %s")
+}
+
+flag="united_nations"
+flag_alt = "-"
+style = "Classical"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+cities=
+ "Security Council",
+ "General Assembly",
+ "ECOSOC",
+ "Trusteeship Council",
+ "ICJ",
+ "UNHCR",
+ "UNESCO",
+ "UNICEF",
+ "WHO",
+ "WWF",
+ "IMF",
+ "WTO",
+ "UNCTAD",
+ "UNDCP",
+ "UNDP",
+ "UNEP",
+ "UNFPA",
+ "UNHSP",
+ "WFP",
+ "UNRWA",
+ "INSTRAW",
+ "UNICRI",
+ "UNITAR",
+ "UNRISD",
+ "UNIDIR",
+ "OHCHR",
+ "UNOPS",
+ "UNU",
+ "UNOOSA",
+ "UNSSC",
+ "UNAIDS",
+ "UNRRA",
+ "ILO",
+ "FAO",
+ "ICAO",
+ "IMO",
+ "ITU",
+ "UPU",
+ "WMO",
+ "WIPO",
+ "IFAD",
+ "UNIDO",
+ "IRO",
+ "INCB",
+ "IAEA",
+ "ICC"
