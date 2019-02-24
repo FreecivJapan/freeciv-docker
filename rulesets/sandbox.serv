@@ -3,9 +3,6 @@
 
 rulesetdir sandbox
 
-set scorefile "freeciv-score.log"
-set scorelog "ENABLED"
-set scoreloglevel "ALL"
 set mapsize "tilesperplayer"
 set tilesperplayer "42"
 set generator "ISLAND"

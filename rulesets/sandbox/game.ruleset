@@ -828,4 +828,7 @@ set =
       "occupychance", 100
       "techlossforgiveness", 0
       "techlossrestore", 50
+      "scorelog", "ENABLED", TRUE
+      "scoreloglevel", "ALL", TRUE
+      "scorefile", "freeciv-score.log", TRUE
     }

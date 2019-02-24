@@ -655,4 +655,7 @@ set =
       ; no effect anyway
       "traitdistribution", "FIXED", TRUE
       "plrcolormode", "NATION_ORDER", FALSE
+      "scorelog", "ENABLED", TRUE
+      "scoreloglevel", "ALL", TRUE
+      "scorefile", "freeciv-score.log", TRUE
     }

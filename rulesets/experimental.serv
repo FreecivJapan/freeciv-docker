@@ -2,9 +2,6 @@
 # Use this as, eg, "./fcser -r data/experimental.serv" 
 rulesetdir experimental
 
-set scorefile "freeciv-score.log"
-set scorelog "ENABLED"
-set scoreloglevel "ALL"
 set mapsize "tilesperplayer"
 set tilesperplayer "42"
 set generator "ISLAND"

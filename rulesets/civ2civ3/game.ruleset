@@ -820,4 +820,7 @@ set =
       "techlossforgiveness", 0
       "techlossrestore", 50
       "revolentype", "RANDQUICK"
+      "scorelog", "ENABLED", TRUE
+      "scoreloglevel", "ALL", TRUE
+      "scorefile", "freeciv-score.log", TRUE
     }

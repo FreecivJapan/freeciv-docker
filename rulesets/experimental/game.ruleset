@@ -744,4 +744,7 @@ set =
       "techlossforgiveness", 15, FALSE
       "traitdistribution", "EVEN", FALSE
       "victories", "SPACERACE|ALLIED|CULTURE", FALSE
+      "scorelog", "ENABLED", TRUE
+      "scoreloglevel", "ALL", TRUE
+      "scorefile", "freeciv-score.log", TRUE
     }

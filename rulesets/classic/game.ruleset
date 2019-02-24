@@ -694,4 +694,7 @@ colorlist =
 ;       "bool_set", TRUE, FALSE
 ;       "int_set", 123, FALSE
 ;       "str_set", "test", FALSE
+      "scorelog", "ENABLED", TRUE
+      "scoreloglevel", "ALL", TRUE
+      "scorefile", "freeciv-score.log", TRUE
 ;     }
